@@ -1,15 +1,35 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Dosis, Catamaran } from "next/font/google";
 import "./globals.css";
+import Navbar from "./navbar";
+import Footer from "./footer";
+// import Head from "next/head";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+//stylesheet
+import "../../public/assets/img/favicon.png";
+import "../../public/assets/css/bootstrap.min.css";
+import "../../public/assets/css/animate.min.css";
+import "../../public/assets/css/flaticon.css";
+import "../../public/assets/css/fontawesome.min.css";
+import "../../public/assets/css/bootstrap-icons.css";
+import "../../public/assets/css/meanmenu.css";
+import "../../public/assets/css/magnific-popup.min.css";
+import "../../public/assets/css/swiper.min.css";
+import "../../public/assets/css/owl.carousel.min.css";
+import "../../public/assets/css/style.css";
+import "../../public/assets/css/responsive.css";
+import Script from "next/script";
+
+const dosis = Dosis({
+  weight: ["400", "500", "600", "700", "800"],
   subsets: ["latin"],
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const catamaran = Catamaran({
+  weight: ["300", "400", "500", "600", "700", "800", "900"],
   subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -24,8 +44,23 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={`${dosis.className} ${catamaran.className}`}>
+        <Navbar></Navbar>
         {children}
+        <Footer></Footer>
+        <Script src="assets/js/jquery.min.js"></Script>
+        <Script src="assets/js/popper.min.js"></Script>
+        <Script src="assets/js/bootstrap.bundle.min.js"></Script>
+        <Script src="assets/js/jquery.meanmenu.js"></Script>
+        <Script src="assets/js/jquery.appear.min.js"></Script>
+        <Script src="assets/js/jquery.waypoints.min.js"></Script>
+        <Script src="assets/js/jquery.counterup.min.js"></Script>
+        <Script src="assets/js/owl.carousel.min.js"></Script>
+        <Script src="assets/js/jquery.magnific-popup.min.js"></Script>
+        <Script src="assets/js/isotope.pkgd.min.js"></Script>
+        <Script src="assets/js/swiper.min.js"></Script>
+        <Script src="assets/js/wow.min.js"></Script>
+        <Script src="assets/js/main.js"></Script>
       </body>
     </html>
   );
