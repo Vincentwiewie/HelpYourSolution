@@ -3075,10 +3075,10 @@ p:last-child {
 
 .about-image .years-design {
   position: absolute;
-  left: 0;
+  left: 500px;
   right: 0;
-  bottom: 20px;
-  max-width: 250px;
+  bottom: 200px;
+  max-width: 150px;
   padding: 15px 10px;
   border-radius: 5px;
   background-color: #ffffff;
@@ -3090,7 +3090,7 @@ p:last-child {
 }
 
 .about-image .years-design h2 {
-  font-size: 70px;
+  font-size: 40px;
   font-weight: 800;
   background: url(../img/about.jpg) no-repeat;
   background-position: 50% 50%;
@@ -3100,7 +3100,7 @@ p:last-child {
 }
 .about-image .years-design h5 {
   color: #ff9800;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 10px;
@@ -3372,12 +3372,16 @@ p:last-child {
   z-index: 1;
   padding: 120px 0;
   text-align: center;
-  background: url(../img/banner-bg.jpg);
+}
+
+.garden {
+  background: url(../img/garden2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
+
 .counter-area::before {
   content: "";
   position: absolute;
@@ -4949,6 +4953,16 @@ blockquote::after,
   background-repeat: no-repeat;
 }
 
+.page-title-area2 {
+  position: relative;
+  z-index: 1;
+  height: 740px;
+  background-image: url(../img/page-title-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .page-title-area::before {
   content: "";
   position: absolute;
@@ -5014,8 +5028,26 @@ blockquote::after,
   display: none;
 }
 
-.item-bg1 {
-  background-image: url(../img/page-title-bg-2.jpg);
+.buss {
+  background-image: url(../img/buss.jpg);
+}
+.consultant {
+  background-image: url(../img/consultant1.jpg);
+}
+.insurance {
+  background-image: url(../img/insurance1.jpg);
+}
+.property {
+  background-image: url(../img/property1.jpg);
+}
+.contractor {
+  background-image: url(../img/contractor1.jpg);
+}
+.garden {
+  background-image: url(../img/garden1.jpg);
+}
+.helper {
+  background-image: url(../img/helper1.jpg);
 }
 
 .item-bg2 {

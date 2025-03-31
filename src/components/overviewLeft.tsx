@@ -24,12 +24,10 @@ export default function overviewLeft({
               <ul className="features-list">
                 {list.map((m: any, index: number) => {
                   return (
-                    <>
-                      <li key={index}>
-                        {" "}
-                        <span>{m}</span>
-                      </li>
-                    </>
+                    <li key={index}>
+                      {" "}
+                      <span>{m}</span>
+                    </li>
                   );
                 })}
               </ul>

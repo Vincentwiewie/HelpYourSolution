@@ -1,7 +1,80 @@
-export default function page() {
+import { portofolioModel } from "@/app/interface/Model";
+import Counter from "@/components/counter";
+import Portofolio from "@/components/portofolio";
+
+export default function gardenAnimal() {
+  const data: portofolioModel = {
+    title: "Animal Galerry",
+    subTitle: "",
+    category: [],
+    data: [
+      {
+        label: "Contact Crafter",
+        subLabel: "Classic Style",
+        image: "/assets/img/animal1.jpg",
+        type: "classic",
+      },
+      {
+        label: "Contact Crafter",
+        subLabel: "Classic Style",
+        image: "/assets/img/animal2.jpg",
+        type: "classic",
+      },
+      {
+        label: "Contact Crafter",
+        subLabel: "Classic Style",
+        image: "/assets/img/animal3.jpg",
+        type: "classic",
+      },
+      {
+        label: "Contact Crafter",
+        subLabel: "Cozy Style",
+        image: "/assets/img/animal4.jpg",
+        type: "cozy",
+      },
+      {
+        label: "Contact Crafter",
+        subLabel: "Cozy Style",
+        image: "/assets/img/animal5.jpg",
+        type: "cozy",
+      },
+      {
+        label: "Contact Crafter",
+        subLabel: "Cozy Style",
+        image: "/assets/img/animal6.jpg",
+        type: "cozy",
+      },
+    ],
+  };
+  const dataCounter = {
+    image: "garden",
+    counterModel: [
+      {
+        title: "100",
+        icon: "+",
+        subtitle: "Sastified Service",
+      },
+      {
+        title: "100",
+        icon: "%",
+        subtitle: "Happy Customer",
+      },
+      {
+        title: "100",
+        icon: "%",
+        subtitle: "Positive Review",
+      },
+      {
+        title: "10",
+        icon: "+",
+        subtitle: "Experience",
+      },
+    ],
+  };
+
   return (
     <>
-      <div className="home-3 home-section">
+      <div className="home-3 home-section garden">
         <div id="particles-js"></div>
         <div className="d-table">
           <div className="d-table-cell">
@@ -31,25 +104,21 @@ export default function page() {
                         </a>
                       </li>
                     </ul>
-                    <h1>IT Solutions & Business Services Company</h1>
+                    <h1>Your Trusted Partner in Animal Care</h1>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor magna aliqua, magna aliqua. ipsum is
-                      simply dummy text of the printing.
+                      As pet owners, we all want the best for our furry,
+                      feathered, or scaly companions. Whether it's ensuring
+                      their health, providing regular grooming, or simply
+                      offering companionship while you're away, the right animal
+                      care services can make all the difference. That's where
+                      Hys Animal Care comes in—your dedicated and professional
+                      animal care partner.
                     </p>
                     <div className="banner-btn">
-                      <a className="default-btn-one" href="services.html">
-                        Our Service <span></span>
-                      </a>
                       <a className="default-btn-two" href="contact.html">
                         Contact Us <span></span>
                       </a>
                     </div>
-                  </div>
-                </div>
-                <div className="col-lg-6 col-md-12" data-tilt>
-                  <div className="banner-image">
-                    <img src="assets/img/home-font-3.png" alt="image" />
                   </div>
                 </div>
               </div>
@@ -58,80 +127,34 @@ export default function page() {
         </div>
       </div>
 
-      <section className="feature-section pt-100">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-4 col-md-6">
-              <div className="feature-single-item">
-                <img src="assets/img/icon/feature-icon-1.svg" alt="icon" />
-                <h3>Flexibility & Responsive</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  enim ad minim veniam
-                </p>
-                <div className="feature-btn-box">
-                  <a href="#" className="read-more">
-                    <i className="bi bi-arrow-right-short"></i> Learn More
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="feature-single-item">
-                <img src="assets/img/icon/feature-icon-2.svg" alt="icon" />
-                <h3>Dedicated Teams</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  enim ad minim veniam
-                </p>
-                <div className="feature-btn-box">
-                  <a href="#" className="read-more">
-                    <i className="bi bi-arrow-right-short"></i> Learn More
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="feature-single-item">
-                <img src="assets/img/icon/feature-icon-3.svg" alt="icon" />
-                <h3>Focusing on Business</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  enim ad minim veniam
-                </p>
-                <div className="feature-btn-box">
-                  <a href="#" className="read-more">
-                    <i className="bi bi-arrow-right-short"></i> Learn More
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Counter
+        image={dataCounter.image}
+        counterDetail={dataCounter.counterModel}
+      ></Counter>
+
+      <Portofolio
+        title={data.title}
+        subTitle={data.subTitle}
+        category={data.category}
+        data={data.data}
+      ></Portofolio>
 
       <section className="about-area section-padding">
         <div className="container">
           <div className="row d-flex align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="about-content">
-                <h6 className="sub-title">About Our Company</h6>
-                <h2>
-                  Providing Your Business With A Quality IT Service is Our
-                  Passion
-                </h2>
+                <h6 className="sub-title">About HYS Animal Care</h6>
+                <h2>professionalism and love for animals is our duty</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  enim ad minim
+                  The positive energy and uplifting spirit that animals,
+                  especially pets, bring into our lives through their
+                  unconditional love and companionship.
                 </p>
                 <div className="skills">
                   <div className="skill-item">
                     <h6>
-                      IT Consulting <em>90%</em>
+                      Consulting Care<em>90%</em>
                     </h6>
                     <div className="skill-progress">
                       <div className="progres" data-value="90%"></div>
@@ -139,7 +162,7 @@ export default function page() {
                   </div>
                   <div className="skill-item">
                     <h6>
-                      Cloud Solutions <em>75%</em>
+                      Animal Solutions <em>80%</em>
                     </h6>
                     <div className="skill-progress">
                       <div className="progres" data-value="75%"></div>
@@ -147,7 +170,7 @@ export default function page() {
                   </div>
                   <div className="skill-item">
                     <h6>
-                      Managed IT Service <em>85%</em>
+                      Service <em>100%</em>
                     </h6>
                     <div className="skill-progress">
                       <div className="progres" data-value="85%"></div>
@@ -156,68 +179,17 @@ export default function page() {
                 </div>
                 <div className="about-btn-box">
                   <a className="default-btn" href="about.html">
-                    Learn More <span></span>
+                    Contact US <span></span>
                   </a>
                 </div>
               </div>
             </div>
             <div className="col-lg-6 col-md-12">
               <div className="about-image">
-                <img src="assets/img/about.jpg" alt="About image" />
+                <img src="/assets/img/garden2.jpg" alt="About image" />
                 <div className="years-design">
-                  <h2>23</h2>
+                  <h2>10</h2>
                   <h5>Years Of Experience</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="counter-area section-padding">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-3 col-md-6 counter-item">
-              <div className="single-counter">
-                <div className="counter-contents">
-                  <h2>
-                    <span className="counter-number">23</span>
-                    <span>+</span>
-                  </h2>
-                  <h3 className="counter-heading">Years Helping Business</h3>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 counter-item">
-              <div className="single-counter">
-                <div className="counter-contents">
-                  <h2>
-                    <span className="counter-number">250</span>
-                    <span>+</span>
-                  </h2>
-                  <h3 className="counter-heading">Working Employees</h3>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 counter-item">
-              <div className="single-counter">
-                <div className="counter-contents">
-                  <h2>
-                    <span className="counter-number">4500</span>
-                    <span>+</span>
-                  </h2>
-                  <h3 className="counter-heading">Complete Projects</h3>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 counter-item">
-              <div className="single-counter">
-                <div className="counter-contents">
-                  <h2>
-                    <span className="counter-number">3000</span>
-                    <span>+</span>
-                  </h2>
-                  <h3 className="counter-heading">Happy Customers</h3>
                 </div>
               </div>
             </div>

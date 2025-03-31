@@ -47,6 +47,26 @@ export default function Navbar() {
               >
                 <ul className="navbar-nav">
                   <li className="nav-item">
+                    <a
+                      onClick={() => {
+                        router.push("/main");
+                      }}
+                      className="nav-link"
+                    >
+                      Home Page
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a
+                      onClick={() => {
+                        router.push("/about");
+                      }}
+                      className="nav-link"
+                    >
+                      About Us
+                    </a>
+                  </li>
+                  <li className="nav-item">
                     <a className="nav-link">
                       Home Service<i className="fas fa-chevron-down"></i>
                     </a>
@@ -114,56 +134,81 @@ export default function Navbar() {
                     </ul>
                   </li>
                   <li className="nav-item">
-                    <a href="#" className="nav-link">
+                    <a className="nav-link">
                       Other Service<i className="fas fa-chevron-down"></i>
                     </a>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <a href="services.html" className="nav-link">
+                        <a
+                          className="nav-link"
+                          onClick={() => {
+                            router.push("/OtherService/bus");
+                          }}
+                        >
                           Bus
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a href="services-2.html" className="nav-link">
+                        <a
+                          className="nav-link"
+                          onClick={() => {
+                            router.push("/OtherService/consultant");
+                          }}
+                        >
                           Consultant
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a href="services-3.html" className="nav-link">
+                        <a
+                          className="nav-link"
+                          onClick={() => {
+                            router.push("/OtherService/contractor");
+                          }}
+                        >
                           Contractor
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a href="single-services.html" className="nav-link">
-                          Garden Animal Care
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a href="single-services.html" className="nav-link">
+                        <a
+                          className="nav-link"
+                          onClick={() => {
+                            router.push("/OtherService/helper");
+                          }}
+                        >
                           OutSourcing
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a href="single-services.html" className="nav-link">
+                        <a
+                          className="nav-link"
+                          onClick={() => {
+                            router.push("/OtherService/garden-animal");
+                          }}
+                        >
+                          Garden Animal Care
+                        </a>
+                      </li>
+                      <li className="nav-item">
+                        <a
+                          className="nav-link"
+                          onClick={() => {
+                            router.push("/OtherService/insurance");
+                          }}
+                        >
                           Insurance
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a href="single-services.html" className="nav-link">
+                        <a
+                          className="nav-link"
+                          onClick={() => {
+                            router.push("/OtherService/property");
+                          }}
+                        >
                           Property
                         </a>
                       </li>
                     </ul>
-                  </li>
-                  <li className="nav-item">
-                    <a
-                      onClick={() => {
-                        router.push("/about");
-                      }}
-                      className="nav-link"
-                    >
-                      About Us
-                    </a>
                   </li>
                   {/* <li className="nav-item">
                     <a href="#" className="nav-link">

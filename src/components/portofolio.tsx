@@ -45,7 +45,7 @@ export default function portofolio({
                     <img
                       src={m.image}
                       alt="image"
-                      style={{ maxHeight: "30vh" }}
+                      style={{ maxHeight: "37vh" }}
                     />
                     <div className="portfolio-content-overlay">
                       <p>{m.label}</p>

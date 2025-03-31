@@ -85,17 +85,27 @@ export default function Footer() {
               <div className="col-lg-2 col-md-6 col-sm-6">
                 <div className="single-footer-widget">
                   <div className="footer-heading">
-                    <h3>Our Services</h3>
+                    <h3>Our Top Services</h3>
                   </div>
                   <ul className="footer-quick-links">
                     <li>
-                      <a href="#">Startup Solutions</a>
+                      <a
+                        onClick={() =>
+                          router.push("/HomeService/air-conditioner")
+                        }
+                      >
+                        Air Conditioner
+                      </a>
                     </li>
                     <li>
-                      <a href="#">Renting Solutions</a>
+                      <a onClick={() => router.push("/HomeService/pipe")}>
+                        Home Pipe
+                      </a>
                     </li>
                     <li>
-                      <a href="#">Consulting Services</a>
+                      <a onClick={() => router.push("/HomeService/furniture")}>
+                        Furniture
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -116,7 +126,13 @@ export default function Footer() {
                       </a>
                     </li>
                     <li>
-                      <a href="contact.html">Contact Us</a>
+                      <a
+                        onClick={() => {
+                          router.push("/companyProfile");
+                        }}
+                      >
+                        Company Profile
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -164,10 +180,9 @@ export default function Footer() {
             <div className="col-lg-6 col-md-6">
               <ul>
                 <li>
-                  <a href="terms-condition.html">Terms & Conditions</a>
-                </li>
-                <li>
-                  <a href="privacy-policy.html">Privacy Policy</a>
+                  <a onClick={() => router.push("/privacyPolicy")}>
+                    Privacy Policy
+                  </a>
                 </li>
               </ul>
             </div>

@@ -18,7 +18,7 @@ export default function cardServiceAnimated({
             </div>
             {value.map((m: cardServiceAnimatedModel) => {
               return (
-                <div className="col-lg-4 col-md-6">
+                <div className="col-lg-4 col-md-6" key={m.image}>
                   <div className="single-services-two-item">
                     <div className="services-icon-box">
                       <div className="default-icon">
