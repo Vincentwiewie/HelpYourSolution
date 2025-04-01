@@ -49,7 +49,7 @@ export default function Navbar() {
                   <li className="nav-item">
                     <a
                       onClick={() => {
-                        router.push("/main");
+                        router.push("/");
                       }}
                       className="nav-link"
                     >
