@@ -107,11 +107,11 @@ export default function gardenAnimal() {
                     <h1>Your Trusted Partner in Animal Care</h1>
                     <p>
                       As pet owners, we all want the best for our furry,
-                      feathered, or scaly companions. Whether it's ensuring
-                      their health, providing regular grooming, or simply
-                      offering companionship while you're away, the right animal
-                      care services can make all the difference. That's where
-                      Hys Animal Care comes in—your dedicated and professional
+                      feathered, or scaly companions. Whether its ensuring their
+                      health, providing regular grooming, or simply offering
+                      companionship while you are away, the right animal care
+                      services can make all the difference. That is where Hys
+                      Animal Care comes in—your dedicated and professional
                       animal care partner.
                     </p>
                     <div className="banner-btn">

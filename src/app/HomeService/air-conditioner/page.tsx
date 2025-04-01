@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Price from "@/components/price";
 import { priceProps, overviewModel } from "@/app/interface/Model";
 import OverviewLeft from "@/components/overviewLeft";

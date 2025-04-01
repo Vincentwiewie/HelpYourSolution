@@ -50,7 +50,7 @@ export default function Footer() {
                   <p>
                     At MarketJasa, we specialize in delivering high-quality,
                     reliable, and professional services to meet all your needs.
-                    Whether you're looking for expert installations, ongoing
+                    Whether you are looking for expert installations, ongoing
                     maintenance, or fast, efficient repairs, pet care, bus rent,
                     we’ve got you covered.
                   </p>

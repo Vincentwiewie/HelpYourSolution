@@ -29,7 +29,7 @@ export default function sidebar({
             <h3 className="widget-title">{title}</h3>
             {article.map((x: articleSubDetail) => {
               return (
-                <article className="item">
+                <article className="item" key={x.image}>
                   <a href={x.link} className="thumb">
                     <img src={x.image} alt="image" />
                   </a>
@@ -48,7 +48,7 @@ export default function sidebar({
             <ul>
               {rating.map((x: rating) => {
                 return (
-                  <li>
+                  <li key={x.title}>
                     <a>
                       {x.title}{" "}
                       <span className="categories-link-count">
@@ -65,7 +65,7 @@ export default function sidebar({
             <h3 className="widget-title">Tags</h3>
             <div className="tagcloud">
               {tags.map((x: string) => {
-                return <a>{x}</a>;
+                return <a key={x}>{x}</a>;
               })}
             </div>
           </section>

@@ -2,7 +2,7 @@
 import { useRouter } from "next/navigation";
 import { blogDetailModel, blogModel } from "@/app/interface/Model";
 
-export default function blog({ title, subTitle, list }: blogModel) {
+export default function Blog({ title, subTitle, list }: blogModel) {
   const router = useRouter();
   return (
     <>
@@ -17,7 +17,7 @@ export default function blog({ title, subTitle, list }: blogModel) {
             </div>
             {list.map((x: blogDetailModel) => {
               return (
-                <div className="col-lg-4 col-md-6">
+                <div className="col-lg-4 col-md-6" key={x.name}>
                   <div className="blog-single-item">
                     <div className="blog-image">
                       <a href="single-blog.html">

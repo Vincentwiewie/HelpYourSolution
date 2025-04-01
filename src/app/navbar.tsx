@@ -2,7 +2,7 @@
 import { useRouter } from "next/navigation";
 
 export default function Navbar() {
-  const router: any = useRouter();
+  const router = useRouter();
   return (
     <>
       <div className="navbar-section">

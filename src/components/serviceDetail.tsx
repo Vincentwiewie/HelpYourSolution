@@ -24,7 +24,7 @@ export default function serviceDetail({
                       <h3>{m.title}</h3>
                       <p>{m.subTitle}</p>
                       <ul className="features-list">
-                        {m.list.map((x: any) => {
+                        {m.list.map((x: string) => {
                           return (
                             <li key={x}>
                               <span>{x}</span>

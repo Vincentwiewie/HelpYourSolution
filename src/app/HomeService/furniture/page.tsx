@@ -91,7 +91,7 @@ export default function page() {
                     <p className="text-white">
                       let us bring style, comfort, and functionality to your
                       home or office. Call today for a FREE consultation and
-                      let’s make your space a place you love!"
+                      lets make your space a place you love!
                     </p>
                     <div className="banner-btn">
                       <a className="default-btn-one" href="services.html">

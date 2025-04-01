@@ -8,7 +8,7 @@ export default function imageGrid({ value }: { value: imageGridModel[] }) {
           <div className="row">
             {value.map((m: imageGridModel) => {
               return (
-                <div className="col-lg-3 col-md-6">
+                <div className="col-lg-3 col-md-6" key={m.image}>
                   <div className="single-team-box">
                     <div className="team-image">
                       <img src={m.image} alt="team" />

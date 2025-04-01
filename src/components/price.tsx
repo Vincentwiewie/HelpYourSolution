@@ -6,7 +6,7 @@ export default function Price({ value }: { value: priceProps[] }) {
       <section className="price-area pt-100 pb-70">
         <div className="container">
           <div className="row">
-            {value.map((m: any) => {
+            {value.map((m: priceProps) => {
               return (
                 <div className="col-lg-4 col-md-6" key={m.image}>
                   <div className="single-pricing-content">

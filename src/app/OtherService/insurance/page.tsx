@@ -176,7 +176,7 @@ export default function insurance() {
                     In the ever-changing world of healthcare, where medical
                     advances are reshaping treatment possibilities and
                     preventative care is more crucial than ever, the need for
-                    solid insurance coverage is clear. By choosing us, you're
+                    solid insurance coverage is clear. By choosing us, you are
                     not just signing up for health insurance; you are investing
                     in a partnership focused on ensuring that your long-term
                     health and wellness are prioritized.
@@ -277,7 +277,7 @@ export default function insurance() {
                     </footer>
                     <div className="comment-content">
                       <p>
-                        As a father of two young children, my family's health is
+                        As a father of two young children, my family health is
                         my top priority. I wanted a plan that would not only
                         cover routine visits but also ensure we had access to
                         emergency care and specialists when needed. The health

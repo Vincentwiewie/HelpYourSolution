@@ -22,7 +22,7 @@ export default function overviewLeft({
               <h2>{titleHeader}</h2>
               <p>{content}</p>
               <ul className="features-list">
-                {list.map((m: any, index: number) => {
+                {list.map((m: string, index: number) => {
                   return (
                     <li key={index}>
                       {" "}

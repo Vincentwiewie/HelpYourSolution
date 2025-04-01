@@ -22,7 +22,7 @@ export default function portofolio({
                 <li className="filter filter-active" data-filter=".all">
                   All
                 </li>
-                {category.map((m: any) => {
+                {category.map((m: string) => {
                   return (
                     <li className="filter" data-filter={"." + m} key={m}>
                       {m}

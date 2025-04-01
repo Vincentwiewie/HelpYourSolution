@@ -4,7 +4,7 @@ export default function contact() {
       <div className="contact-section section-padding">
         <div className="container">
           <div className="section-title">
-            <h6 className="sub-title">Let's Talk</h6>
+            <h6 className="sub-title">Lets Talk</h6>
             <h2>Contact Us</h2>
           </div>
           <div className="row align-items-center">
