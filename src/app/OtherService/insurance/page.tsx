@@ -135,7 +135,7 @@ export default function insurance() {
                     <li className="blocks-gallery-item">
                       <figure>
                         <img
-                          src="/assets/img/insurance2.jpg"
+                          src="../assets/img/insurance2.jpg"
                           alt="image"
                           style={{ maxHeight: "70vh", width: "70vh" }}
                         />
@@ -144,7 +144,7 @@ export default function insurance() {
                     <li className="blocks-gallery-item">
                       <figure>
                         <img
-                          src="/assets/img/insurance3.jpg"
+                          src="../assets/img/insurance3.jpg"
                           alt="image"
                           style={{ maxHeight: "70vh", width: "70vh" }}
                         />
@@ -227,7 +227,7 @@ export default function insurance() {
               <article className="comment-body">
                 <footer className="comment-meta">
                   <div className="comment-author vcard">
-                    <img src="/assets/img/client/2.jpg" alt="image" />
+                    <img src="../assets/img/client/2.jpg" alt="image" />
                     <b className="fn">Ella Hodges</b>
                     <span className="says">says:</span>
                   </div>
@@ -262,7 +262,7 @@ export default function insurance() {
                     <footer className="comment-meta">
                       <div className="comment-author vcard">
                         <img
-                          src="/assets/img/client/1.jpg"
+                          src="../assets/img/client/1.jpg"
                           className="avatar"
                           alt="image"
                         />{" "}
@@ -304,7 +304,7 @@ export default function insurance() {
                 <footer className="comment-meta">
                   <div className="comment-author vcard">
                     <img
-                      src="/assets/img/client/4.jpg"
+                      src="../assets/img/client/4.jpg"
                       className="avatar"
                       alt="image"
                     />{" "}

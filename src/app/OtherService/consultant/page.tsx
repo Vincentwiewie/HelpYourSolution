@@ -11,9 +11,9 @@ export default function consultant() {
     articleTitle: "What is a Law Problem Consultant Service?",
     articleContent:
       "A law problem consultant service is a specialized professional service that provides advice and support for individuals or organizations facing legal issues. Unlike traditional law firms, a law consultant does not necessarily represent clients in court, but they offer valuable insights on how to approach and resolve legal matters. These services are often more accessible and affordable than hiring a full-time lawyer, making them an excellent option for those seeking immediate help or preventive legal guidance.",
-    image1: "/assets/img/consultant4.jpg",
-    image2: "/assets/img/consultant2.jpg",
-    image3: "/assets/img/consultant3.jpg",
+    image1: "../assets/img/consultant4.jpg",
+    image2: "../assets/img/consultant2.jpg",
+    image3: "../assets/img/consultant3.jpg",
     articleTitle2: "Why Do You Need a Law Problem Consultant?",
     articleContent2:
       "Expert Advice on Legal Matters: A law consultant is typically a seasoned professional with expertise in specific areas of law, such as business law, family law, intellectual property, or personal injury. They provide insights and recommendations tailored to your specific legal situation, helping you understand the potential consequences and best courses of action.",
@@ -25,21 +25,21 @@ export default function consultant() {
           date: "June 15 - 2024 12:30 PM",
           comments:
             "I reached out to this consultant service when I was facing a challenging business decision. The guidance I received was not only insightful but also practical. They took the time to truly understand my situation and provided tailored solutions. I highly recommend them to anyone in need of expert advice!",
-          image: "/assets/img/client/1.jpg",
+          image: "../assets/img/client/1.jpg",
         },
         {
           title: "Ella Hodges",
           date: "June 15 - 2024 12:30 PM",
           comments:
             "I’ve worked with several consultants in the past, but none have been as thorough and professional as this team. They helped me navigate through complex issues with ease and delivered clear, actionable recommendations. I couldn’t have asked for a better experience!",
-          image: "/assets/img/client/2.jpg",
+          image: "../assets/img/client/2.jpg",
         },
         {
           title: "Melissa Bryant",
           date: "June 15 - 2024 12:30 PM",
           comments:
             "This consultant service was a game-changer for my small business. They provided expert advice that helped streamline our operations and saved us time and money. Their team was responsive, knowledgeable, and extremely helpful every step of the way. I’m extremely satisfied with the results!",
-          image: "/assets/img/client/4.jpg",
+          image: "../assets/img/client/4.jpg",
         },
       ],
     },
@@ -49,19 +49,19 @@ export default function consultant() {
         title: "Bus Service",
         date: "17 Jan 2025",
         link: "/OtherService/bus",
-        image: "/assets/img/buss2.jpg",
+        image: "../assets/img/buss2.jpg",
       },
       {
         title: "Contractor Service",
         date: "20 Jan 2025",
         link: "/OtherService/contractor",
-        image: "/assets/img/contractor2.jpg",
+        image: "../assets/img/contractor2.jpg",
       },
       {
         title: "Helper Service",
         date: "22 Jan 2025",
         link: "/OtherService/helper",
-        image: "/assets/img/helper2.jpg",
+        image: "../assets/img/helper2.jpg",
       },
     ],
     rating: [

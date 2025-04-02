@@ -11,37 +11,37 @@ export default function gardenAnimal() {
       {
         label: "Contact Crafter",
         subLabel: "Classic Style",
-        image: "/assets/img/animal1.jpg",
+        image: "../assets/img/animal1.jpg",
         type: "classic",
       },
       {
         label: "Contact Crafter",
         subLabel: "Classic Style",
-        image: "/assets/img/animal2.jpg",
+        image: "../assets/img/animal2.jpg",
         type: "classic",
       },
       {
         label: "Contact Crafter",
         subLabel: "Classic Style",
-        image: "/assets/img/animal3.jpg",
+        image: "../assets/img/animal3.jpg",
         type: "classic",
       },
       {
         label: "Contact Crafter",
         subLabel: "Cozy Style",
-        image: "/assets/img/animal4.jpg",
+        image: "../assets/img/animal4.jpg",
         type: "cozy",
       },
       {
         label: "Contact Crafter",
         subLabel: "Cozy Style",
-        image: "/assets/img/animal5.jpg",
+        image: "../assets/img/animal5.jpg",
         type: "cozy",
       },
       {
         label: "Contact Crafter",
         subLabel: "Cozy Style",
-        image: "/assets/img/animal6.jpg",
+        image: "../assets/img/animal6.jpg",
         type: "cozy",
       },
     ],
@@ -186,7 +186,7 @@ export default function gardenAnimal() {
             </div>
             <div className="col-lg-6 col-md-12">
               <div className="about-image">
-                <img src="/assets/img/garden2.jpg" alt="About image" />
+                <img src="../assets/img/garden2.jpg" alt="About image" />
                 <div className="years-design">
                   <h2>10</h2>
                   <h5>Years Of Experience</h5>

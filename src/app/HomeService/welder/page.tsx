@@ -11,19 +11,19 @@ export default function page() {
       {
         label: "Welder Crafter",
         subLabel: "Book Now",
-        image: "/assets/img/welder1.jpg",
+        image: "../assets/img/welder1.jpg",
         type: "all",
       },
       {
         label: "Welder Crafter",
         subLabel: "Book Now",
-        image: "/assets/img/welder2.jpg",
+        image: "../assets/img/welder2.jpg",
         type: "all",
       },
       {
         label: "Welder Crafter",
         subLabel: "Book Now",
-        image: "/assets/img/welder3.jpg",
+        image: "../assets/img/welder3.jpg",
         type: "all",
       },
     ],
@@ -32,7 +32,7 @@ export default function page() {
   const dataOverview: overviewModel = {
     title: "Why Choose Us?",
     titleHeader: "100% warranty granted and fast respon",
-    image: "/assets/img/trust4.jpg",
+    image: "../assets/img/trust4.jpg",
     content: "",
     list: [
       "Expert craftsmanship",

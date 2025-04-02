@@ -16,19 +16,19 @@ export default function page() {
       {
         label: "Contact Crafter",
         subLabel: "Chat Now",
-        image: "/assets/img/ceiling1.jpg",
+        image: "../assets/img/ceiling1.jpg",
         type: "all",
       },
       {
         label: "Contact Crafter",
         subLabel: "Chat Now",
-        image: "/assets/img/ceiling4.jpg",
+        image: "../assets/img/ceiling4.jpg",
         type: "all",
       },
       {
         label: "Contact Crafter",
         subLabel: "Chat Now",
-        image: "/assets/img/ceiling3.jpg",
+        image: "../assets/img/ceiling3.jpg",
         type: "all",
       },
     ],
@@ -39,42 +39,42 @@ export default function page() {
       title: "False Ceiling Installation",
       content:
         "Custom-designed ceilings that add style and functionality to any room",
-      image: "/assets/img/feature-two-icon-1",
-      imageHover: "/assets/img/feature-two-icon-1",
+      image: "../assets/img/feature-two-icon-1",
+      imageHover: "../assets/img/feature-two-icon-1",
     },
     {
       title: "Ceiling Repairs",
       content: "Quick, efficient fixes for any ceiling damage or wear and tear",
-      image: "/assets/img/feature-two-icon-2",
-      imageHover: "/assets/img/feature-two-icon-2",
+      image: "../assets/img/feature-two-icon-2",
+      imageHover: "../assets/img/feature-two-icon-2",
     },
     {
       title: "Decorative Ceilings",
       content:
         "Artistic designs that transform your ceiling into a statement piece",
-      image: "/assets/img/feature-two-icon-3",
-      imageHover: "/assets/img/feature-two-icon-3",
+      image: "../assets/img/feature-two-icon-3",
+      imageHover: "../assets/img/feature-two-icon-3",
     },
     {
       title: "Lighting Fixtures Installation",
       content:
         "Perfect integration of lighting with your new plafon for enhanced ambiance",
-      image: "/assets/img/feature-two-icon-4",
-      imageHover: "/assets/img/feature-two-icon-4",
+      image: "../assets/img/feature-two-icon-4",
+      imageHover: "../assets/img/feature-two-icon-4",
     },
     {
       title: "Soundproof Ceilings",
       content:
         "Specialized plafon systems designed to reduce noise for a quieter space",
-      image: "/assets/img/feature-two-icon-5",
-      imageHover: "/assets/img/feature-two-icon-5",
+      image: "../assets/img/feature-two-icon-5",
+      imageHover: "../assets/img/feature-two-icon-5",
     },
     {
       title: "Customer Satisfaction Guaranteed",
       content:
         "Our team has extensive experience in creating durable, beautiful ceilings",
-      image: "/assets/img/feature-two-icon-6",
-      imageHover: "/assets/img/feature-two-icon-6",
+      image: "../assets/img/feature-two-icon-6",
+      imageHover: "../assets/img/feature-two-icon-6",
     },
   ];
 

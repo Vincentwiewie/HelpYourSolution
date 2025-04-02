@@ -11,7 +11,7 @@ export default function MainPage() {
             <div className="swiper-slide">
               <div
                 className="bg-img valign"
-                data-background="assets/img/slider-1.jpg"
+                data-background="../assets/img/slider-1.jpg"
                 data-overlay-dark="5"
               >
                 <div className="container">
@@ -68,7 +68,7 @@ export default function MainPage() {
             <div className="swiper-slide">
               <div
                 className="bg-img valign"
-                data-background="assets/img/slider-2.jpg"
+                data-background="../assets/img/slider-2.jpg"
                 data-overlay-dark="5"
               >
                 <div className="container">
