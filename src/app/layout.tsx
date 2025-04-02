@@ -3,7 +3,7 @@ import { Dosis, Catamaran } from "next/font/google";
 import "./globals.css";
 import Navbar from "./navbar";
 import Footer from "./footer";
-import { prod } from "../config";
+// import { prod } from "../config";
 // import Head from "next/head";
 
 //stylesheet
