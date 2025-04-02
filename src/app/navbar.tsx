@@ -3,6 +3,21 @@ import { useRouter } from "next/navigation";
 
 export default function Navbar() {
   const router = useRouter();
+
+  function Navigate(params: string) {
+    router.push(params);
+  }
+
+  setTimeout(() => {
+    const link = document.querySelectorAll(".nav-link");
+    console.log(link);
+    link.forEach(function (item) {
+      return item.addEventListener("click", function () {
+        Navigate(item.id);
+      });
+    });
+  }, 500);
+
   return (
     <>
       <div className="navbar-section">
@@ -29,7 +44,7 @@ export default function Navbar() {
         <div className="techvio-nav">
           <div className="container">
             <nav className="navbar navbar-expand-md navbar-light">
-              <a className="navbar-brand" href="index.html">
+              <a className="navbar-brand">
                 <img
                   src="/assets/img/logo.png"
                   className="white-logo"
@@ -47,87 +62,50 @@ export default function Navbar() {
               >
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <a
-                      onClick={() => {
-                        router.push("/");
-                      }}
-                      className="nav-link"
-                    >
+                    <a id="/" className="nav-link">
                       Home Page
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a
-                      onClick={() => {
-                        router.push("/about");
-                      }}
-                      className="nav-link"
-                    >
+                    <a id="/about" className="nav-link">
                       About Us
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link">
+                    <a>
                       Home Service<i className="fas fa-chevron-down"></i>
                     </a>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
                         <a
                           className="nav-link"
-                          onClick={() => {
-                            router.push("/HomeService/air-conditioner");
-                          }}
+                          id="/HomeService/air-conditioner"
                         >
                           Air Conditioner
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a
-                          className="nav-link"
-                          onClick={() => {
-                            router.push("/HomeService/pipe");
-                          }}
-                        >
+                        <a className="nav-link" id="/HomeService/pipe">
                           Water Pipe Builder
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a
-                          className="nav-link"
-                          onClick={() => {
-                            router.push("/HomeService/welder");
-                          }}
-                        >
+                        <a className="nav-link" id="/HomeService/welder">
                           Welder services, iron railings
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a
-                          className="nav-link"
-                          onClick={() => {
-                            router.push("/HomeService/plafon");
-                          }}
-                        >
+                        <a className="nav-link" id="/HomeService/plafon">
                           Plafon
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a
-                          className="nav-link"
-                          onClick={() => {
-                            router.push("/HomeService/furniture");
-                          }}
-                        >
+                        <a className="nav-link" id="/HomeService/furniture">
                           Furniture
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a
-                          className="nav-link"
-                          onClick={() => {
-                            router.push("/HomeService/keramik");
-                          }}
-                        >
+                        <a className="nav-link" id="/HomeService/keramik">
                           Keramik
                         </a>
                       </li>
@@ -139,168 +117,45 @@ export default function Navbar() {
                     </a>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <a
-                          className="nav-link"
-                          onClick={() => {
-                            router.push("/OtherService/bus");
-                          }}
-                        >
+                        <a className="nav-link" id="/OtherService/bus">
                           Bus
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a
-                          className="nav-link"
-                          onClick={() => {
-                            router.push("/OtherService/consultant");
-                          }}
-                        >
+                        <a className="nav-link" id="/OtherService/consultant">
                           Consultant
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a
-                          className="nav-link"
-                          onClick={() => {
-                            router.push("/OtherService/contractor");
-                          }}
-                        >
+                        <a className="nav-link" id="/OtherService/contractor">
                           Contractor
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a
-                          className="nav-link"
-                          onClick={() => {
-                            router.push("/OtherService/helper");
-                          }}
-                        >
+                        <a className="nav-link" id="/OtherService/helper">
                           OutSourcing
                         </a>
                       </li>
                       <li className="nav-item">
                         <a
                           className="nav-link"
-                          onClick={() => {
-                            router.push("/OtherService/garden-animal");
-                          }}
+                          id="/OtherService/garden-animal"
                         >
                           Garden Animal Care
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a
-                          className="nav-link"
-                          onClick={() => {
-                            router.push("/OtherService/insurance");
-                          }}
-                        >
+                        <a className="nav-link" id="/OtherService/insurance">
                           Insurance
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a
-                          className="nav-link"
-                          onClick={() => {
-                            router.push("/OtherService/property");
-                          }}
-                        >
+                        <a className="nav-link" id="/OtherService/property">
                           Property
                         </a>
                       </li>
                     </ul>
                   </li>
-                  {/* <li className="nav-item">
-                    <a href="#" className="nav-link">
-                      Portfolio <i className="fas fa-chevron-down"></i>
-                    </a>
-                    <ul className="dropdown-menu">
-                      <li className="nav-item">
-                        <a href="portfolio.html" className="nav-link">
-                          Portfolio
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a href="single-portfolio.html" className="nav-link">
-                          Portfolio Details
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li className="nav-item">
-                    <a href="#" className="nav-link">
-                      Pages <i className="fas fa-chevron-down"></i>
-                    </a>
-                    <ul className="dropdown-menu">
-                      <li className="nav-item">
-                        <a href="about.html" className="nav-link">
-                          About Us
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a href="team.html" className="nav-link">
-                          Team
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a href="pricing.html" className="nav-link">
-                          Pricing
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a href="error-404.html" className="nav-link">
-                          404 Error
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a href="faq.html" className="nav-link">
-                          FAQ
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a href="coming-soon.html" className="nav-link">
-                          Coming Soon
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a href="terms-condition.html" className="nav-link">
-                          Terms & Conditions
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a href="privacy-policy.html" className="nav-link">
-                          Privacy Policy
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li className="nav-item">
-                    <a href="#" className="nav-link">
-                      Blog <i className="fas fa-chevron-down"></i>
-                    </a>
-                    <ul className="dropdown-menu">
-                      <li className="nav-item">
-                        <a href="blog.html" className="nav-link">
-                          Blog Grid
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a href="blog-2.html" className="nav-link">
-                          Blog Right Sidebar
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a href="single-blog.html" className="nav-link">
-                          Blog Details
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li className="nav-item">
-                    <a href="contact.html" className="nav-link">
-                      Contact
-                    </a>
-                  </li> */}
                 </ul>
                 <div className="other-option">
                   <a

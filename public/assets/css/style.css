@@ -1674,7 +1674,7 @@ p:last-child {
   display: block;
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1200px) {
   .navbar-section {
     padding-top: 20px;
     padding-bottom: 20px;

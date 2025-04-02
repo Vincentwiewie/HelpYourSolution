@@ -6,7 +6,7 @@ export default function page() {
   const data: priceProps[] = [
     {
       price: "5",
-      image: "/assets/img/AcEngine.jpg",
+      image: `../assets/img/AcEngine.jpg`,
       textButton: "Order Now",
       label: "Clean AC",
       list: [
@@ -20,7 +20,7 @@ export default function page() {
     },
     {
       price: "15",
-      image: "/assets/img/AcOn.jpg",
+      image: "../assets/img/AcOn.jpg",
       textButton: "Order Now",
       label: "Inject Freon",
       list: [
@@ -34,7 +34,7 @@ export default function page() {
     },
     {
       price: "25 - 100",
-      image: "/assets/img/AcService.jpg",
+      image: "../assets/img/AcService.jpg",
       textButton: "Order Now",
       label: "Repair",
       list: [
@@ -54,7 +54,7 @@ export default function page() {
   const dataOverview: overviewModel = {
     title: "Why Choose Us?",
     titleHeader: "100% warranty granted and fast respon",
-    image: "/assets/img/trust4.jpg",
+    image: "../assets/img/trust4.jpg",
     content: "",
     list: [
       "Expert Cleaner",

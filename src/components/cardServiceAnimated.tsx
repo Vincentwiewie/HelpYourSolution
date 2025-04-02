@@ -25,14 +25,14 @@ export default function cardServiceAnimated({
                         <img
                           src={m.image}
                           alt="svg icon"
-                          style={{ height: "50px", width: "80px;" }}
+                          style={{ height: "50px", width: "80px" }}
                         />
                       </div>
                       <div className="hover-icon">
                         <img
                           src={m.imageHover}
                           alt="svg icon"
-                          style={{ height: "80px", width: "120px;" }}
+                          style={{ height: "80px", width: "120px" }}
                         />
                       </div>
                     </div>
