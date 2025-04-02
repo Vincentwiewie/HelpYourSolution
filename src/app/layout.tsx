@@ -48,19 +48,19 @@ export default function RootLayout({
         <Navbar></Navbar>
         {children}
         <Footer></Footer>
-        <Script src="../assets/js/jquery.min.js"></Script>
-        <Script src="../assets/js/popper.min.js"></Script>
-        <Script src="../assets/js/bootstrap.bundle.min.js"></Script>
-        <Script src="../assets/js/jquery.meanmenu.js"></Script>
-        <Script src="../assets/js/jquery.appear.min.js"></Script>
-        <Script src="../assets/js/jquery.waypoints.min.js"></Script>
-        <Script src="../assets/js/jquery.counterup.min.js"></Script>
-        <Script src="../assets/js/owl.carousel.min.js"></Script>
-        <Script src="../assets/js/jquery.magnific-popup.min.js"></Script>
-        <Script src="../assets/js/isotope.pkgd.min.js"></Script>
-        <Script src="../assets/js/swiper.min.js"></Script>
-        <Script src="../assets/js/wow.min.js"></Script>
-        <Script src="../assets/js/main.js"></Script>
+        <Script src="../../assets/js/jquery.min.js"></Script>
+        <Script src="../../assets/js/popper.min.js"></Script>
+        <Script src="../../assets/js/bootstrap.bundle.min.js"></Script>
+        <Script src="../../assets/js/jquery.meanmenu.js"></Script>
+        <Script src="../../assets/js/jquery.appear.min.js"></Script>
+        <Script src="../../assets/js/jquery.waypoints.min.js"></Script>
+        <Script src="../../assets/js/jquery.counterup.min.js"></Script>
+        <Script src="../../assets/js/owl.carousel.min.js"></Script>
+        <Script src="../../assets/js/jquery.magnific-popup.min.js"></Script>
+        <Script src="../../assets/js/isotope.pkgd.min.js"></Script>
+        <Script src="../../assets/js/swiper.min.js"></Script>
+        <Script src="../../assets/js/wow.min.js"></Script>
+        <Script src="../../assets/js/main.js"></Script>
       </body>
     </html>
   );

@@ -27,12 +27,12 @@ export default function Navbar() {
               <div className="logo">
                 <a href="index.html">
                   <img
-                    src="/assets/img/logo.png"
+                    src="../assets/img/logo.png"
                     className="white-logo"
                     alt="logo"
                   />
                   <img
-                    src="/assets/img/logo-black.png"
+                    src="../assets/img/logo-black.png"
                     className="black-logo"
                     alt="logo"
                   />
