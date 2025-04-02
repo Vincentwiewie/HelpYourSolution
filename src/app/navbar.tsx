@@ -46,12 +46,12 @@ export default function Navbar() {
             <nav className="navbar navbar-expand-md navbar-light">
               <a className="navbar-brand">
                 <img
-                  src="/assets/img/logo.png"
+                  src="../assets/img/logo.png"
                   className="white-logo"
                   alt="logo"
                 />
                 <img
-                  src="/assets/img/logo-black.png"
+                  src="../assets/img/logo-black.png"
                   className="black-logo"
                   alt="logo"
                 />

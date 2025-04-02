@@ -42,7 +42,7 @@ export default function Footer() {
                 <div className="single-footer-widget">
                   <a className="footer-logo" href="#">
                     <img
-                      src="/assets/img/logo.png"
+                      src="../assets/img/logo.png"
                       className="white-logo"
                       alt="logo"
                     />
