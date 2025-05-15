@@ -17,7 +17,7 @@ export default function comments({ title, comments }: commentsModel) {
                       <span className="says">says:</span>
                     </div>
                     <div className="comment-metadata">
-                      <a href="#">
+                      <a>
                         <span>{x.date}</span>
                       </a>
                     </div>
@@ -25,11 +25,11 @@ export default function comments({ title, comments }: commentsModel) {
                   <div className="comment-content">
                     <p>{x.comments}</p>
                   </div>
-                  <div className="reply">
+                  {/* <div className="reply">
                     <a href="#" className="comment-reply-link">
                       Reply
                     </a>
-                  </div>
+                  </div> */}
                 </article>
               </li>
             );

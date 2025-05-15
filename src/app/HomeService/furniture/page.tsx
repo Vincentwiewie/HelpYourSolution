@@ -9,26 +9,26 @@ import OverviewLeft from "@/components/overviewLeft";
 
 export default function page() {
   const dataPortofolio: portofolioModel = {
-    title: "Furniture Crafter",
-    subTitle: "Image Example",
+    title: "Pengrajin Furnitur",
+    subTitle: "Gambar Contoh",
     category: [],
     data: [
       {
-        label: "Contact Crafter",
+        label: "Kontak Pengrajin",
         subLabel: "Book Now",
-        image: "../assets/img/furniture1.jpg",
+        image: "../assets/img/furniture1.jpeg",
         type: "all",
       },
       {
-        label: "Contact Crafter",
+        label: "Kontak Pengrajin",
         subLabel: "Book Now",
-        image: "../assets/img/furniture4.jpg",
+        image: "../assets/img/furniture6.jpeg",
         type: "all",
       },
       {
-        label: "Contact Crafter",
+        label: "Kontak Pengrajin",
         subLabel: "Book Now",
-        image: "../assets/img/furniture3.jpg",
+        image: "../assets/img/furniture5.jpg",
         type: "all",
       },
     ],
@@ -36,40 +36,40 @@ export default function page() {
 
   const dataTestimonial: testimonialModel[] = [
     {
-      name: "Stephen Strange",
+      name: "Andi",
       image: "../assets/img/client/testimonial-1.jpg",
       country: "United Kingdom",
       content:
-        "I highly recommend HYS Furniture to anyone looking for high-quality furniture and excellent customer service. They really know how to make your home feel special!, The customization options were amazing, and I ended up with a sofa that is not only gorgeous but also super comfortable.",
+        "Saya sangat merekomendasikan HYS Furniture kepada siapa pun yang mencari furnitur berkualitas tinggi dan layanan pelanggan yang sangat baik. Mereka benar-benar tahu cara membuat rumah Anda terasa istimewa!, Pilihan penyesuaiannya luar biasa, dan saya akhirnya mendapatkan sofa yang tidak hanya cantik tetapi juga sangat nyaman.",
     },
     {
-      name: "Annabella",
+      name: "Putri",
       image: "../assets/img/client/testimonial-2.jpg",
       country: "United State",
       content:
-        "I recently purchased a sectional sofa and dining table from HYS, and I am absolutely thrilled with the quality and style! The team really took the time to understand my needs and helped me select pieces that perfectly match my home’s aesthetic and they give warranty too",
+        "Saya baru saja membeli sofa sectional dan meja makan dari HYS, dan saya sangat senang dengan kualitas dan gayanya! Tim di sana benar-benar meluangkan waktu untuk memahami kebutuhan saya dan membantu saya memilih barang-barang yang benar-benar sesuai dengan estetika rumah saya dan mereka juga memberikan garansi",
     },
     {
-      name: "Stevie Wills",
+      name: "Adam",
       image: "../assets/img/client/testimonial-3.jpg",
       country: "Germany",
       content:
-        "The delivery was on time, and the installation was smooth. They even made sure everything was in place and that I was happy before they left. I’ve already recommended HYS to my friends and family, and I’ll definitely be returning for any future furniture needs!",
+        "Pengirimannya tepat waktu, dan pemasangannya lancar. Mereka bahkan memastikan semuanya sudah pada tempatnya dan saya puas sebelum mereka pergi. Saya sudah merekomendasikan HYS kepada teman-teman dan keluarga saya, dan saya pasti akan kembali lagi untuk kebutuhan furnitur di masa mendatang!",
     },
   ];
 
   const dataOverview: overviewModel = {
-    title: "Why Trust Us?",
-    titleHeader: "100% warranty granted and fast respon",
+    title: "Kenapa Percaya Kami?",
+    titleHeader: "100% garansi diberikan dan respon cepat",
     image: "../assets/img/trust.jpg",
     content: "",
     list: [
-      "Expert craftsmanship",
-      "Attention to detail",
-      "Affordable prices",
-      "Timely services",
-      "Custom Furniture Design",
-      "Furniture Moving & Repositioning",
+      "Keahlian ahli",
+      "Perhatian terhadap detail",
+      "Harga terjangkau",
+      "Layanan tepat waktu",
+      "Desain Furnitur Kustom",
+      "Pemindahan dan Reposisi Furnitur",
     ],
   };
 
@@ -82,30 +82,23 @@ export default function page() {
               <div className="row align-items-center">
                 <div className="col-lg-6 col-md-12">
                   <div className="main-banner-content">
-                    <h6 className="text-white">Furniture Expert</h6>
+                    <h6 className="text-white">Ahli Furnitur</h6>
                     <h3 className="text-white">
-                      Need Customize Your House looks? Leave To us Our Expert
-                      Builder Will Make Your House Like In Heaven
-                      <span className="text-gradient mt-5"> 100% Warranty</span>
+                      Perlu Menyesuaikan Tampilan Rumah Anda? Serahkan Pada Kami
+                      Ahlinya Pembuat Furnitur Akan Membuat Rumah Anda Menjadi
+                      Mewah
+                      <span className="text-gradient mt-5"> 100% Garansi</span>
                     </h3>
                     <p className="text-white">
-                      let us bring style, comfort, and functionality to your
-                      home or office. Call today for a FREE consultation and
-                      lets make your space a place you love!
+                      Biarkan kami menghadirkan gaya, kenyamanan, dan
+                      fungsionalitas rumah dan kantor Anda. Hubungi kami hari
+                      ini untuk konsultasi GRATIS dan mari kita buat tempat Anda
+                      menjadi tempat yang Anda cintai!
                     </p>
                     <div className="banner-btn">
-                      <a className="default-btn-one" href="services.html">
-                        Our Service <span></span>
+                      <a className="default-btn-one" href="tel:081284691689">
+                        Layanan Kami <span></span>
                       </a>
-                      <div className="video-box">
-                        <a
-                          href="https://www.youtube.com/watch?v=G9TdA8d5aaU"
-                          className="popup-video video-btn"
-                        >
-                          {" "}
-                          <i className="fa fa-play"></i>
-                        </a>
-                      </div>
                     </div>
                   </div>
                 </div>

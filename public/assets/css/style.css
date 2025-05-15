@@ -1814,7 +1814,7 @@ p:last-child {
   align-items: center;
   height: 800px;
   min-height: 100vh;
-  background-image: url("../img/AcLiving.jpg");
+  background-image: url("../img/ac1.jpeg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -1871,23 +1871,36 @@ p:last-child {
   z-index: 1;
   height: 800px;
   min-height: 100vh;
-  background-image: url("../img/ceramic.jpg");
+  background-image: url("../img/keramik1.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .pipe {
-  background-image: url("../img/pipe2.jpg") !important;
+  background-image: url("../img/pipe4.jpeg") !important;
 }
 .welder {
   background-image: url("../img/welder2.jpg") !important;
 }
+.surat {
+  background-image: url("../img/blog-details/2.jpg") !important;
+}
 .ceiling {
-  background-image: url("../img/ceiling2.jpg") !important;
+  background-image: url("../img/plafon1.jpeg") !important;
 }
 .furniture {
-  background-image: url("../img/furniture2.jpg") !important;
+  background-image: url("../img/furniture2.jpeg") !important;
+}
+.arsitek {
+  background-image: url("../img/arsitek4.jpeg") !important;
+}
+
+.outsourcing {
+  background-image: url("../img/outsourcing4.jpg") !important;
+}
+.slideback {
+  background-image: url("../img/slider-2.jpg");
 }
 
 .home-section.home-2 .main-banner-content {
@@ -2407,6 +2420,10 @@ p:last-child {
   background-position: center;
 }
 
+.slidetop {
+  background-image: url("../img/slider-1.jpg");
+}
+
 .slider .parallax-slider .swiper-slide-active .caption h1 {
   animation: fadeInLeft 0.8s;
   -webkit-animation-delay: 0.3s;
@@ -2697,7 +2714,7 @@ p:last-child {
 }
 
 .single-services-item p {
-  font-size: 16px;
+  font-size: 14px;
   -webkit-transition: all 400ms ease-out;
   transition: all 400ms ease-out;
   will-change: transform;
@@ -3376,6 +3393,13 @@ p:last-child {
 
 .garden {
   background: url(../img/garden2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.lesson {
+  background: url(../img/lessonn4.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -5038,16 +5062,16 @@ blockquote::after,
   background-image: url(../img/insurance1.jpg);
 }
 .property {
-  background-image: url(../img/property1.jpg);
+  background-image: url(../img/property2.jpeg);
 }
 .contractor {
-  background-image: url(../img/contractor1.jpg);
+  background-image: url(../img/contractor2.jpg);
 }
 .garden {
   background-image: url(../img/garden1.jpg);
 }
 .helper {
-  background-image: url(../img/helper1.jpg);
+  background-image: url(../img/helper5.jpeg);
 }
 
 .item-bg2 {

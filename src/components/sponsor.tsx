@@ -13,7 +13,7 @@ export default function sponsor({ title, subTitle, image }: sponsorModel) {
             {image.map((m: string) => {
               return (
                 <div className="partner-item" key={m}>
-                  <a href="#0">
+                  <a>
                     <img src={m} alt="image" />
                   </a>
                 </div>

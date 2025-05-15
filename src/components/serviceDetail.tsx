@@ -33,7 +33,7 @@ export default function serviceDetail({
                         })}
                       </ul>
                       <div className="services-btn">
-                        <a href="#" className="read-more">
+                        <a className="read-more">
                           <i className="bi bi-arrow-right-short"></i> Learn More
                         </a>
                       </div>

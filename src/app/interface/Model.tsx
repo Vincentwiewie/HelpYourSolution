@@ -130,11 +130,18 @@ export interface articleDetail {
   image3: string;
   articleTitle2: string;
   articleContent2: string;
+  articleContent3: articleContentUl;
   comments: commentsModel;
   serviceTitle: string;
   article: articleSubDetail[];
   rating: rating[];
   tags: string[];
+}
+
+export interface articleContentUl {
+  title: string;
+  content: string[];
+  body: string;
 }
 
 export interface articleSubDetail {

@@ -33,8 +33,9 @@ export default function cardServiceBody({
                         })}
                       </ul>
                       <div className="services-btn">
-                        <a href="#" className="read-more">
-                          <i className="bi bi-arrow-right-short"></i> Order Now
+                        <a className="read-more">
+                          <i className="bi bi-arrow-right-short"></i> Order
+                          Sekarang
                         </a>
                       </div>
                     </div>

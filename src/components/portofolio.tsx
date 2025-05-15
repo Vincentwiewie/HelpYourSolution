@@ -1,4 +1,6 @@
+"use client";
 import { portofolioModel } from "@/app/interface/Model";
+import { useState } from "react";
 
 export default function portofolio({
   title,
@@ -6,6 +8,7 @@ export default function portofolio({
   category,
   data,
 }: portofolioModel) {
+  const [selectedCategory, setSelectedCategory] = useState<string>("all");
   return (
     <section className="portfolio-area section-padding">
       <div className="container">
@@ -19,12 +22,31 @@ export default function portofolio({
           <div className="col-md-12">
             <div className="portfolio-list">
               <ul className="nav" id="portfolio-flters">
-                <li className="filter filter-active" data-filter=".all">
+                <li
+                  className={
+                    selectedCategory == "all"
+                      ? "filter filter-active"
+                      : "filter"
+                  }
+                  onClick={() => {
+                    setSelectedCategory("all");
+                  }}
+                >
                   All
                 </li>
                 {category.map((m: string) => {
                   return (
-                    <li className="filter" data-filter={"." + m} key={m}>
+                    <li
+                      className={
+                        selectedCategory == m
+                          ? "filter filter-active"
+                          : "filter"
+                      }
+                      key={m}
+                      onClick={() => {
+                        setSelectedCategory(m);
+                      }}
+                    >
                       {m}
                     </li>
                   );
@@ -36,32 +58,28 @@ export default function portofolio({
         <div className="portfolio-container">
           <div className="row">
             {data.map((m) => {
-              return (
+              return m.type == selectedCategory || selectedCategory == "all" ? (
                 <div
-                  className={`col-lg-4 col-md-6 portfolio-grid-item all ${m.type}`}
+                  className={`col-lg-4 col-md-6 portfolio-grid-item all`}
                   key={m.image}
                 >
                   <div className="portfolio-item">
-                    <img
-                      src={m.image}
-                      alt="image"
-                      style={{ maxHeight: "37vh" }}
-                    />
+                    <img src={m.image} alt="image" style={{ height: "45vh" }} />
                     <div className="portfolio-content-overlay">
                       <p>{m.label}</p>
                       <h3>
-                        <a href="single-portfolio.html">{m.subLabel}</a>
+                        <a>{m.subLabel}</a>
                       </h3>
                       <a
                         className="portfolio-link-icon"
-                        href="single-portfolio.html"
+                        href="tel:081284691689"
                       >
                         <i className="bi bi-arrow-right"></i>
                       </a>
                     </div>
                   </div>
                 </div>
-              );
+              ) : null;
             })}
           </div>
         </div>

@@ -1,5 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
+import { useEffect } from "react";
 
 export default function Navbar() {
   const router = useRouter();
@@ -8,15 +9,17 @@ export default function Navbar() {
     router.push(params);
   }
 
-  setTimeout(() => {
-    const link = document.querySelectorAll(".nav-link");
-    console.log(link);
-    link.forEach(function (item) {
-      return item.addEventListener("click", function () {
-        Navigate(item.id);
+  useEffect(() => {
+    setTimeout(() => {
+      const link = document.querySelectorAll(".nav-link");
+      console.log(link);
+      link.forEach(function (item) {
+        return item.addEventListener("click", function () {
+          Navigate(item.id);
+        });
       });
-    });
-  }, 500);
+    }, 500);
+  }, []);
 
   return (
     <>
@@ -26,7 +29,7 @@ export default function Navbar() {
             <div className="techvio-responsive-menu">
               <div className="logo">
                 <a href="index.html">
-                  <img
+                  {/* <img
                     src="../assets/img/logo.png"
                     className="white-logo"
                     alt="logo"
@@ -35,7 +38,7 @@ export default function Navbar() {
                     src="../assets/img/logo-black.png"
                     className="black-logo"
                     alt="logo"
-                  />
+                  /> */}
                 </a>
               </div>
             </div>
@@ -46,14 +49,14 @@ export default function Navbar() {
             <nav className="navbar navbar-expand-md navbar-light">
               <a className="navbar-brand">
                 <img
-                  src="../assets/img/logo.png"
+                  src="../assets/img/HYSlogo2.jpeg"
                   className="white-logo"
                   alt="logo"
-                />
-                <img
-                  src="../assets/img/logo-black.png"
-                  className="black-logo"
-                  alt="logo"
+                  style={{
+                    width: "120px",
+                    height: "100px",
+                    background: "none",
+                  }}
                 />
               </a>
               <div
@@ -68,12 +71,12 @@ export default function Navbar() {
                   </li>
                   <li className="nav-item">
                     <a id="/about" className="nav-link">
-                      About Us
+                      Tentang Kami
                     </a>
                   </li>
                   <li className="nav-item">
                     <a>
-                      Home Service<i className="fas fa-chevron-down"></i>
+                      Layanan Rumah<i className="fas fa-chevron-down"></i>
                     </a>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
@@ -86,12 +89,12 @@ export default function Navbar() {
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" id="/HomeService/pipe">
-                          Water Pipe Builder
+                          Layanan Pipa Bocor
                         </a>
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" id="/HomeService/welder">
-                          Welder services, iron railings
+                          Jasa las, pagar besi
                         </a>
                       </li>
                       <li className="nav-item">
@@ -101,7 +104,7 @@ export default function Navbar() {
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" id="/HomeService/furniture">
-                          Furniture
+                          Furnitur
                         </a>
                       </li>
                       <li className="nav-item">
@@ -109,11 +112,16 @@ export default function Navbar() {
                           Keramik
                         </a>
                       </li>
+                      <li className="nav-item">
+                        <a className="nav-link" id="/HomeService/lesson">
+                          Les private
+                        </a>
+                      </li>
                     </ul>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link">
-                      Other Service<i className="fas fa-chevron-down"></i>
+                      Layanan Lainnya<i className="fas fa-chevron-down"></i>
                     </a>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
@@ -123,17 +131,22 @@ export default function Navbar() {
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" id="/OtherService/consultant">
-                          Consultant
+                          Konsultan Hukum Industri
                         </a>
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" id="/OtherService/contractor">
-                          Contractor
+                          Kontraktor
+                        </a>
+                      </li>
+                      <li className="nav-item">
+                        <a className="nav-link" id="/OtherService/outsourcing">
+                          Outsourcing
                         </a>
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" id="/OtherService/helper">
-                          OutSourcing
+                          Asisten Rumah Tangga
                         </a>
                       </li>
                       <li className="nav-item">
@@ -141,28 +154,43 @@ export default function Navbar() {
                           className="nav-link"
                           id="/OtherService/garden-animal"
                         >
-                          Garden Animal Care
+                          Perawatan Hewan
                         </a>
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" id="/OtherService/insurance">
-                          Insurance
+                          Ansuransi
                         </a>
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" id="/OtherService/property">
-                          Property
+                          Properti
                         </a>
                       </li>
+                      <li className="nav-item">
+                        <a className="nav-link" id="/OtherService/arsitek">
+                          Arsitek
+                        </a>
+                      </li>
+                      <li className="nav-item">
+                        <a className="nav-link" id="/OtherService/surat">
+                          Surat
+                        </a>
+                      </li>
+                      {/* <li className="nav-item">
+                        <a className="nav-link" id="/OtherService/dealer">
+                          Dealer
+                        </a>
+                      </li> */}
                     </ul>
                   </li>
                 </ul>
                 <div className="other-option">
                   <a
                     className="default-btn"
-                    href="https://api.whatsapp.com/send?phone=089632401125"
+                    href="https://api.whatsapp.com/send?phone=081284691689"
                   >
-                    Contact US <span></span>
+                    Hubungi Kami <span></span>
                   </a>
                 </div>
               </div>

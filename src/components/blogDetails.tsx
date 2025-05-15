@@ -2,7 +2,12 @@
 import { useRouter } from "next/navigation";
 
 import Comments from "./comments";
-import { articleDetail, articleSubDetail, rating } from "@/app/interface/Model";
+import {
+  articleDetail,
+  articleSubDetail,
+  rating,
+  articleContentUl,
+} from "@/app/interface/Model";
 
 export default function BlogDetails({
   classbg,
@@ -17,6 +22,7 @@ export default function BlogDetails({
   image3,
   articleTitle2,
   articleContent2,
+  articleContent3,
   comments,
   serviceTitle,
   article,
@@ -34,7 +40,7 @@ export default function BlogDetails({
                 <h2>{title}</h2>
                 <ul>
                   <li>
-                    <a href="index.html">Home</a>
+                    <a>Home</a>
                   </li>
                   <li>{subTitle}</li>
                 </ul>
@@ -57,11 +63,11 @@ export default function BlogDetails({
                     <ul>
                       <li>
                         {" "}
-                        <span>Posted On:</span> <a href="#">{date}</a>
+                        <span>Posted On:</span> <a>{date}</a>
                       </li>
                       <li>
                         {" "}
-                        <span>Posted By:</span> <a href="#">{name} </a>
+                        <span>Posted By:</span> <a>{name} </a>
                       </li>
                     </ul>
                   </div>
@@ -70,24 +76,43 @@ export default function BlogDetails({
                   <ul className="wp-block-gallery columns-2">
                     <li className="blocks-gallery-item">
                       <figure>
-                        <img src={image1} alt="image" />
+                        <img
+                          src={image1}
+                          alt="image"
+                          style={{ height: "280px", width: "400px" }}
+                        />
                       </figure>
                     </li>
                     <li className="blocks-gallery-item">
                       <figure>
-                        <img src={image2} alt="image" />
+                        <img
+                          src={image2}
+                          alt="image"
+                          style={{ height: "280px", width: "400px" }}
+                        />
                       </figure>
                     </li>
                   </ul>
                   <h3>{articleTitle2}</h3>
                   <p>{articleContent2}</p>
+                  <p>{articleContent3.title}</p>
+                  <ul>
+                    {articleContent3.content.map((x: string) => {
+                      return (
+                        <li className="mt-1" key={x}>
+                          . {x}
+                        </li>
+                      );
+                    })}
+                  </ul>
+                  <p className="mt-3">{articleContent3.body}</p>
                 </div>
                 <div className="article-footer">
                   <div className="article-tags">
                     {" "}
                     <span>Tag:</span>
-                    <a href="#">Solutions</a>
-                    <a href="#">Service</a>
+                    <a>Solusi</a>
+                    <a>Layanan</a>
                   </div>
                   <div className="article-share">
                     <ul className="social">
@@ -95,19 +120,19 @@ export default function BlogDetails({
                         <span>Share:</span>
                       </li>
                       <li>
-                        <a href="#">
+                        <a>
                           {" "}
                           <i className="fab fa-facebook-f"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a>
                           {" "}
                           <i className="fa-brands fa-x-twitter"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a>
                           {" "}
                           <i className="fab fa-instagram"></i>
                         </a>
@@ -123,7 +148,7 @@ export default function BlogDetails({
             </div>
             <div className="col-lg-4 col-md-12">
               <aside className="widget-area" id="secondary">
-                <section className="widget widget_search">
+                {/* <section className="widget widget_search">
                   <form className="search-form search-top">
                     <label>
                       <input
@@ -137,7 +162,7 @@ export default function BlogDetails({
                       <i className="fas fa-search"></i>
                     </button>
                   </form>
-                </section>
+                </section> */}
                 <section className="widget widget_techvio_posts_thumb">
                   <h3 className="widget-title">{serviceTitle}</h3>
                   {article.map((x: articleSubDetail) => {

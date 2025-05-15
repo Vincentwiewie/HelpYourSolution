@@ -4,19 +4,31 @@ import BlogDetails from "@/components/blogDetails";
 export default function consultant() {
   const dataBlogDetails: articleDetail = {
     classbg: "consultant",
-    title: "Other Service",
-    subTitle: "Consultant Service",
+    title: "Layanan Lainnya",
+    subTitle: "Layanan Konsultasi",
     name: "Richard",
     date: "19 Jan 2025",
-    articleTitle: "What is a Law Problem Consultant Service?",
+    articleTitle: "Apa itu Layanan Konsultan Masalah Hukum?",
     articleContent:
-      "A law problem consultant service is a specialized professional service that provides advice and support for individuals or organizations facing legal issues. Unlike traditional law firms, a law consultant does not necessarily represent clients in court, but they offer valuable insights on how to approach and resolve legal matters. These services are often more accessible and affordable than hiring a full-time lawyer, making them an excellent option for those seeking immediate help or preventive legal guidance.",
+      "Layanan konsultan masalah hukum adalah layanan profesional khusus yang memberikan saran dan dukungan bagi individu atau organisasi yang menghadapi masalah hukum. Tidak seperti firma hukum tradisional, konsultan hukum tidak selalu mewakili klien di pengadilan, tetapi mereka menawarkan wawasan berharga tentang cara menangani dan menyelesaikan masalah hukum. Layanan ini sering kali lebih mudah diakses dan terjangkau daripada menyewa pengacara penuh waktu, menjadikannya pilihan yang sangat baik bagi mereka yang mencari bantuan langsung atau bimbingan hukum preventif.",
     image1: "../assets/img/consultant4.jpg",
     image2: "../assets/img/consultant2.jpg",
     image3: "../assets/img/consultant3.jpg",
-    articleTitle2: "Why Do You Need a Law Problem Consultant?",
+    articleTitle2:
+      "Mengapa Anda Membutuhkan Konsultan Masalah Hukum Dari Team HYS?",
     articleContent2:
-      "Expert Advice on Legal Matters: A law consultant is typically a seasoned professional with expertise in specific areas of law, such as business law, family law, intellectual property, or personal injury. They provide insights and recommendations tailored to your specific legal situation, helping you understand the potential consequences and best courses of action.",
+      "HYS adalah konsultan hukum yang berfokus pada penyelesaian dan pengelolaan hubungan industrial antara perusahaan dan tenaga kerja. Kami hadir sebagai mitra strategis bagi perusahaan dalam membangun sistem ketenagakerjaan yang sehat, adil, dan sesuai dengan ketentuan hukum yang berlaku. Dengan tim profesional yang berpengalaman di bidang hukum ketenagakerjaan dan hubungan industrial, kami membantu perusahaan dalam mencegah dan menyelesaikan perselisihan, menyusun perjanjian kerja, serta memastikan kepatuhan terhadap regulasi ketenagakerjaan nasional.",
+    articleContent3: {
+      title: "Layanan Kami Meliputi:",
+      content: [
+        "Penyusunan dan review Perjanjian Kerja (PKWT/PKWTT)",
+        "Penyusunan Peraturan Perusahaan (PP) dan Perjanjian Kerja Bersama (PKB)",
+        "Pendampingan dalam perselisihan hubungan industrial",
+        "Konsultasi hukum terkait PHK, outsourcing, dan kontrak kerja",
+        "Representasi di mediasi, konsiliasi, dan pengadilan hubungan industrial",
+      ],
+      body: "Karena itu, kami mengedepankan pendekatan yang solutif, preventif, dan sesuai dengan praktik hukum terbaik. HYS solusi hukum yang tepat untuk hubungan industrial yang harmonis dan profesional.",
+    },
     comments: {
       title: "3 testimonial",
       comments: [
@@ -24,77 +36,95 @@ export default function consultant() {
           title: "Wilson Swanson",
           date: "June 15 - 2024 12:30 PM",
           comments:
-            "I reached out to this consultant service when I was facing a challenging business decision. The guidance I received was not only insightful but also practical. They took the time to truly understand my situation and provided tailored solutions. I highly recommend them to anyone in need of expert advice!",
+            "Saya menghubungi layanan konsultan ini saat saya menghadapi keputusan bisnis yang sulit. Bimbingan yang saya terima tidak hanya berwawasan luas tetapi juga praktis. Mereka meluangkan waktu untuk benar-benar memahami situasi saya dan memberikan solusi yang disesuaikan. Saya sangat merekomendasikan mereka kepada siapa pun yang membutuhkan saran ahli!",
           image: "../assets/img/client/1.jpg",
         },
         {
           title: "Ella Hodges",
           date: "June 15 - 2024 12:30 PM",
           comments:
-            "I’ve worked with several consultants in the past, but none have been as thorough and professional as this team. They helped me navigate through complex issues with ease and delivered clear, actionable recommendations. I couldn’t have asked for a better experience!",
+            "Saya pernah bekerja dengan beberapa konsultan sebelumnya, tetapi tidak ada yang seteliti dan seprofesional tim ini. Mereka membantu saya mengatasi masalah yang rumit dengan mudah dan memberikan rekomendasi yang jelas dan dapat ditindaklanjuti. Saya tidak bisa mengharapkan pengalaman yang lebih baik!",
           image: "../assets/img/client/2.jpg",
         },
         {
           title: "Melissa Bryant",
           date: "June 15 - 2024 12:30 PM",
           comments:
-            "This consultant service was a game-changer for my small business. They provided expert advice that helped streamline our operations and saved us time and money. Their team was responsive, knowledgeable, and extremely helpful every step of the way. I’m extremely satisfied with the results!",
+            "Layanan konsultasi ini mengubah permainan bisnis kecil saya. Mereka memberikan saran ahli yang membantu menyederhanakan operasi kami dan menghemat waktu dan uang. Tim mereka responsif, berpengetahuan luas, dan sangat membantu di setiap langkah. Saya sangat puas dengan hasilnya!",
           image: "../assets/img/client/4.jpg",
         },
       ],
     },
-    serviceTitle: "Many Service",
+    serviceTitle: "Layanan Lainnya",
     article: [
       {
-        title: "Bus Service",
+        title: "Layanan Bus",
         date: "17 Jan 2025",
         link: "/OtherService/bus",
         image: "../assets/img/buss2.jpg",
       },
       {
-        title: "Contractor Service",
+        title: "Layanan Kontraktor",
         date: "20 Jan 2025",
         link: "/OtherService/contractor",
         image: "../assets/img/contractor2.jpg",
       },
       {
-        title: "Helper Service",
+        title: "Layanan Pembantu",
         date: "22 Jan 2025",
         link: "/OtherService/helper",
         image: "../assets/img/helper2.jpg",
       },
+      {
+        title: "Layanan Outsourcing",
+        date: "28 Jan 2025",
+        link: "/OtherService/outsourcing",
+        image: "../assets/img/outsourcing1.jpeg",
+      },
+      {
+        title: "Layanan Arsitek",
+        date: "30 Jan 2025",
+        link: "/OtherService/arsitek",
+        image: "../assets/img/arsitek1.jpeg",
+      },
+      {
+        title: "Layanan Surat",
+        date: "15 Jan 2025",
+        link: "/OtherService/surat",
+        image: "../assets/img/trust4.jpg",
+      },
     ],
     rating: [
       {
-        title: "Service",
+        title: "Layanan",
         number: "90",
       },
       {
-        title: "Result",
+        title: "Hasil",
         number: "90",
       },
       {
-        title: "Respond",
+        title: "Respon",
         number: "90",
       },
       {
-        title: "Technology",
+        title: "Teknologi",
         number: "100",
       },
       {
-        title: "Business",
+        title: "Bisnis",
         number: "100",
       },
     ],
     tags: [
-      "Road Solution",
-      "Home Solution",
-      "Vendoring",
-      "Solutions",
-      "Industry",
-      "Marketing",
-      "Business Development",
-      "Startup",
+      "Solusi Jalan Raya",
+      "Solusi Rumah",
+      "Vendorisasi",
+      "Solusi",
+      "Industri",
+      "Pemasaran",
+      "Pengembangan Bisnis",
+      "Perusahaan Rintisan",
     ],
   };
 
@@ -113,6 +143,7 @@ export default function consultant() {
         image3={dataBlogDetails.image3}
         articleTitle2={dataBlogDetails.articleTitle2}
         articleContent2={dataBlogDetails.articleContent2}
+        articleContent3={dataBlogDetails.articleContent3}
         comments={dataBlogDetails.comments}
         serviceTitle={dataBlogDetails.serviceTitle}
         article={dataBlogDetails.article}

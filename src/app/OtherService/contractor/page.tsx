@@ -4,19 +4,24 @@ import BlogDetails from "@/components/blogDetails";
 export default function contractor() {
   const dataBlogDetails: articleDetail = {
     classbg: "contractor",
-    title: "Other Service",
-    subTitle: "Contractor Service",
+    title: "Layanan Lainnya",
+    subTitle: "Layanan Kontraktor",
     name: "Alex",
     date: "20 Jan 2025",
-    articleTitle: "What Are Contractor Services?",
+    articleTitle: "Apa itu Layanan Kontraktor?",
     articleContent:
-      "Contractor services encompass a wide range of specialized tasks related to construction, renovation, and home improvement. Contractors typically oversee projects from start to finish, coordinating with subcontractors, managing budgets, securing permits, and ensuring work complies with local building codes and regulations. Some contractors specialize in certain trades, such as plumbing, electrical work, or roofing, while others offer comprehensive services that cover everything from design to the final touches.",
+      "Layanan kontraktor mencakup berbagai tugas khusus yang terkait dengan konstruksi, renovasi, dan perbaikan rumah. Kontraktor biasanya mengawasi proyek dari awal hingga akhir, berkoordinasi dengan subkontraktor, mengelola anggaran, mendapatkan izin, dan memastikan pekerjaan mematuhi kode dan peraturan bangunan setempat. Beberapa kontraktor mengkhususkan diri dalam bidang tertentu, seperti perpipaan, pekerjaan listrik, atau atap, sementara yang lain menawarkan layanan komprehensif yang mencakup semuanya mulai dari desain hingga sentuhan akhir.",
     image1: "../assets/img/contractor4.jpg",
-    image2: "../assets/img/contractor2.jpg",
+    image2: "../assets/img/contractor1.jpeg",
     image3: "../assets/img/contractor3.jpg",
-    articleTitle2: "Why You Need a Professional Contractor Service?",
+    articleTitle2: "Mengapa Anda Membutuhkan Layanan Kontraktor Profesional?",
     articleContent2:
-      "Expertise and Experience: Contractors bring invaluable knowledge to any project. With years of experience in the field, they understand the nuances of construction, problem-solving, and project management. From ensuring structural integrity to selecting the right materials, a professional contractor has the skills to deliver quality results.",
+      "Keahlian dan Pengalaman: Kontraktor membawa pengetahuan yang tak ternilai bagi setiap proyek. Dengan pengalaman bertahun-tahun di bidang ini, mereka memahami seluk-beluk konstruksi, pemecahan masalah, dan manajemen proyek. Dari memastikan integritas struktural hingga memilih material yang tepat, kontraktor profesional memiliki keterampilan untuk memberikan hasil yang berkualitas.",
+    articleContent3: {
+      title: "",
+      content: [],
+      body: "",
+    },
     comments: {
       title: "3 testimonial",
       comments: [
@@ -24,21 +29,21 @@ export default function contractor() {
           title: "Wilson Swanson",
           date: "June 15 - 2024 12:30 PM",
           comments:
-            "I hired this contractor for a major home renovation, and I couldn't be happier with the results. They were professional, efficient, and their attention to detail was exceptional. The project was completed on time, and the quality of work exceeded my expectations. I highly recommend them!",
+            "Saya menyewa kontraktor ini untuk merenovasi rumah besar-besaran, dan saya sangat puas dengan hasilnya. Mereka profesional, efisien, dan perhatian mereka terhadap detail sangat luar biasa. Proyek selesai tepat waktu, dan kualitas pekerjaan melebihi ekspektasi saya. Saya sangat merekomendasikan mereka!",
           image: "../assets/img/client/1.jpg",
         },
         {
           title: "Ella Hodges",
           date: "June 15 - 2024 12:30 PM",
           comments:
-            "The team did an amazing job on my kitchen remodel! They took the time to understand my vision and executed it perfectly. The process was smooth from start to finish, and they were always available to answer my questions. I'm thrilled with the final outcome and would definitely hire them again!",
+            "Tim tersebut melakukan pekerjaan yang luar biasa pada rekonstruksi dapur saya! Mereka meluangkan waktu untuk memahami visi saya dan melaksanakannya dengan sempurna. Prosesnya lancar dari awal hingga akhir, dan mereka selalu siap menjawab pertanyaan saya. Saya sangat senang dengan hasil akhirnya dan pasti akan menggunakan jasa mereka lagi!",
           image: "../assets/img/client/2.jpg",
         },
         {
           title: "Melissa Bryant",
           date: "June 15 - 2024 12:30 PM",
           comments:
-            "We hired this contractor for a home addition, and the experience was fantastic. From initial consultation to project completion, they were reliable, communicative, and professional. They ensured everything was done to code, and the results were exactly what we wanted. Highly recommend their services!",
+            "Kami menyewa kontraktor ini untuk pembangunan rumah baru, dan pengalamannya luar biasa. Dari konsultasi awal hingga penyelesaian proyek, mereka dapat diandalkan, komunikatif, dan profesional. Mereka memastikan semuanya dilakukan sesuai kode, dan hasilnya tetap seperti yang kami inginkan. Sangat merekomendasikan layanan mereka!",
           image: "../assets/img/client/4.jpg",
         },
       ],
@@ -46,55 +51,73 @@ export default function contractor() {
     serviceTitle: "Many Service",
     article: [
       {
-        title: "Bus Service",
+        title: "Layanan Bus",
         date: "17 Jan 2025",
         link: "/OtherService/bus",
         image: "../assets/img/buss2.jpg",
       },
       {
-        title: "Consultant Service",
+        title: "Layanan Konsultan",
         date: "19 Jan 2025",
         link: "/OtherService/consultant",
         image: "../assets/img/consultant2.jpg",
       },
       {
-        title: "Helper Service",
+        title: "Layanan Pembantu",
         date: "22 Jan 2025",
         link: "/OtherService/helper",
         image: "../assets/img/helper2.jpg",
       },
+      {
+        title: "Layanan Outsourcing",
+        date: "28 Jan 2025",
+        link: "/OtherService/outsourcing",
+        image: "../assets/img/outsourcing1.jpeg",
+      },
+      {
+        title: "Layanan Arsitek",
+        date: "30 Jan 2025",
+        link: "/OtherService/arsitek",
+        image: "../assets/img/arsitek1.jpeg",
+      },
+      {
+        title: "Layanan Surat",
+        date: "15 Jan 2025",
+        link: "/OtherService/surat",
+        image: "../assets/img/trust4.jpg",
+      },
     ],
     rating: [
       {
-        title: "Service",
+        title: "Layanan",
         number: "90",
       },
       {
-        title: "Result",
+        title: "Hasil",
         number: "90",
       },
       {
-        title: "Respond",
+        title: "Respon",
         number: "90",
       },
       {
-        title: "Technology",
+        title: "Teknologi",
         number: "100",
       },
       {
-        title: "Business",
+        title: "Bisnis",
         number: "100",
       },
     ],
     tags: [
-      "Road Solution",
-      "Home Solution",
-      "Vendoring",
-      "Solutions",
-      "Industry",
-      "Marketing",
-      "Business Development",
-      "Startup",
+      "Solusi Jalan Raya",
+      "Solusi Rumah",
+      "Vendorisasi",
+      "Solusi",
+      "Industri",
+      "Pemasaran",
+      "Pengembangan Bisnis",
+      "Perusahaan Rintisan",
     ],
   };
 
@@ -113,6 +136,7 @@ export default function contractor() {
         image3={dataBlogDetails.image3}
         articleTitle2={dataBlogDetails.articleTitle2}
         articleContent2={dataBlogDetails.articleContent2}
+        articleContent3={dataBlogDetails.articleContent3}
         comments={dataBlogDetails.comments}
         serviceTitle={dataBlogDetails.serviceTitle}
         article={dataBlogDetails.article}

@@ -16,11 +16,11 @@ export default function overview({
                 <h2>{titleHeader}</h2>
                 <p>{content}</p>
                 <div className="hire-btn">
-                  <a className="default-btn" href="tel:12345678">
-                    Call Now<span></span>
+                  <a className="default-btn">
+                    Telepon Sekarang<span></span>
                   </a>
-                  <a className="default-btn-one" href="contact.html">
-                    Contact Us<span></span>
+                  <a className="default-btn-one">
+                    Hubungi Kami<span></span>
                   </a>
                 </div>
               </div>

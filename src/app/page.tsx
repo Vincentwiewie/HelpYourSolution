@@ -9,45 +9,41 @@ export default function MainPage() {
         <div className="swiper-container parallax-slider">
           <div className="swiper-wrapper">
             <div className="swiper-slide">
-              <div
-                className="bg-img valign"
-                data-background="./assets/img/slider-1.jpg"
-                data-overlay-dark="5"
-              >
+              <div className="bg-img valign slidetop">
                 <div className="container">
                   <div className="row">
                     <div className="col-lg-8 offset-lg-2 col-md-12">
                       <div className="caption">
                         <ul className="social-icon-list">
                           <li>
-                            <a href="#">
+                            <a href="https://www.facebook.com/share/16GAX2eF6W/">
+                              {" "}
                               <i className="fab fa-facebook-f"></i>
                             </a>
                           </li>
                           <li>
                             <a href="#">
-                              <i className="fa-brands fa-x-twitter"></i>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#">
-                              <i className="fab fa-instagram"></i>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#">
+                              {" "}
                               <i className="fab fa-youtube"></i>
                             </a>
                           </li>
+                          <li>
+                            <a href="https://www.instagram.com/helpyoursolution?igsh=MThlcDVtYmU0Mnk0cw==">
+                              {" "}
+                              <i className="fab fa-instagram"></i>
+                            </a>
+                          </li>
                         </ul>
-                        <h1>We Provide Many Kind of Home Service Solutions</h1>
+                        <h1>
+                          Kami Menyediakan Berbagai Macam Solusi Layanan Rumah
+                        </h1>
                         <p>
-                          We specialize in everything from routine maintenance
-                          and emergency repairs to home improvements,
-                          landscaping, and appliance installations. Our mission
-                          is to provide reliable, high-quality services that
-                          ensure your home stays safe, functional, and
-                          comfortable.
+                          Kami ahli dalam segala hal mulai dari perawatan rutin
+                          dan perbaikan darurat hingga perbaikan rumah, penataan
+                          taman, dan pemasangan peralatan. Misi kami adalah
+                          menyediakan layanan yang andal dan berkualitas tinggi
+                          yang memastikan rumah Anda tetap aman, berfungsi, dan
+                          nyaman.
                         </p>
                         <div className="banner-btn home-slider-btn">
                           <a
@@ -56,7 +52,7 @@ export default function MainPage() {
                             }
                             className="default-btn-one"
                           >
-                            Go to Home Services<span></span>
+                            Ke Halaman Layanan Rumah<span></span>
                           </a>
                         </div>
                       </div>
@@ -66,51 +62,45 @@ export default function MainPage() {
               </div>
             </div>
             <div className="swiper-slide">
-              <div
-                className="bg-img valign"
-                data-background="./assets/img/slider-2.jpg"
-                data-overlay-dark="5"
-              >
+              <div className="bg-img valign slideback">
                 <div className="container">
                   <div className="row">
                     <div className="col-lg-8 offset-lg-2 col-md-12">
                       <div className="caption">
                         <ul className="social-icon-list">
                           <li>
-                            <a href="#">
+                            <a href="https://www.facebook.com/share/16GAX2eF6W/">
+                              {" "}
                               <i className="fab fa-facebook-f"></i>
                             </a>
                           </li>
                           <li>
                             <a href="#">
-                              <i className="fa-brands fa-x-twitter"></i>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#">
-                              <i className="fab fa-instagram"></i>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#">
+                              {" "}
                               <i className="fab fa-youtube"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="https://www.instagram.com/helpyoursolution?igsh=MThlcDVtYmU0Mnk0cw==">
+                              {" "}
+                              <i className="fab fa-instagram"></i>
                             </a>
                           </li>
                         </ul>
                         <h1>
-                          We Also Provide Many Services Like Bus Services,
-                          Medicine and Insurance
+                          Kami juga menyediakan berbagai layanan seperti layanan
+                          bus, obat-obatan, dan asuransi.
                         </h1>
                         <p>
-                          HomeCarePro not only specializes in comprehensive home
-                          service solutions but also extends its offerings to a
-                          wide range of essential services, ensuring that your
-                          needs are fully met. In addition to home repairs,
-                          maintenance, and improvements, we also provide
-                          convenient bus services for easy transportation,
-                          medicine delivery to ensure your health needs are
-                          taken care of, and reliable insurance options for
-                          peace of mind
+                          HomeCarePro tidak hanya mengkhususkan diri dalam
+                          solusi layanan rumah yang komprehensif, tetapi juga
+                          memperluas penawarannya ke berbagai layanan penting,
+                          memastikan bahwa kebutuhan Anda terpenuhi sepenuhnya.
+                          Selain perbaikan, pemeliharaan, dan peningkatan rumah,
+                          kami juga menyediakan layanan bus yang nyaman untuk
+                          transportasi yang mudah, pengiriman obat-obatan untuk
+                          memastikan kebutuhan kesehatan Anda terpenuhi, dan
+                          opsi asuransi yang andal untuk ketenangan pikiran.
                         </p>
                         <div className="banner-btn home-slider-btn">
                           <a
@@ -119,7 +109,7 @@ export default function MainPage() {
                             }
                             className="default-btn-one"
                           >
-                            Go to Other Services <span></span>
+                            Ke Halaman Layanan Lainnya <span></span>
                           </a>
                         </div>
                       </div>

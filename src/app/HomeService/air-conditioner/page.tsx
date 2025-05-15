@@ -1,18 +1,23 @@
 import Price from "@/components/price";
-import { priceProps, overviewModel } from "@/app/interface/Model";
+import {
+  priceProps,
+  overviewModel,
+  testimonialModel,
+} from "@/app/interface/Model";
 import OverviewLeft from "@/components/overviewLeft";
+import Testimonial from "@/components/testimonial";
 
 export default function page() {
   const data: priceProps[] = [
     {
       price: "5",
       image: `../assets/img/AcEngine.jpg`,
-      textButton: "Order Now",
+      textButton: "Order Sekarang",
       label: "Clean AC",
       list: [
-        { text: "Fast & Reliable AC Services", none: true },
-        { text: "Cleaning And Servicing", none: true },
-        { text: "Make Cool As Good Vibes", none: true },
+        { text: "Layanan AC Cepat & Andal", none: true },
+        { text: "Pembersihan dan Servis", none: true },
+        { text: "Dingin Seperti Baru", none: true },
         { text: "--", none: false },
         { text: "--", none: false },
         { text: "--", none: false },
@@ -24,12 +29,30 @@ export default function page() {
       textButton: "Order Now",
       label: "Inject Freon",
       list: [
-        { text: "Fast & Reliable AC Services", none: true },
-        { text: "Cleaning And Servicing", none: true },
-        { text: "Make Cool As Good Vibes", none: true },
-        { text: "Warranted Up To 1 Years", none: true },
-        { text: "Ensure It Operates At Peak Performance", none: true },
+        { text: "Layanan AC Cepat & Andal", none: true },
+        { text: "Pembersihan dan Servis", none: true },
+        { text: "Dingin Seperti Baru", none: true },
+        { text: "Garansi 1 Tahun", none: true },
+        { text: "Beroperasi Pada Kinerja Puncak", none: true },
         { text: "--", none: false },
+      ],
+    },
+
+    {
+      price: "25 - 100",
+      image: "../assets/img/ac3.jpeg",
+      textButton: "Order Now",
+      label: "Instalasi AC",
+      list: [
+        { text: "Layanan AC Cepat & Andal", none: true },
+        { text: "Pemasangan Presisi", none: true },
+        { text: "Kualitas Terjamin", none: true },
+        { text: "Garansi 1 Tahun", none: true },
+        { text: "Beroperasi Pada Kinerja Puncak", none: true },
+        {
+          text: "Harga Terjangkau",
+          none: true,
+        },
       ],
     },
     {
@@ -38,13 +61,13 @@ export default function page() {
       textButton: "Order Now",
       label: "Repair",
       list: [
-        { text: "Fast & Reliable AC Services", none: true },
-        { text: "Cleaning And Servicing", none: true },
-        { text: "Make Cool As Good Vibes", none: true },
-        { text: "Warranted Up To 1 Years", none: true },
-        { text: "Ensure It Operates At Peak Performance", none: true },
+        { text: "Layanan AC Cepat & Andal", none: true },
+        { text: "Pembersihan dan Servis", none: true },
+        { text: "Dingin Seperti Baru", none: true },
+        { text: "Garansi 1 Tahun", none: true },
+        { text: "Beroperasi Pada Kinerja Puncak", none: true },
         {
-          text: "Repair of malfunctioning air conditioning systems",
+          text: "Perbaikan sistem Ac yang tidak berfungsi",
           none: true,
         },
       ],
@@ -52,19 +75,43 @@ export default function page() {
   ];
 
   const dataOverview: overviewModel = {
-    title: "Why Choose Us?",
-    titleHeader: "100% warranty granted and fast respon",
-    image: "../assets/img/trust4.jpg",
+    title: "Kenapa Memilih Kami?",
+    titleHeader: "100% garansi diberikan dan respon cepat",
+    image: "../assets/img/acliving.jpg",
     content: "",
     list: [
-      "Expert Cleaner",
-      "Deep Cleaning",
-      "Affordable prices",
-      "Timely services",
-      "Cold as new",
-      "Repair & Restoration",
+      "Pembersih Ahli",
+      "Pembersihan Mendalam",
+      "Harga Terjangkau",
+      "Layanan Tepat Waktu",
+      "Segar Seperti Baru",
+      "Perbaikan & Pemulihan",
     ],
   };
+
+  const dataTestimonial: testimonialModel[] = [
+    {
+      name: "Andi",
+      image: "../assets/img/client/testimonial-1.jpg",
+      country: "United Kingdom",
+      content:
+        "Saya sangat puas dengan AC baru saya! Sejak dipasang, perbedaannya langsung terasa—udara sejuk dan segar dalam hitungan menit. Senyap, hemat energi, dan sangat hebat dalam menjaga suhu yang konsisten di seluruh rumah saya. Saya sangat menyukai fitur pintar yang memungkinkan saya mengendalikannya dari ponsel. Setelah melewati beberapa musim panas yang brutal, AC ini benar-benar mengubah segalanya. Sangat direkomendasikan bagi siapa pun yang mencari pendingin yang andal dan bertenaga dengan kenyamanan modern!",
+    },
+    {
+      name: "Putri",
+      image: "../assets/img/client/testimonial-2.jpg",
+      country: "United State",
+      content:
+        "Baru-baru ini saya membersihkan AC saya di HYS, dan perbedaannya luar biasa. Timnya tepat waktu, profesional, dan menjelaskan semuanya dengan jelas. Aliran udaranya tidak hanya jauh lebih kuat sekarang, tetapi unitnya juga bekerja lebih senyap dan efisien. Saya terkejut melihat banyaknya debu dan kotoran yang mereka singkirkan. Rasanya seperti saya memiliki sistem yang benar-benar baru lagi. Saya pasti akan memesan layanan pembersihan rutin mulai sekarang!",
+    },
+    {
+      name: "Adam",
+      image: "../assets/img/client/testimonial-3.jpg",
+      country: "Germany",
+      content:
+        "Saya mengalami masalah dengan AC saya yang tidak mendinginkan dengan baik, dan HYS datang untuk menyelamatkan. Teknisi mereka datang tepat waktu, dengan cepat mendiagnosis masalah, dan memperbaikinya dalam waktu satu jam. Layanannya profesional, jujur, dan harganya terjangkau. Sejak saat itu, AC saya berjalan dengan sempurna. Saya sangat menghargai transparansi dan efisiensi mereka—sangat merekomendasikan mereka untuk perbaikan AC apa pun!",
+    },
+  ];
 
   return (
     <>
@@ -77,42 +124,44 @@ export default function page() {
                   <div className="main-banner-content">
                     <ul className="social-icon-list">
                       <li>
-                        <a href="#">
+                        <a href="https://www.facebook.com/share/16GAX2eF6W/">
+                          {" "}
                           <i className="fab fa-facebook-f"></i>
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i className="fa-brands fa-x-twitter"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-instagram"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
+                          {" "}
                           <i className="fab fa-youtube"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.instagram.com/helpyoursolution?igsh=MThlcDVtYmU0Mnk0cw==">
+                          {" "}
+                          <i className="fab fa-instagram"></i>
                         </a>
                       </li>
                     </ul>
                     <h2 className="text-white mb-1">
-                      Stay Cool All Year Round with MarketJasa Air Conditioning
-                      Services!
+                      Tetap Sejuk Sepanjang Tahun dengan Layanan Pendingin Udara
+                      Dari HelpYourServices!
                     </h2>
                     <p>
-                      Is your AC struggling to keep up with the summer heat? Or
-                      maybe it’s time for a seasonal tune-up? At MarketJasa, we
-                      specialize in all things air conditioning—from
-                      installation to repairs and routine maintenance.
+                      Apakah AC Anda kesulitan untuk mengimbangi panasnya musim
+                      panas? Atau mungkin sudah waktunya untuk melakukan
+                      perbaikan musiman? Di HelpYoursolution kami mengkhususkan
+                      diri dalam segala hal yang berhubungan dengan AC mulai
+                      dari pemasangan hingga perbaikan dan perawatan rutin.
                     </p>
                     <div className="banner-btn">
-                      <a className="default-btn-one" href="services.html">
-                        Book Now <span></span>
+                      <a className="default-btn-one" href="tel:081284691689">
+                        Pesen Sekarang <span></span>
                       </a>
-                      <a className="default-btn-two" href="contact.html">
-                        Email US For Suggestion<span></span>
+                      <a
+                        className="default-btn-two"
+                        href="https://mail.google.com/mail/u/hysbusinessservice@gmail.com"
+                      >
+                        Email Kami Untuk Saran<span></span>
                       </a>
                     </div>
                   </div>
@@ -144,6 +193,7 @@ export default function page() {
         list={dataOverview.list}
         image={dataOverview.image}
       ></OverviewLeft>
+      <Testimonial value={dataTestimonial}></Testimonial>
     </>
   );
 }

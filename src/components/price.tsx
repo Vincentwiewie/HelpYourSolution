@@ -8,21 +8,23 @@ export default function Price({ value }: { value: priceProps[] }) {
           <div className="row">
             {value.map((m: priceProps) => {
               return (
-                <div className="col-lg-4 col-md-6" key={m.image}>
+                <div className="col-lg-3 col-md-6" key={m.image}>
+                  <img
+                    src={m.image}
+                    style={{
+                      height: 150,
+                      width: "20%",
+                      position: "absolute",
+                    }}
+                  />
                   <div className="single-pricing-content">
-                    <div
-                      style={{
-                        backgroundImage: `url(${m.image})`,
-                        backgroundRepeat: "no-repeat",
-                        backgroundSize: "100% 100%",
-                        width: "100%",
-                        height: "100%",
-                      }}
-                    ></div>
                     <div className="price-tag">
                       <h3>{m.label}</h3>
                     </div>
-                    <div className="price-heading">
+                    <div
+                      className="price-heading"
+                      style={{ marginTop: "20vh" }}
+                    >
                       <div className="price-usd">
                         <h4>
                           ${m.price}{" "}
@@ -47,7 +49,7 @@ export default function Price({ value }: { value: priceProps[] }) {
                     </div>
                     <div className="price-btn">
                       {" "}
-                      <a href="#" className="price-btn-one">
+                      <a className="price-btn-one" href="tel:081284691689">
                         {m.textButton}
                       </a>
                     </div>

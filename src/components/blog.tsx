@@ -20,19 +20,19 @@ export default function Blog({ title, subTitle, list }: blogModel) {
                 <div className="col-lg-4 col-md-6" key={x.name}>
                   <div className="blog-single-item">
                     <div className="blog-image">
-                      <a href="single-blog.html">
+                      <a>
                         <img src={x.image} alt="image" />
                       </a>
                     </div>
                     <div className="blog-description">
                       <ul className="blog-info">
                         <li>
-                          <a href="#">
+                          <a>
                             <i className="bi bi-person-circle"></i> {x.name}
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a>
                             <i className="bi bi-calendar-check"></i> {x.date}
                           </a>
                         </li>

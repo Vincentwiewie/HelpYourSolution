@@ -13,13 +13,13 @@ export default function imageGrid({ value }: { value: imageGridModel[] }) {
                     <div className="team-image">
                       <img src={m.image} alt="team" />
                       <div className="team-social-icon">
-                        <a href="#">
+                        <a>
                           <i className="fab fa-facebook-f"></i>
                         </a>
-                        <a href="#">
+                        <a>
                           <i className="fa-brands fa-x-twitter"></i>
                         </a>
-                        <a href="#">
+                        <a>
                           <i className="fab fa-linkedin"></i>
                         </a>
                       </div>

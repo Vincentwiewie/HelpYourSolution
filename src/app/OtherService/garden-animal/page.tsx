@@ -1,46 +1,47 @@
-import { portofolioModel } from "@/app/interface/Model";
+import { portofolioModel, testimonialModel } from "@/app/interface/Model";
 import Counter from "@/components/counter";
 import Portofolio from "@/components/portofolio";
+import Testimonial from "@/components/testimonial";
 
 export default function gardenAnimal() {
   const data: portofolioModel = {
-    title: "Animal Galerry",
+    title: "Galeri Hewan",
     subTitle: "",
     category: [],
     data: [
       {
-        label: "Contact Crafter",
-        subLabel: "Classic Style",
+        label: "Hubungi Sekarang",
+        subLabel: "HYS Animal Care",
         image: "../assets/img/animal1.jpg",
         type: "classic",
       },
       {
-        label: "Contact Crafter",
-        subLabel: "Classic Style",
+        label: "Hubungi Sekarang",
+        subLabel: "HYS Animal Care",
         image: "../assets/img/animal2.jpg",
         type: "classic",
       },
       {
-        label: "Contact Crafter",
-        subLabel: "Classic Style",
+        label: "Hubungi Sekarang",
+        subLabel: "HYS Animal Care",
         image: "../assets/img/animal3.jpg",
         type: "classic",
       },
       {
-        label: "Contact Crafter",
-        subLabel: "Cozy Style",
+        label: "Hubungi Sekarang",
+        subLabel: "HYS Animal Care",
         image: "../assets/img/animal4.jpg",
         type: "cozy",
       },
       {
-        label: "Contact Crafter",
-        subLabel: "Cozy Style",
+        label: "Hubungi Sekarang",
+        subLabel: "HYS Animal Care",
         image: "../assets/img/animal5.jpg",
         type: "cozy",
       },
       {
-        label: "Contact Crafter",
-        subLabel: "Cozy Style",
+        label: "Hubungi Sekarang",
+        subLabel: "HYS Animal Care",
         image: "../assets/img/animal6.jpg",
         type: "cozy",
       },
@@ -52,25 +53,49 @@ export default function gardenAnimal() {
       {
         title: "100",
         icon: "+",
-        subtitle: "Sastified Service",
+        subtitle: "Pelayanan Memuaskan",
       },
       {
         title: "100",
         icon: "%",
-        subtitle: "Happy Customer",
+        subtitle: "Pelanggan Puas",
       },
       {
         title: "100",
         icon: "%",
-        subtitle: "Positive Review",
+        subtitle: "Ulasan Positif",
       },
       {
         title: "10",
         icon: "+",
-        subtitle: "Experience",
+        subtitle: "Pengalaman",
       },
     ],
   };
+
+  const dataTestimonial: testimonialModel[] = [
+    {
+      name: "Lina Marlina",
+      image: "../assets/img/client/testimonial-1.jpg",
+      country: "Bandung",
+      content:
+        "Dokter hewan di Klinik Satwa Sehat benar-benar luar biasa. Anjing saya sempat muntah-muntah selama dua hari dan saya panik. Tapi setelah diperiksa, dokter memberikan penjelasan yang tenang dan ramah. Obat yang diberikan langsung bekerja. Sekarang anjing saya sudah aktif kembali! Sangat profesional dan peduli terhadap hewan.",
+    },
+    {
+      name: "Linda",
+      image: "../assets/img/client/testimonial-2.jpg",
+      country: "Jakarta Selatan",
+      content:
+        "Saya rutin membawa kucing Persia saya untuk vaksin dan grooming di klinik ini. Dokternya sangat sabar dan telaten, bahkan saat kucing saya rewel. Kliniknya bersih, nyaman, dan pelayanannya cepat. Saya merasa sangat tenang mempercayakan kucing saya di sini",
+    },
+    {
+      name: "Dewi Andriani",
+      image: "../assets/img/client/testimonial-3.jpg",
+      country: "Sleman",
+      content:
+        "Sebagai peternak, saya sering butuh konsultasi cepat soal kesehatan kelinci. Dokter hewan di sini sangat responsif, bahkan bisa konsultasi online jika darurat. Mereka tidak hanya mengobati, tapi juga kasih edukasi soal pencegahan penyakit. Sangat membantu dalam menjaga kualitas ternak saya.",
+    },
+  ];
 
   return (
     <>
@@ -104,19 +129,21 @@ export default function gardenAnimal() {
                         </a>
                       </li>
                     </ul>
-                    <h1>Your Trusted Partner in Animal Care</h1>
+                    Mitra Tepercaya Anda dalam Perawatan Hewan
+                    <h1></h1>
                     <p>
-                      As pet owners, we all want the best for our furry,
-                      feathered, or scaly companions. Whether its ensuring their
-                      health, providing regular grooming, or simply offering
-                      companionship while you are away, the right animal care
-                      services can make all the difference. That is where Hys
-                      Animal Care comes in—your dedicated and professional
-                      animal care partner.
+                      Sebagai pemilik hewan peliharaan, kita semua menginginkan
+                      yang terbaik untuk teman berbulu, berbulu halus, atau
+                      bersisik kita. Baik itu memastikan kesehatan mereka,
+                      menyediakan perawatan rutin, atau sekadar menawarkan
+                      persahabatan saat Anda pergi, layanan perawatan hewan yang
+                      tepat dapat membuat semua perbedaan. Di sinilah Hys Animal
+                      Care hadir—mitra perawatan hewan yang berdedikasi dan
+                      profesional.
                     </p>
                     <div className="banner-btn">
                       <a className="default-btn-two" href="contact.html">
-                        Contact Us <span></span>
+                        Hubungi Kami <span></span>
                       </a>
                     </div>
                   </div>
@@ -144,17 +171,19 @@ export default function gardenAnimal() {
           <div className="row d-flex align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="about-content">
-                <h6 className="sub-title">About HYS Animal Care</h6>
-                <h2>professionalism and love for animals is our duty</h2>
+                <h6 className="sub-title">Tentang HYS Animal Care</h6>
+                <h2>
+                  profesionalisme dan cinta terhadap hewan adalah tugas kita
+                </h2>
                 <p>
-                  The positive energy and uplifting spirit that animals,
-                  especially pets, bring into our lives through their
-                  unconditional love and companionship.
+                  Energi positif dan semangat yang membangkitkan semangat yang
+                  dibawa hewan, khususnya hewan peliharaan, ke dalam kehidupan
+                  kita melalui cinta dan persahabatan mereka yang tanpa syarat.
                 </p>
                 <div className="skills">
                   <div className="skill-item">
                     <h6>
-                      Consulting Care<em>90%</em>
+                      Konsultasi Perawatan<em>90%</em>
                     </h6>
                     <div className="skill-progress">
                       <div className="progres" data-value="90%"></div>
@@ -162,7 +191,7 @@ export default function gardenAnimal() {
                   </div>
                   <div className="skill-item">
                     <h6>
-                      Animal Solutions <em>80%</em>
+                      Solusi Hewan <em>80%</em>
                     </h6>
                     <div className="skill-progress">
                       <div className="progres" data-value="75%"></div>
@@ -170,7 +199,7 @@ export default function gardenAnimal() {
                   </div>
                   <div className="skill-item">
                     <h6>
-                      Service <em>100%</em>
+                      Melayani <em>100%</em>
                     </h6>
                     <div className="skill-progress">
                       <div className="progres" data-value="85%"></div>
@@ -179,7 +208,7 @@ export default function gardenAnimal() {
                 </div>
                 <div className="about-btn-box">
                   <a className="default-btn" href="about.html">
-                    Contact US <span></span>
+                    Hubungi Kami <span></span>
                   </a>
                 </div>
               </div>
@@ -189,13 +218,15 @@ export default function gardenAnimal() {
                 <img src="../assets/img/garden2.jpg" alt="About image" />
                 <div className="years-design">
                   <h2>10</h2>
-                  <h5>Years Of Experience</h5>
+                  <h5>Tahun Pengalaman</h5>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+
+      <Testimonial value={dataTestimonial}></Testimonial>
     </>
   );
 }

@@ -8,8 +8,8 @@ export default function testimonial({ value }: { value: testimonialModel[] }) {
           <div className="row">
             <div className="col-md-12">
               <div className="section-title">
-                <h6 className="sub-title">Our Testimonial</h6>
-                <h2>Client Feedback</h2>
+                <h6 className="sub-title">Testimoni</h6>
+                <h2>Tanggapan Klien</h2>
               </div>
             </div>
 

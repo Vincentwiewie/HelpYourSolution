@@ -1,27 +1,32 @@
-import { overviewModel, portofolioModel } from "@/app/interface/Model";
+import {
+  overviewModel,
+  portofolioModel,
+  testimonialModel,
+} from "@/app/interface/Model";
 import Portofolio from "@/components/portofolio";
 import OverviewRight from "@/components/overviewRight";
+import Testimonial from "@/components/testimonial";
 
 export default function page() {
   const data: portofolioModel = {
-    title: "Welder Crafter",
+    title: "Pengrajin Las",
     subTitle: "Our Example",
     category: [],
     data: [
       {
-        label: "Welder Crafter",
+        label: "Pengrajin Las",
         subLabel: "Book Now",
         image: "../assets/img/welder1.jpg",
         type: "all",
       },
       {
-        label: "Welder Crafter",
+        label: "Pengrajin Las",
         subLabel: "Book Now",
         image: "../assets/img/welder2.jpg",
         type: "all",
       },
       {
-        label: "Welder Crafter",
+        label: "Pengrajin Las",
         subLabel: "Book Now",
         image: "../assets/img/welder3.jpg",
         type: "all",
@@ -30,20 +35,43 @@ export default function page() {
   };
 
   const dataOverview: overviewModel = {
-    title: "Why Choose Us?",
-    titleHeader: "100% warranty granted and fast respon",
+    title: "Kenapa Memilih Kami?",
+    titleHeader: "100% garansi diberikan dan respon cepat",
     image: "../assets/img/trust4.jpg",
     content: "",
     list: [
-      "Expert craftsmanship",
-      "Attention to detail",
-      "Affordable prices",
-      "Timely services",
-      "Custom Welder Design",
-      "Repair & Restoration",
+      "Keahlian ahli",
+      "Perhatian terhadap detail",
+      "Harga terjangkau",
+      "Layanan tepat waktu",
+      "Desain Mesin Las Kustom",
+      "Perbaikan & Restorasi",
     ],
   };
 
+  const dataTestimonial: testimonialModel[] = [
+    {
+      name: "Andi",
+      image: "../assets/img/client/testimonial-1.jpg",
+      country: "United Kingdom",
+      content:
+        "Saya menyewa HYS untuk proyek gerbang logam khusus, dan pengerjaannya luar biasa. Hasil lasnya bersih, kuat, dan presisi—jelas dilakukan oleh seseorang yang bangga dengan pekerjaan mereka. Mereka dapat diandalkan, datang tepat waktu, dan menyelesaikan pekerjaan lebih cepat dari jadwal. Saya pernah bekerja dengan tukang las sebelumnya, tetapi ini adalah pengalaman terbaik sejauh ini. Saya pasti akan menghubungi mereka untuk proyek-proyek mendatang.",
+    },
+    {
+      name: "Putri",
+      image: "../assets/img/client/testimonial-2.jpg",
+      country: "United State",
+      content:
+        "Kami mengontrak HYS untuk pengelasan struktural pada proyek renovasi komersial, dan mereka memberikan hasil yang melampaui ekspektasi. Tim mereka mematuhi semua protokol keselamatan, bekerja secara efisien dengan tenggat waktu yang ketat, dan menjaga komunikasi yang baik. Kualitas pengelasan mereka lulus inspeksi tanpa satu pun masalah. Sulit untuk menemukan tukang las andal yang menggabungkan keterampilan dengan profesionalisme—orang-orang ini melakukan keduanya.",
+    },
+    {
+      name: "Adam",
+      image: "../assets/img/client/testimonial-3.jpg",
+      country: "Germany",
+      content:
+        "Saya butuh rangka baja khusus yang dibuat untuk proyek rumah, dan HYS benar-benar berhasil. Mereka meluangkan waktu untuk memahami desain saya, menawarkan saran yang bermanfaat, dan memberikan struktur yang dilas dengan sempurna yang melampaui ekspektasi saya. Jarang sekali menemukan tukang las yang ahli dalam hal teknis dan kreatif. Saya benar-benar terkesan.",
+    },
+  ];
   return (
     <>
       <div className="home-section home-2 welder">
@@ -53,31 +81,23 @@ export default function page() {
               <div className="row align-items-center">
                 <div className="col-lg-6 col-md-12">
                   <div className="main-banner-content">
-                    <h6 className="text-white">Quality Forged welder</h6>
+                    <h6 className="text-white">Mesin Las Tempa Berkualitas</h6>
                     <h3 className="text-white">
-                      Need Welder? leave to Hys Welder Service we Graduanted
-                      Quality
+                      Butuh Tukang Las? Serahkan pada Hys Welder Service, kami
+                      Lulusan Berkualitas
                       <span className="text-gradient"> 100% Warranty</span>
                     </h3>
                     <p className="text-white">
-                      we specialize in high-quality Welder installation,
-                      maintenance, and repair services for industries across the
-                      region. Whether you need a new Welder system installed or
-                      are looking for expert repair and maintenance
+                      Kami mengkhususkan diri dalam layanan pemasangan,
+                      perawatan, dan perbaikan las berkualitas tinggi untuk
+                      berbagai industri di seluruh wilayah. Apakah Anda
+                      memerlukan sistem Welder baru yang dipasang atau sedang
+                      mencari perbaikan dan perawatan ahli
                     </p>
                     <div className="banner-btn">
-                      <a className="default-btn-one" href="services.html">
-                        Our Service <span></span>
+                      <a className="default-btn-one" href="tel:081284691689">
+                        Layanan Kami <span></span>
                       </a>
-                      <div className="video-box">
-                        <a
-                          href="https://www.youtube.com/watch?v=G9TdA8d5aaU"
-                          className="popup-video video-btn"
-                        >
-                          {" "}
-                          <i className="fa fa-play"></i>
-                        </a>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -99,6 +119,7 @@ export default function page() {
         list={dataOverview.list}
         image={dataOverview.image}
       ></OverviewRight>
+      <Testimonial value={dataTestimonial}></Testimonial>
     </>
   );
 }

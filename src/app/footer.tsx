@@ -48,23 +48,18 @@ export default function Footer() {
                     />
                   </a>
                   <p>
-                    At MarketJasa, we specialize in delivering high-quality,
-                    reliable, and professional services to meet all your needs.
-                    Whether you are looking for expert installations, ongoing
-                    maintenance, or fast, efficient repairs, pet care, bus rent,
-                    we’ve got you covered.
+                    Di HelpYourSolution, kami mengkhususkan diri dalam
+                    memberikan layanan berkualitas tinggi, andal, dan
+                    profesional untuk memenuhi semua kebutuhan Anda. Baik Anda
+                    mencari instalasi ahli, perawatan berkelanjutan, atau
+                    perbaikan cepat dan efisien, perawatan hewan peliharaan,
+                    sewa bus, kami siap membantu Anda.
                   </p>
                   <ul className="footer-social">
                     <li>
-                      <a href="#">
+                      <a href="https://www.facebook.com/share/16GAX2eF6W/">
                         {" "}
                         <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        {" "}
-                        <i className="fa-brands fa-x-twitter"></i>
                       </a>
                     </li>
                     <li>
@@ -74,9 +69,9 @@ export default function Footer() {
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://www.instagram.com/helpyoursolution?igsh=MThlcDVtYmU0Mnk0cw==">
                         {" "}
-                        <i className="fab fa-linkedin"></i>
+                        <i className="fab fa-instagram"></i>
                       </a>
                     </li>
                   </ul>
@@ -85,7 +80,7 @@ export default function Footer() {
               <div className="col-lg-2 col-md-6 col-sm-6">
                 <div className="single-footer-widget">
                   <div className="footer-heading">
-                    <h3>Our Top Services</h3>
+                    <h3>Layanan Terbaik Kami</h3>
                   </div>
                   <ul className="footer-quick-links">
                     <li>
@@ -99,12 +94,12 @@ export default function Footer() {
                     </li>
                     <li>
                       <a onClick={() => router.push("/HomeService/pipe")}>
-                        Home Pipe
+                        Pipa Bocor
                       </a>
                     </li>
                     <li>
                       <a onClick={() => router.push("/HomeService/furniture")}>
-                        Furniture
+                        Furnitur
                       </a>
                     </li>
                   </ul>
@@ -113,7 +108,7 @@ export default function Footer() {
               <div className="col-lg-2 col-md-6 col-sm-6">
                 <div className="single-footer-widget">
                   <div className="footer-heading">
-                    <h3>Useful Links</h3>
+                    <h3>Tautan Berguna</h3>
                   </div>
                   <ul className="footer-quick-links">
                     <li>
@@ -122,7 +117,7 @@ export default function Footer() {
                           router.push("/about");
                         }}
                       >
-                        About Us
+                        Tentang Kami
                       </a>
                     </li>
                     <li>
@@ -131,7 +126,7 @@ export default function Footer() {
                           router.push("/companyProfile");
                         }}
                       >
-                        Company Profile
+                        Profile Perusahaan
                       </a>
                     </li>
                   </ul>
@@ -140,25 +135,27 @@ export default function Footer() {
               <div className="col-lg-4 col-md-6 col-sm-6">
                 <div className="single-footer-widget">
                   <div className="footer-heading">
-                    <h3>Contact Info</h3>
+                    <h3>Informasi Kontak</h3>
                   </div>
                   <div className="footer-info-contact">
                     <i className="flaticon-phone-call"></i>
-                    <h3>Phone</h3>
+                    <h3>Telepon</h3>
                     <span>
-                      <a href="tel:089632401125">089632401125</a>
+                      <a href="tel:081284691689">+62 812-8469-1689</a>
                     </span>
                   </div>
                   <div className="footer-info-contact">
                     <i className="flaticon-envelope"></i>
                     <h3>Email</h3>
                     <span>
-                      <a href="MarketJasa@gmail.com">MarketJasa@gmail.com</a>
+                      <a href="https://mail.google.com/mail/u/hysbusinessservice@gmail.com">
+                        hysbusinessservice@gmail.com
+                      </a>
                     </span>
                   </div>
                   <div className="footer-info-contact">
                     <i className="flaticon-placeholder"></i>
-                    <h3>Address</h3>
+                    <h3>Alamat</h3>
                     <span>Cemara Asri, East Medan, North Sumatra</span>
                   </div>
                 </div>
@@ -173,8 +170,9 @@ export default function Footer() {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-6">
               <p>
-                <i className="far fa-copyright"></i> {new Date().getFullYear()}
-                MarketJasa - All Rights Reserved.
+                <i className="far fa-copyright"></i>{" "}
+                {new Date().getFullYear() + " "}
+                HelpYourSolution - All Rights Reserved.
               </p>
             </div>
             <div className="col-lg-6 col-md-6">

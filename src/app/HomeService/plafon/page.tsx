@@ -9,70 +9,89 @@ import Testimonial from "@/components/testimonial";
 
 export default function page() {
   const data: portofolioModel = {
-    title: "Plafon Installation",
-    subTitle: "Image Example",
-    category: [],
+    title: "Instalasi Plafon",
+    subTitle: "Contoh Gambar",
+    category: ["roof", "ceiling"],
     data: [
       {
-        label: "Contact Crafter",
+        label: "Kontak Pengrajin",
         subLabel: "Chat Now",
-        image: "../assets/img/ceiling1.jpg",
-        type: "all",
+        image: "../assets/img/plafon2.jpeg",
+        type: "ceiling",
       },
       {
-        label: "Contact Crafter",
+        label: "Kontak Pengrajin",
         subLabel: "Chat Now",
-        image: "../assets/img/ceiling4.jpg",
-        type: "all",
+        image: "../assets/img/plafon4.jpeg",
+        type: "ceiling",
       },
       {
-        label: "Contact Crafter",
+        label: "Kontak Pengrajin",
         subLabel: "Chat Now",
-        image: "../assets/img/ceiling3.jpg",
-        type: "all",
+        image: "../assets/img/plafon3.jpeg",
+        type: "ceiling",
+      },
+      {
+        label: "Kontak Pengrajin",
+        subLabel: "Chat Now",
+        image: "../assets/img/roof.jpeg",
+        type: "roof",
+      },
+      {
+        label: "Kontak Pengrajin",
+        subLabel: "Chat Now",
+        image: "../assets/img/roof1.jpeg",
+        type: "roof",
+      },
+      {
+        label: "Kontak Pengrajin",
+        subLabel: "Chat Now",
+        image: "../assets/img/roof2.jpeg",
+        type: "roof",
       },
     ],
   };
 
   const dataCardService: cardServiceModel[] = [
     {
-      title: "False Ceiling Installation",
+      title: "Pemasangan Plafon Palsu",
       content:
-        "Custom-designed ceilings that add style and functionality to any room",
+        "Langit-langit yang dirancang khusus yang menambah gaya dan fungsionalitas ke ruangan mana pun",
       image: "../assets/img/feature-two-icon-1",
       imageHover: "../assets/img/feature-two-icon-1",
     },
     {
-      title: "Ceiling Repairs",
-      content: "Quick, efficient fixes for any ceiling damage or wear and tear",
+      title: "Perbaikan Plafon",
+      content:
+        "Perbaikan cepat dan efisien untuk kerusakan atau keausan langit-langit",
       image: "../assets/img/feature-two-icon-2",
       imageHover: "../assets/img/feature-two-icon-2",
     },
     {
-      title: "Decorative Ceilings",
+      title: "Plafon Dekoratif",
       content:
-        "Artistic designs that transform your ceiling into a statement piece",
+        "Desain artistik yang mengubah langit-langit Anda menjadi sebuah pernyataan",
       image: "../assets/img/feature-two-icon-3",
       imageHover: "../assets/img/feature-two-icon-3",
     },
     {
-      title: "Lighting Fixtures Installation",
+      title: "Pemasangan Perlengkapan Penerangan",
       content:
-        "Perfect integration of lighting with your new plafon for enhanced ambiance",
+        "Integrasi pencahayaan yang sempurna dengan plafon baru Anda untuk meningkatkan suasana",
       image: "../assets/img/feature-two-icon-4",
       imageHover: "../assets/img/feature-two-icon-4",
     },
     {
-      title: "Soundproof Ceilings",
+      title: "Langit-langit Kedap Suara",
       content:
-        "Specialized plafon systems designed to reduce noise for a quieter space",
+        "Sistem plafon khusus yang dirancang untuk mengurangi kebisingan agar ruangan lebih tenang",
       image: "../assets/img/feature-two-icon-5",
       imageHover: "../assets/img/feature-two-icon-5",
     },
     {
-      title: "Customer Satisfaction Guaranteed",
+      title: "Kepuasan Pelanggan Dijamin",
       content:
-        "Our team has extensive experience in creating durable, beautiful ceilings",
+        "Tim kami memiliki pengalaman luas dalam menciptakan langit-langit yang tahan lama dan indah",
       image: "../assets/img/feature-two-icon-6",
       imageHover: "../assets/img/feature-two-icon-6",
     },
@@ -82,23 +101,23 @@ export default function page() {
     {
       name: "Kevin",
       image: "/assets/img/client/testimonial-1.jpg",
-      country: "House Owner",
+      country: "Pemilik Rumah",
       content:
-        "I recently had HYS Plafon Service install a new false ceiling in my living room, and I couldn't be more pleased with the results. The team was incredibly professional, and they worked with me to design a ceiling that matched my vision perfectly.",
+        "Baru-baru ini saya meminta HYS Plafon Service memasang plafon palsu baru di ruang tamu saya, dan saya sangat puas dengan hasilnya. Timnya sangat profesional, dan mereka bekerja sama dengan saya untuk mendesain plafon yang sesuai dengan visi saya.",
     },
     {
       name: "christine",
       image: "/assets/img/client/testimonial-2.jpg",
       country: "Cafe Owner",
       content:
-        "The work was completed on time, and the installation was flawless. I appreciated how clean and organized the team was during the process. It’s clear they take pride in their work, and I’m grateful for the excellent service.",
+        "Pekerjaan selesai tepat waktu, dan pemasangannya sempurna. Saya menghargai betapa bersih dan terorganisirnya tim selama proses berlangsung. Jelas mereka bangga dengan pekerjaan mereka, dan saya berterima kasih atas layanan yang luar biasa ini.",
     },
     {
       name: "Stevie Wills",
       image: "/assets/img/client/testimonial-3.jpg",
       country: "Staff",
       content:
-        "I contacted HYS Plafon Service for a false ceiling installation in my bedroom, and I couldn’t be happier with the outcome. From the first consultation to the final installation, the team was professional, efficient, and incredibly helpful. They listened to my ideas and offered fantastic suggestions to improve the design.",
+        "Saya menghubungi HYS Plafon Service untuk pemasangan plafon palsu di kamar tidur saya, dan saya sangat puas dengan hasilnya. Dari konsultasi pertama hingga pemasangan akhir, timnya profesional, efisien, dan sangat membantu. Mereka mendengarkan ide-ide saya dan memberikan saran-saran yang fantastis untuk meningkatkan desain.",
     },
   ];
 
@@ -111,30 +130,21 @@ export default function page() {
               <div className="row align-items-center">
                 <div className="col-lg-6 col-md-12">
                   <div className="main-banner-content">
-                    <h6 className="text-white">Quality Plafon Installer</h6>
+                    <h6 className="text-white">Pemasang Plafon Berkualitas</h6>
                     <h3 className="text-white">
-                      Need Plafon? leave to Hys Plafon Service we Graduanted
-                      Quality
-                      <span className="text-gradient"> 100% Warranty</span>
+                      Butuh Plafon? Serahkan pada HYS Plafon Service, kami
+                      Lulusan Berkualitas
+                      <span className="text-gradient"> 100% Garansi</span>
                     </h3>
                     <p className="text-white">
-                      Remodeling your bathroom or kitchen? Our plumbing experts
-                      can help with installations, upgrades, and repairs,
-                      ensuring your remodel is completed seamlessly.
+                      Merombak kamar mandi atau dapur Anda? Ahli perpipaan kami
+                      dapat membantu pemasangan, peningkatan, dan perbaikan,
+                      memastikan renovasi Anda selesai dengan lancar.
                     </p>
                     <div className="banner-btn">
-                      <a className="default-btn-one" href="services.html">
-                        Book Now <span></span>
+                      <a className="default-btn-one" href="tel:081284691689">
+                        Pesan Sekarang <span></span>
                       </a>
-                      <div className="video-box">
-                        <a
-                          href="https://www.youtube.com/watch?v=G9TdA8d5aaU"
-                          className="popup-video video-btn"
-                        >
-                          {" "}
-                          <i className="fa fa-play"></i>
-                        </a>
-                      </div>
                     </div>
                   </div>
                 </div>

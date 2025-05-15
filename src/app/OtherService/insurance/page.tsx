@@ -227,7 +227,11 @@ export default function insurance() {
               <article className="comment-body">
                 <footer className="comment-meta">
                   <div className="comment-author vcard">
-                    <img src="../assets/img/client/2.jpg" alt="image" />
+                    <img
+                      src="../assets/img/client/2.jpg"
+                      className="avatar"
+                      alt="image"
+                    />
                     <b className="fn">Ella Hodges</b>
                     <span className="says">says:</span>
                   </div>

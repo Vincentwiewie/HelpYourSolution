@@ -9,26 +9,26 @@ import Testimonial from "@/components/testimonial";
 
 export default function page() {
   const data: portofolioModel = {
-    title: "Pipe Service",
-    subTitle: "Warranty 100%",
+    title: "Layanan Pipa",
+    subTitle: "Garansi 100%",
     category: [],
     data: [
       {
         label: "Contact Worker",
         subLabel: "Book Now",
-        image: "../assets/img/pipe1.jpg",
+        image: "../assets/img/pipe1.jpeg",
         type: "all",
       },
       {
         label: "Contact Worker",
         subLabel: "Book Now",
-        image: "../assets/img/pipe2.jpg",
+        image: "../assets/img/pipe7.jpg",
         type: "all",
       },
       {
         label: "Contact Worker",
         subLabel: "Book Now",
-        image: "../assets/img/pipe3.jpg",
+        image: "../assets/img/pipe3.jpeg",
         type: "all",
       },
     ],
@@ -38,62 +38,65 @@ export default function page() {
     {
       image: "../assets/img/plember1.jpg",
       imageHover: "../assets/img/plember1.jpg",
-      title: "No Job Too Big, No Pipe Too Small – We Handle It All!",
+      title:
+        "Urusan perpipaan?,Kami Ahlinya pipa, Pipa Rusak? – Kami Tangani Semuanya!",
       content: "",
     },
     {
       image: "../assets/img/plember2.jpg",
       imageHover: "../assets/img/plember2.jpg",
-      title: "Expert Plumbing Services, Delivered with Care",
+      title: "Layanan Perpipaan Ahli, Disampaikan dengan Hati-hati",
       content: "",
     },
     {
       image: "../assets/img/plember3.jpg",
       imageHover: "../assets/img/plember3.jpg",
-      title: "Affordable, Fast, and Reliable Plumbing Services",
+      title: "Layanan Perpipaan yang Terjangkau, Cepat, dan Andal",
       content: "",
     },
     {
       image: "../assets/img/plember4.jpg",
       imageHover: "../assets/img/plember4.jpg",
-      title: "We Fix Leaks, Pipes, and Everything in Between!",
+      title:
+        "Kami Memperbaiki Kebocoran, Pipa, dan Segala Sesuatu di Antaranya!",
       content: "",
     },
     {
       image: "../assets/img/plember5.jpg",
       imageHover: "../assets/img/plember5.jpg",
-      title: "Your Local Plumbing Experts – Serving You with Integrity",
+      title: "Ahli Perpipaan Lokal Anda – Melayani Anda dengan Integritas",
       content: "",
     },
     {
       image: "../assets/img/plember6.jpg",
       imageHover: "../assets/img/plember6.jpg",
-      title: "24/7 Plumbing Services – Available Whenever You Need Us!",
+      title:
+        "Layanan Perpipaan 24/7 – Tersedia Kapan Saja Anda Membutuhkan Kami!",
       content: "",
     },
   ];
 
   const dataTestimonial: testimonialModel[] = [
     {
-      name: "James T",
+      name: "Andri",
       image: "../assets/img/client/testimonial-1.jpg",
-      country: "Propesional Agent",
+      country: "Agen Propesional",
       content:
-        "I hired HYS pipe to handle some welding repairs on heavy machinery at our facility, and I couldn't be more pleased with their work. Their team was quick to respond to my request and took the time to assess the problem before providing a clear, low cost-effective solution and 1 month warantty granduated",
+        "Saya menyewa HYS pipa untuk menangani beberapa perbaikan pengelasan pada mesin berat di fasilitas kami, dan saya sangat puas dengan hasil kerja mereka. Tim mereka cepat menanggapi permintaan saya dan meluangkan waktu untuk menilai masalah sebelum memberikan solusi yang jelas, hemat biaya, dan garansi 1 bulan yang diberikan",
     },
     {
-      name: "Linda H",
+      name: "Linda",
       image: "../assets/img/client/testimonial-2.jpg",
-      country: "House Owner",
+      country: "Pemilik Rumah",
       content:
-        "The best part was their professionalism – they communicated clearly throughout the entire process, showed up on time, and completed the job efficiently. I also appreciated their attention to safety, which gave me confidence in the work being done. make my house feel like new again and no more pipe leaks",
+        "Bagian terbaiknya adalah profesionalisme mereka – mereka berkomunikasi dengan jelas selama proses berlangsung, datang tepat waktu, dan menyelesaikan pekerjaan dengan efisien. Saya juga menghargai perhatian mereka terhadap keselamatan, yang membuat saya yakin dengan pekerjaan yang dilakukan. membuat rumah saya terasa seperti baru lagi dan tidak ada lagi kebocoran pipa",
     },
     {
-      name: "David R",
+      name: "Suhendra",
       image: "../assets/img/client/testimonial-3.jpg",
-      country: "Business F&B",
+      country: "Bisnis F&B",
       content:
-        "I recently hired HYS pipe for some custom metal work and welding repairs for my business, and I couldn’t be more impressed. From the initial consultation to the final installation, their team was professional, efficient, and highly skilled. The quality of their welding is outstanding – everything is strong, clean, and built to last",
+        "Saya baru saja menyewa HYS pipe untuk beberapa pengerjaan logam khusus dan perbaikan pengelasan untuk bisnis saya, dan saya sangat terkesan. Dari konsultasi awal hingga pemasangan akhir, tim mereka profesional, efisien, dan sangat terampil. Kualitas pengelasan mereka luar biasa – semuanya kuat, bersih, dan dibuat agar tahan lama",
     },
   ];
   return (
@@ -105,31 +108,23 @@ export default function page() {
               <div className="row align-items-center">
                 <div className="col-lg-6 col-md-12">
                   <div className="main-banner-content">
-                    <h6 className="text-white">Quality Pipe Service</h6>
+                    <h6 className="text-white">Layanan Pipa Berkualitas</h6>
                     <h3 className="text-white">
-                      Pipe Leaking? leave to Hys Pipe Service we Graduanted
-                      Quality
+                      Pipa bocor? serahkan pada layanan pipa HelpYourSolution
+                      kami Lulus Kualitas
                       <span className="text-gradient"> 100% Warranty</span>
                     </h3>
                     <p className="text-white">
-                      we specialize in high-quality pipeline installation,
-                      maintenance, and repair services for industries across the
-                      region. Whether you need a new pipeline system installed
-                      or are looking for expert repair and maintenance
+                      Kami mengkhususkan diri dalam pemasangan pipa berkualitas
+                      tinggi, perawatan, dan layanan perbaikan untuk berbagai
+                      industri di seluruh wilayah. Apakah Anda memerlukan
+                      pemasangan sistem pipa baru atau sedang mencari perbaikan
+                      dan perawatan ahli
                     </p>
                     <div className="banner-btn">
-                      <a className="default-btn-one" href="services.html">
-                        Our Service <span></span>
+                      <a className="default-btn-one" href="tel:081284691689">
+                        Hubungi Kami<span></span>
                       </a>
-                      <div className="video-box">
-                        <a
-                          href="https://www.youtube.com/watch?v=G9TdA8d5aaU"
-                          className="popup-video video-btn"
-                        >
-                          {" "}
-                          <i className="fa fa-play"></i>
-                        </a>
-                      </div>
                     </div>
                   </div>
                 </div>

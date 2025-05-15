@@ -8,8 +8,8 @@ export default function cardService({ value }: { value: cardServiceModel[] }) {
           <div className="row">
             <div className="col-md-12">
               <div className="section-title">
-                <h6 className="sub-title">Why Choose Us?</h6>
-                <h2>Our Work</h2>
+                <h6 className="sub-title">Kenapa Memilih Kami?</h6>
+                <h2>Kerja Kami</h2>
               </div>
             </div>
             {value.map((m: cardServiceModel) => {
@@ -19,8 +19,9 @@ export default function cardService({ value }: { value: cardServiceModel[] }) {
                     <h3>{m.title}</h3>
                     <p>{m.content}</p>
                     <div className="services-btn">
-                      <a href="#" className="read-more">
-                        <i className="bi bi-arrow-right-short"></i> Book Now
+                      <a className="read-more" href="tel:081284691689">
+                        <i className="bi bi-arrow-right-short"></i> Pesen
+                        Sekarang
                       </a>
                     </div>
                   </div>
