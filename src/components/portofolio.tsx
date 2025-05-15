@@ -2,7 +2,7 @@
 import { portofolioModel } from "@/app/interface/Model";
 import { useState } from "react";
 
-export default function portofolio({
+export default function Portofolio({
   title,
   subTitle,
   category,
