@@ -2,12 +2,7 @@
 import { useRouter } from "next/navigation";
 
 import Comments from "./comments";
-import {
-  articleDetail,
-  articleSubDetail,
-  rating,
-  articleContentUl,
-} from "@/app/interface/Model";
+import { articleDetail, articleSubDetail, rating } from "@/app/interface/Model";
 
 export default function BlogDetails({
   classbg,

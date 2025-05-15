@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export default function property() {
+export default function Property() {
   const location: { [index: string]: string } = {
     cemara:
       "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7963.599243939765!2d98.7015678203983!3d3.633170443873319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1746863613787!5m2!1sid!2sid",
