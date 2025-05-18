@@ -1,4 +1,5 @@
 import { list, priceProps } from "../app/interface/Model";
+import style from "../app/styles/style.module.css";
 
 export default function Price({ value }: { value: priceProps[] }) {
   return (
@@ -9,22 +10,12 @@ export default function Price({ value }: { value: priceProps[] }) {
             {value.map((m: priceProps) => {
               return (
                 <div className="col-lg-3 col-md-6" key={m.image}>
-                  <img
-                    src={m.image}
-                    style={{
-                      height: 150,
-                      width: "20%",
-                      position: "absolute",
-                    }}
-                  />
                   <div className="single-pricing-content">
                     <div className="price-tag">
+                      <img src={m.image} className="respon" />
                       <h3>{m.label}</h3>
                     </div>
-                    <div
-                      className="price-heading"
-                      style={{ marginTop: "20vh" }}
-                    >
+                    <div className="price-heading" style={{ marginTop: "5vh" }}>
                       <div className="price-usd">
                         <h4>
                           ${m.price}{" "}

@@ -51,23 +51,23 @@ export default function keramik() {
     {
       name: "Andi",
       image: "../assets/img/client/testimonial-1.jpg",
-      country: "United Kingdom",
+      country: "Jakarta",
       content:
-        "Saya memesan satu set mug keramik buatan tangan dari HYS, dan mug-mug itu benar-benar cantik. Kerajinannya menakjubkan, dan setiap bagiannya terasa unik dan penuh karakter. Mug-mug itu tahan lama, aman untuk mesin pencuci piring, dan cocok untuk kopi pagi saya. Anda dapat melihat perhatian yang sungguh-sungguh diberikan pada setiap detailnya. Saya pasti akan memesan lebih banyak lagi!",
+        "Hasil pemasangan keramiknya sangat rapi dan sesuai dengan keinginan saya. Tukangnya datang tepat waktu dan bekerja dengan sangat profesional. Saya puas banget dengan pelayanannya!",
     },
     {
       name: "Putri",
       image: "../assets/img/client/testimonial-2.jpg",
-      country: "United State",
+      country: "Bandung",
       content:
-        "HYS baru saja memasang ubin keramik di dapur dan kamar mandi kami, dan kami sangat puas. Ubinnya cantik, mudah dibersihkan, dan dipasang dengan presisi. Timnya profesional, rapi, dan menyelesaikan pekerjaan tepat waktu. Pekerjaan mereka benar-benar mengubah ruangan. Sangat merekomendasikan pekerjaan mereka!",
+        "Kami menggunakan jasa ini untuk proyek renovasi kantor. Timnya cepat tanggap, hasilnya bersih, dan harganya juga cukup terjangkau. Recommended!",
     },
     {
       name: "Adam",
       image: "../assets/img/client/testimonial-3.jpg",
-      country: "Germany",
+      country: "Medan",
       content:
-        "Mobil saya dilapisi keramik oleh HYS, dan hasilnya luar biasa. Hasil akhirnya mengilap, halus, dan air langsung menetes. Sudah berminggu-minggu dan mobil masih tampak baru. Perlindungan dari kotoran dan UV merupakan nilai tambah yang besar. Sepadan dengan harganya jika Anda ingin menjaga kendaraan Anda tetap terlihat menawan.",
+        "Awalnya saya ragu, tapi setelah lihat hasil akhirnya, saya sangat senang. Keramik kamar mandi saya jadi terlihat mewah dan elegan. Terima kasih!",
     },
   ];
 
@@ -81,15 +81,18 @@ export default function keramik() {
                 <div className="col-lg-6 col-md-12">
                   <div className="main-banner-content">
                     <h6 className="text-gradient">
-                      Pengrajin Keramik Berkualitas
+                      Pemasang Keramik Berkualitas
                     </h6>
                     <h1>
-                      Desain Anda yang Mewah dan Elegan Dari{" "}
+                      Pemasangan Keramik yang Rapi dan Berkualitas Dari{" "}
                       <span className="text-gradient">HYS</span>
                     </h1>
-                    <p>
-                      Butuh Keramik Jangan Khawatir Kami Punya Banyak Keramik
-                      Dengan Berbagai Macam Gaya Bikin Mata Meleleh
+                    <p className="text-white">
+                      Apakah Anda sedang merenovasi rumah atau membangun hunian
+                      baru? Salah satu elemen penting dalam mempercantik dan
+                      memperkuat lantai maupun dinding adalah pemasangan
+                      keramik. Untuk hasil yang rapi, presisi, dan tahan lama,
+                      percayakan kepada jasa pemasangan keramik profesional.
                     </p>
                     <div className="banner-btn">
                       <a className="default-btn-one" href="tel:081284691689">

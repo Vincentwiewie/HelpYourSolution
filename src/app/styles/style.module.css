@@ -1,0 +1,12 @@
+.respon {
+  height: 150;
+  width: "20%";
+  position: "absolute";
+}
+@media only screen and (max-width: 600px) {
+  .respon {
+    width: "94%";
+    height: 150;
+    position: "absolute";
+  }
+}

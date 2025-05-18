@@ -32,7 +32,7 @@ export default function page() {
         { text: "Layanan AC Cepat & Andal", none: true },
         { text: "Pembersihan dan Servis", none: true },
         { text: "Dingin Seperti Baru", none: true },
-        { text: "Garansi 1 Tahun", none: true },
+        { text: "Garansi 2 Minggu", none: true },
         { text: "Beroperasi Pada Kinerja Puncak", none: true },
         { text: "--", none: false },
       ],
@@ -47,7 +47,7 @@ export default function page() {
         { text: "Layanan AC Cepat & Andal", none: true },
         { text: "Pemasangan Presisi", none: true },
         { text: "Kualitas Terjamin", none: true },
-        { text: "Garansi 1 Tahun", none: true },
+        { text: "Garansi 2 Minggu", none: true },
         { text: "Beroperasi Pada Kinerja Puncak", none: true },
         {
           text: "Harga Terjangkau",
@@ -64,7 +64,7 @@ export default function page() {
         { text: "Layanan AC Cepat & Andal", none: true },
         { text: "Pembersihan dan Servis", none: true },
         { text: "Dingin Seperti Baru", none: true },
-        { text: "Garansi 1 Tahun", none: true },
+        { text: "Garansi 2 Minggu", none: true },
         { text: "Beroperasi Pada Kinerja Puncak", none: true },
         {
           text: "Perbaikan sistem Ac yang tidak berfungsi",

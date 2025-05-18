@@ -4,8 +4,8 @@ import BlogDetails from "@/components/blogDetails";
 export default function helper() {
   const dataBlogDetails: articleDetail = {
     classbg: "helper",
-    title: "Layanan Lainnya",
-    subTitle: "Layanan Pembantu",
+    title: "Layanan Jasa Lainnya",
+    subTitle: "Layanan Jasa Pembantu",
     name: "William",
     date: "22 Jan 2025",
     articleTitle: "Butuh Bantuan? Kami Siap Membantu Anda!",
@@ -48,40 +48,40 @@ export default function helper() {
         },
       ],
     },
-    serviceTitle: "Many Service",
+    serviceTitle: "Layanan Jasa Lainnya",
     article: [
       {
-        title: "Layanan Bus",
+        title: "Layanan Jasa Bus",
         date: "17 Jan 2025",
         link: "/OtherService/bus",
         image: "../assets/img/buss2.jpg",
       },
       {
-        title: "Layanan Konsultan",
+        title: "Layanan Jasa Konsultan",
         date: "19 Jan 2025",
         link: "/OtherService/consultant",
         image: "../assets/img/consultant2.jpg",
       },
       {
-        title: "Layanan Kontraktor",
+        title: "Layanan Jasa Kontraktor",
         date: "20 Jan 2025",
         link: "/OtherService/contractor",
         image: "../assets/img/contractor2.jpg",
       },
       {
-        title: "Layanan Outsourcing",
+        title: "Layanan Jasa Outsourcing",
         date: "28 Jan 2025",
         link: "/OtherService/outsourcing",
         image: "../assets/img/outsourcing1.jpeg",
       },
       {
-        title: "Layanan Arsitek",
+        title: "Layanan Jasa Arsitek",
         date: "30 Jan 2025",
         link: "/OtherService/arsitek",
         image: "../assets/img/arsitek1.jpeg",
       },
       {
-        title: "Layanan Surat",
+        title: "Layanan Jasa Surat",
         date: "15 Jan 2025",
         link: "/OtherService/surat",
         image: "../assets/img/trust4.jpg",

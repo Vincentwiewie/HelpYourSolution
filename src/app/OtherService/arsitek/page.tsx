@@ -4,8 +4,8 @@ import BlogDetails from "@/components/blogDetails";
 export default function contractor() {
   const dataBlogDetails: articleDetail = {
     classbg: "arsitek",
-    title: "Layanan Lainnya",
-    subTitle: "Layanan Arsitek",
+    title: "Layanan Jasa Lainnya",
+    subTitle: "Layanan Jasa Arsitek",
     name: "Alex",
     date: "30 Jan 2025",
     articleTitle:
@@ -49,40 +49,40 @@ export default function contractor() {
         },
       ],
     },
-    serviceTitle: "Many Service",
+    serviceTitle: "Layanan Jasa Lainnya",
     article: [
       {
-        title: "Layanan Bus",
+        title: "Layanan Jasa Bus",
         date: "17 Jan 2025",
         link: "/OtherService/bus",
         image: "../assets/img/buss2.jpg",
       },
       {
-        title: "Layanan Konsultan",
+        title: "Layanan Jasa Konsultan",
         date: "19 Jan 2025",
         link: "/OtherService/consultant",
         image: "../assets/img/consultant2.jpg",
       },
       {
-        title: "Layanan Kontraktor",
+        title: "Layanan Jasa Kontraktor",
         date: "20 Jan 2025",
         link: "/OtherService/contractor",
         image: "../assets/img/contractor2.jpg",
       },
       {
-        title: "Layanan Pembantu",
+        title: "Layanan Jasa Pembantu",
         date: "22 Jan 2025",
         link: "/OtherService/helper",
         image: "../assets/img/helper2.jpg",
       },
       {
-        title: "Layanan Outsourcing",
+        title: "Layanan Jasa Outsourcing",
         date: "28 Jan 2025",
         link: "/OtherService/outsourcing",
         image: "../assets/img/outsourcing1.jpeg",
       },
       {
-        title: "Layanan Surat",
+        title: "Layanan Jasa Surat",
         date: "15 Jan 2025",
         link: "/OtherService/surat",
         image: "../assets/img/trust4.jpg",

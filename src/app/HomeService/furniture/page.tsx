@@ -15,19 +15,19 @@ export default function page() {
     data: [
       {
         label: "Kontak Pengrajin",
-        subLabel: "Book Now",
+        subLabel: "Order Sekarang",
         image: "../assets/img/furniture1.jpeg",
         type: "all",
       },
       {
         label: "Kontak Pengrajin",
-        subLabel: "Book Now",
+        subLabel: "Order Sekarang",
         image: "../assets/img/furniture6.jpeg",
         type: "all",
       },
       {
         label: "Kontak Pengrajin",
-        subLabel: "Book Now",
+        subLabel: "Order Sekarang",
         image: "../assets/img/furniture5.jpg",
         type: "all",
       },
@@ -82,11 +82,12 @@ export default function page() {
               <div className="row align-items-center">
                 <div className="col-lg-6 col-md-12">
                   <div className="main-banner-content">
-                    <h6 className="text-white">Ahli Furnitur</h6>
+                    <h6 className="text-white">Ahli Furniture</h6>
                     <h3 className="text-white">
-                      Perlu Menyesuaikan Tampilan Rumah Anda? Serahkan Pada Kami
-                      Ahlinya Pembuat Furnitur Akan Membuat Rumah Anda Menjadi
-                      Mewah
+                      Perlu mempercantik tampilan Perabotan rumah/toko anda?
+                      Serahkan pada kami,ahlinya pembuatan perabot/furniture
+                      akan membuat rumah / toko anda menjadi mewah Dan berkelas
+                      100% garansi
                       <span className="text-gradient mt-5"> 100% Garansi</span>
                     </h3>
                     <p className="text-white">

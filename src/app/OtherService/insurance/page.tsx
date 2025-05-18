@@ -9,12 +9,12 @@ export default function insurance() {
           <div className="d-table-cell">
             <div className="container">
               <div className="page-title-content">
-                <h2>Other Services</h2>
+                <h2>Layanan Jasa Lainnya</h2>
                 <ul>
                   <li>
                     <a href="index.html">Home</a>
                   </li>
-                  <li>Bus Services</li>
+                  <li>Asuransi</li>
                 </ul>
               </div>
             </div>
@@ -32,25 +32,25 @@ export default function insurance() {
                     <ul>
                       <li>
                         {" "}
-                        <span>HYS Insurance</span> <a>100 Health Care</a>
+                        <span>HYS Insurance</span> <a>100 Peduli Kesehatan</a>
                       </li>
                       <li>
                         {" "}
-                        <span>Trusted By Many</span> <a>Family </a>
+                        <span>Dipercaya Oleh Banyak</span> <a>Keluarga </a>
                       </li>
                     </ul>
                   </div>
-                  <h3>What is Health Insurance?</h3>
+                  <h3>Apa Itu Asuransi Kesehatan?</h3>
                   <p>
-                    Health insurance is a contract between an individual and an
-                    insurance provider. The individual pays a monthly premium to
-                    the insurance company, which, in return, covers certain
-                    medical expenses. These may include hospital stays, doctor’s
-                    visits, medications, surgeries, and other health-related
-                    services. Health insurance is designed to protect
-                    individuals from the high costs of medical care, making it
-                    easier for them to get treatment without worrying about the
-                    financial impact.
+                    Asuransi kesehatan adalah kontrak antara individu dan
+                    penyedia asuransi. Individu membayar premi bulanan kepada
+                    perusahaan asuransi, yang sebagai gantinya, menanggung biaya
+                    medis tertentu. Biaya ini dapat mencakup biaya rawat inap,
+                    kunjungan dokter, pengobatan, operasi, dan layanan terkait
+                    kesehatan lainnya. Asuransi kesehatan dirancang untuk
+                    melindungi individu dari biaya perawatan medis yang tinggi,
+                    sehingga memudahkan mereka untuk mendapatkan perawatan tanpa
+                    khawatir tentang dampak finansial.
                   </p>
                   <div className="d-flex flex-column gap-3">
                     <h3>Why is Health Insurance Essential?</h3>
@@ -60,14 +60,14 @@ export default function insurance() {
                       </h2>
                       <p>
                         {" "}
-                        Protection Against Unexpected Costs: No one can predict
-                        when they might fall ill or need emergency medical
-                        attention. The costs associated with medical
-                        emergencies, surgeries, or even routine treatments can
-                        be overwhelming. Health insurance helps mitigate the
-                        financial strain by covering a substantial portion of
-                        these expenses, ensuring that individuals don’t have to
-                        pay out of pocket for high medical bills.
+                        Perlindungan terhadap Biaya Tak Terduga: Tidak seorang
+                        pun dapat memprediksi kapan mereka akan jatuh sakit atau
+                        memerlukan perhatian darurat medis. Biaya yang terkait
+                        dengan keadaan darurat medis, operasi, atau bahkan
+                        perawatan rutin dapat sangat membosankan. Asuransi
+                        kesehatan membantu mengurangi beban keuangan dengan
+                        menanggung sebagian besar biaya ini, memastikan bahwa
+                        individu tidak perlu membayar tagihan medis yang tinggi.
                       </p>
                     </div>
                     <div className="d-flex flex-row gap-2 mt-1">
@@ -75,14 +75,15 @@ export default function insurance() {
                         2.
                       </h2>{" "}
                       <p>
-                        Access to Better Healthcare: Insurance providers often
-                        partner with networks of doctors, hospitals, and
-                        healthcare facilities. This means that those with health
-                        insurance typically have access to a wider range of
-                        services and medical professionals. Many insurance plans
-                        also provide preventive care services like regular
-                        check-ups, vaccinations, and screenings, all of which
-                        are essential for maintaining long-term health.
+                        Akses ke Layanan Kesehatan yang Lebih Baik: Penyedia
+                        asuransi sering kali bermitra dengan jaringan dokter,
+                        rumah sakit, dan fasilitas layanan kesehatan. Ini
+                        berarti bahwa mereka yang memiliki asuransi kesehatan
+                        biasanya memiliki akses ke berbagai layanan dan tenaga
+                        medis yang lebih luas. Banyak rencana asuransi juga
+                        menyediakan layanan perawatan pencegahan seperti
+                        pemeriksaan rutin, vaksinasi, dan pemeriksaan, yang
+                        semuanya penting untuk menjaga kesehatan jangka panjang.
                       </p>
                     </div>
                     <div className="d-flex flex-row gap-2 mt-1">
@@ -90,13 +91,13 @@ export default function insurance() {
                         3.
                       </h2>{" "}
                       <p>
-                        Mental and Emotional Well-being: Dealing with health
-                        issues can be stressful, and worrying about how to
-                        afford treatment can add even more pressure. Having
-                        health insurance reduces the stress of financial
-                        uncertainty, allowing individuals to focus on their
-                        recovery rather than the costs associated with their
-                        care.
+                        Kesejahteraan Mental dan Emosional: Berurusan dengan
+                        masalah kesehatan dapat membuat stres, dan khawatir
+                        tentang bagaimana cara membayar perawatan dapat menambah
+                        tekanan. Memiliki asuransi kesehatan mengurangi stres
+                        akibat ketidakpastian finansial, sehingga individu dapat
+                        fokus pada pemulihan mereka daripada biaya yang terkait
+                        dengan perawatan mereka.
                       </p>
                     </div>
                     <div className="d-flex flex-row gap-2 mt-1">
@@ -104,13 +105,14 @@ export default function insurance() {
                         4.
                       </h2>{" "}
                       <p>
-                        Legal Requirement and Penalties: In some countries,
-                        having health insurance is a legal requirement. For
-                        example, the Affordable Care Act (ACA) in the United
-                        States mandates that citizens must have health insurance
-                        or face a penalty. Having insurance not only ensures
-                        compliance with the law but also protects against the
-                        risk of financial penalties.
+                        Persyaratan Hukum dan Sanksi: Di ​​beberapa negara,
+                        memiliki asuransi kesehatan merupakan persyaratan hukum.
+                        Misalnya, Undang-Undang Perawatan Terjangkau (ACA) di
+                        Amerika Serikat mengamanatkan bahwa warga negara harus
+                        memiliki asuransi kesehatan atau menghadapi sanksi.
+                        Memiliki asuransi tidak hanya memastikan kepatuhan
+                        terhadap hukum tetapi juga melindungi dari risiko sanksi
+                        keuangan.
                       </p>
                     </div>
                     <div className="d-flex flex-row gap-2 mt-1">
@@ -118,15 +120,16 @@ export default function insurance() {
                         5.
                       </h2>{" "}
                       <p>
-                        Prevention and Early Detection: Health insurance
-                        policies often cover regular check-ups and screenings,
-                        which are vital for the early detection of illnesses
-                        like cancer, diabetes, and heart disease. Early
-                        detection significantly improves the chances of
-                        successful treatment and reduces the overall cost of
-                        healthcare in the long term. Preventive care can save
-                        lives and reduce the need for more expensive treatments
-                        down the line.
+                        Pencegahan dan Deteksi Dini: Polis asuransi kesehatan
+                        sering kali mencakup pemeriksaan dan pemeriksaan rutin,
+                        yang sangat penting untuk deteksi dini penyakit seperti
+                        kanker, diabetes, dan penyakit jantung. Deteksi dini
+                        secara signifikan meningkatkan peluang keberhasilan
+                        pengobatan dan mengurangi biaya perawatan kesehatan
+                        secara keseluruhan dalam jangka panjang. Perawatan
+                        pencegahan dapat menyelamatkan nyawa dan mengurangi
+                        kebutuhan akan perawatan yang lebih mahal di kemudian
+                        hari.
                       </p>
                     </div>
                   </div>
@@ -151,35 +154,37 @@ export default function insurance() {
                       </figure>
                     </li>
                   </ul>
-                  <h3>Your Future Health Is Our Future</h3>
+                  <h3>Kesehatan Masa Depan Anda Adalah Masa Depan Kami</h3>
                   <p>
-                    As healthcare continues to evolve with new technologies,
-                    treatments, and policies, health insurance will undoubtedly
-                    play a crucial role in how we access care. The rise of
-                    telemedicine, for example, is changing how patients receive
-                    consultations and follow-up care. Additionally, insurers are
-                    offering more personalized plans that cater to an
-                    individual’s specific needs.
+                    Seiring dengan terus berkembangnya layanan kesehatan dengan
+                    berbagai teknologi, perawatan, dan kebijakan baru, asuransi
+                    kesehatan tidak diragukan lagi akan memainkan peran penting
+                    dalam cara kita mengakses layanan kesehatan. Misalnya,
+                    maraknya telemedicine mengubah cara pasien menerima
+                    konsultasi dan perawatan lanjutan. Selain itu, perusahaan
+                    asuransi menawarkan paket yang lebih personal yang memenuhi
+                    kebutuhan spesifik setiap individu.
                   </p>
                   <p>
-                    At the heart of every healthcare journey lies the
-                    fundamental idea that health is the greatest wealth. As we
-                    continue to progress in both medicine and insurance
-                    services, we recognize that your future health is
-                    intricately tied to our future as an industry. This is why
-                    we are dedicated to building a future where you are
-                    empowered to take control of your health with the support of
-                    comprehensive, accessible, and innovative health insurance
-                    services.
+                    Inti dari setiap perjalanan perawatan kesehatan adalah
+                    gagasan mendasar bahwa kesehatan adalah kekayaan terbesar.
+                    Seiring dengan kemajuan kami dalam layanan medis dan
+                    asuransi, kami menyadari bahwa kesehatan masa depan Anda
+                    terkait erat dengan masa depan kami sebagai sebuah industri.
+                    Inilah sebabnya kami berdedikasi untuk membangun masa depan
+                    di mana Anda diberdayakan untuk mengendalikan kesehatan Anda
+                    dengan dukungan layanan asuransi kesehatan yang
+                    komprehensif, mudah diakses, dan inovatif.
                   </p>
                   <p>
-                    In the ever-changing world of healthcare, where medical
-                    advances are reshaping treatment possibilities and
-                    preventative care is more crucial than ever, the need for
-                    solid insurance coverage is clear. By choosing us, you are
-                    not just signing up for health insurance; you are investing
-                    in a partnership focused on ensuring that your long-term
-                    health and wellness are prioritized.
+                    Dalam dunia perawatan kesehatan yang terus berubah, di mana
+                    kemajuan medis mengubah kemungkinan perawatan dan perawatan
+                    pencegahan lebih penting dari sebelumnya, kebutuhan akan
+                    perlindungan asuransi yang solid menjadi jelas. Dengan
+                    memilih kami, Anda tidak hanya mendaftar untuk asuransi
+                    kesehatan; Anda berinvestasi dalam kemitraan yang berfokus
+                    untuk memastikan bahwa kesehatan dan kesejahteraan jangka
+                    panjang Anda diprioritaskan.
                   </p>
                 </div>
                 <div className="article-footer">
@@ -221,7 +226,7 @@ export default function insurance() {
         </div>
 
         <div className="comments-area" style={{ padding: "15vh" }}>
-          <h3 className="comments-title">3 Comments:</h3>
+          <h3 className="comments-title">3 Komentar:</h3>
           <ol className="comment-list">
             <li className="comment">
               <article className="comment-body">
@@ -232,32 +237,29 @@ export default function insurance() {
                       className="avatar"
                       alt="image"
                     />
-                    <b className="fn">Ella Hodges</b>
-                    <span className="says">says:</span>
+                    <b className="fn">Ella</b>
+                    <span className="says">Komentar:</span>
                   </div>
                   <div className="comment-metadata">
                     <a>
-                      <span>June 15 - 2024 12:30 PM</span>
+                      <span>Juni 15 - 2024 12:30 PM</span>
                     </a>
                   </div>
                 </footer>
                 <div className="comment-content">
                   <p>
-                    I never truly understood the value of health insurance until
-                    I needed it most. After being diagnosed with a chronic
-                    condition, I was overwhelmed by medical bills and the
-                    uncertainty of how I would manage. Thankfully, I had the
-                    right health insurance in place. My provider covered most of
-                    the costs for treatments, doctor visits, and medications,
-                    giving me one less thing to worry about. It’s reassuring to
-                    know that I’m supported, especially during difficult times.
-                    Health insurance has truly been a lifesaver for me and my
-                    family.
+                    Saya tidak pernah benar-benar memahami nilai asuransi
+                    kesehatan sampai saya sangat membutuhkannya. Setelah
+                    didiagnosis dengan kondisi kronis, saya kewalahan dengan
+                    tagihan medis dan ketidakpastian tentang bagaimana saya akan
+                    mengatasinya. Untungnya, saya memiliki asuransi kesehatan
+                    yang tepat. Penyedia layanan kesehatan saya menanggung
+                    sebagian besar biaya perawatan, kunjungan dokter, dan
+                    pengobatan, sehingga saya tidak perlu khawatir lagi. Sungguh
+                    melegakan mengetahui bahwa saya didukung, terutama selama
+                    masa-masa sulit. Asuransi kesehatan benar-benar menjadi
+                    penyelamat bagi saya dan keluarga.
                   </p>
-                </div>
-                <div className="reply">
-                  {" "}
-                  <a className="comment-reply-link">Reply</a>
                 </div>
               </article>
               <ol className="children">
@@ -270,34 +272,30 @@ export default function insurance() {
                           className="avatar"
                           alt="image"
                         />{" "}
-                        <b className="fn">Wilson Swanson</b>
-                        <span className="says">says:</span>
+                        <b className="fn">Wilson</b>
+                        <span className="says">Komentar:</span>
                       </div>
                       <div className="comment-metadata">
                         <a href="#">
-                          <span>June 15 - 2024 12:30 PM</span>
+                          <span>Juni 15 - 2024 10:30 PM</span>
                         </a>
                       </div>
                     </footer>
                     <div className="comment-content">
                       <p>
-                        As a father of two young children, my family health is
-                        my top priority. I wanted a plan that would not only
-                        cover routine visits but also ensure we had access to
-                        emergency care and specialists when needed. The health
-                        insurance plan I chose gave me peace of mind knowing
-                        that my kids and I were covered for everything from
-                        vaccinations to unexpected medical emergencies. Having
-                        that peace of mind allows me to focus on being a good
-                        father and husband without constantly worrying about
-                        healthcare costs.
+                        Sebagai ayah dari dua anak kecil, kesehatan keluarga
+                        adalah prioritas utama saya. Saya menginginkan rencana
+                        yang tidak hanya mencakup kunjungan rutin tetapi juga
+                        memastikan kami memiliki akses ke perawatan darurat dan
+                        spesialis saat dibutuhkan. Rencana asuransi kesehatan
+                        yang saya pilih memberi saya ketenangan pikiran karena
+                        mengetahui bahwa anak-anak saya dan saya terlindungi
+                        untuk semuanya, mulai dari vaksinasi hingga keadaan
+                        darurat medis yang tidak terduga. Dengan ketenangan
+                        pikiran itu, saya dapat fokus menjadi ayah dan suami
+                        yang baik tanpa terus-menerus khawatir tentang biaya
+                        perawatan kesehatan.
                       </p>
-                    </div>
-                    <div className="reply">
-                      {" "}
-                      <a href="#" className="comment-reply-link">
-                        Reply
-                      </a>
                     </div>
                   </article>
                 </li>
@@ -312,33 +310,29 @@ export default function insurance() {
                       className="avatar"
                       alt="image"
                     />{" "}
-                    <b className="fn">Melissa Bryant</b>
-                    <span className="says">says:</span>
+                    <b className="fn">Melissa</b>
+                    <span className="says">Komentar:</span>
                   </div>
                   <div className="comment-metadata">
                     <a>
-                      <span>June 15 - 2024 12:30 PM</span>
+                      <span>June 15 - 2024 15:30 PM</span>
                     </a>
                   </div>
                 </footer>
                 <div className="comment-content">
                   <p>
-                    I was initially hesitant about signing up for health
-                    insurance due to the cost, but after comparing plans, I
-                    found one that offered excellent coverage at an affordable
-                    price. It has been worth every penny. I recently needed
-                    surgery, and my insurer took care of the majority of the
-                    expenses, allowing me to focus solely on my recovery. The
-                    support from my insurance provider has been exceptional,
-                    from helping me navigate the claims process to providing me
-                    with preventive care services. I’m grateful to have found a
-                    plan that fits my needs and budget.
+                    Awalnya saya ragu untuk mendaftar asuransi kesehatan karena
+                    biayanya, tetapi setelah membandingkan paket, saya menemukan
+                    satu yang menawarkan perlindungan yang sangat baik dengan
+                    harga yang terjangkau. Itu sepadan dengan setiap sen yang
+                    dikeluarkan. Saya baru-baru ini menjalani operasi, dan
+                    perusahaan asuransi saya menanggung sebagian besar biaya,
+                    sehingga saya dapat fokus hanya pada pemulihan saya.
+                    Dukungan dari penyedia asuransi saya luar biasa, mulai dari
+                    membantu saya menavigasi proses klaim hingga menyediakan
+                    layanan perawatan pencegahan. Saya bersyukur telah menemukan
+                    paket yang sesuai dengan kebutuhan dan anggaran saya.
                   </p>
-                </div>
-                <div className="reply">
-                  <a href="#" className="comment-reply-link">
-                    Reply
-                  </a>
                 </div>
               </article>
             </li>

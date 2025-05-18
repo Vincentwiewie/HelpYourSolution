@@ -7,6 +7,7 @@ import Footer from "./footer";
 // import Head from "next/head";
 
 //stylesheet
+import "../../public/assets/css/owl.carousel.min.css";
 import "../../public/assets/img/favicon.png";
 import "../../public/assets/css/bootstrap.min.css";
 import "../../public/assets/css/animate.min.css";
@@ -16,7 +17,6 @@ import "../../public/assets/css/bootstrap-icons.css";
 import "../../public/assets/css/meanmenu.css";
 import "../../public/assets/css/magnific-popup.min.css";
 import "../../public/assets/css/swiper.min.css";
-import "../../public/assets/css/owl.carousel.min.css";
 import "../../public/assets/css/style.css";
 import "../../public/assets/css/responsive.css";
 import Script from "next/script";

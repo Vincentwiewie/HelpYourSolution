@@ -15,37 +15,37 @@ export default function page() {
     data: [
       {
         label: "Kontak Pengrajin",
-        subLabel: "Chat Now",
+        subLabel: "Chat Sekarang",
         image: "../assets/img/plafon2.jpeg",
         type: "ceiling",
       },
       {
         label: "Kontak Pengrajin",
-        subLabel: "Chat Now",
+        subLabel: "Chat Sekarang",
         image: "../assets/img/plafon4.jpeg",
         type: "ceiling",
       },
       {
         label: "Kontak Pengrajin",
-        subLabel: "Chat Now",
+        subLabel: "Chat Sekarang",
         image: "../assets/img/plafon3.jpeg",
         type: "ceiling",
       },
       {
         label: "Kontak Pengrajin",
-        subLabel: "Chat Now",
+        subLabel: "Chat Sekarang",
         image: "../assets/img/roof.jpeg",
         type: "roof",
       },
       {
         label: "Kontak Pengrajin",
-        subLabel: "Chat Now",
+        subLabel: "Chat Sekarang",
         image: "../assets/img/roof1.jpeg",
         type: "roof",
       },
       {
         label: "Kontak Pengrajin",
-        subLabel: "Chat Now",
+        subLabel: "Chat Sekarang",
         image: "../assets/img/roof2.jpeg",
         type: "roof",
       },
@@ -137,9 +137,10 @@ export default function page() {
                       <span className="text-gradient"> 100% Garansi</span>
                     </h3>
                     <p className="text-white">
-                      Merombak kamar mandi atau dapur Anda? Ahli perpipaan kami
-                      dapat membantu pemasangan, peningkatan, dan perbaikan,
-                      memastikan renovasi Anda selesai dengan lancar.
+                      Plafon Rusak atau Plafon Telah usang? butuh design Baru?
+                      serahkan kepada HYS Plafon Care Kami Ahli Dalam
+                      permasangan Plafon yang telah Berpegalaman dan dipercaya
+                      banyak pelanggan dari Skala Industri maupun rumah
                     </p>
                     <div className="banner-btn">
                       <a className="default-btn-one" href="tel:081284691689">

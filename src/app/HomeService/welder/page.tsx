@@ -9,26 +9,44 @@ import Testimonial from "@/components/testimonial";
 
 export default function page() {
   const data: portofolioModel = {
-    title: "Pengrajin Las",
-    subTitle: "Our Example",
+    title: "Pengrajin Teralis atau Jerjak besi",
+    subTitle: "Contoh Layanan Teralis atau Jerjak besi HYS",
     category: [],
     data: [
       {
-        label: "Pengrajin Las",
-        subLabel: "Book Now",
-        image: "../assets/img/welder1.jpg",
+        label: "Pengrajin Teralis atau Jerjak besi",
+        subLabel: "Order Sekarang",
+        image: "../assets/img/jerjak1.jpeg",
         type: "all",
       },
       {
-        label: "Pengrajin Las",
-        subLabel: "Book Now",
-        image: "../assets/img/welder2.jpg",
+        label: "Pengrajin Teralis atau Jerjak besi",
+        subLabel: "Order Sekarang",
+        image: "../assets/img/jerjak2.jpeg",
         type: "all",
       },
       {
-        label: "Pengrajin Las",
-        subLabel: "Book Now",
-        image: "../assets/img/welder3.jpg",
+        label: "Pengrajin Teralis atau Jerjak besi",
+        subLabel: "Order Sekarang",
+        image: "../assets/img/jerjak3.jpeg",
+        type: "all",
+      },
+      {
+        label: "Pengrajin Teralis atau Jerjak besi",
+        subLabel: "Order Sekarang",
+        image: "../assets/img/jerjak4.jpeg",
+        type: "all",
+      },
+      {
+        label: "Pengrajin Teralis atau Jerjak besi",
+        subLabel: "Order Sekarang",
+        image: "../assets/img/jerjak5.jpeg",
+        type: "all",
+      },
+      {
+        label: "Pengrajin Teralis atau Jerjak besi",
+        subLabel: "Order Sekarang",
+        image: "../assets/img/jerjak6.jpeg",
         type: "all",
       },
     ],
@@ -44,7 +62,7 @@ export default function page() {
       "Perhatian terhadap detail",
       "Harga terjangkau",
       "Layanan tepat waktu",
-      "Desain Mesin Las Kustom",
+      "Desain Teralis atau Jerjak besi Kustom",
       "Perbaikan & Restorasi",
     ],
   };
@@ -81,18 +99,22 @@ export default function page() {
               <div className="row align-items-center">
                 <div className="col-lg-6 col-md-12">
                   <div className="main-banner-content">
-                    <h6 className="text-white">Mesin Las Tempa Berkualitas</h6>
+                    <h6 className="text-white">
+                      Jasa Pembuatan Teralis atau Jerjak besi
+                    </h6>
                     <h3 className="text-white">
-                      Butuh Tukang Las? Serahkan pada Hys Welder Service, kami
-                      Lulusan Berkualitas
+                      Butuh Tukang Teralis atau Jerjak besi? Serahkan pada Hys,
+                      kami ahli dalam pembuatan Teralis atau Jerjak besi yang
+                      berkualitas
                       <span className="text-gradient"> 100% Warranty</span>
                     </h3>
                     <p className="text-white">
                       Kami mengkhususkan diri dalam layanan pemasangan,
-                      perawatan, dan perbaikan las berkualitas tinggi untuk
-                      berbagai industri di seluruh wilayah. Apakah Anda
-                      memerlukan sistem Welder baru yang dipasang atau sedang
-                      mencari perbaikan dan perawatan ahli
+                      perawatan, pemasangan dan perbaikan Teralis atau Jerjak
+                      besi berkualitas tinggi untuk berbagai industri di seluruh
+                      wilayah. Apakah Anda memerlukan Teralis atau Jerjak besi
+                      yang baru dipasang atau sedang mencari perbaikan dan
+                      perawatan ahli
                     </p>
                     <div className="banner-btn">
                       <a className="default-btn-one" href="tel:081284691689">

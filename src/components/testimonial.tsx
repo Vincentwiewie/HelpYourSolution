@@ -14,14 +14,10 @@ export default function testimonial({ value }: { value: testimonialModel[] }) {
             </div>
 
             <div className="col-lg-12 col-md-12">
-              <div className="testimonial-slider d-flex flex-row gap-3 justify-content-between owl-theme">
+              <div className="testimonial-slider  owl-theme">
                 {value.map((m: testimonialModel) => {
                   return (
-                    <div
-                      className="single-testimonial"
-                      style={{ width: "100vh" }}
-                      key={m.image}
-                    >
+                    <div className="single-testimonial mt-5" key={m.image}>
                       <div className="rating-box">
                         <ul>
                           <li>

@@ -20,7 +20,7 @@ export default function cardService({ value }: { value: cardServiceModel[] }) {
                     <p>{m.content}</p>
                     <div className="services-btn">
                       <a className="read-more" href="tel:081284691689">
-                        <i className="bi bi-arrow-right-short"></i> Pesen
+                        <i className="bi bi-arrow-right-short"></i> Pesan
                         Sekarang
                       </a>
                     </div>

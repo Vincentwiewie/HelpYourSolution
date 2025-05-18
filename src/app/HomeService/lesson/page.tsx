@@ -109,23 +109,21 @@ export default function lesson() {
                   <div className="main-banner-content">
                     <ul className="social-icon-list">
                       <li>
-                        <a href="#">
+                        <a href="https://www.facebook.com/share/16GAX2eF6W/">
+                          {" "}
                           <i className="fab fa-facebook-f"></i>
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i className="fa-brands fa-x-twitter"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-instagram"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
+                          {" "}
                           <i className="fab fa-youtube"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.instagram.com/helpyoursolution?igsh=MThlcDVtYmU0Mnk0cw==">
+                          {" "}
+                          <i className="fab fa-instagram"></i>
                         </a>
                       </li>
                     </ul>

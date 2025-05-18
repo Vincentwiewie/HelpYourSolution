@@ -4,11 +4,11 @@ import BlogDetails from "@/components/blogDetails";
 export default function contractor() {
   const dataBlogDetails: articleDetail = {
     classbg: "surat",
-    title: "Layanan Lainnya",
-    subTitle: "Layanan Surat",
+    title: "Layanan Jasa Lainnya",
+    subTitle: "Layanan Jasa Surat",
     name: "Andi",
     date: "15 Jan 2025",
-    articleTitle: "Biro Jasa pengurusan surat HYS",
+    articleTitle: "HYS Jasa pengurusan surat surat",
     articleContent:
       "HYS adalah biro jasa terpercaya yang melayani pengurusan berbagai jenis dokumen dan surat-surat penting secara cepat, aman, dan profesional. Kami hadir untuk memudahkan Anda dalam menangani urusan administratif yang seringkali memakan waktu dan tenaga. Dengan pengalaman dan jaringan kerja yang luas, kami siap membantu individu maupun perusahaan dalam menyelesaikan proses legalitas dengan efisien dan tepat waktu.",
     image1: "../assets/img/trust4.jpg",
@@ -58,37 +58,37 @@ export default function contractor() {
     serviceTitle: "Many Service",
     article: [
       {
-        title: "Layanan Bus",
+        title: "Layanan Jasa Bus",
         date: "17 Jan 2025",
         link: "/OtherService/bus",
         image: "../assets/img/buss2.jpg",
       },
       {
-        title: "Layanan Konsultan",
+        title: "Layanan Jasa Konsultan",
         date: "19 Jan 2025",
         link: "/OtherService/consultant",
         image: "../assets/img/consultant2.jpg",
       },
       {
-        title: "Layanan Kontraktor",
+        title: "Layanan Jasa Kontraktor",
         date: "20 Jan 2025",
         link: "/OtherService/contractor",
         image: "../assets/img/contractor2.jpg",
       },
       {
-        title: "Layanan Pembantu",
+        title: "Layanan Jasa Pembantu",
         date: "22 Jan 2025",
         link: "/OtherService/helper",
         image: "../assets/img/helper2.jpg",
       },
       {
-        title: "Layanan Outsourcing",
+        title: "Layanan Jasa Outsourcing",
         date: "28 Jan 2025",
         link: "/OtherService/outsourcing",
         image: "../assets/img/outsourcing1.jpeg",
       },
       {
-        title: "Layanan Arsitek",
+        title: "Layanan Jasa Arsitek",
         date: "30 Jan 2025",
         link: "/OtherService/arsitek",
         image: "../assets/img/arsitek1.jpeg",

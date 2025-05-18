@@ -6,7 +6,7 @@ export default function Navbar() {
   const router = useRouter();
 
   function Navigate(params: string) {
-    router.push(params);
+    router.replace(params);
   }
 
   useEffect(() => {
@@ -84,37 +84,37 @@ export default function Navbar() {
                           className="nav-link"
                           id="/HomeService/air-conditioner"
                         >
-                          Air Conditioner
+                          Jasa Cuci/Pasang AC
                         </a>
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" id="/HomeService/pipe">
-                          Layanan Pipa Bocor
+                          Jasa pemasangan/perbaikan Pipa Air
                         </a>
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" id="/HomeService/welder">
-                          Jasa las, pagar besi
+                          Jasa las teralis/jerjak besi
                         </a>
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" id="/HomeService/plafon">
-                          Plafon
+                          Jasa Plafon
                         </a>
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" id="/HomeService/furniture">
-                          Furnitur
+                          Jasa Furniture
                         </a>
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" id="/HomeService/keramik">
-                          Keramik
+                          Jasa Keramik
                         </a>
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" id="/HomeService/lesson">
-                          Les private
+                          Jasa Les private
                         </a>
                       </li>
                     </ul>
@@ -126,27 +126,27 @@ export default function Navbar() {
                     <ul className="dropdown-menu">
                       <li className="nav-item">
                         <a className="nav-link" id="/OtherService/bus">
-                          Bus
+                          Jasa Bus
                         </a>
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" id="/OtherService/consultant">
-                          Konsultan Hukum Industri
+                          Jasa Konsultan Hukum Industri
                         </a>
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" id="/OtherService/contractor">
-                          Kontraktor
+                          Jasa Kontraktor
                         </a>
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" id="/OtherService/outsourcing">
-                          Outsourcing
+                          Jasa Outsourcing
                         </a>
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" id="/OtherService/helper">
-                          Asisten Rumah Tangga
+                          Jasa Layanan rumah
                         </a>
                       </li>
                       <li className="nav-item">
@@ -154,27 +154,27 @@ export default function Navbar() {
                           className="nav-link"
                           id="/OtherService/garden-animal"
                         >
-                          Perawatan Hewan
+                          Jasa Perawatan Hewan
                         </a>
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" id="/OtherService/insurance">
-                          Ansuransi
+                          Jasa Asuransi
                         </a>
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" id="/OtherService/property">
-                          Properti
+                          Jasa Properti
                         </a>
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" id="/OtherService/arsitek">
-                          Arsitek
+                          Jas Arsitek
                         </a>
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" id="/OtherService/surat">
-                          Surat
+                          Jas pengurusan surat surat
                         </a>
                       </li>
                       {/* <li className="nav-item">

@@ -9,25 +9,25 @@ import Testimonial from "@/components/testimonial";
 
 export default function page() {
   const data: portofolioModel = {
-    title: "Layanan Pipa",
+    title: "Jasa pemasangan/perbaikan Pipa Air",
     subTitle: "Garansi 100%",
     category: [],
     data: [
       {
-        label: "Contact Worker",
-        subLabel: "Book Now",
+        label: "Kontak Pengrajin",
+        subLabel: "Pesen Sekarang",
         image: "../assets/img/pipe1.jpeg",
         type: "all",
       },
       {
-        label: "Contact Worker",
-        subLabel: "Book Now",
+        label: "Kontak Pengrajin",
+        subLabel: "Pesen Sekarang",
         image: "../assets/img/pipe7.jpg",
         type: "all",
       },
       {
-        label: "Contact Worker",
-        subLabel: "Book Now",
+        label: "Kontak Pengrajin",
+        subLabel: "Pesen Sekarang",
         image: "../assets/img/pipe3.jpeg",
         type: "all",
       },
@@ -99,6 +99,7 @@ export default function page() {
         "Saya baru saja menyewa HYS pipe untuk beberapa pengerjaan logam khusus dan perbaikan pengelasan untuk bisnis saya, dan saya sangat terkesan. Dari konsultasi awal hingga pemasangan akhir, tim mereka profesional, efisien, dan sangat terampil. Kualitas pengelasan mereka luar biasa – semuanya kuat, bersih, dan dibuat agar tahan lama",
     },
   ];
+
   return (
     <>
       <div className="home-section home-2 pipe">
