@@ -1,5 +1,4 @@
 import { list, priceProps } from "../app/interface/Model";
-import style from "../app/styles/style.module.css";
 
 export default function Price({ value }: { value: priceProps[] }) {
   return (
