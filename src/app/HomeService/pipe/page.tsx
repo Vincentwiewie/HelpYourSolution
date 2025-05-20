@@ -15,19 +15,19 @@ export default function page() {
     data: [
       {
         label: "Kontak Pengrajin",
-        subLabel: "Pesen Sekarang",
+        subLabel: "Pesan Sekarang",
         image: "../assets/img/pipe1.jpeg",
         type: "all",
       },
       {
         label: "Kontak Pengrajin",
-        subLabel: "Pesen Sekarang",
+        subLabel: "Pesan Sekarang",
         image: "../assets/img/pipe7.jpg",
         type: "all",
       },
       {
         label: "Kontak Pengrajin",
-        subLabel: "Pesen Sekarang",
+        subLabel: "Pesan Sekarang",
         image: "../assets/img/pipe3.jpeg",
         type: "all",
       },

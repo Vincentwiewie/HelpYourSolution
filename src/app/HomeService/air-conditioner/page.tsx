@@ -155,7 +155,7 @@ export default function page() {
                     </p>
                     <div className="banner-btn">
                       <a className="default-btn-one" href="tel:081284691689">
-                        Pesen Sekarang <span></span>
+                        Pesan Sekarang <span></span>
                       </a>
                       <a
                         className="default-btn-two"

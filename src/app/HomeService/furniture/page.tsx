@@ -87,7 +87,6 @@ export default function page() {
                       Perlu mempercantik tampilan Perabotan rumah/toko anda?
                       Serahkan pada kami,ahlinya pembuatan perabot/furniture
                       akan membuat rumah / toko anda menjadi mewah Dan berkelas
-                      100% garansi
                       <span className="text-gradient mt-5"> 100% Garansi</span>
                     </h3>
                     <p className="text-white">

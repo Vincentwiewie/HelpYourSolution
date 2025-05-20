@@ -54,7 +54,7 @@ export default function page() {
 
   const dataCardService: cardServiceModel[] = [
     {
-      title: "Pemasangan Plafon Palsu",
+      title: "Pemasangan Plafon",
       content:
         "Langit-langit yang dirancang khusus yang menambah gaya dan fungsionalitas ke ruangan mana pun",
       image: "../assets/img/feature-two-icon-1",

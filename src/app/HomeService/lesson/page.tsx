@@ -2,6 +2,7 @@ import { portofolioModel, testimonialModel } from "@/app/interface/Model";
 import Counter from "@/components/counter";
 import Portofolio from "@/components/portofolio";
 import Testimonial from "@/components/testimonial";
+import Image from "next/image";
 
 export default function lesson() {
   const data: portofolioModel = {
@@ -11,38 +12,41 @@ export default function lesson() {
     data: [
       {
         label: "",
-        subLabel: "",
-        image: "../assets/img/lessonn1.jpeg",
+        subLabel:
+          "Guru bahasa Inggris menjelaskan aturan tata bahasa selama pelajaran",
+        image: "/assets/img/lessonn1.jpeg",
         type: "classic",
       },
       {
         label: "",
-        subLabel: "",
-        image: "../assets/img/lessonn2.jpeg",
+        subLabel: "Anak Anak TK sedang mengajar",
+        image: "/assets/img/lessonn2.jpeg",
         type: "classic",
       },
       {
         label: "",
-        subLabel: "",
-        image: "../assets/img/lessonn3.jpeg",
+        subLabel: "guru bahasa mandarin sedang mengajar",
+        image: "/assets/img/lessonn3.jpeg",
         type: "classic",
       },
       {
         label: "",
-        subLabel: "",
-        image: "../assets/img/lesson10.jpeg",
+        subLabel: "guru matematika sedang mengajar rumus tambah",
+        image: "/assets/img/lesson10.jpeg",
         type: "cozy",
       },
       {
         label: "",
-        subLabel: "",
-        image: "../assets/img/lesson11.jpeg",
+        subLabel:
+          "Guru sains sedang melakukan percobaan selama pelajaran sekolah menengah.",
+        image: "/assets/img/lesson11.jpeg",
         type: "cozy",
       },
       {
         label: "",
-        subLabel: "",
-        image: "../assets/img/lesson12.jpeg",
+        subLabel:
+          "Anak-anak kecil belajar alfabet selama pelajaran prasekolah.",
+        image: "/assets/img/lesson12.jpeg",
         type: "cozy",
       },
     ],
@@ -107,6 +111,7 @@ export default function lesson() {
               <div className="row align-items-center">
                 <div className="col-lg-6 col-md-12">
                   <div className="main-banner-content">
+                    <h2 className="text-white">HYS Bimbingan Belajar</h2>
                     <ul className="social-icon-list">
                       <li>
                         <a href="https://www.facebook.com/share/16GAX2eF6W/">
@@ -210,22 +215,21 @@ export default function lesson() {
                     </div>
                   </div>
                 </div>
-                <div className="about-btn-box">
-                  <a className="default-btn" href="about.html">
-                    Hubungi Kami <span></span>
-                  </a>
-                </div>
               </div>
             </div>
-            <div className="col-lg-6 col-md-12">
+            <div className="col-lg-6 col-md-12 mt-5">
               <div className="about-image">
-                <img src="../assets/img/lesson2.jpg" alt="About image" />
+                <Image
+                  src="/assets/img/lesson2.jpg"
+                  alt="Guru memberikan pelajaran di kelas dengan siswa mendengarkan dan mencatat."
+                  width={500}
+                  height={300}
+                />
                 <div
                   className="years-design"
                   style={{
-                    marginBottom: "25vh",
-                    marginLeft: "7vh",
-                    borderRadius: "70px",
+                    marginBottom: "20vh",
+                    borderRadius: "80px",
                   }}
                 >
                   <h2>10</h2>
@@ -236,6 +240,15 @@ export default function lesson() {
           </div>
         </div>
       </section>
+
+      <div className="about-btn-box" style={{ marginLeft: "30%" }}>
+        <a
+          className="default-btn "
+          href="https://api.whatsapp.com/send?phone=081284691689"
+        >
+          Hubungi Kami <span></span>
+        </a>
+      </div>
 
       <Testimonial value={dataTestimonial}></Testimonial>
     </>

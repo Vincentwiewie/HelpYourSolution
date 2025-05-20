@@ -5,7 +5,7 @@ export default function helper() {
   const dataBlogDetails: articleDetail = {
     classbg: "helper",
     title: "Layanan Jasa Lainnya",
-    subTitle: "Layanan Jasa Pembantu",
+    subTitle: "Layanan Jasa Asisten Rumah Tangga",
     name: "William",
     date: "22 Jan 2025",
     articleTitle: "Butuh Bantuan? Kami Siap Membantu Anda!",

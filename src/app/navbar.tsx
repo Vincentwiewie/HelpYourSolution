@@ -76,7 +76,8 @@ export default function Navbar() {
                   </li>
                   <li className="nav-item">
                     <a>
-                      Layanan Rumah<i className="fas fa-chevron-down"></i>
+                      Jasa Layanan Rumah
+                      <i className="fas fa-chevron-down"></i>
                     </a>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
@@ -114,14 +115,15 @@ export default function Navbar() {
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" id="/HomeService/lesson">
-                          Jasa Les private
+                          Jasa Bimbingan Belajar
                         </a>
                       </li>
                     </ul>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link">
-                      Layanan Lainnya<i className="fas fa-chevron-down"></i>
+                      Jasa Layanan Lainnya
+                      <i className="fas fa-chevron-down"></i>
                     </a>
                     <ul className="dropdown-menu">
                       <li className="nav-item">

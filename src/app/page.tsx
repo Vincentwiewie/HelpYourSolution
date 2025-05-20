@@ -35,7 +35,8 @@ export default function MainPage() {
                           </li>
                         </ul>
                         <h1>
-                          Kami Menyediakan Berbagai Macam Solusi Layanan Rumah
+                          Kami Menyediakan Berbagai Macam Solusi Jasa Layanan
+                          Untuk Anda
                         </h1>
                         <p>
                           Kami Menyediakan Berbagai Macam Solusi Jasa Layanan

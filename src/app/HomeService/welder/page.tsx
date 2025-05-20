@@ -109,9 +109,9 @@ export default function page() {
                       <span className="text-gradient"> 100% Warranty</span>
                     </h3>
                     <p className="text-white">
-                      Kami mengkhususkan diri dalam layanan pemasangan,
-                      perawatan, pemasangan dan perbaikan Teralis atau Jerjak
-                      besi berkualitas tinggi untuk berbagai industri di seluruh
+                      Kami mengkhususkan diri dalam layanan pengerjaan,
+                      perawatan, dan perbaikan Teralis atau Jerjak besi
+                      berkualitas tinggi untuk berbagai industri di seluruh
                       wilayah. Apakah Anda memerlukan Teralis atau Jerjak besi
                       yang baru dipasang atau sedang mencari perbaikan dan
                       perawatan ahli
