@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function lesson() {
   const data: portofolioModel = {
-    title: "Galeri Les Privat",
+    title: "Galeri Bimbingan Belajar",
     subTitle: "",
     category: [],
     data: [

@@ -100,17 +100,22 @@ export default function Navbar() {
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" id="/HomeService/plafon">
-                          Jasa Plafon
+                          Jasa Pemasangan Plafon
                         </a>
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" id="/HomeService/furniture">
-                          Jasa Furniture
+                          Jasa Pembuatan Perabotan Dan Furniture
                         </a>
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" id="/HomeService/keramik">
-                          Jasa Keramik
+                          Jasa Pemasangan Keramik
+                        </a>
+                      </li>
+                      <li className="nav-item">
+                        <a className="nav-link" id="/HomeService/helper">
+                          Jasa Asisten Rumah Tangga
                         </a>
                       </li>
                       <li className="nav-item">
@@ -144,11 +149,6 @@ export default function Navbar() {
                       <li className="nav-item">
                         <a className="nav-link" id="/OtherService/outsourcing">
                           Jasa Outsourcing
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a className="nav-link" id="/OtherService/helper">
-                          Jasa Layanan rumah
                         </a>
                       </li>
                       <li className="nav-item">

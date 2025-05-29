@@ -10,7 +10,7 @@ import Testimonial from "@/components/testimonial";
 export default function page() {
   const data: priceProps[] = [
     {
-      price: "5",
+      price: "",
       image: `../assets/img/AcEngine.jpg`,
       textButton: "Order Sekarang",
       label: "Clean AC",
@@ -24,7 +24,7 @@ export default function page() {
       ],
     },
     {
-      price: "15",
+      price: "",
       image: "../assets/img/AcOn.jpg",
       textButton: "Order Now",
       label: "Inject Freon",
@@ -39,7 +39,7 @@ export default function page() {
     },
 
     {
-      price: "25 - 100",
+      price: "",
       image: "../assets/img/ac3.jpeg",
       textButton: "Order Now",
       label: "Instalasi AC",
@@ -56,7 +56,7 @@ export default function page() {
       ],
     },
     {
-      price: "25 - 100",
+      price: "",
       image: "../assets/img/AcService.jpg",
       textButton: "Order Now",
       label: "Repair",
