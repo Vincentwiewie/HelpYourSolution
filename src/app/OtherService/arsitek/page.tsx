@@ -14,7 +14,7 @@ export default function contractor() {
       "Arsitektur adalah proses perencanaan, perancangan, dan pembangunan struktur fisik seperti rumah, gedung, taman, hingga kota. Namun lebih dari itu, arsitektur adalah refleksi dari budaya, teknologi, dan kebutuhan zaman. Seorang arsitek tidak hanya menciptakan ruang; mereka menciptakan pengalaman. Mereka mempertimbangkan sirkulasi udara, pencahayaan alami, orientasi matahari, keindahan visual, serta kebutuhan fungsional pengguna.",
     image1: "../assets/img/arsitek1.jpeg",
     image2: "../assets/img/arsitek2.jpeg",
-    image3: "../assets/img/arsitek3.jpeg",
+    image3: "../assets/img/arsitek3.jpg",
     articleTitle2: "Mengapa Anda Membutuhkan Layanan Arsitek Profesional?",
     articleContent2:
       "Merancang bangunan bukan hanya soal estetika, tapi juga struktur, legalitas, dan keamanan. Arsitek profesional membantu memastikan: Desain sesuai kebutuhan dan anggaran, Legalitas dan izin bangunan terpenuhi, Konstruksi efisien dan minim kesalahan, Nilai estetika dan fungsi berjalan beriringan",
