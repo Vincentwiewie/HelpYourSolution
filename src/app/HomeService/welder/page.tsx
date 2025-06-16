@@ -111,13 +111,15 @@ export default function page() {
                     <p className="text-white">
                       Kami mengkhususkan diri dalam layanan pengerjaan,
                       perawatan, dan perbaikan Teralis atau Jerjak besi
-                      berkualitas tinggi untuk berbagai industri di seluruh
-                      wilayah. Apakah Anda memerlukan Teralis atau Jerjak besi
-                      yang baru dipasang atau sedang mencari perbaikan dan
-                      perawatan ahli
+                      berkualitas tinggi, Apakah Anda memerlukan Teralis atau
+                      Jerjak besi yang baru dipasang atau sedang mencari
+                      perbaikan dan perawatan ahli
                     </p>
                     <div className="banner-btn">
-                      <a className="default-btn-one" href="tel:081284691689">
+                      <a
+                        className="default-btn-one"
+                        href="https://api.whatsapp.com/send?phone=081282288099"
+                      >
                         Layanan Kami <span></span>
                       </a>
                     </div>

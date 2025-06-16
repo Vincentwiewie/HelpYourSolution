@@ -375,7 +375,10 @@ export default function about() {
                   dan tim Anda untuk tumbuh dan berkembang.
                 </p>
                 <div className="hire-btn">
-                  <a className="default-btn" href="tel:081284691689">
+                  <a
+                    className="default-btn"
+                    href="https://api.whatsapp.com/send?phone=081282288099"
+                  >
                     Hubungi Sekarang<span></span>
                   </a>
                   <a

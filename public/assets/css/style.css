@@ -5065,7 +5065,8 @@ blockquote::after,
   background-image: url(../img/property2.jpeg);
 }
 .contractor {
-  background-image: url(../img/contractor2.jpg);
+  background-image: url(../img/contractor3.jpeg);
+  background-repeat: no-repeat;
 }
 .garden {
   background-image: url(../img/garden1.jpg);

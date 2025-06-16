@@ -17,9 +17,9 @@ export default function Price({ value }: { value: priceProps[] }) {
                     <div className="price-heading" style={{ marginTop: "5vh" }}>
                       <div className="price-usd">
                         <h4>
-                          ${m.price}{" "}
-                          <span className="price-small-text">
-                            - Per Service
+                          {m.price}{" "}
+                          <span className="price-small-text fw-bold">
+                            {m.label}
                           </span>
                         </h4>
                       </div>
@@ -39,7 +39,10 @@ export default function Price({ value }: { value: priceProps[] }) {
                     </div>
                     <div className="price-btn">
                       {" "}
-                      <a className="price-btn-one" href="tel:081284691689">
+                      <a
+                        className="price-btn-one"
+                        href="https://api.whatsapp.com/send?phone=081282288099"
+                      >
                         {m.textButton}
                       </a>
                     </div>

@@ -95,7 +95,10 @@ export default function keramik() {
                       percayakan kepada jasa pemasangan keramik profesional.
                     </p>
                     <div className="banner-btn">
-                      <a className="default-btn-one" href="tel:081284691689">
+                      <a
+                        className="default-btn-one"
+                        href="https://api.whatsapp.com/send?phone=081282288099"
+                      >
                         Hubungi Kami<span></span>
                       </a>
                     </div>

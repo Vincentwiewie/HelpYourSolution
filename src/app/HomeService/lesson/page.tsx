@@ -150,7 +150,10 @@ export default function lesson() {
                       zaman.
                     </p>
                     <div className="banner-btn">
-                      <a className="default-btn-two" href="tel:081284691689">
+                      <a
+                        className="default-btn-two"
+                        href="https://api.whatsapp.com/send?phone=081282288099"
+                      >
                         Hubungi Kami <span></span>
                       </a>
                     </div>
@@ -244,7 +247,7 @@ export default function lesson() {
       <div className="about-btn-box" style={{ marginLeft: "30%" }}>
         <a
           className="default-btn "
-          href="https://api.whatsapp.com/send?phone=081284691689"
+          href="https://api.whatsapp.com/send?phone=081282288099"
         >
           Hubungi Kami <span></span>
         </a>

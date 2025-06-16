@@ -96,7 +96,10 @@ export default function page() {
                       menjadi tempat yang Anda cintai!
                     </p>
                     <div className="banner-btn">
-                      <a className="default-btn-one" href="tel:081284691689">
+                      <a
+                        className="default-btn-one"
+                        href="https://api.whatsapp.com/send?phone=081282288099"
+                      >
                         Layanan Kami <span></span>
                       </a>
                     </div>

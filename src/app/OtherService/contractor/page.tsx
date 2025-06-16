@@ -11,9 +11,9 @@ export default function contractor() {
     articleTitle: "Apa itu Layanan Kontraktor?",
     articleContent:
       "Layanan kontraktor mencakup berbagai tugas khusus yang terkait dengan konstruksi, renovasi, dan perbaikan rumah. Kontraktor biasanya mengawasi proyek dari awal hingga akhir, berkoordinasi dengan subkontraktor, mengelola anggaran, mendapatkan izin, dan memastikan pekerjaan mematuhi kode dan peraturan bangunan setempat. Beberapa kontraktor mengkhususkan diri dalam bidang tertentu, seperti perpipaan, pekerjaan listrik, atau atap, sementara yang lain menawarkan layanan komprehensif yang mencakup semuanya mulai dari desain hingga sentuhan akhir.",
-    image1: "../assets/img/contractor4.jpg",
-    image2: "../assets/img/contractor1.jpeg",
-    image3: "../assets/img/contractor3.jpg",
+    image1: "../assets/img/contractor1.jpg",
+    image2: "../assets/img/contractor2.jpg",
+    image3: "../assets/img/contractor4.jpg",
     articleTitle2: "Mengapa Anda Membutuhkan Layanan Kontraktor Profesional?",
     articleContent2:
       "Keahlian dan Pengalaman: Kontraktor membawa pengetahuan yang tak ternilai bagi setiap proyek. Dengan pengalaman bertahun-tahun di bidang ini, mereka memahami seluk-beluk konstruksi, pemecahan masalah, dan manajemen proyek. Dari memastikan integritas struktural hingga memilih material yang tepat, kontraktor profesional memiliki keterampilan untuk memberikan hasil yang berkualitas.",

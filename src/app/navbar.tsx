@@ -105,7 +105,7 @@ export default function Navbar() {
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" id="/HomeService/furniture">
-                          Jasa Pembuatan Perabotan Dan Furniture
+                          Jasa Pembuatan Perabotan/Furniture
                         </a>
                       </li>
                       <li className="nav-item">
@@ -190,7 +190,7 @@ export default function Navbar() {
                 <div className="other-option">
                   <a
                     className="default-btn"
-                    href="https://api.whatsapp.com/send?phone=081284691689"
+                    href="https://api.whatsapp.com/send?phone=081282288099"
                   >
                     Hubungi Kami <span></span>
                   </a>

@@ -141,7 +141,9 @@ export default function Footer() {
                     <i className="flaticon-phone-call"></i>
                     <h3>Telepon</h3>
                     <span>
-                      <a href="tel:081284691689">+62 812-8469-1689</a>
+                      <a href="https://api.whatsapp.com/send?phone=081282288099">
+                        0812-8228-8099
+                      </a>
                     </span>
                   </div>
                   <div className="footer-info-contact">

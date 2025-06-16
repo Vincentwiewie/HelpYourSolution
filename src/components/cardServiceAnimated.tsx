@@ -32,7 +32,10 @@ export default function cardServiceAnimated({
                       <h6>{m.title}</h6>
                       <p>{m.content}</p>
                       <div className="services-btn">
-                        <a className="read-more" href="tel:081284691689">
+                        <a
+                          className="read-more"
+                          href="https://api.whatsapp.com/send?phone=081282288099"
+                        >
                           <i className="bi bi-arrow-right-short"></i> Contact Us
                         </a>
                       </div>
