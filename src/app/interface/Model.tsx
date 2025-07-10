@@ -4,6 +4,7 @@ export interface priceProps {
   textButton: string;
   label: string;
   list: list[];
+  alt: string;
 }
 
 export interface list {
@@ -57,6 +58,7 @@ export interface cardServiceAnimatedModel {
   title: string;
   content: string;
   image: string;
+  alt: string;
   imageHover: string;
 }
 
@@ -128,6 +130,9 @@ export interface articleDetail {
   image1: string;
   image2: string;
   image3: string;
+  alt1: string;
+  alt2: string;
+  alt3: string;
   articleTitle2: string;
   articleContent2: string;
   articleContent3: articleContentUl;

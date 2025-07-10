@@ -15,6 +15,9 @@ export default function BlogDetails({
   image1,
   image2,
   image3,
+  alt1,
+  alt2,
+  alt3,
   articleTitle2,
   articleContent2,
   articleContent3,
@@ -51,7 +54,7 @@ export default function BlogDetails({
             <div className="col-lg-8 col-md-12">
               <div className="blog-details-desc">
                 <div className="article-image">
-                  <img src={image3} alt="image" />
+                  <img src={image3} alt={alt3} />
                 </div>
                 <div className="article-content">
                   <div className="entry-meta">
@@ -73,7 +76,7 @@ export default function BlogDetails({
                       <figure>
                         <img
                           src={image1}
-                          alt="image"
+                          alt={alt1}
                           style={{ height: "280px", width: "400px" }}
                         />
                       </figure>
@@ -82,7 +85,7 @@ export default function BlogDetails({
                       <figure>
                         <img
                           src={image2}
-                          alt="image"
+                          alt={alt2}
                           style={{ height: "280px", width: "400px" }}
                         />
                       </figure>

@@ -10,13 +10,16 @@ export default function contractor() {
     date: "15 Jan 2025",
     articleTitle: "HYS Jasa pengurusan surat surat",
     articleContent:
-      "HYS adalah biro jasa terpercaya yang melayani pengurusan berbagai jenis dokumen dan surat-surat penting secara cepat, aman, dan profesional. Kami hadir untuk memudahkan Anda dalam menangani urusan administratif yang seringkali memakan waktu dan tenaga. Dengan pengalaman dan jaringan kerja yang luas, kami siap membantu individu maupun perusahaan dalam menyelesaikan proses legalitas dengan efisien dan tepat waktu.",
+      "HYS adalah biro jasa profesional dan terpercaya yang melayani pengurusan berbagai jenis dokumen penting dan surat-surat legalitas, baik untuk kebutuhan pribadi maupun perusahaan. Kami hadir sebagai solusi cerdas untuk Anda yang ingin menyelesaikan urusan administratif secara cepat, aman, dan efisien—tanpa harus membuang waktu dan tenaga. HYS siap membantu Anda menyelesaikan proses legalitas secara tepat waktu dan bebas stres.",
     image1: "../assets/img/trust4.jpg",
     image2: "../assets/img/trust5.jpg",
     image3: "../assets/img/trust6.jpg",
+    alt1: "Jasa pengurusan STNK",
+    alt2: "Jasa perpanjangan pajak motor/mobil",
+    alt3: "Jasa pengurusan pajak kendaraan",
     articleTitle2: "Mengapa Anda Membutuhkan Layanan Surat Yang Profesional?",
     articleContent2:
-      "Fungsi utama dari layanan surat adalah mempermudah masyarakat dalam mengurus dokumen resmi yang diperlukan untuk keperluan pribadi, pendidikan, pekerjaan, atau keperluan hukum. Surat-surat ini sering menjadi syarat untuk mengakses layanan lainnya, seperti mengurus KTP, mendaftar sekolah, atau melamar pekerjaan.",
+      "Dengan Layanan cepat dan aman, Tim profesional dan berpengalaman, Jaringan luas di instansi terkait, Transparansi biaya dan proses, Percayakan kebutuhan administratif Anda kepada HYS – Biro jasa terpercaya yang memudahkan urusan legalitas Anda baik individu maupun korporat,",
     articleContent3: {
       title: "Layanan Kami Meliputi:",
       content: [
@@ -36,21 +39,21 @@ export default function contractor() {
           title: "Wilson Swanson",
           date: "June 15 - 2024 12:30 PM",
           comments:
-            "Cepet banget responsnya, saya nggak sampai 1 hari udah jadi, murah dan mudah.. thanks Biro Jasa Laxmi, semoga tambah sukses.",
+            "Cepat banget prosesnya! Saya nggak sampai satu hari, dokumen sudah jadi. Murah, mudah, dan tanpa ribet. Terima kasih Biro Jasa Laxmi—semoga makin sukses dan banyak pelanggan!",
           image: "../assets/img/client/1.jpg",
         },
         {
           title: "Ella Hodges",
           date: "June 15 - 2024 12:30 PM",
           comments:
-            "Cepet, nggak ribet, dilayani dengan baik, bayar, besoknya dipandu ke Polres untuk foto, 20 menit SIM udah jadi.",
+            "Proses pengurusan SIM di Biro Jasa Laxmi sangat cepat dan mudah. Setelah pembayaran, saya langsung dipandu ke Polres untuk foto, dan dalam waktu kurang dari 20 menit, SIM sudah jadi. Pelayanan tanpa ribet dan sangat profesional. Saya rekomendasikan jasa pengurusan SIM ini untuk siapa saja yang butuh layanan cepat, terpercaya, dan efisien.",
           image: "../assets/img/client/2.jpg",
         },
         {
           title: "Melissa Bryant",
           date: "June 15 - 2024 12:30 PM",
           comments:
-            "Biro jasa HYS ok punya. Bisa dipercaya. Uang saya transfer ke bank account Laxmi a.n Selviana, jam 1.00 SIM saya langsung jadi. Cuma 1 hari. Gak bohong. Coba aja buktikan sendiri. Terima kasih.",
+            "Biro jasa HYS sangat oke dan bisa dipercaya. Saya melakukan transfer ke rekening bank atas nama Laxmi Selviana jam 1 siang, dan SIM saya langsung jadi hanya dalam 1 hari. Ini bukan omong kosong, saya benar-benar merekomendasikan jasa pengurusan SIM yang cepat dan profesional ini. Coba buktikan sendiri!",
           image: "../assets/img/client/4.jpg",
         },
       ],
@@ -141,6 +144,9 @@ export default function contractor() {
         image1={dataBlogDetails.image1}
         image2={dataBlogDetails.image2}
         image3={dataBlogDetails.image3}
+        alt1={dataBlogDetails.alt1}
+        alt2={dataBlogDetails.alt2}
+        alt3={dataBlogDetails.alt3}
         articleTitle2={dataBlogDetails.articleTitle2}
         articleContent2={dataBlogDetails.articleContent2}
         articleContent3={dataBlogDetails.articleContent3}

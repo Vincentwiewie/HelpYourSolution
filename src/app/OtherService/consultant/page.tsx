@@ -14,10 +14,13 @@ export default function consultant() {
     image1: "../assets/img/consultant4.jpg",
     image2: "../assets/img/consultant2.jpg",
     image3: "../assets/img/consultant3.jpg",
+    alt1: "Konsultan ketenagakerjaan Indonesia",
+    alt2: "Konsultan PKWT dan PKWTT",
+    alt3: "Jasa penyelesaian perselisihan hubungan industrial",
     articleTitle2:
       "Mengapa Anda Membutuhkan Konsultan Masalah Hukum Dari Team HYS?",
     articleContent2:
-      "HYS adalah konsultan hukum yang berfokus pada penyelesaian dan pengelolaan hubungan industrial antara perusahaan dan tenaga kerja. Kami hadir sebagai mitra strategis bagi perusahaan dalam membangun sistem ketenagakerjaan yang sehat, adil, dan sesuai dengan ketentuan hukum yang berlaku. Dengan tim profesional yang berpengalaman di bidang hukum ketenagakerjaan dan hubungan industrial, kami membantu perusahaan dalam mencegah dan menyelesaikan perselisihan, menyusun perjanjian kerja, serta memastikan kepatuhan terhadap regulasi ketenagakerjaan nasional.",
+      "HYS adalah konsultan hukum yang berfokus pada ketenagakerjaan dan hubungan industrial di Indonesia. Kami menjadi mitra strategis perusahaan dalam membangun sistem kerja yang sehat, adil, dan sesuai dengan peraturan perundang-undangan ketenagakerjaan yang berlaku. Didukung oleh tim profesional berpengalaman di bidang hukum ketenagakerjaan dan manajemen hubungan industrial, HYS memberikan layanan komprehensif kepada perusahaan, antara lain: Mencegah dan menyelesaikan perselisihan hubungan industrial, Menyusun dan mereview perjanjian kerja, PKWT/PKWTT, dan peraturan perusahaan, Memberikan pendampingan hukum dalam menghadapi sengketa ketenagakerjaan, Memastikan kepatuhan terhadap regulasi ketenagakerjaan nasional, termasuk audit dan implementasi kebijakan ketenagakerjaan Dengan pendekatan hukum yang praktis, terukur, dan berorientasi pada keberlanjutan, HYS berkomitmen membantu perusahaan menciptakan lingkungan kerja kondusif yang mendukung pertumbuhan bisnis dan kesejahteraan tenaga kerja.",
     articleContent3: {
       title: "Layanan Kami Meliputi:",
       content: [
@@ -36,21 +39,21 @@ export default function consultant() {
           title: "Wilson Swanson",
           date: "June 15 - 2024 12:30 PM",
           comments:
-            "Saya menghubungi layanan konsultan ini saat saya menghadapi keputusan bisnis yang sulit. Bimbingan yang saya terima tidak hanya berwawasan luas tetapi juga praktis. Mereka meluangkan waktu untuk benar-benar memahami situasi saya dan memberikan solusi yang disesuaikan. Saya sangat merekomendasikan mereka kepada siapa pun yang membutuhkan saran ahli!",
+            "Saya menghubungi layanan konsultan hukum ketenagakerjaan ini saat menghadapi keputusan bisnis yang kritis terkait manajemen tenaga kerja. Bimbingan hukum yang saya terima sangat komprehensif dan aplikatif. Tim konsultan meluangkan waktu untuk memahami konteks permasalahan secara mendalam dan memberikan solusi yang disesuaikan dengan kebutuhan perusahaan. Saya merekomendasikan HYS kepada siapa pun yang memerlukan nasihat hukum tenaga kerja profesional.",
           image: "../assets/img/client/1.jpg",
         },
         {
           title: "Ella Hodges",
           date: "June 15 - 2024 12:30 PM",
           comments:
-            "Saya pernah bekerja dengan beberapa konsultan sebelumnya, tetapi tidak ada yang seteliti dan seprofesional tim ini. Mereka membantu saya mengatasi masalah yang rumit dengan mudah dan memberikan rekomendasi yang jelas dan dapat ditindaklanjuti. Saya tidak bisa mengharapkan pengalaman yang lebih baik!",
+            "Saya pernah bekerja dengan beberapa konsultan ketenagakerjaan sebelumnya, tetapi tidak ada yang seteliti dan seprofesional tim ini. Mereka membantu saya mengatasi permasalahan yang kompleks di bidang hubungan industrial dengan pendekatan yang sistematis dan efektif. Rekomendasi yang diberikan sangat jelas, praktis, dan langsung bisa ditindaklanjuti. Pengalaman bersama tim HYS benar-benar melebihi harapan saya. Saya sangat merekomendasikan mereka bagi siapa pun yang memerlukan solusi hukum tenaga kerja yang andal dan profesional.",
           image: "../assets/img/client/2.jpg",
         },
         {
           title: "Melissa Bryant",
           date: "June 15 - 2024 12:30 PM",
           comments:
-            "Layanan konsultasi ini mengubah permainan bisnis kecil saya. Mereka memberikan saran ahli yang membantu menyederhanakan operasi kami dan menghemat waktu dan uang. Tim mereka responsif, berpengetahuan luas, dan sangat membantu di setiap langkah. Saya sangat puas dengan hasilnya!",
+            "Layanan konsultasi hukum ketenagakerjaan ini benar-benar mengubah arah bisnis kecil saya. Dengan saran ahli yang diberikan, kami berhasil menyederhanakan operasional, meningkatkan efisiensi, dan menghemat waktu serta biaya. Tim mereka sangat responsif, memiliki pemahaman hukum yang mendalam, dan mendampingi kami di setiap tahap. Saya sangat puas dengan hasilnya dan tidak ragu merekomendasikan mereka kepada pelaku usaha yang membutuhkan dukungan hukum tenaga kerja yang terpercaya.",
           image: "../assets/img/client/4.jpg",
         },
       ],
@@ -141,6 +144,9 @@ export default function consultant() {
         image1={dataBlogDetails.image1}
         image2={dataBlogDetails.image2}
         image3={dataBlogDetails.image3}
+        alt1={dataBlogDetails.alt1}
+        alt2={dataBlogDetails.alt2}
+        alt3={dataBlogDetails.alt3}
         articleTitle2={dataBlogDetails.articleTitle2}
         articleContent2={dataBlogDetails.articleContent2}
         articleContent3={dataBlogDetails.articleContent3}

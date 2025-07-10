@@ -1814,7 +1814,7 @@ p:last-child {
   align-items: center;
   height: 800px;
   min-height: 100vh;
-  background-image: url("../img/ac1.jpeg");
+  background-image: url("../img/ac7.jpeg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -1871,7 +1871,7 @@ p:last-child {
   z-index: 1;
   height: 800px;
   min-height: 100vh;
-  background-image: url("../img/keramik1.jpeg");
+  background-image: url("../img/keramik3.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1887,10 +1887,10 @@ p:last-child {
   background-image: url("../img/blog-details/2.jpg") !important;
 }
 .ceiling {
-  background-image: url("../img/plafon1.jpeg") !important;
+  background-image: url("../img/roof2.jpeg") !important;
 }
 .furniture {
-  background-image: url("../img/furniture2.jpeg") !important;
+  background-image: url("../img/furniture3.jpg") !important;
 }
 .arsitek {
   background-image: url("../img/arsitek4.jpeg") !important;
@@ -3399,7 +3399,7 @@ p:last-child {
   background-attachment: fixed;
 }
 .lesson {
-  background: url(../img/lessonn4.jpeg);
+  background: url(../img/lesson3.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

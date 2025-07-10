@@ -11,13 +11,16 @@ export default function contractor() {
     articleTitle:
       "Arsitektur: Lebih dari Sekadar Bangunan, Ini Tentang Kehidupan",
     articleContent:
-      "Arsitektur adalah proses perencanaan, perancangan, dan pembangunan struktur fisik seperti rumah, gedung, taman, hingga kota. Namun lebih dari itu, arsitektur adalah refleksi dari budaya, teknologi, dan kebutuhan zaman. Seorang arsitek tidak hanya menciptakan ruang; mereka menciptakan pengalaman. Mereka mempertimbangkan sirkulasi udara, pencahayaan alami, orientasi matahari, keindahan visual, serta kebutuhan fungsional pengguna.",
+      "Arsitektur bukan sekadar proses membangun struktur fisik seperti rumah, gedung, taman, atau bahkan kota—arsitektur adalah perpaduan antara seni, sains, dan budaya. Melalui proses perencanaan, perancangan, dan pembangunan, arsitektur berfungsi untuk menciptakan ruang yang tidak hanya fungsional tetapi juga bermakna secara emosional dan sosial. Lebih dari sekadar struktur, arsitektur adalah cerminan dari peradaban dan zaman. Ia merefleksikan budaya, teknologi, nilai estetika, dan kebutuhan manusia yang terus berkembang. Oleh karena itu, seorang arsitek tidak hanya merancang bangunan—mereka menciptakan pengalaman. Dalam setiap desain, arsitek mempertimbangkan berbagai elemen penting seperti: Sirkulasi udara yang baik untuk kenyamanan dan kesehatan, Pencahayaan alami untuk efisiensi energi dan suasana ruang, Orientasi matahari untuk mengatur suhu dan cahaya, Keindahan visual sebagai nilai estetika, serta fungsi ruang yang disesuaikan dengan kebutuhan penggunanya. Arsitektur yang baik mampu menjembatani kebutuhan praktis dengan nilai emosional dan estetika, menjadikan setiap ruang tidak hanya untuk ditinggali, tetapi juga untuk dinikmati dan dihargai.",
     image1: "../assets/img/arsitek1.jpeg",
     image2: "../assets/img/arsitek2.jpeg",
     image3: "../assets/img/arsitek3.jpg",
+    alt1: "jasa arsitek profesional ",
+    alt2: "konsultan arsitektur",
+    alt3: "arsitek rumah dan bangunan",
     articleTitle2: "Mengapa Anda Membutuhkan Layanan Arsitek Profesional?",
     articleContent2:
-      "Merancang bangunan bukan hanya soal estetika, tapi juga struktur, legalitas, dan keamanan. Arsitek profesional membantu memastikan: Desain sesuai kebutuhan dan anggaran, Legalitas dan izin bangunan terpenuhi, Konstruksi efisien dan minim kesalahan, Nilai estetika dan fungsi berjalan beriringan",
+      "Merancang bangunan bukan hanya tentang tampilan luar yang menarik. Di balik desain yang estetis, ada banyak aspek teknis dan legal yang harus dipenuhi. Inilah mengapa peran arsitek profesional sangat penting dalam setiap proyek konstruksi—baik itu rumah tinggal, gedung komersial, maupun bangunan publik. Seorang arsitek berpengalaman membantu memastikan bahwa: Desain sesuai kebutuhan dan anggaran – Setiap ruang dirancang berdasarkan kebutuhan fungsional klien tanpa melebihi batas biaya yang direncanakan. Legalitas dan perizinan bangunan terpenuhi – Arsitek memahami peraturan zonasi, IMB, serta ketentuan teknis bangunan, sehingga proyek dapat berjalan lancar dan legal. Konstruksi efisien dan minim kesalahan – Dengan gambar kerja yang detail dan perencanaan matang, risiko kesalahan di lapangan dapat ditekan seminimal mungkin. Estetika dan fungsi berjalan beriringan – Desain yang baik tidak hanya indah dipandang, tapi juga nyaman digunakan dan tahan lama secara struktural. Dengan dukungan arsitek yang profesional, proses membangun menjadi lebih terarah, aman, efisien, dan bernilai jangka panjang.",
     articleContent3: {
       title: "",
       content: [],
@@ -30,21 +33,21 @@ export default function contractor() {
           title: "Wilson Swanson",
           date: "June 15 - 2024 12:30 PM",
           comments:
-            "Bekerja sama dengan HYS merupakan pengalaman yang luar biasa. Mereka benar-benar mendengarkan apa yang kami inginkan untuk rumah impian kami dan menerjemahkan ide-ide kami ke dalam desain yang indah sekaligus fungsional. Setiap detail, dari pencahayaan alami hingga efisiensi ruang, direncanakan dengan saksama. Kami sangat puas dengan hasilnya.",
+            "Bekerja sama dengan HYS adalah sebuah pengalaman yang luar biasa. Tim arsitek mereka benar-benar mendengarkan kebutuhan kami dan mampu menerjemahkan ide rumah impian kami ke dalam desain yang indah, fungsional, dan nyaman. Setiap aspek desain diperhatikan dengan cermat—mulai dari pencahayaan alami, sirkulasi udara, hingga efisiensi penggunaan ruang. HYS tidak hanya fokus pada tampilan estetika, tetapi juga memastikan bahwa rumah kami berfungsi optimal sesuai gaya hidup. Kami sangat puas dengan hasil akhirnya dan dengan senang hati merekomendasikan HYS sebagai jasa arsitek rumah terpercaya untuk siapa pun yang ingin membangun atau merenovasi rumah dengan hasil maksimal.",
           image: "../assets/img/client/1.jpg",
         },
         {
           title: "Ella Hodges",
           date: "June 15 - 2024 12:30 PM",
           comments:
-            "HYS dan tim mereka mewujudkan visi kami untuk ruang kantor yang modern dan kolaboratif. Mereka menyeimbangkan estetika dengan kepraktisan, menciptakan lingkungan yang menginspirasi kreativitas dan produktivitas. Profesionalisme dan kemampuan mereka dalam mengelola seluruh proses desain membuat pengalaman tersebut bebas stres.",
+            "HYS dan tim arsitek profesional mereka berhasil mewujudkan visi kami untuk ruang kantor yang modern, kolaboratif, dan fungsional. Mereka mampu menyeimbangkan estetika dan kepraktisan, menciptakan lingkungan kerja yang mendukung kreativitas dan produktivitas. Desain interior yang dirancang memperhatikan pencahayaan, tata letak ruang terbuka, serta kebutuhan tim dalam berkolaborasi. Hasilnya adalah kantor yang inspiratif, nyaman, dan efisien secara fungsional. Dengan tingkat profesionalisme yang tinggi, HYS mengelola seluruh proses desain dengan lancar, dari konsep awal hingga implementasi. Pengalaman ini benar-benar bebas stres dan memuaskan, dan kami sangat merekomendasikan mereka untuk jasa desain kantor profesional.",
           image: "../assets/img/client/2.jpg",
         },
         {
           title: "Melissa Bryant",
           date: "June 15 - 2024 12:30 PM",
           comments:
-            "Rumah lama kami memerlukan renovasi besar, dan HYS memberinya kehidupan yang benar-benar baru. Mereka menghargai karakter aslinya sambil memasukkan sentuhan modern dan solusi berkelanjutan. Desain akhir melampaui ekspektasi kami.",
+            "Rumah lama kami membutuhkan renovasi besar, dan HYS berhasil menghidupkannya kembali dengan cara yang luar biasa. Mereka mampu mempertahankan karakter asli rumah sambil menghadirkan sentuhan desain modern dan solusi arsitektur berkelanjutan. Dengan pendekatan yang penuh perhatian dan profesional, tim HYS menggabungkan elemen klasik dan kontemporer secara seimbang, menghasilkan ruang tinggal yang estetis, fungsional, dan ramah lingkungan. Hasil akhirnya jauh melampaui ekspektasi kami—sebuah rumah yang terasa baru tanpa kehilangan identitas aslinya. Kami sangat merekomendasikan HYS sebagai mitra renovasi rumah terpercaya bagi siapa pun yang ingin melakukan transformasi hunian dengan hasil maksimal.",
           image: "../assets/img/client/4.jpg",
         },
       ],
@@ -135,6 +138,9 @@ export default function contractor() {
         image1={dataBlogDetails.image1}
         image2={dataBlogDetails.image2}
         image3={dataBlogDetails.image3}
+        alt1={dataBlogDetails.alt1}
+        alt2={dataBlogDetails.alt2}
+        alt3={dataBlogDetails.alt3}
         articleTitle2={dataBlogDetails.articleTitle2}
         articleContent2={dataBlogDetails.articleContent2}
         articleContent3={dataBlogDetails.articleContent3}

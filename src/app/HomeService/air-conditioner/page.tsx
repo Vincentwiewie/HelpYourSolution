@@ -11,7 +11,7 @@ export default function page() {
   const data: priceProps[] = [
     {
       price: "",
-      image: `../assets/img/AcEngine.jpg`,
+      image: `../assets/img/ac9.jpeg`,
       textButton: "Order Sekarang",
       label: "Clean AC",
       list: [
@@ -22,10 +22,11 @@ export default function page() {
         { text: "--", none: false },
         { text: "--", none: false },
       ],
+      alt: "promo cuci AC rumah",
     },
     {
       price: "",
-      image: "../assets/img/AcOn.jpg",
+      image: "../assets/img/ac2.jpeg",
       textButton: "Order Now",
       label: "Inject Freon",
       list: [
@@ -36,11 +37,12 @@ export default function page() {
         { text: "Beroperasi Pada Kinerja Puncak", none: true },
         { text: "--", none: false },
       ],
+      alt: "cari jasa service AC terpercaya",
     },
 
     {
       price: "",
-      image: "../assets/img/ac3.jpeg",
+      image: "../assets/img/ac8.jpeg",
       textButton: "Order Now",
       label: "Instalasi AC",
       list: [
@@ -54,10 +56,11 @@ export default function page() {
           none: true,
         },
       ],
+      alt: "tukang AC profesional isi freon AC rumah",
     },
     {
       price: "",
-      image: "../assets/img/AcService.jpg",
+      image: "../assets/img/ac3.jpeg",
       textButton: "Order Now",
       label: "Repair",
       list: [
@@ -71,6 +74,7 @@ export default function page() {
           none: true,
         },
       ],
+      alt: "Servis Ac Bocor harga cuci AC perawatan AC rutin",
     },
   ];
 
@@ -95,21 +99,21 @@ export default function page() {
       image: "../assets/img/client/testimonial-1.jpg",
       country: "United Kingdom",
       content:
-        "Saya sangat puas dengan AC baru saya! Sejak dipasang, perbedaannya langsung terasa—udara sejuk dan segar dalam hitungan menit. Senyap, hemat energi, dan sangat hebat dalam menjaga suhu yang konsisten di seluruh rumah saya. Saya sangat menyukai fitur pintar yang memungkinkan saya mengendalikannya dari ponsel. Setelah melewati beberapa musim panas yang brutal, AC ini benar-benar mengubah segalanya. Sangat direkomendasikan bagi siapa pun yang mencari pendingin yang andal dan bertenaga dengan kenyamanan modern!",
+        "Saya sangat puas dengan AC baru saya! Sejak pemasangan AC dilakukan, udara di rumah langsung terasa lebih sejuk dan segar hanya dalam hitungan menit. Kinerja AC hemat energi ini benar-benar luar biasa—sangat senyap, cepat dingin, dan mampu menjaga suhu ruangan tetap stabil di seluruh rumah. Fitur favorit saya adalah teknologi pintar yang memungkinkan saya mengontrol AC dari smartphone, sangat praktis dan modern! Setelah mengalami beberapa musim panas yang panas dan tidak nyaman, kehadiran AC inverter ini benar-benar mengubah segalanya. Saya sangat merekomendasikan AC ini bagi siapa pun yang mencari AC berkualitas, awet, dan hemat listrik. Cocok untuk rumah, apartemen, atau kantor. Solusi ideal untuk kenyamanan jangka panjang!",
     },
     {
       name: "Putri",
       image: "../assets/img/client/testimonial-2.jpg",
       country: "United State",
       content:
-        "Baru-baru ini saya membersihkan AC saya di HYS, dan perbedaannya luar biasa. Timnya tepat waktu, profesional, dan menjelaskan semuanya dengan jelas. Aliran udaranya tidak hanya jauh lebih kuat sekarang, tetapi unitnya juga bekerja lebih senyap dan efisien. Saya terkejut melihat banyaknya debu dan kotoran yang mereka singkirkan. Rasanya seperti saya memiliki sistem yang benar-benar baru lagi. Saya pasti akan memesan layanan pembersihan rutin mulai sekarang!",
+        "Baru-baru ini saya melakukan pembersihan AC di HYS, dan hasilnya sangat memuaskan! Tim teknisi HYS datang tepat waktu, sangat profesional, dan menjelaskan proses cuci AC dengan jelas. Setelah dibersihkan, aliran udara dari AC jadi jauh lebih kuat, dan unit bekerja lebih senyap serta efisien. Saya benar-benar terkejut melihat banyaknya debu dan kotoran yang berhasil disingkirkan. Sekarang, AC saya terasa seperti unit baru—dingin maksimal, tanpa suara bising, dan hemat listrik. Saya pasti akan rutin menggunakan jasa cuci AC HYS ke depannya. Layanan ini sangat direkomendasikan bagi siapa pun yang ingin menjaga performa dan kebersihan AC rumah.",
     },
     {
       name: "Adam",
       image: "../assets/img/client/testimonial-3.jpg",
       country: "Germany",
       content:
-        "Saya mengalami masalah dengan AC saya yang tidak mendinginkan dengan baik, dan HYS datang untuk menyelamatkan. Teknisi mereka datang tepat waktu, dengan cepat mendiagnosis masalah, dan memperbaikinya dalam waktu satu jam. Layanannya profesional, jujur, dan harganya terjangkau. Sejak saat itu, AC saya berjalan dengan sempurna. Saya sangat menghargai transparansi dan efisiensi mereka—sangat merekomendasikan mereka untuk perbaikan AC apa pun!",
+        "Saya mengalami masalah dengan AC yang tidak dingin, dan HYS benar-benar datang sebagai penyelamat. Teknisi AC dari HYS datang tepat waktu, langsung mendiagnosis masalah dengan cepat, dan memperbaikinya hanya dalam waktu satu jam! Layanannya sangat profesional, jujur, dan yang paling penting—harganya terjangkau. Sejak diperbaiki, AC saya bekerja dengan sempurna, tidak ada lagi masalah suhu atau kebisingan. Saya sangat menghargai transparansi dan efisiensi tim HYS, dan saya sangat merekomendasikan mereka untuk siapa pun yang butuh jasa perbaikan AC yang cepat, terpercaya, dan terjangkau.",
     },
   ];
 

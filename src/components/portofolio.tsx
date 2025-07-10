@@ -64,12 +64,18 @@ export default function Portofolio({
                   key={m.image}
                 >
                   <div className="portfolio-item">
-                    <img src={m.image} alt="image" style={{ height: "45vh" }} />
+                    <img
+                      src={m.image}
+                      alt={m.subLabel}
+                      style={{ height: "45vh" }}
+                    />
                     <div className="portfolio-content-overlay">
-                      <p>{m.label}</p>
-                      <h3>
-                        <a>{m.subLabel}</a>
-                      </h3>
+                      <div style={{ width: "80%" }}>
+                        <p>{m.label}</p>
+                        <h3>
+                          <a>{m.subLabel}</a>
+                        </h3>
+                      </div>
                       <a
                         className="portfolio-link-icon"
                         href="https://api.whatsapp.com/send?phone=081282288099"

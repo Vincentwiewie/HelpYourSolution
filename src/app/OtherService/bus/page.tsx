@@ -10,14 +10,17 @@ export default function bus() {
     date: "17 Jan 2025",
     articleTitle: "Layanan Bus Untuk Liburan Dan Sekolah",
     articleContent:
-      "Di Hys Bus Service, kami berkomitmen untuk menyediakan SafeJourney di setiap perjalanan, memastikan penumpang kami merasa aman dan percaya diri. Dengan layanan ReliableRide kami, Anda selalu dapat mengandalkan kami untuk mengantar Anda ke tujuan tepat waktu dan tanpa repot. Kami bangga menawarkan SteadyTravel dan DependableDrive, yang menjamin pengalaman yang lancar dan konsisten setiap kali Anda berkendara. Perencanaan SecureRoute dan janji TrueTransit kami berfokus pada keselamatan dan keandalan, jadi Anda tidak perlu khawatir. Dengan SureWay dan EverSafe, Anda dapat percaya bahwa perjalanan Anda bersama kami akan selalu menjadi pilihan yang tepat untuk ketenangan pikiran dan layanan yang dapat diandalkan.",
+      "Di Hys Bus Service, kami berkomitmen untuk memberikan pengalaman perjalanan terbaik melalui prinsip kami: SafeJourney, setiap kali Anda bepergian bersama kami. Keselamatan dan kenyamanan penumpang adalah prioritas utama kami. Dengan sistem keamanan yang ketat, perawatan armada berkala, serta pengemudi berpengalaman, Anda dapat merasa tenang dan percaya diri sepanjang perjalanan. Melalui layanan ReliableRide, kami memastikan Anda tiba di tempat tujuan tepat waktu, tanpa hambatan dan tanpa stres. Jadwal kami yang terorganisir dan tim operasional yang responsif menjadikan kami pilihan yang dapat diandalkan untuk perjalanan harian, perjalanan antarkota, hingga perjalanan wisata bersama keluarga atau rombongan kerja. Kami bangga mempersembahkan SteadyTravel dan DependableDrive—layanan yang menjamin kenyamanan, konsistensi, dan stabilitas dalam setiap perjalanan. Baik itu rute rutin maupun perjalanan khusus, kami hadir dengan solusi transportasi profesional yang mendukung mobilitas Anda secara efisien. Dengan pendekatan SecureRoute dan janji layanan TrueTransit, kami selalu menempatkan keamanan penumpang di atas segalanya. Kami memantau kondisi jalan, cuaca, serta rute perjalanan agar Anda selalu berada di jalur yang aman dan efisien. Melalui SureWay dan EverSafe, Hys Bus Service memberikan jaminan kualitas: perjalanan Anda akan selalu nyaman, aman, dan bebas dari keraguan. Kepercayaan Anda adalah fondasi pelayanan kami, dan kami siap menjadi mitra perjalanan terpercaya Anda.",
     image1: "../assets/img/buss4.jpg",
     image2: "../assets/img/buss2.jpg",
     image3: "../assets/img/buss3.jpg",
+    alt1: "Bus travel",
+    alt2: "Bus Pariwisata",
+    alt3: "Jasa Bus",
     articleTitle2:
       "Kami mengutamakan keselamatan dan kenyamanan bagi siapa saja",
     articleContent2:
-      "Di HysTrip, kami mengutamakan Keselamatan di setiap perjalanan, memastikan bahwa penumpang kami merasakan SecureRide dari awal hingga akhir. Kami percaya bahwa perjalanan haruslah santai sekaligus aman, itulah sebabnya kami menawarkan kombinasi ComfortShield dan CushionGuard untuk menciptakan lingkungan yang nyaman dan aman di dalam pesawat. Baik Anda menikmati suasana ComfySecure atau ketenangan pikiran yang menyertai GuardedComfort kami, kami berusaha untuk menyediakan perjalanan yang tidak hanya aman tetapi juga nyaman tanpa perlu usaha apa pun.",
+      "Di HysTrip, kami berkomitmen untuk memberikan pengalaman perjalanan yang aman, nyaman, dan bebas stres kepada setiap penumpang. Kami selalu mengutamakan keselamatan penumpang di setiap langkah perjalanan, itulah sebabnya kami menghadirkan layanan SecureRide—standar keselamatan tinggi yang berlaku sejak keberangkatan hingga Anda tiba di tujuan. Kami memahami bahwa perjalanan yang ideal bukan hanya tentang sampai di tempat tujuan, tetapi juga tentang kenyamanan sepanjang perjalanan. Oleh karena itu, kami memperkenalkan kombinasi ComfortShield dan CushionGuard, fitur unggulan kami yang dirancang untuk menciptakan suasana tenang, nyaman, dan terlindungi di dalam kendaraan maupun pesawat. Nikmati pengalaman ComfySecure, di mana Anda dapat bersantai sepenuhnya, atau GuardedComfort, yang memberikan ketenangan pikiran melalui sistem keamanan dan kenyamanan berlapis. Di HysTrip, kami menghadirkan layanan perjalanan berkualitas tinggi yang mengutamakan standar keselamatan transportasi dan kenyamanan maksimal—tanpa kompromi. Apapun tujuan Anda, baik untuk urusan bisnis, liburan keluarga, atau perjalanan individu, HysTrip adalah pilihan transportasi modern yang andal dan siap memberikan pengalaman yang bebas repot dan menyenangkan.",
     articleContent3: {
       title: "",
       content: [],
@@ -30,21 +33,21 @@ export default function bus() {
           title: "Wilson Swanson",
           date: "June 15 - 2024 12:30 PM",
           comments:
-            "Saya telah menggunakan layanan bus ini selama berbulan-bulan, dan saya sangat puas. Bus-busnya selalu tepat waktu, dan pengemudinya sopan. Sangat nyaman, dan membuat perjalanan harian saya bebas stres!",
+            "Di HysTrip, keselamatan adalah prioritas utama kami. Kami menghadirkan pengalaman SecureRide dalam setiap perjalanan, memastikan setiap penumpang merasa aman dan nyaman dari awal hingga akhir. Kami percaya bahwa perjalanan tidak hanya harus cepat, tapi juga nyaman dan terlindungi. Oleh karena itu, kami menyediakan fitur unggulan seperti ComfortShield dan CushionGuard, yang dirancang khusus untuk menciptakan lingkungan transportasi yang aman dan nyaman—baik di dalam bus, mobil travel, maupun pesawat. Dengan ComfySecure, Anda bisa menikmati suasana tenang dan santai selama perjalanan. Sementara GuardedComfort memberikan ketenangan pikiran melalui sistem keamanan berlapis dan armada yang selalu dalam kondisi prima. Tim kami yang profesional siap memberikan layanan perjalanan terbaik, tanpa ribet dan tanpa khawatir. Apakah Anda bepergian untuk urusan bisnis, wisata keluarga, atau perjalanan pribadi, HysTrip adalah pilihan jasa transportasi modern yang dapat diandalkan—menggabungkan keselamatan, kenyamanan, dan ketepatan waktu.",
           image: "../assets/img/client/1.jpg",
         },
         {
           title: "Ella Hodges",
           date: "June 15 - 2024 12:30 PM",
           comments:
-            "Saya benar-benar terkesan dengan kebersihan dan ketepatan waktu bus-bus tersebut. Layanannya sangat baik, dan saya selalu merasa aman selama bepergian. Saya sangat merekomendasikannya kepada siapa pun yang mencari moda transportasi yang dapat diandalkan!",
+            "Saya benar-benar terkesan dengan kebersihan dan ketepatan waktu bus-bus dari layanan ini. Armada mereka selalu terawat dengan baik, kabin bersih, dan tiba sesuai jadwal—sangat penting untuk perjalanan harian maupun perjalanan jarak jauh Layanannya sangat profesional dan ramah, dan yang paling saya hargai adalah rasa aman selama perjalanan. Setiap pengalaman naik bus terasa nyaman, tertib, dan bebas dari kekhawatiran. Saya sangat merekomendasikan layanan transportasi ini kepada siapa pun yang mencari moda transportasi darat yang dapat diandalkan, nyaman, dan aman. Cocok untuk keperluan pribadi, bisnis, atau wisata keluarga.",
           image: "../assets/img/client/2.jpg",
         },
         {
           title: "Melissa Bryant",
           date: "June 15 - 2024 12:30 PM",
           comments:
-            "Sebagai seorang yang sering bepergian, saya telah mencoba banyak layanan bus, dan yang satu ini menonjol. Layanan ini dapat diandalkan, dengan pengemudi yang ramah dan bus yang bersih. Saya sangat merekomendasikannya kepada siapa pun yang membutuhkan pilihan transportasi yang dapat diandalkan dan terjangkau.",
+            "Sebagai seseorang yang sering bepergian, saya sudah mencoba banyak layanan bus, namun layanan bus ini benar-benar menonjol. Armada bus selalu bersih dan nyaman, serta pengemudi yang ramah dan profesional membuat perjalanan semakin menyenangkan. Layanan ini sangat dapat diandalkan dengan jadwal keberangkatan yang tepat waktu dan harga yang terjangkau. Saya sangat merekomendasikan jasa transportasi ini bagi siapa saja yang membutuhkan moda transportasi yang nyaman, aman, dan hemat biaya.",
           image: "../assets/img/client/4.jpg",
         },
       ],
@@ -135,6 +138,9 @@ export default function bus() {
         image1={dataBlogDetails.image1}
         image2={dataBlogDetails.image2}
         image3={dataBlogDetails.image3}
+        alt1={dataBlogDetails.alt1}
+        alt2={dataBlogDetails.alt2}
+        alt3={dataBlogDetails.alt3}
         articleTitle2={dataBlogDetails.articleTitle2}
         articleContent2={dataBlogDetails.articleContent2}
         articleContent3={dataBlogDetails.articleContent3}

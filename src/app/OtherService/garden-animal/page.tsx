@@ -7,43 +7,73 @@ export default function gardenAnimal() {
   const data: portofolioModel = {
     title: "Galeri Hewan",
     subTitle: "",
-    category: [],
+    category: ["dog", "cat"],
     data: [
       {
         label: "Hubungi Sekarang",
-        subLabel: "HYS Animal Care",
+        subLabel: "perawatan anjing",
         image: "../assets/img/animal1.jpg",
-        type: "classic",
+        type: "dog",
       },
       {
         label: "Hubungi Sekarang",
-        subLabel: "HYS Animal Care",
+        subLabel: "cara merawat anjing yang baik",
         image: "../assets/img/animal2.jpg",
-        type: "classic",
+        type: "dog",
       },
       {
         label: "Hubungi Sekarang",
-        subLabel: "HYS Animal Care",
+        subLabel: "tips perawatan anjing dan kucing",
         image: "../assets/img/animal3.jpg",
-        type: "classic",
+        type: "dog",
       },
       {
         label: "Hubungi Sekarang",
-        subLabel: "HYS Animal Care",
+        subLabel: "grooming anjing dan kucing",
         image: "../assets/img/animal4.jpg",
-        type: "cozy",
+        type: "dog",
       },
       {
         label: "Hubungi Sekarang",
-        subLabel: "HYS Animal Care",
+        subLabel: "perawatan kesehatan anjing",
         image: "../assets/img/animal5.jpg",
-        type: "cozy",
+        type: "dog",
       },
       {
         label: "Hubungi Sekarang",
-        subLabel: "HYS Animal Care",
+        subLabel: "perawatan bulu anjing",
         image: "../assets/img/animal6.jpg",
-        type: "cozy",
+        type: "dog",
+      },
+      {
+        label: "Hubungi Sekarang",
+        subLabel: "perawatan kucing luar",
+        image: "../assets/img/cat1.jpeg",
+        type: "cat",
+      },
+      {
+        label: "Hubungi Sekarang",
+        subLabel: "Cara merawat kucing di rumah",
+        image: "../assets/img/cat2.jpeg",
+        type: "cat",
+      },
+      {
+        label: "Hubungi Sekarang",
+        subLabel: "perawatan kesehatan kucing",
+        image: "../assets/img/cat3.jpeg",
+        type: "cat",
+      },
+      {
+        label: "Hubungi Sekarang",
+        subLabel: "perawatan kucing",
+        image: "../assets/img/cat4.jpeg",
+        type: "cat",
+      },
+      {
+        label: "Hubungi Sekarang",
+        subLabel: "perawatan bulu kucing",
+        image: "../assets/img/cat5.jpeg",
+        type: "cat",
       },
     ],
   };
@@ -79,21 +109,21 @@ export default function gardenAnimal() {
       image: "../assets/img/client/testimonial-1.jpg",
       country: "Bandung",
       content:
-        "Dokter hewan di Klinik Satwa Sehat benar-benar luar biasa. Anjing saya sempat muntah-muntah selama dua hari dan saya panik. Tapi setelah diperiksa, dokter memberikan penjelasan yang tenang dan ramah. Obat yang diberikan langsung bekerja. Sekarang anjing saya sudah aktif kembali! Sangat profesional dan peduli terhadap hewan.",
+        "Dokter hewan di Klinik Satwa Sehat benar-benar luar biasa. Ketika anjing saya mengalami muntah-muntah selama dua hari, saya sangat panik. Namun, setelah pemeriksaan, dokter memberikan penjelasan yang jelas, tenang, dan sangat ramah. Obat yang diresepkan segera bekerja, dan kini anjing saya kembali aktif dan sehat. Pelayanan yang profesional dan penuh kepedulian terhadap kesehatan hewan membuat saya sangat merekomendasikan dokter hewan di Klinik Satwa Sehat.",
     },
     {
       name: "Linda",
       image: "../assets/img/client/testimonial-2.jpg",
       country: "Jakarta Selatan",
       content:
-        "Saya rutin membawa kucing Persia saya untuk vaksin dan grooming di klinik ini. Dokternya sangat sabar dan telaten, bahkan saat kucing saya rewel. Kliniknya bersih, nyaman, dan pelayanannya cepat. Saya merasa sangat tenang mempercayakan kucing saya di sini",
+        "Saya rutin membawa kucing Persia saya untuk vaksinasi dan grooming di klinik ini. Dokter hewan di sini sangat sabar dan telaten, bahkan saat kucing saya rewel. Klinik yang bersih dan nyaman, serta pelayanan yang cepat membuat saya merasa sangat tenang mempercayakan perawatan kucing saya di sini. Saya sangat merekomendasikan klinik ini untuk perawatan kucing khususnya ras Persia",
     },
     {
       name: "Dewi Andriani",
       image: "../assets/img/client/testimonial-3.jpg",
       country: "Sleman",
       content:
-        "Sebagai peternak, saya sering butuh konsultasi cepat soal kesehatan kelinci. Dokter hewan di sini sangat responsif, bahkan bisa konsultasi online jika darurat. Mereka tidak hanya mengobati, tapi juga kasih edukasi soal pencegahan penyakit. Sangat membantu dalam menjaga kualitas ternak saya.",
+        "Sebagai peternak, saya sering membutuhkan konsultasi cepat mengenai kesehatan kelinci. Dokter hewan di klinik ini sangat responsif dan bahkan menyediakan layanan konsultasi online saat kondisi darurat. Mereka tidak hanya memberikan pengobatan, tetapi juga edukasi penting tentang pencegahan penyakit. Layanan ini sangat membantu saya dalam menjaga kualitas dan kesehatan ternak kelinci",
     },
   ];
 

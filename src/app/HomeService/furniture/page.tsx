@@ -15,20 +15,38 @@ export default function page() {
     data: [
       {
         label: "Kontak Pengrajin",
-        subLabel: "Order Sekarang",
+        subLabel: "Pengrajin furniture interior",
         image: "../assets/img/furniture1.jpeg",
         type: "all",
       },
       {
         label: "Kontak Pengrajin",
-        subLabel: "Order Sekarang",
+        subLabel: "Ruang Tamu Minimalis",
         image: "../assets/img/furniture6.jpeg",
         type: "all",
       },
       {
         label: "Kontak Pengrajin",
-        subLabel: "Order Sekarang",
+        subLabel: "kamar tidur anak anak",
         image: "../assets/img/furniture5.jpg",
+        type: "all",
+      },
+      {
+        label: "Kontak Pengrajin",
+        subLabel: "Desain dapur minimalis",
+        image: "../assets/img/dapur1.jpeg",
+        type: "all",
+      },
+      {
+        label: "Kontak Pengrajin",
+        subLabel: "Renovasi dapur modern",
+        image: "../assets/img/dapur2.jpeg",
+        type: "all",
+      },
+      {
+        label: "Kontak Pengrajin",
+        subLabel: "Peralatan dapur lengkap",
+        image: "../assets/img/dapur3.jpeg",
         type: "all",
       },
     ],
@@ -40,21 +58,21 @@ export default function page() {
       image: "../assets/img/client/testimonial-1.jpg",
       country: "United Kingdom",
       content:
-        "Saya sangat merekomendasikan HYS Furniture kepada siapa pun yang mencari furnitur berkualitas tinggi dan layanan pelanggan yang sangat baik. Mereka benar-benar tahu cara membuat rumah Anda terasa istimewa!, Pilihan penyesuaiannya luar biasa, dan saya akhirnya mendapatkan sofa yang tidak hanya cantik tetapi juga sangat nyaman.",
+        "Saya sangat merekomendasikan HYS Furniture kepada siapa pun yang mencari furnitur berkualitas tinggi dengan layanan pelanggan yang luar biasa. Mereka benar-benar tahu cara menghadirkan sentuhan personal yang membuat rumah terasa lebih nyaman dan istimewa. Pilihan penyesuaian furnitur custom yang mereka tawarkan sangat beragam dan fleksibel. Saya akhirnya mendapatkan sofa custom yang tidak hanya cantik secara desain, tetapi juga sangat nyaman untuk digunakan sehari-hari. Jika Anda sedang mencari pengrajin furnitur terpercaya yang dapat menghadirkan keindahan dan kenyamanan dalam satu paket, HYS Furniture adalah jawabannya.",
     },
     {
       name: "Putri",
       image: "../assets/img/client/testimonial-2.jpg",
       country: "United State",
       content:
-        "Saya baru saja membeli sofa sectional dan meja makan dari HYS, dan saya sangat senang dengan kualitas dan gayanya! Tim di sana benar-benar meluangkan waktu untuk memahami kebutuhan saya dan membantu saya memilih barang-barang yang benar-benar sesuai dengan estetika rumah saya dan mereka juga memberikan garansi",
+        "Saya baru saja membeli sofa sectional dan meja makan dari HYS Furniture, dan saya sangat senang dengan kualitas produk serta desainnya yang stylish! Tim mereka benar-benar meluangkan waktu untuk memahami kebutuhan saya dan membantu saya memilih furnitur yang sesuai dengan estetika rumah. Selain pelayanan yang ramah dan profesional, HYS juga memberikan garansi untuk setiap produk, yang menunjukkan komitmen mereka terhadap kualitas dan kepuasan pelanggan. Jika Anda mencari furnitur custom berkualitas tinggi dengan layanan pelanggan yang luar biasa, HYS adalah pilihan terbaik.",
     },
     {
       name: "Adam",
       image: "../assets/img/client/testimonial-3.jpg",
       country: "Germany",
       content:
-        "Pengirimannya tepat waktu, dan pemasangannya lancar. Mereka bahkan memastikan semuanya sudah pada tempatnya dan saya puas sebelum mereka pergi. Saya sudah merekomendasikan HYS kepada teman-teman dan keluarga saya, dan saya pasti akan kembali lagi untuk kebutuhan furnitur di masa mendatang!",
+        "Pengiriman furnitur dari HYS Furniture dilakukan tepat waktu, dan pemasangannya berjalan lancar tanpa kendala. Tim mereka bahkan memastikan semua furnitur terpasang dengan benar dan saya benar-benar puas sebelum mereka meninggalkan lokasi. Saya sangat menghargai pelayanan profesional seperti ini. Karena pengalaman saya begitu positif, saya sudah merekomendasikan HYS Furniture kepada teman-teman dan keluarga. Tanpa ragu, saya akan kembali lagi untuk kebutuhan furnitur custom berkualitas di masa mendatang!",
     },
   ];
 
@@ -82,14 +100,14 @@ export default function page() {
               <div className="row align-items-center">
                 <div className="col-lg-6 col-md-12">
                   <div className="main-banner-content">
-                    <h6 className="text-white">Ahli Furniture</h6>
+                    <h6 className="text-black">Ahli Furniture</h6>
                     <h3 className="text-white">
                       Perlu mempercantik tampilan Perabotan rumah/toko anda?
                       Serahkan pada kami,ahlinya pembuatan perabot/furniture
                       akan membuat rumah / toko anda menjadi mewah Dan berkelas
                       <span className="text-gradient mt-5"> 100% Garansi</span>
                     </h3>
-                    <p className="text-white">
+                    <p className="text-white mt-4">
                       Biarkan kami menghadirkan gaya, kenyamanan, dan
                       fungsionalitas rumah dan kantor Anda. Hubungi kami hari
                       ini untuk konsultasi GRATIS dan mari kita buat tempat Anda

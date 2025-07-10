@@ -14,6 +14,9 @@ export default function contractor() {
     image1: "../assets/img/contractor1.jpg",
     image2: "../assets/img/contractor2.jpg",
     image3: "../assets/img/contractor4.jpg",
+    alt1: "kontraktor sipil dan arsitektur yang profesional",
+    alt2: "kontraktor proyek komersial dan jasa kontraktor bangunan",
+    alt3: "kontraktor pabrik atau gudang",
     articleTitle2: "Mengapa Anda Membutuhkan Layanan Kontraktor Profesional?",
     articleContent2:
       "Keahlian dan Pengalaman: Kontraktor membawa pengetahuan yang tak ternilai bagi setiap proyek. Dengan pengalaman bertahun-tahun di bidang ini, mereka memahami seluk-beluk konstruksi, pemecahan masalah, dan manajemen proyek. Dari memastikan integritas struktural hingga memilih material yang tepat, kontraktor profesional memiliki keterampilan untuk memberikan hasil yang berkualitas.",
@@ -29,21 +32,21 @@ export default function contractor() {
           title: "Wilson Swanson",
           date: "June 15 - 2024 12:30 PM",
           comments:
-            "Saya menyewa kontraktor ini untuk merenovasi rumah besar-besaran, dan saya sangat puas dengan hasilnya. Mereka profesional, efisien, dan perhatian mereka terhadap detail sangat luar biasa. Proyek selesai tepat waktu, dan kualitas pekerjaan melebihi ekspektasi saya. Saya sangat merekomendasikan mereka!",
+            "Saya menyewa kontraktor renovasi rumah ini untuk proyek renovasi besar-besaran, dan saya sangat puas dengan hasilnya. Tim mereka sangat profesional, efisien, dan menunjukkan perhatian luar biasa terhadap detail. Proyek diselesaikan tepat waktu, dan kualitas pengerjaan benar-benar melebihi ekspektasi saya. Jika Anda mencari kontraktor bangunan terpercaya yang berkomitmen terhadap kualitas, saya sangat merekomendasikan layanan mereka.",
           image: "../assets/img/client/1.jpg",
         },
         {
           title: "Ella Hodges",
           date: "June 15 - 2024 12:30 PM",
           comments:
-            "Tim tersebut melakukan pekerjaan yang luar biasa pada rekonstruksi dapur saya! Mereka meluangkan waktu untuk memahami visi saya dan melaksanakannya dengan sempurna. Prosesnya lancar dari awal hingga akhir, dan mereka selalu siap menjawab pertanyaan saya. Saya sangat senang dengan hasil akhirnya dan pasti akan menggunakan jasa mereka lagi!",
+            "Tim ini melakukan pekerjaan luar biasa dalam proyek rekonstruksi dapur saya! Mereka benar-benar meluangkan waktu untuk memahami visi dan preferensi saya, lalu mewujudkannya dengan sangat presisi. Seluruh proses berjalan lancar dari awal hingga akhir, dan mereka selalu responsif terhadap setiap pertanyaan. Saya sangat puas dengan hasil renovasi dapur ini dan tidak ragu akan menggunakan jasa mereka lagi di masa depan.",
           image: "../assets/img/client/2.jpg",
         },
         {
           title: "Melissa Bryant",
           date: "June 15 - 2024 12:30 PM",
           comments:
-            "Kami menyewa kontraktor ini untuk pembangunan rumah baru, dan pengalamannya luar biasa. Dari konsultasi awal hingga penyelesaian proyek, mereka dapat diandalkan, komunikatif, dan profesional. Mereka memastikan semuanya dilakukan sesuai kode, dan hasilnya tetap seperti yang kami inginkan. Sangat merekomendasikan layanan mereka!",
+            "Kami menyewa kontraktor pembangunan rumah ini untuk proyek pembangunan rumah baru kami, dan pengalaman bekerja dengan mereka sangat luar biasa. Mulai dari konsultasi awal hingga penyelesaian proyek, tim ini sangat dapat diandalkan, komunikatif, dan profesional. Mereka memastikan semua pekerjaan sesuai dengan standar dan kode bangunan yang berlaku, serta hasil akhirnya sesuai dengan harapan kami. Kami sangat merekomendasikan layanan mereka kepada siapa pun yang mencari kontraktor rumah terpercaya.",
           image: "../assets/img/client/4.jpg",
         },
       ],
@@ -134,6 +137,9 @@ export default function contractor() {
         image1={dataBlogDetails.image1}
         image2={dataBlogDetails.image2}
         image3={dataBlogDetails.image3}
+        alt1={dataBlogDetails.alt1}
+        alt2={dataBlogDetails.alt2}
+        alt3={dataBlogDetails.alt3}
         articleTitle2={dataBlogDetails.articleTitle2}
         articleContent2={dataBlogDetails.articleContent2}
         articleContent3={dataBlogDetails.articleContent3}

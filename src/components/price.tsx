@@ -11,7 +11,11 @@ export default function Price({ value }: { value: priceProps[] }) {
                 <div className="col-lg-3 col-md-6" key={m.image}>
                   <div className="single-pricing-content">
                     <div className="price-tag">
-                      <img src={m.image} className="respon" />
+                      <img
+                        src={m.image}
+                        alt={m.alt}
+                        style={{ height: "200px", width: "350px" }}
+                      />
                       <h3>{m.label}</h3>
                     </div>
                     <div className="price-heading" style={{ marginTop: "5vh" }}>

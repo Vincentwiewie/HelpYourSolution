@@ -11,43 +11,61 @@ export default function page() {
   const data: portofolioModel = {
     title: "Pengrajin Teralis atau Jerjak besi",
     subTitle: "Contoh Layanan Teralis atau Jerjak besi HYS",
-    category: [],
+    category: ["Modern", "Elegant"],
     data: [
       {
         label: "Pengrajin Teralis atau Jerjak besi",
-        subLabel: "Order Sekarang",
+        subLabel: "Jasa pembuatan teralis jendela",
+        image: "../assets/img/jerjak7.jpeg",
+        type: "Modern",
+      },
+      {
+        label: "Pengrajin Teralis atau Jerjak besi",
+        subLabel: "Jasa pasang teralis rumah",
+        image: "../assets/img/jerjak8.jpeg",
+        type: "Modern",
+      },
+      {
+        label: "Pengrajin Teralis atau Jerjak besi",
+        subLabel: "Teralis pintu besi",
+        image: "../assets/img/jerjak9.jpeg",
+        type: "Modern",
+      },
+      {
+        label: "Pengrajin Teralis atau Jerjak besi",
+        subLabel: "Pembuatan teralis besi tempa",
+        image: "../assets/img/jerjak10.jpeg",
+        type: "Modern",
+      },
+      {
+        label: "Pengrajin Teralis atau Jerjak besi",
+        subLabel: "Tukang teralis besi profesional",
+        image: "../assets/img/jerjak11.jpeg",
+        type: "Modern",
+      },
+      {
+        label: "Pengrajin Teralis atau Jerjak besi",
+        subLabel: "Jasa jerjak besi anti maling",
+        image: "../assets/img/jerjak12.jpeg",
+        type: "Modern",
+      },
+      {
+        label: "Pengrajin Teralis atau Jerjak besi",
+        subLabel: "model teralis besi",
         image: "../assets/img/jerjak1.jpeg",
-        type: "all",
+        type: "Elegant",
       },
       {
         label: "Pengrajin Teralis atau Jerjak besi",
-        subLabel: "Order Sekarang",
-        image: "../assets/img/jerjak2.jpeg",
-        type: "all",
-      },
-      {
-        label: "Pengrajin Teralis atau Jerjak besi",
-        subLabel: "Order Sekarang",
-        image: "../assets/img/jerjak3.jpeg",
-        type: "all",
-      },
-      {
-        label: "Pengrajin Teralis atau Jerjak besi",
-        subLabel: "Order Sekarang",
-        image: "../assets/img/jerjak4.jpeg",
-        type: "all",
-      },
-      {
-        label: "Pengrajin Teralis atau Jerjak besi",
-        subLabel: "Order Sekarang",
+        subLabel: "terali besi minimalis",
         image: "../assets/img/jerjak5.jpeg",
-        type: "all",
+        type: "Elegant",
       },
       {
         label: "Pengrajin Teralis atau Jerjak besi",
-        subLabel: "Order Sekarang",
+        subLabel: "Tukang Las Besi Propesional",
         image: "../assets/img/jerjak6.jpeg",
-        type: "all",
+        type: "Elegant",
       },
     ],
   };
@@ -73,21 +91,21 @@ export default function page() {
       image: "../assets/img/client/testimonial-1.jpg",
       country: "United Kingdom",
       content:
-        "Saya menyewa HYS untuk proyek gerbang logam khusus, dan pengerjaannya luar biasa. Hasil lasnya bersih, kuat, dan presisi—jelas dilakukan oleh seseorang yang bangga dengan pekerjaan mereka. Mereka dapat diandalkan, datang tepat waktu, dan menyelesaikan pekerjaan lebih cepat dari jadwal. Saya pernah bekerja dengan tukang las sebelumnya, tetapi ini adalah pengalaman terbaik sejauh ini. Saya pasti akan menghubungi mereka untuk proyek-proyek mendatang.",
+        "Saya menyewa HYS Pipe untuk proyek gerbang logam khusus, dan hasilnya benar-benar luar biasa. Kualitas las mereka sangat mengesankan—bersih, kuat, dan presisi, jelas dikerjakan oleh tukang las profesional yang bangga dengan pekerjaannya. Mereka juga sangat dapat diandalkan, datang tepat waktu, dan bahkan menyelesaikan proyek lebih cepat dari jadwal. Saya sudah pernah bekerja dengan beberapa penyedia jasa pengelasan, tetapi ini adalah pengalaman terbaik saya sejauh ini. Saya pasti akan menghubungi mereka lagi untuk proyek pengelasan atau fabrikasi logam berikutnya.",
     },
     {
       name: "Putri",
       image: "../assets/img/client/testimonial-2.jpg",
       country: "United State",
       content:
-        "Kami mengontrak HYS untuk pengelasan struktural pada proyek renovasi komersial, dan mereka memberikan hasil yang melampaui ekspektasi. Tim mereka mematuhi semua protokol keselamatan, bekerja secara efisien dengan tenggat waktu yang ketat, dan menjaga komunikasi yang baik. Kualitas pengelasan mereka lulus inspeksi tanpa satu pun masalah. Sulit untuk menemukan tukang las andal yang menggabungkan keterampilan dengan profesionalisme—orang-orang ini melakukan keduanya.",
+        "Kami mengontrak HYS Pipe untuk pekerjaan pengelasan struktural dalam proyek renovasi bangunan komersial, dan hasilnya benar-benar melampaui ekspektasi. Tim mereka mematuhi semua protokol keselamatan kerja, bekerja secara efisien meskipun tenggat waktunya ketat, dan menjaga komunikasi yang jelas selama proses berlangsung. Kualitas pengelasan struktural mereka sangat baik hingga lulus inspeksi tanpa satu pun masalah. Sangat sulit menemukan tukang las profesional yang mampu menggabungkan keterampilan teknis dan profesionalisme tinggi—tetapi HYS berhasil melakukan keduanya.",
     },
     {
       name: "Adam",
       image: "../assets/img/client/testimonial-3.jpg",
       country: "Germany",
       content:
-        "Saya butuh rangka baja khusus yang dibuat untuk proyek rumah, dan HYS benar-benar berhasil. Mereka meluangkan waktu untuk memahami desain saya, menawarkan saran yang bermanfaat, dan memberikan struktur yang dilas dengan sempurna yang melampaui ekspektasi saya. Jarang sekali menemukan tukang las yang ahli dalam hal teknis dan kreatif. Saya benar-benar terkesan.",
+        "Saya membutuhkan rangka baja khusus untuk proyek rumah, dan HYS Pipe benar-benar berhasil memberikan hasil yang luar biasa. Mereka meluangkan waktu untuk memahami desain konstruksi saya, memberikan saran teknis yang bermanfaat, dan akhirnya menghasilkan struktur baja yang dilas sempurna, bahkan melampaui ekspektasi saya. Sangat jarang menemukan tukang las profesional yang ahli secara teknis sekaligus kreatif dalam pengerjaan fabrikasi baja. Saya benar-benar terkesan dan sangat merekomendasikan HYS untuk siapa pun yang mencari jasa pengelasan rangka baja untuk rumah tinggal atau proyek personal.",
     },
   ];
   return (

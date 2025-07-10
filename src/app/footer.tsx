@@ -42,8 +42,9 @@ export default function Footer() {
                 <div className="single-footer-widget">
                   <a className="footer-logo" href="#">
                     <img
-                      src="../assets/img/logo.png"
+                      src="../assets/img/HYSlogo2.jpeg"
                       className="white-logo"
+                      style={{ width: "100px", height: "50px" }}
                       alt="logo"
                     />
                   </a>
@@ -99,7 +100,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <a onClick={() => router.push("/HomeService/furniture")}>
-                        Furnitur
+                        Furniture
                       </a>
                     </li>
                   </ul>

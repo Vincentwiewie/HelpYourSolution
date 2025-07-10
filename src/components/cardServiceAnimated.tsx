@@ -23,7 +23,7 @@ export default function cardServiceAnimated({
                     <div className="default-icon">
                       <img
                         src={m.image}
-                        alt="svg icon"
+                        alt={m.alt}
                         style={{ height: "150px", width: "300px" }}
                       />
                     </div>

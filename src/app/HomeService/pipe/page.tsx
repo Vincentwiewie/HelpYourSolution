@@ -15,19 +15,19 @@ export default function page() {
     data: [
       {
         label: "Kontak Pengrajin",
-        subLabel: "Pesan Sekarang",
+        subLabel: "Peralatan tukang pipa untuk perbaikan saluran air",
         image: "../assets/img/pipe1.jpeg",
         type: "all",
       },
       {
         label: "Kontak Pengrajin",
-        subLabel: "Pesan Sekarang",
+        subLabel: "Teknisi memperbaiki pipa air bocor di bawah wastafel",
         image: "../assets/img/pipe7.jpg",
         type: "all",
       },
       {
         label: "Kontak Pengrajin",
-        subLabel: "Pesan Sekarang",
+        subLabel: "Pemasangan pipa air bersih dengan alat las pipa",
         image: "../assets/img/pipe3.jpeg",
         type: "all",
       },
@@ -40,23 +40,27 @@ export default function page() {
       imageHover: "../assets/img/plember1.jpg",
       title:
         "Urusan perpipaan?,Kami Ahlinya pipa, Pipa Rusak? – Kami Tangani Semuanya!",
+      alt: "Jasa tukang ledeng memperbaiki saluran air tersumbat",
       content: "",
     },
     {
       image: "../assets/img/plember2.jpg",
       imageHover: "../assets/img/plember2.jpg",
+      alt: "Petugas jasa plumbing sedang memasang sambungan pipa PVC",
       title: "Layanan Perpipaan Ahli, Disampaikan dengan Hati-hati",
       content: "",
     },
     {
       image: "../assets/img/plember3.jpg",
       imageHover: "../assets/img/plember3.jpg",
+      alt: "Tukang ledeng mengganti pipa air lama dengan pipa baru",
       title: "Layanan Perpipaan yang Terjangkau, Cepat, dan Andal",
       content: "",
     },
     {
       image: "../assets/img/plember4.jpg",
       imageHover: "../assets/img/plember4.jpg",
+      alt: "Jasa profesional perbaikan pipa air untuk rumah dan kantor",
       title:
         "Kami Memperbaiki Kebocoran, Pipa, dan Segala Sesuatu di Antaranya!",
       content: "",
@@ -64,12 +68,14 @@ export default function page() {
     {
       image: "../assets/img/plember5.jpg",
       imageHover: "../assets/img/plember5.jpg",
+      alt: "Jasa profesional perbaikan pipa air untuk rumah dan kantor",
       title: "Ahli Perpipaan Lokal Anda – Melayani Anda dengan Integritas",
       content: "",
     },
     {
       image: "../assets/img/plember6.jpg",
       imageHover: "../assets/img/plember6.jpg",
+      alt: "Pemasangan pipa air bersih dengan alat las pipa",
       title:
         "Layanan Perpipaan 24/7 – Tersedia Kapan Saja Anda Membutuhkan Kami!",
       content: "",
@@ -82,21 +88,21 @@ export default function page() {
       image: "../assets/img/client/testimonial-1.jpg",
       country: "Agen Propesional",
       content:
-        "Saya menyewa HYS pipa untuk menangani beberapa perbaikan pengelasan pada mesin berat di fasilitas kami, dan saya sangat puas dengan hasil kerja mereka. Tim mereka cepat menanggapi permintaan saya dan meluangkan waktu untuk menilai masalah sebelum memberikan solusi yang jelas, hemat biaya, dan garansi 1 bulan yang diberikan",
+        "Bagian terbaik dari jasa perbaikan pipa air ini adalah profesionalisme mereka. Mereka berkomunikasi dengan jelas selama proses perbaikan pipa, datang tepat waktu, dan menyelesaikan pekerjaan dengan cepat serta efisien. Saya sangat menghargai perhatian mereka terhadap keselamatan kerja, yang membuat saya merasa yakin dan tenang selama proses berlangsung. Setelah perbaikan, tidak ada lagi kebocoran pipa, dan rumah saya terasa seperti baru lagi. Layanan mereka benar-benar memberikan solusi terbaik untuk masalah pipa air di rumah.",
     },
     {
       name: "Linda",
       image: "../assets/img/client/testimonial-2.jpg",
       country: "Pemilik Rumah",
       content:
-        "Bagian terbaiknya adalah profesionalisme mereka – mereka berkomunikasi dengan jelas selama proses berlangsung, datang tepat waktu, dan menyelesaikan pekerjaan dengan efisien. Saya juga menghargai perhatian mereka terhadap keselamatan, yang membuat saya yakin dengan pekerjaan yang dilakukan. membuat rumah saya terasa seperti baru lagi dan tidak ada lagi kebocoran pipa",
+        "Saya baru saja menyewa HYS Pipe untuk beberapa pengerjaan logam khusus dan jasa perbaikan pengelasan untuk bisnis saya, dan saya sangat terkesan dengan hasilnya. Mulai dari konsultasi awal hingga pemasangan akhir, tim mereka bekerja dengan sangat profesional, efisien, dan terampil. Kualitas pengelasan logam yang mereka lakukan benar-benar luar biasa – hasilnya kuat, bersih, dan dirancang untuk tahan lama. Jika Anda mencari jasa pengelasan profesional atau custom metal fabrication, saya sangat merekomendasikan HYS Pipe.",
     },
     {
       name: "Suhendra",
       image: "../assets/img/client/testimonial-3.jpg",
       country: "Bisnis F&B",
       content:
-        "Saya baru saja menyewa HYS pipe untuk beberapa pengerjaan logam khusus dan perbaikan pengelasan untuk bisnis saya, dan saya sangat terkesan. Dari konsultasi awal hingga pemasangan akhir, tim mereka profesional, efisien, dan sangat terampil. Kualitas pengelasan mereka luar biasa – semuanya kuat, bersih, dan dibuat agar tahan lama",
+        "Saya baru saja menggunakan layanan HYS Pipe untuk pengerjaan logam khusus dan perbaikan pengelasan pada proyek bisnis saya, dan hasilnya benar-benar memuaskan. Mulai dari konsultasi awal hingga pemasangan akhir, tim mereka menunjukkan tingkat profesionalisme tinggi, bekerja secara efisien dan sangat terampil di lapangan. Kualitas jasa pengelasan mereka luar biasa – hasil las terlihat kuat, rapi, dan tahan lama. Jika Anda membutuhkan jasa pengelasan profesional atau pengerjaan logam presisi, saya sangat merekomendasikan HYS Pipe sebagai mitra terpercaya.",
     },
   ];
 
@@ -109,18 +115,17 @@ export default function page() {
               <div className="row align-items-center">
                 <div className="col-lg-6 col-md-12">
                   <div className="main-banner-content">
-                    <h6 className="text-white">Layanan Pipa Berkualitas</h6>
+                    <h6 className="text-black">Layanan Pipa Berkualitas</h6>
                     <h3 className="text-white">
                       Pipa bocor? serahkan pada layanan pipa HelpYourSolution
                       kami Lulus Kualitas
                       <span className="text-gradient"> 100% Warranty</span>
                     </h3>
-                    <p className="text-white">
+                    <p className="text-white mt-4">
                       Kami mengkhususkan diri dalam pemasangan pipa berkualitas
-                      tinggi, perawatan, dan layanan perbaikan untuk berbagai
-                      industri di seluruh wilayah. Apakah Anda memerlukan
-                      pemasangan sistem pipa baru atau sedang mencari perbaikan
-                      dan perawatan ahli
+                      tinggi, perawatan, dan layanan perbaikan untuk rumah.
+                      Apakah Anda memerlukan pemasangan sistem pipa baru atau
+                      sedang mencari perbaikan dan perawatan ahli
                     </p>
                     <div className="banner-btn">
                       <a

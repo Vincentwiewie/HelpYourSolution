@@ -111,7 +111,7 @@ export default function lesson() {
               <div className="row align-items-center">
                 <div className="col-lg-6 col-md-12">
                   <div className="main-banner-content">
-                    <h2 className="text-white">HYS Bimbingan Belajar</h2>
+                    <h2 className="text-light">HYS Bimbingan Belajar</h2>
                     <ul className="social-icon-list">
                       <li>
                         <a href="https://www.facebook.com/share/16GAX2eF6W/">
@@ -132,22 +132,28 @@ export default function lesson() {
                         </a>
                       </li>
                     </ul>
-                    Urusan Pendidikan Anak Adalah Prioritas Kami
+
                     <h1></h1>
-                    <p>
-                      Pendidikan adalah segalanya, karena melalui pendidikan,
-                      seseorang dapat membuka jendela dunia, memahami makna
-                      hidup, serta membentuk karakter dan cara berpikir yang
-                      kritis. Pendidikan bukan hanya tentang menghafal fakta
-                      atau memperoleh gelar, melainkan proses seumur hidup yang
-                      membentuk manusia menjadi individu yang bijak, mandiri,
-                      dan bertanggung jawab. Dalam masyarakat yang maju,
-                      pendidikan menjadi fondasi utama dalam menciptakan
-                      keadilan sosial, meningkatkan taraf hidup, dan membangun
-                      peradaban yang berkelanjutan. Tanpa pendidikan, potensi
-                      manusia tidak akan pernah berkembang secara maksimal, dan
-                      dunia akan kehilangan arah dalam menghadapi tantangan
-                      zaman.
+                    <p style={{ color: "black" }} className="fw-bold">
+                      Pendidikan adalah kunci kesuksesan dan kemajuan suatu
+                      bangsa. Melalui pendidikan, seseorang dapat membuka
+                      jendela dunia, memahami makna hidup, serta mengembangkan
+                      cara berpikir kritis. Pendidikan tidak hanya sebatas
+                      menghafal fakta atau mengejar gelar, melainkan merupakan
+                      proses seumur hidup yang membentuk individu menjadi
+                      pribadi yang bijak, mandiri, dan bertanggung jawab. Dalam
+                      masyarakat modern dan maju, pendidikan memiliki peran
+                      sentral sebagai fondasi utama dalam menciptakan keadilan
+                      sosial, meningkatkan kualitas hidup, serta membangun
+                      peradaban yang berkelanjutan. Pendidikan yang berkualitas
+                      mampu memberdayakan manusia agar dapat berpikir kreatif,
+                      berinovasi, dan berkontribusi secara aktif dalam
+                      menyelesaikan berbagai tantangan global. Tanpa pendidikan
+                      yang memadai, potensi manusia tidak dapat berkembang
+                      secara maksimal, dan dunia akan kesulitan menghadapi
+                      perubahan zaman yang semakin kompleks. Oleh karena itu,
+                      investasi dalam pendidikan adalah investasi untuk masa
+                      depan yang lebih cerah dan berkelanjutan.
                     </p>
                     <div className="banner-btn">
                       <a

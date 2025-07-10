@@ -15,38 +15,38 @@ export default function page() {
     data: [
       {
         label: "Kontak Pengrajin",
-        subLabel: "Chat Sekarang",
+        subLabel: "Jasa pemasangan plafon",
         image: "../assets/img/plafon2.jpeg",
         type: "ceiling",
       },
       {
         label: "Kontak Pengrajin",
-        subLabel: "Chat Sekarang",
+        subLabel: "Tukang pasang plafon profesional",
         image: "../assets/img/plafon4.jpeg",
         type: "ceiling",
       },
       {
         label: "Kontak Pengrajin",
-        subLabel: "Chat Sekarang",
+        subLabel: "Pemasangan plafon gypsum",
         image: "../assets/img/plafon3.jpeg",
         type: "ceiling",
       },
       {
         label: "Kontak Pengrajin",
-        subLabel: "Chat Sekarang",
+        subLabel: "Jasa plafon rumah murah",
         image: "../assets/img/roof.jpeg",
         type: "roof",
       },
       {
         label: "Kontak Pengrajin",
-        subLabel: "Chat Sekarang",
+        subLabel: "Kontraktor plafon rumah",
         image: "../assets/img/roof1.jpeg",
         type: "roof",
       },
       {
         label: "Kontak Pengrajin",
-        subLabel: "Chat Sekarang",
-        image: "../assets/img/roof2.jpeg",
+        subLabel: "Instalasi plafon kantor",
+        image: "../assets/img/plafon1.jpeg",
         type: "roof",
       },
     ],
@@ -103,21 +103,21 @@ export default function page() {
       image: "/assets/img/client/testimonial-1.jpg",
       country: "Pemilik Rumah",
       content:
-        "Baru-baru ini saya meminta HYS Plafon Service memasang plafon palsu baru di ruang tamu saya, dan saya sangat puas dengan hasilnya. Timnya sangat profesional, dan mereka bekerja sama dengan saya untuk mendesain plafon yang sesuai dengan visi saya.",
+        "Butuh jasa instalasi plafon rumah yang cepat, rapi, dan berkualitas? Kami menyediakan layanan pemasangan plafon gypsum, plafon PVC, dan berbagai jenis plafon lainnya sesuai kebutuhan Anda. Tim tukang pasang plafon profesional kami siap membantu mewujudkan desain plafon minimalis atau klasik dengan hasil yang tahan lama dan rapi. Kami melayani instalasi plafon di berbagai wilayah, termasuk Jakarta, Surabaya, Bandung, dan sekitarnya. Dengan harga pasang plafon yang kompetitif dan proses kerja yang efisien, kami adalah pilihan tepat untuk kebutuhan plafon rumah dan kantor Anda. Selain pemasangan, kami juga menerima jasa perbaikan plafon bocor dan penggantian plafon lama dengan yang baru. Hubungi kami sekarang untuk konsultasi gratis dan penawaran harga terbaik!",
     },
     {
       name: "christine",
       image: "/assets/img/client/testimonial-2.jpg",
       country: "Cafe Owner",
       content:
-        "Pekerjaan selesai tepat waktu, dan pemasangannya sempurna. Saya menghargai betapa bersih dan terorganisirnya tim selama proses berlangsung. Jelas mereka bangga dengan pekerjaan mereka, dan saya berterima kasih atas layanan yang luar biasa ini.",
+        "Pekerjaan pemasangan selesai tepat waktu dengan hasil yang sempurna. Saya sangat menghargai betapa bersih dan terorganisirnya tim selama proses berlangsung. Jelas bahwa mereka benar-benar bangga dengan kualitas pekerjaan mereka. Saya sangat berterima kasih atas layanan jasa pemasangan profesional yang luar biasa ini. Jika Anda mencari tim yang dapat diandalkan dan efisien, saya sangat merekomendasikan layanan ini.",
     },
     {
       name: "Stevie Wills",
       image: "/assets/img/client/testimonial-3.jpg",
       country: "Staff",
       content:
-        "Saya menghubungi HYS Plafon Service untuk pemasangan plafon palsu di kamar tidur saya, dan saya sangat puas dengan hasilnya. Dari konsultasi pertama hingga pemasangan akhir, timnya profesional, efisien, dan sangat membantu. Mereka mendengarkan ide-ide saya dan memberikan saran-saran yang fantastis untuk meningkatkan desain.",
+        "Saya menghubungi HYS Plafon Service untuk pemasangan plafon palsu di kamar tidur saya, dan saya sangat puas dengan hasilnya. Mulai dari konsultasi awal hingga pemasangan akhir, tim mereka bekerja dengan sangat profesional, efisien, dan ramah. Mereka benar-benar mendengarkan ide-ide saya dan memberikan saran desain plafon palsu yang fantastis untuk meningkatkan tampilan kamar tidur saya. Jika Anda mencari jasa pemasangan plafon palsu terpercaya dengan hasil berkualitas, saya sangat merekomendasikan HYS Plafon Service.",
     },
   ];
 
@@ -130,13 +130,13 @@ export default function page() {
               <div className="row align-items-center">
                 <div className="col-lg-6 col-md-12">
                   <div className="main-banner-content">
-                    <h6 className="text-white">Pemasang Plafon Berkualitas</h6>
+                    <h6 className="text-black">Pemasang Plafon Berkualitas</h6>
                     <h3 className="text-white">
                       Butuh Plafon? Serahkan pada HYS Plafon Service, kami
                       Lulusan Berkualitas
                       <span className="text-gradient"> 100% Garansi</span>
                     </h3>
-                    <p className="text-white">
+                    <p className="text-white mt-4">
                       Plafon Rusak atau Plafon Telah usang? butuh design Baru?
                       serahkan kepada HYS Plafon Care Kami Ahli Dalam
                       permasangan Plafon yang telah Berpegalaman dan dipercaya
