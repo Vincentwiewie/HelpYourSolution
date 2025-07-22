@@ -30,25 +30,25 @@ export default function contractor() {
       title: "3 testimonial",
       comments: [
         {
-          title: "Wilson Swanson",
+          title: "Henwan",
           date: "June 15 - 2024 12:30 PM",
           comments:
             "Bekerja sama dengan HYS adalah sebuah pengalaman yang luar biasa. Tim arsitek mereka benar-benar mendengarkan kebutuhan kami dan mampu menerjemahkan ide rumah impian kami ke dalam desain yang indah, fungsional, dan nyaman. Setiap aspek desain diperhatikan dengan cermat—mulai dari pencahayaan alami, sirkulasi udara, hingga efisiensi penggunaan ruang. HYS tidak hanya fokus pada tampilan estetika, tetapi juga memastikan bahwa rumah kami berfungsi optimal sesuai gaya hidup. Kami sangat puas dengan hasil akhirnya dan dengan senang hati merekomendasikan HYS sebagai jasa arsitek rumah terpercaya untuk siapa pun yang ingin membangun atau merenovasi rumah dengan hasil maksimal.",
-          image: "../assets/img/client/1.jpg",
+          image: "../assets/img/profile.jpeg",
         },
         {
-          title: "Ella Hodges",
+          title: "Wilson",
           date: "June 15 - 2024 12:30 PM",
           comments:
             "HYS dan tim arsitek profesional mereka berhasil mewujudkan visi kami untuk ruang kantor yang modern, kolaboratif, dan fungsional. Mereka mampu menyeimbangkan estetika dan kepraktisan, menciptakan lingkungan kerja yang mendukung kreativitas dan produktivitas. Desain interior yang dirancang memperhatikan pencahayaan, tata letak ruang terbuka, serta kebutuhan tim dalam berkolaborasi. Hasilnya adalah kantor yang inspiratif, nyaman, dan efisien secara fungsional. Dengan tingkat profesionalisme yang tinggi, HYS mengelola seluruh proses desain dengan lancar, dari konsep awal hingga implementasi. Pengalaman ini benar-benar bebas stres dan memuaskan, dan kami sangat merekomendasikan mereka untuk jasa desain kantor profesional.",
-          image: "../assets/img/client/2.jpg",
+          image: "../assets/img/profile.jpeg",
         },
         {
-          title: "Melissa Bryant",
+          title: "Mellisa",
           date: "June 15 - 2024 12:30 PM",
           comments:
             "Rumah lama kami membutuhkan renovasi besar, dan HYS berhasil menghidupkannya kembali dengan cara yang luar biasa. Mereka mampu mempertahankan karakter asli rumah sambil menghadirkan sentuhan desain modern dan solusi arsitektur berkelanjutan. Dengan pendekatan yang penuh perhatian dan profesional, tim HYS menggabungkan elemen klasik dan kontemporer secara seimbang, menghasilkan ruang tinggal yang estetis, fungsional, dan ramah lingkungan. Hasil akhirnya jauh melampaui ekspektasi kami—sebuah rumah yang terasa baru tanpa kehilangan identitas aslinya. Kami sangat merekomendasikan HYS sebagai mitra renovasi rumah terpercaya bagi siapa pun yang ingin melakukan transformasi hunian dengan hasil maksimal.",
-          image: "../assets/img/client/4.jpg",
+          image: "../assets/img/profile.jpeg",
         },
       ],
     },

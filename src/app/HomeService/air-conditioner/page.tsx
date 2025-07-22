@@ -96,22 +96,22 @@ export default function page() {
   const dataTestimonial: testimonialModel[] = [
     {
       name: "Andi",
-      image: "../assets/img/client/testimonial-1.jpg",
-      country: "United Kingdom",
+      image: "../assets/img/profile.jpeg",
+      country: "Medan",
       content:
         "Saya sangat puas dengan AC baru saya! Sejak pemasangan AC dilakukan, udara di rumah langsung terasa lebih sejuk dan segar hanya dalam hitungan menit. Kinerja AC hemat energi ini benar-benar luar biasa—sangat senyap, cepat dingin, dan mampu menjaga suhu ruangan tetap stabil di seluruh rumah. Fitur favorit saya adalah teknologi pintar yang memungkinkan saya mengontrol AC dari smartphone, sangat praktis dan modern! Setelah mengalami beberapa musim panas yang panas dan tidak nyaman, kehadiran AC inverter ini benar-benar mengubah segalanya. Saya sangat merekomendasikan AC ini bagi siapa pun yang mencari AC berkualitas, awet, dan hemat listrik. Cocok untuk rumah, apartemen, atau kantor. Solusi ideal untuk kenyamanan jangka panjang!",
     },
     {
       name: "Putri",
-      image: "../assets/img/client/testimonial-2.jpg",
-      country: "United State",
+      image: "../assets/img/profile.jpeg",
+      country: "Binjai",
       content:
         "Baru-baru ini saya melakukan pembersihan AC di HYS, dan hasilnya sangat memuaskan! Tim teknisi HYS datang tepat waktu, sangat profesional, dan menjelaskan proses cuci AC dengan jelas. Setelah dibersihkan, aliran udara dari AC jadi jauh lebih kuat, dan unit bekerja lebih senyap serta efisien. Saya benar-benar terkejut melihat banyaknya debu dan kotoran yang berhasil disingkirkan. Sekarang, AC saya terasa seperti unit baru—dingin maksimal, tanpa suara bising, dan hemat listrik. Saya pasti akan rutin menggunakan jasa cuci AC HYS ke depannya. Layanan ini sangat direkomendasikan bagi siapa pun yang ingin menjaga performa dan kebersihan AC rumah.",
     },
     {
       name: "Adam",
-      image: "../assets/img/client/testimonial-3.jpg",
-      country: "Germany",
+      image: "../assets/img/profile.jpeg",
+      country: "Jakarta",
       content:
         "Saya mengalami masalah dengan AC yang tidak dingin, dan HYS benar-benar datang sebagai penyelamat. Teknisi AC dari HYS datang tepat waktu, langsung mendiagnosis masalah dengan cepat, dan memperbaikinya hanya dalam waktu satu jam! Layanannya sangat profesional, jujur, dan yang paling penting—harganya terjangkau. Sejak diperbaiki, AC saya bekerja dengan sempurna, tidak ada lagi masalah suhu atau kebisingan. Saya sangat menghargai transparansi dan efisiensi tim HYS, dan saya sangat merekomendasikan mereka untuk siapa pun yang butuh jasa perbaikan AC yang cepat, terpercaya, dan terjangkau.",
     },
@@ -160,7 +160,7 @@ export default function page() {
                     <div className="banner-btn">
                       <a
                         className="default-btn-one"
-                        href="https://api.whatsapp.com/send?phone=081282288099"
+                        href="https://api.whatsapp.com/send?phone=6281282288099"
                       >
                         Pesan Sekarang <span></span>
                       </a>

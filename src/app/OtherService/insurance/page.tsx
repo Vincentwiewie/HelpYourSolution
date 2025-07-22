@@ -233,7 +233,7 @@ export default function insurance() {
                 <footer className="comment-meta">
                   <div className="comment-author vcard">
                     <img
-                      src="../assets/img/client/2.jpg"
+                      src="../assets/img/profile.jpeg"
                       className="avatar"
                       alt="image"
                     />
@@ -268,7 +268,7 @@ export default function insurance() {
                     <footer className="comment-meta">
                       <div className="comment-author vcard">
                         <img
-                          src="../assets/img/client/1.jpg"
+                          src="../assets/img/profile.jpeg"
                           className="avatar"
                           alt="image"
                         />{" "}
@@ -306,7 +306,7 @@ export default function insurance() {
                 <footer className="comment-meta">
                   <div className="comment-author vcard">
                     <img
-                      src="../assets/img/client/4.jpg"
+                      src="../assets/img/profile.jpeg"
                       className="avatar"
                       alt="image"
                     />{" "}

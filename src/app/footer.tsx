@@ -40,14 +40,18 @@ export default function Footer() {
             <div className="row">
               <div className="col-lg-4 col-md-6 col-sm-6">
                 <div className="single-footer-widget">
-                  <a className="footer-logo" href="#">
+                  {/* <a className="footer-logo" href="#">
                     <img
-                      src="../assets/img/HYSlogo2.jpeg"
+                      src="../assets/img/hyslogo.png"
                       className="white-logo"
-                      style={{ width: "100px", height: "50px" }}
+                      style={{
+                        marginLeft: "110px",
+                        width: "150px",
+                        height: "70px",
+                      }}
                       alt="logo"
                     />
-                  </a>
+                  </a> */}
                   <p>
                     Di HelpYourSolution, kami mengkhususkan diri dalam
                     memberikan layanan berkualitas tinggi, andal, dan
@@ -121,7 +125,7 @@ export default function Footer() {
                         Tentang Kami
                       </a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a
                         onClick={() => {
                           router.push("/companyProfile");
@@ -129,7 +133,7 @@ export default function Footer() {
                       >
                         Profile Perusahaan
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
@@ -142,7 +146,7 @@ export default function Footer() {
                     <i className="flaticon-phone-call"></i>
                     <h3>Telepon</h3>
                     <span>
-                      <a href="https://api.whatsapp.com/send?phone=081282288099">
+                      <a href="https://api.whatsapp.com/send?phone=6281282288099">
                         0812-8228-8099
                       </a>
                     </span>
@@ -181,9 +185,7 @@ export default function Footer() {
             <div className="col-lg-6 col-md-6">
               <ul>
                 <li>
-                  <a onClick={() => router.push("/privacyPolicy")}>
-                    Privacy Policy
-                  </a>
+                  <a>HelpYourSolution - Privacy Policy</a>
                 </li>
               </ul>
             </div>

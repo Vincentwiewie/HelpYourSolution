@@ -85,21 +85,21 @@ export default function page() {
   const dataTestimonial: testimonialModel[] = [
     {
       name: "Andri",
-      image: "../assets/img/client/testimonial-1.jpg",
+      image: "../assets/img/profile.jpeg",
       country: "Agen Propesional",
       content:
         "Bagian terbaik dari jasa perbaikan pipa air ini adalah profesionalisme mereka. Mereka berkomunikasi dengan jelas selama proses perbaikan pipa, datang tepat waktu, dan menyelesaikan pekerjaan dengan cepat serta efisien. Saya sangat menghargai perhatian mereka terhadap keselamatan kerja, yang membuat saya merasa yakin dan tenang selama proses berlangsung. Setelah perbaikan, tidak ada lagi kebocoran pipa, dan rumah saya terasa seperti baru lagi. Layanan mereka benar-benar memberikan solusi terbaik untuk masalah pipa air di rumah.",
     },
     {
       name: "Linda",
-      image: "../assets/img/client/testimonial-2.jpg",
+      image: "../assets/img/profile.jpeg",
       country: "Pemilik Rumah",
       content:
         "Saya baru saja menyewa HYS Pipe untuk beberapa pengerjaan logam khusus dan jasa perbaikan pengelasan untuk bisnis saya, dan saya sangat terkesan dengan hasilnya. Mulai dari konsultasi awal hingga pemasangan akhir, tim mereka bekerja dengan sangat profesional, efisien, dan terampil. Kualitas pengelasan logam yang mereka lakukan benar-benar luar biasa – hasilnya kuat, bersih, dan dirancang untuk tahan lama. Jika Anda mencari jasa pengelasan profesional atau custom metal fabrication, saya sangat merekomendasikan HYS Pipe.",
     },
     {
       name: "Suhendra",
-      image: "../assets/img/client/testimonial-3.jpg",
+      image: "../assets/img/profile.jpeg",
       country: "Bisnis F&B",
       content:
         "Saya baru saja menggunakan layanan HYS Pipe untuk pengerjaan logam khusus dan perbaikan pengelasan pada proyek bisnis saya, dan hasilnya benar-benar memuaskan. Mulai dari konsultasi awal hingga pemasangan akhir, tim mereka menunjukkan tingkat profesionalisme tinggi, bekerja secara efisien dan sangat terampil di lapangan. Kualitas jasa pengelasan mereka luar biasa – hasil las terlihat kuat, rapi, dan tahan lama. Jika Anda membutuhkan jasa pengelasan profesional atau pengerjaan logam presisi, saya sangat merekomendasikan HYS Pipe sebagai mitra terpercaya.",
@@ -130,7 +130,7 @@ export default function page() {
                     <div className="banner-btn">
                       <a
                         className="default-btn-one"
-                        href="https://api.whatsapp.com/send?phone=081282288099"
+                        href="https://api.whatsapp.com/send?phone=6281282288099"
                       >
                         Hubungi Kami<span></span>
                       </a>

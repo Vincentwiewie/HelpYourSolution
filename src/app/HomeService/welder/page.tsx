@@ -88,22 +88,22 @@ export default function page() {
   const dataTestimonial: testimonialModel[] = [
     {
       name: "Andi",
-      image: "../assets/img/client/testimonial-1.jpg",
-      country: "United Kingdom",
+      image: "../assets/img/profile.jpeg",
+      country: "Cafe Owner",
       content:
         "Saya menyewa HYS Pipe untuk proyek gerbang logam khusus, dan hasilnya benar-benar luar biasa. Kualitas las mereka sangat mengesankan—bersih, kuat, dan presisi, jelas dikerjakan oleh tukang las profesional yang bangga dengan pekerjaannya. Mereka juga sangat dapat diandalkan, datang tepat waktu, dan bahkan menyelesaikan proyek lebih cepat dari jadwal. Saya sudah pernah bekerja dengan beberapa penyedia jasa pengelasan, tetapi ini adalah pengalaman terbaik saya sejauh ini. Saya pasti akan menghubungi mereka lagi untuk proyek pengelasan atau fabrikasi logam berikutnya.",
     },
     {
       name: "Putri",
-      image: "../assets/img/client/testimonial-2.jpg",
-      country: "United State",
+      image: "../assets/img/profile.jpeg",
+      country: "Mandor",
       content:
         "Kami mengontrak HYS Pipe untuk pekerjaan pengelasan struktural dalam proyek renovasi bangunan komersial, dan hasilnya benar-benar melampaui ekspektasi. Tim mereka mematuhi semua protokol keselamatan kerja, bekerja secara efisien meskipun tenggat waktunya ketat, dan menjaga komunikasi yang jelas selama proses berlangsung. Kualitas pengelasan struktural mereka sangat baik hingga lulus inspeksi tanpa satu pun masalah. Sangat sulit menemukan tukang las profesional yang mampu menggabungkan keterampilan teknis dan profesionalisme tinggi—tetapi HYS berhasil melakukan keduanya.",
     },
     {
       name: "Adam",
-      image: "../assets/img/client/testimonial-3.jpg",
-      country: "Germany",
+      image: "../assets/img/profile.jpeg",
+      country: "Pembisnis",
       content:
         "Saya membutuhkan rangka baja khusus untuk proyek rumah, dan HYS Pipe benar-benar berhasil memberikan hasil yang luar biasa. Mereka meluangkan waktu untuk memahami desain konstruksi saya, memberikan saran teknis yang bermanfaat, dan akhirnya menghasilkan struktur baja yang dilas sempurna, bahkan melampaui ekspektasi saya. Sangat jarang menemukan tukang las profesional yang ahli secara teknis sekaligus kreatif dalam pengerjaan fabrikasi baja. Saya benar-benar terkesan dan sangat merekomendasikan HYS untuk siapa pun yang mencari jasa pengelasan rangka baja untuk rumah tinggal atau proyek personal.",
     },
@@ -136,7 +136,7 @@ export default function page() {
                     <div className="banner-btn">
                       <a
                         className="default-btn-one"
-                        href="https://api.whatsapp.com/send?phone=081282288099"
+                        href="https://api.whatsapp.com/send?phone=6281282288099"
                       >
                         Layanan Kami <span></span>
                       </a>

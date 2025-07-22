@@ -78,7 +78,7 @@ export default function Portofolio({
                       </div>
                       <a
                         className="portfolio-link-icon"
-                        href="https://api.whatsapp.com/send?phone=081282288099"
+                        href="https://api.whatsapp.com/send?phone=6281282288099"
                       >
                         <i className="bi bi-arrow-right"></i>
                       </a>

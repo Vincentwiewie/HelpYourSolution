@@ -17,7 +17,7 @@ export default function testimonial({ value }: { value: testimonialModel[] }) {
               <div className="testimonial-slider  owl-theme">
                 {value.map((m: testimonialModel) => {
                   return (
-                    <div className="single-testimonial mt-5" key={m.image}>
+                    <div className="single-testimonial mt-5" key={m.name}>
                       <div className="rating-box">
                         <ul>
                           <li>

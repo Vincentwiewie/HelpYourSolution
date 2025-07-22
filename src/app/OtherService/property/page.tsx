@@ -100,7 +100,7 @@ export default function Property() {
               >
                 <h5>Cemara Asri</h5>
                 <p>Jalan Cemara Asri</p>
-                <a href="https://api.whatsapp.com/send?phone=081282288099">
+                <a href="https://api.whatsapp.com/send?phone=6281282288099">
                   080 707 555-321
                 </a>
                 <a href="mailto:demo@example.com">demo@example.com</a>
@@ -126,7 +126,7 @@ export default function Property() {
               >
                 <h5>Citraland Pancing</h5>
                 <p>Jalan Pancing.</p>
-                <a href="https://api.whatsapp.com/send?phone=081282288099">
+                <a href="https://api.whatsapp.com/send?phone=6281282288099">
                   080 707 555-321
                 </a>
                 <a href="mailto:demo@example.com">demo@example.com</a>
@@ -152,8 +152,8 @@ export default function Property() {
               >
                 <h5>Asia Megamas</h5>
                 <p>Jalan Asia</p>
-                <a href="https://api.whatsapp.com/send?phone=081282288099">
-                  081282288099
+                <a href="https://api.whatsapp.com/send?phone=6281282288099">
+                  6281282288099
                 </a>
                 <a href="mailto:demo@example.com">demo@example.com</a>
               </div>

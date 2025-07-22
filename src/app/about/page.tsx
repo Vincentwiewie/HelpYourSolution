@@ -377,7 +377,7 @@ export default function about() {
                 <div className="hire-btn">
                   <a
                     className="default-btn"
-                    href="https://api.whatsapp.com/send?phone=081282288099"
+                    href="https://api.whatsapp.com/send?phone=6281282288099"
                   >
                     Hubungi Sekarang<span></span>
                   </a>
@@ -394,7 +394,7 @@ export default function about() {
         </div>
       </section>
 
-      <section className="partner-section pt-100 pb-70">
+      {/* <section className="partner-section pt-100 pb-70">
         <div className="container">
           <div className="partner-title">
             <h6 className="sub-title">Tim Propesional</h6>
@@ -449,7 +449,7 @@ export default function about() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }

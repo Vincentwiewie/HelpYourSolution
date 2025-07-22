@@ -33,6 +33,18 @@ export default function page() {
       },
       {
         label: "Kontak Pengrajin",
+        subLabel: "Pemasangan plafon gypsum",
+        image: "../assets/img/ceiling1.jpeg",
+        type: "ceiling",
+      },
+      {
+        label: "Kontak Pengrajin",
+        subLabel: "Pemasangan plafon gypsum",
+        image: "../assets/img/ceiling2.jpeg",
+        type: "ceiling",
+      },
+      {
+        label: "Kontak Pengrajin",
         subLabel: "Jasa plafon rumah murah",
         image: "../assets/img/roof.jpeg",
         type: "roof",
@@ -100,21 +112,21 @@ export default function page() {
   const dataTestimonial: testimonialModel[] = [
     {
       name: "Kevin",
-      image: "/assets/img/client/testimonial-1.jpg",
+      image: "../assets/img/profile.jpeg",
       country: "Pemilik Rumah",
       content:
         "Butuh jasa instalasi plafon rumah yang cepat, rapi, dan berkualitas? Kami menyediakan layanan pemasangan plafon gypsum, plafon PVC, dan berbagai jenis plafon lainnya sesuai kebutuhan Anda. Tim tukang pasang plafon profesional kami siap membantu mewujudkan desain plafon minimalis atau klasik dengan hasil yang tahan lama dan rapi. Kami melayani instalasi plafon di berbagai wilayah, termasuk Jakarta, Surabaya, Bandung, dan sekitarnya. Dengan harga pasang plafon yang kompetitif dan proses kerja yang efisien, kami adalah pilihan tepat untuk kebutuhan plafon rumah dan kantor Anda. Selain pemasangan, kami juga menerima jasa perbaikan plafon bocor dan penggantian plafon lama dengan yang baru. Hubungi kami sekarang untuk konsultasi gratis dan penawaran harga terbaik!",
     },
     {
       name: "christine",
-      image: "/assets/img/client/testimonial-2.jpg",
+      image: "../assets/img/profile.jpeg",
       country: "Cafe Owner",
       content:
         "Pekerjaan pemasangan selesai tepat waktu dengan hasil yang sempurna. Saya sangat menghargai betapa bersih dan terorganisirnya tim selama proses berlangsung. Jelas bahwa mereka benar-benar bangga dengan kualitas pekerjaan mereka. Saya sangat berterima kasih atas layanan jasa pemasangan profesional yang luar biasa ini. Jika Anda mencari tim yang dapat diandalkan dan efisien, saya sangat merekomendasikan layanan ini.",
     },
     {
       name: "Stevie Wills",
-      image: "/assets/img/client/testimonial-3.jpg",
+      image: "../assets/img/profile.jpeg",
       country: "Staff",
       content:
         "Saya menghubungi HYS Plafon Service untuk pemasangan plafon palsu di kamar tidur saya, dan saya sangat puas dengan hasilnya. Mulai dari konsultasi awal hingga pemasangan akhir, tim mereka bekerja dengan sangat profesional, efisien, dan ramah. Mereka benar-benar mendengarkan ide-ide saya dan memberikan saran desain plafon palsu yang fantastis untuk meningkatkan tampilan kamar tidur saya. Jika Anda mencari jasa pemasangan plafon palsu terpercaya dengan hasil berkualitas, saya sangat merekomendasikan HYS Plafon Service.",
@@ -145,7 +157,7 @@ export default function page() {
                     <div className="banner-btn">
                       <a
                         className="default-btn-one"
-                        href="https://api.whatsapp.com/send?phone=081282288099"
+                        href="https://api.whatsapp.com/send?phone=6281282288099"
                       >
                         Pesan Sekarang <span></span>
                       </a>

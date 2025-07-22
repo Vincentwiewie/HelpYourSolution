@@ -34,19 +34,19 @@ export default function page() {
       {
         label: "Kontak Pengrajin",
         subLabel: "Desain dapur minimalis",
-        image: "../assets/img/dapur1.jpeg",
+        image: "../assets/img/furniture10.jpeg",
         type: "all",
       },
       {
         label: "Kontak Pengrajin",
         subLabel: "Renovasi dapur modern",
-        image: "../assets/img/dapur2.jpeg",
+        image: "../assets/img/furniture11.jpeg",
         type: "all",
       },
       {
         label: "Kontak Pengrajin",
         subLabel: "Peralatan dapur lengkap",
-        image: "../assets/img/dapur3.jpeg",
+        image: "../assets/img/furniture12.jpeg",
         type: "all",
       },
     ],
@@ -55,22 +55,22 @@ export default function page() {
   const dataTestimonial: testimonialModel[] = [
     {
       name: "Andi",
-      image: "../assets/img/client/testimonial-1.jpg",
-      country: "United Kingdom",
+      image: "../assets/img/profile.jpeg",
+      country: "Medan",
       content:
         "Saya sangat merekomendasikan HYS Furniture kepada siapa pun yang mencari furnitur berkualitas tinggi dengan layanan pelanggan yang luar biasa. Mereka benar-benar tahu cara menghadirkan sentuhan personal yang membuat rumah terasa lebih nyaman dan istimewa. Pilihan penyesuaian furnitur custom yang mereka tawarkan sangat beragam dan fleksibel. Saya akhirnya mendapatkan sofa custom yang tidak hanya cantik secara desain, tetapi juga sangat nyaman untuk digunakan sehari-hari. Jika Anda sedang mencari pengrajin furnitur terpercaya yang dapat menghadirkan keindahan dan kenyamanan dalam satu paket, HYS Furniture adalah jawabannya.",
     },
     {
       name: "Putri",
-      image: "../assets/img/client/testimonial-2.jpg",
-      country: "United State",
+      image: "../assets/img/profile.jpeg",
+      country: "Pengusaha",
       content:
         "Saya baru saja membeli sofa sectional dan meja makan dari HYS Furniture, dan saya sangat senang dengan kualitas produk serta desainnya yang stylish! Tim mereka benar-benar meluangkan waktu untuk memahami kebutuhan saya dan membantu saya memilih furnitur yang sesuai dengan estetika rumah. Selain pelayanan yang ramah dan profesional, HYS juga memberikan garansi untuk setiap produk, yang menunjukkan komitmen mereka terhadap kualitas dan kepuasan pelanggan. Jika Anda mencari furnitur custom berkualitas tinggi dengan layanan pelanggan yang luar biasa, HYS adalah pilihan terbaik.",
     },
     {
       name: "Adam",
-      image: "../assets/img/client/testimonial-3.jpg",
-      country: "Germany",
+      image: "../assets/img/profile.jpeg",
+      country: "Jakarta",
       content:
         "Pengiriman furnitur dari HYS Furniture dilakukan tepat waktu, dan pemasangannya berjalan lancar tanpa kendala. Tim mereka bahkan memastikan semua furnitur terpasang dengan benar dan saya benar-benar puas sebelum mereka meninggalkan lokasi. Saya sangat menghargai pelayanan profesional seperti ini. Karena pengalaman saya begitu positif, saya sudah merekomendasikan HYS Furniture kepada teman-teman dan keluarga. Tanpa ragu, saya akan kembali lagi untuk kebutuhan furnitur custom berkualitas di masa mendatang!",
     },
@@ -116,7 +116,7 @@ export default function page() {
                     <div className="banner-btn">
                       <a
                         className="default-btn-one"
-                        href="https://api.whatsapp.com/send?phone=081282288099"
+                        href="https://api.whatsapp.com/send?phone=6281282288099"
                       >
                         Layanan Kami <span></span>
                       </a>

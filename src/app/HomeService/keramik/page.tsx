@@ -50,21 +50,21 @@ export default function keramik() {
   const dataTestimonial: testimonialModel[] = [
     {
       name: "Andi",
-      image: "../assets/img/client/testimonial-1.jpg",
+      image: "../assets/img/profile.jpeg",
       country: "Jakarta",
       content:
         "Testimoni Pemasangan Keramik: Rapi, Profesional, dan Memuaskan, Hasil pemasangan keramik kamar mandi sangat rapi dan sesuai dengan keinginan saya.Tukang keramik datang tepat waktu, bekerja dengan sangat profesional, dan menunjukkan keahlian yang luar biasa.Saya benar- benar puas dengan pelayanan pemasangan keramik ini.Sangat direkomendasikan untuk Anda yang mencari kualitas dan ketepatan waktu!",
     },
     {
       name: "Putri",
-      image: "../assets/img/client/testimonial-2.jpg",
+      image: "../assets/img/profile.jpeg",
       country: "Bandung",
       content:
         "Kami menggunakan jasa renovasi kantor profesional ini untuk proyek kami, dan hasilnya sangat memuaskan. Tim renovasi cepat tanggap, pengerjaannya rapi dan bersih, serta biaya renovasi kantor cukup terjangkau. Sangat recommended untuk renovasi ruang kantor yang ingin tampil lebih modern dan fungsional!",
     },
     {
       name: "Adam",
-      image: "../assets/img/client/testimonial-3.jpg",
+      image: "../assets/img/profile.jpeg",
       country: "Medan",
       content:
         "Awalnya saya sempat ragu, tetapi setelah melihat hasil akhirnya, saya sangat puas! Keramik kamar mandi saya kini terlihat jauh lebih mewah, elegan, dan modern. Proses pemasangan rapi dan hasil akhir benar-benar melebihi ekspektasi. Terima kasih kepada tim profesional yang telah mengerjakan dengan sangat baik!",
@@ -97,7 +97,7 @@ export default function keramik() {
                     <div className="banner-btn">
                       <a
                         className="default-btn-one"
-                        href="https://api.whatsapp.com/send?phone=081282288099"
+                        href="https://api.whatsapp.com/send?phone=6281282288099"
                       >
                         Hubungi Kami<span></span>
                       </a>

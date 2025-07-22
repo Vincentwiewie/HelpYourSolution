@@ -45,7 +45,7 @@ export default function Price({ value }: { value: priceProps[] }) {
                       {" "}
                       <a
                         className="price-btn-one"
-                        href="https://api.whatsapp.com/send?phone=081282288099"
+                        href="https://api.whatsapp.com/send?phone=6281282288099"
                       >
                         {m.textButton}
                       </a>

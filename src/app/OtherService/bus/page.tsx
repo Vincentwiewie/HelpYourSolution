@@ -30,25 +30,25 @@ export default function bus() {
       title: "3 testimonial",
       comments: [
         {
-          title: "Wilson Swanson",
+          title: "Budi",
           date: "June 15 - 2024 12:30 PM",
           comments:
             "Di HysTrip, keselamatan adalah prioritas utama kami. Kami menghadirkan pengalaman SecureRide dalam setiap perjalanan, memastikan setiap penumpang merasa aman dan nyaman dari awal hingga akhir. Kami percaya bahwa perjalanan tidak hanya harus cepat, tapi juga nyaman dan terlindungi. Oleh karena itu, kami menyediakan fitur unggulan seperti ComfortShield dan CushionGuard, yang dirancang khusus untuk menciptakan lingkungan transportasi yang aman dan nyaman—baik di dalam bus, mobil travel, maupun pesawat. Dengan ComfySecure, Anda bisa menikmati suasana tenang dan santai selama perjalanan. Sementara GuardedComfort memberikan ketenangan pikiran melalui sistem keamanan berlapis dan armada yang selalu dalam kondisi prima. Tim kami yang profesional siap memberikan layanan perjalanan terbaik, tanpa ribet dan tanpa khawatir. Apakah Anda bepergian untuk urusan bisnis, wisata keluarga, atau perjalanan pribadi, HysTrip adalah pilihan jasa transportasi modern yang dapat diandalkan—menggabungkan keselamatan, kenyamanan, dan ketepatan waktu.",
-          image: "../assets/img/client/1.jpg",
+          image: "../assets/img/profile.jpeg",
         },
         {
-          title: "Ella Hodges",
+          title: "Hella",
           date: "June 15 - 2024 12:30 PM",
           comments:
             "Saya benar-benar terkesan dengan kebersihan dan ketepatan waktu bus-bus dari layanan ini. Armada mereka selalu terawat dengan baik, kabin bersih, dan tiba sesuai jadwal—sangat penting untuk perjalanan harian maupun perjalanan jarak jauh Layanannya sangat profesional dan ramah, dan yang paling saya hargai adalah rasa aman selama perjalanan. Setiap pengalaman naik bus terasa nyaman, tertib, dan bebas dari kekhawatiran. Saya sangat merekomendasikan layanan transportasi ini kepada siapa pun yang mencari moda transportasi darat yang dapat diandalkan, nyaman, dan aman. Cocok untuk keperluan pribadi, bisnis, atau wisata keluarga.",
-          image: "../assets/img/client/2.jpg",
+          image: "../assets/img/profile.jpeg",
         },
         {
-          title: "Melissa Bryant",
+          title: "Putri",
           date: "June 15 - 2024 12:30 PM",
           comments:
             "Sebagai seseorang yang sering bepergian, saya sudah mencoba banyak layanan bus, namun layanan bus ini benar-benar menonjol. Armada bus selalu bersih dan nyaman, serta pengemudi yang ramah dan profesional membuat perjalanan semakin menyenangkan. Layanan ini sangat dapat diandalkan dengan jadwal keberangkatan yang tepat waktu dan harga yang terjangkau. Saya sangat merekomendasikan jasa transportasi ini bagi siapa saja yang membutuhkan moda transportasi yang nyaman, aman, dan hemat biaya.",
-          image: "../assets/img/client/4.jpg",
+          image: "../assets/img/profile.jpeg",
         },
       ],
     },

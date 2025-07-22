@@ -21,7 +21,7 @@ export default function cardService({ value }: { value: cardServiceModel[] }) {
                     <div className="services-btn">
                       <a
                         className="read-more"
-                        href="https://api.whatsapp.com/send?phone=081282288099"
+                        href="https://api.whatsapp.com/send?phone=6281282288099"
                       >
                         <i className="bi bi-arrow-right-short"></i> Pesan
                         Sekarang

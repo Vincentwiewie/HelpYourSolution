@@ -106,21 +106,21 @@ export default function gardenAnimal() {
   const dataTestimonial: testimonialModel[] = [
     {
       name: "Lina Marlina",
-      image: "../assets/img/client/testimonial-1.jpg",
+      image: "../assets/img/profile.jpeg",
       country: "Bandung",
       content:
         "Dokter hewan di Klinik Satwa Sehat benar-benar luar biasa. Ketika anjing saya mengalami muntah-muntah selama dua hari, saya sangat panik. Namun, setelah pemeriksaan, dokter memberikan penjelasan yang jelas, tenang, dan sangat ramah. Obat yang diresepkan segera bekerja, dan kini anjing saya kembali aktif dan sehat. Pelayanan yang profesional dan penuh kepedulian terhadap kesehatan hewan membuat saya sangat merekomendasikan dokter hewan di Klinik Satwa Sehat.",
     },
     {
       name: "Linda",
-      image: "../assets/img/client/testimonial-2.jpg",
+      image: "../assets/img/profile.jpeg",
       country: "Jakarta Selatan",
       content:
         "Saya rutin membawa kucing Persia saya untuk vaksinasi dan grooming di klinik ini. Dokter hewan di sini sangat sabar dan telaten, bahkan saat kucing saya rewel. Klinik yang bersih dan nyaman, serta pelayanan yang cepat membuat saya merasa sangat tenang mempercayakan perawatan kucing saya di sini. Saya sangat merekomendasikan klinik ini untuk perawatan kucing khususnya ras Persia",
     },
     {
       name: "Dewi Andriani",
-      image: "../assets/img/client/testimonial-3.jpg",
+      image: "../assets/img/profile.jpeg",
       country: "Sleman",
       content:
         "Sebagai peternak, saya sering membutuhkan konsultasi cepat mengenai kesehatan kelinci. Dokter hewan di klinik ini sangat responsif dan bahkan menyediakan layanan konsultasi online saat kondisi darurat. Mereka tidak hanya memberikan pengobatan, tetapi juga edukasi penting tentang pencegahan penyakit. Layanan ini sangat membantu saya dalam menjaga kualitas dan kesehatan ternak kelinci",

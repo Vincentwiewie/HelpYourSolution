@@ -29,25 +29,25 @@ export default function helper() {
       title: "3 testimonial",
       comments: [
         {
-          title: "Wilson Swanson",
+          title: "Wilson",
           date: "June 15 - 2024 12:30 PM",
           comments:
             "Testimoni Jasa Pembantu & Perbaikan Rumah: Teliti, Dapat Diandalkan, dan Profesional, Saya menyewa jasa pembantu profesional ini untuk beberapa tugas perbaikan rumah, dan saya benar-benar terkesan dengan hasilnya. Tim mereka sopan, dapat diandalkan, dan menyelesaikan setiap pekerjaan dengan perhatian tinggi terhadap detail. Dukungan mereka memberikan perbedaan besar dalam kenyamanan rumah saya. Layanan seperti ini sulit ditemukan—saya pasti akan menghubungi mereka lagi untuk kebutuhan selanjutnya!",
-          image: "../assets/img/client/1.jpg",
+          image: "../assets/img/profile.jpeg",
         },
         {
-          title: "Ella Hodges",
+          title: "Ella",
           date: "June 15 - 2024 12:30 PM",
           comments:
             "Testimoni Layanan Bantuan Rumah Tangga: Solusi Tepat untuk Jadwal Padat, Layanan bantuan rumah tangga ini benar-benar menjadi penyelamat bagi saya! Dengan jadwal yang super padat, saya sangat membutuhkan bantuan ekstra di rumah, dan mereka selalu memberikan layanan terbaik. Timnya profesional, terpercaya, dan hasil kerjanya luar biasa — rumah saya selalu tampak bersih, rapi, dan nyaman. Bagi siapa pun yang membutuhkan jasa bantuan rumah tangga berkualitas, layanan ini sangat saya rekomendasikan!",
-          image: "../assets/img/client/2.jpg",
+          image: "../assets/img/profile.jpeg",
         },
         {
-          title: "Melissa Bryant",
+          title: "Bryant",
           date: "June 15 - 2024 12:30 PM",
           comments:
             "Testimoni Layanan Bantuan Profesional: Tepat Waktu, Efisien, dan Dapat Diandalkan, Saya telah menggunakan layanan bantuan profesional ini beberapa kali, dan hasilnya selalu memuaskan. Mereka tidak pernah mengecewakan — selalu tepat waktu, efisien, dan teliti dalam setiap pekerjaan. Baik untuk jasa bersih-bersih, pengaturan ruangan, atau pengurusan tugas rumah tangga, saya selalu bisa mengandalkan mereka. Pelayanan yang konsisten, profesional, dan dapat dipercaya. Sangat direkomendasikan!.",
-          image: "../assets/img/client/4.jpg",
+          image: "../assets/img/profile.jpeg",
         },
       ],
     },

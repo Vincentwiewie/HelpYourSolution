@@ -49,11 +49,11 @@ export default function Navbar() {
             <nav className="navbar navbar-expand-md navbar-light">
               <a className="navbar-brand">
                 <img
-                  src="../assets/img/HYSlogo2.jpeg"
+                  src="../assets/img/hyslogo.png"
                   className="white-logo"
                   alt="logo"
                   style={{
-                    width: "120px",
+                    width: "150px",
                     height: "100px",
                     background: "none",
                   }}
@@ -190,7 +190,7 @@ export default function Navbar() {
                 <div className="other-option">
                   <a
                     className="default-btn"
-                    href="https://api.whatsapp.com/send?phone=081282288099"
+                    href="https://api.whatsapp.com/send?phone=6281282288099"
                   >
                     Hubungi Kami <span></span>
                   </a>
