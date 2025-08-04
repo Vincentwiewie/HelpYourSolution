@@ -139,7 +139,7 @@ export default function insurance() {
                       <figure>
                         <img
                           src="../assets/img/insurance2.jpg"
-                          alt="image"
+                          alt="Ilustrasi pola hidup sehat dengan olahraga dan makanan bergizi"
                           style={{ maxHeight: "70vh", width: "70vh" }}
                         />
                       </figure>
@@ -148,7 +148,7 @@ export default function insurance() {
                       <figure>
                         <img
                           src="../assets/img/insurance3.jpg"
-                          alt="image"
+                          alt="Perawat memberikan perawatan medis di rumah sakit"
                           style={{ maxHeight: "70vh", width: "70vh" }}
                         />
                       </figure>
@@ -235,7 +235,7 @@ export default function insurance() {
                     <img
                       src="../assets/img/profile.jpeg"
                       className="avatar"
-                      alt="image"
+                      alt="Pasien berkonsultasi dengan dokter tentang asuransi kesehatan"
                     />
                     <b className="fn">Ella</b>
                     <span className="says">Komentar:</span>
@@ -270,7 +270,7 @@ export default function insurance() {
                         <img
                           src="../assets/img/profile.jpeg"
                           className="avatar"
-                          alt="image"
+                          alt="ambar alat tensimeter digital untuk memantau tekanan darah"
                         />{" "}
                         <b className="fn">Wilson</b>
                         <span className="says">Komentar:</span>
@@ -308,7 +308,7 @@ export default function insurance() {
                     <img
                       src="../assets/img/profile.jpeg"
                       className="avatar"
-                      alt="image"
+                      alt="Pasien menggunakan aplikasi kesehatan untuk konsultasi online"
                     />{" "}
                     <b className="fn">Melissa</b>
                     <span className="says">Komentar:</span>

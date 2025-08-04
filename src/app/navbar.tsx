@@ -30,12 +30,12 @@ export default function Navbar() {
               <div className="logo">
                 <a href="index.html">
                   {/* <img
-                    src="../assets/img/logo.png"
+                    src="../assets/img/hyslogo.png"
                     className="white-logo"
                     alt="logo"
                   />
                   <img
-                    src="../assets/img/logo-black.png"
+                    src="../assets/img/hyslogo.png"
                     className="black-logo"
                     alt="logo"
                   /> */}
@@ -138,7 +138,7 @@ export default function Navbar() {
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" id="/OtherService/consultant">
-                          Jasa Konsultan Hukum Industri
+                          Jasa Konsultan Hukum Hubungan Industrial
                         </a>
                       </li>
                       <li className="nav-item">
@@ -148,7 +148,7 @@ export default function Navbar() {
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" id="/OtherService/outsourcing">
-                          Jasa Outsourcing
+                          Jasa Outsourcing Tenaga Kerja
                         </a>
                       </li>
                       <li className="nav-item">
@@ -161,7 +161,17 @@ export default function Navbar() {
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" id="/OtherService/insurance">
-                          Jasa Asuransi
+                          Jasa Asuransi Kesehatan
+                        </a>
+                      </li>
+                      <li className="nav-item">
+                        <a className="nav-link" id="/OtherService/car">
+                          Jasa Asuransi Mobil
+                        </a>
+                      </li>
+                      <li className="nav-item">
+                        <a className="nav-link" id="/OtherService/rumah">
+                          Jasa Asuransi Property
                         </a>
                       </li>
                       <li className="nav-item">
@@ -171,12 +181,12 @@ export default function Navbar() {
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" id="/OtherService/arsitek">
-                          Jas Arsitek
+                          Jasa Arsitek
                         </a>
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" id="/OtherService/surat">
-                          Jas pengurusan surat surat
+                          Jasa pengurusan surat surat
                         </a>
                       </li>
                       {/* <li className="nav-item">

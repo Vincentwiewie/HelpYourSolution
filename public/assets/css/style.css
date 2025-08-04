@@ -5061,6 +5061,12 @@ blockquote::after,
 .insurance {
   background-image: url(../img/insurance1.jpg);
 }
+.car {
+  background-image: url(../img/car3.jpeg);
+}
+.rumah {
+  background-image: url(../img/home3.jpeg);
+}
 .property {
   background-image: url(../img/property2.jpeg);
 }
