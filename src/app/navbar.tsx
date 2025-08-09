@@ -26,21 +26,25 @@ export default function Navbar() {
       <div className="navbar-section">
         <div className="techvio-responsive-nav">
           <div className="container">
-            <div className="techvio-responsive-menu">
+            <div className="techvio-responsive-menu d-flex flex-row">
               <div className="logo">
-                <a href="index.html">
-                  {/* <img
-                    src="../assets/img/hyslogo.png"
-                    className="white-logo"
-                    alt="logo"
-                  />
-                  <img
-                    src="../assets/img/hyslogo.png"
-                    className="black-logo"
-                    alt="logo"
-                  /> */}
-                </a>
+                <img
+                  src="../assets/img/hyslogo.png"
+                  className="white-logo"
+                  alt="logo"
+                  style={{
+                    width: "55px",
+                    height: "25px",
+                    background: "none",
+                  }}
+                />
               </div>
+              <h6
+                className="margin-auto"
+                style={{ color: "Red", margin: "auto" }}
+              >
+                Hys Service
+              </h6>
             </div>
           </div>
         </div>

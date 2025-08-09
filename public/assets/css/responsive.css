@@ -20,6 +20,7 @@
   }
 
   .navbar-section {
+    background-color: whitesmoke;
     -webkit-box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 0.11);
     box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 0.11);
   }
@@ -58,11 +59,11 @@
 
   .techvio-responsive-nav .mean-container a.meanmenu-reveal {
     padding-top: 0;
-    color: #fff;
+    color: #000000;
   }
 
   .techvio-responsive-nav .mean-container a.meanmenu-reveal span {
-    background: #fff;
+    background: #000000;
   }
 
   .main-banner-content {
