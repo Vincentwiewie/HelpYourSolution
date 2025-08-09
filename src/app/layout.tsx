@@ -8,7 +8,7 @@ import Footer from "./footer";
 
 //stylesheet
 import "../../public/assets/css/owl.carousel.min.css";
-import "../../public/../assets/img/favicon.png";
+import "../../public/assets/img/favicon.png";
 import "../../public/assets/css/bootstrap.min.css";
 import "../../public/assets/css/animate.min.css";
 import "../../public/assets/css/flaticon.css";
