@@ -42,7 +42,7 @@ export default function Footer() {
                 <div className="single-footer-widget">
                   {/* <a className="footer-logo" href="#">
                     <img
-                      src="../assets/img/hyslogo.png"
+                      src="assets/img/hyslogo.png"
                       className="white-logo"
                       style={{
                         marginLeft: "110px",

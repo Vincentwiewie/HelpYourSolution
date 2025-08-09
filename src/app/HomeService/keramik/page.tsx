@@ -11,37 +11,37 @@ export default function keramik() {
       {
         label: "Classic Style",
         subLabel: "tukang pasang keramik profesional dan rapi",
-        image: "../assets/img/keramik1.jpeg",
+        image: "assets/img/keramik1.jpeg",
         type: "classic",
       },
       {
         label: "Classic Style",
         subLabel: "jasa pasang keramik lantai dan dinding",
-        image: "../assets/img/keramik2.jpeg",
+        image: "assets/img/keramik2.jpeg",
         type: "classic",
       },
       {
         label: "Classic Style",
         subLabel: "pemasangan keramik rapi dan cepat",
-        image: "../assets/img/ceramic1.jpg",
+        image: "assets/img/ceramic1.jpg",
         type: "classic",
       },
       {
         label: "Cozy Style",
         subLabel: "rekomendasi jasa pasang keramik terpercaya",
-        image: "../assets/img/keramik4.jpeg",
+        image: "assets/img/keramik4.jpeg",
         type: "cozy",
       },
       {
         label: "Cozy Style",
         subLabel: "jasa pasang keramik kamar mandi",
-        image: "../assets/img/keramik6.jpeg",
+        image: "assets/img/keramik6.jpeg",
         type: "cozy",
       },
       {
         label: "Cozy Style",
         subLabel: "jasa pasang keramik lantai rumah",
-        image: "../assets/img/keramik5.jpeg",
+        image: "assets/img/keramik5.jpeg",
         type: "cozy",
       },
     ],
@@ -50,21 +50,21 @@ export default function keramik() {
   const dataTestimonial: testimonialModel[] = [
     {
       name: "Andi",
-      image: "../assets/img/profile.jpeg",
+      image: "assets/img/profile.jpeg",
       country: "Jakarta",
       content:
         "Testimoni Pemasangan Keramik: Rapi, Profesional, dan Memuaskan, Hasil pemasangan keramik kamar mandi sangat rapi dan sesuai dengan keinginan saya.Tukang keramik datang tepat waktu, bekerja dengan sangat profesional, dan menunjukkan keahlian yang luar biasa.Saya benar- benar puas dengan pelayanan pemasangan keramik ini.Sangat direkomendasikan untuk Anda yang mencari kualitas dan ketepatan waktu!",
     },
     {
       name: "Putri",
-      image: "../assets/img/profile.jpeg",
+      image: "assets/img/profile.jpeg",
       country: "Bandung",
       content:
         "Kami menggunakan jasa renovasi kantor profesional ini untuk proyek kami, dan hasilnya sangat memuaskan. Tim renovasi cepat tanggap, pengerjaannya rapi dan bersih, serta biaya renovasi kantor cukup terjangkau. Sangat recommended untuk renovasi ruang kantor yang ingin tampil lebih modern dan fungsional!",
     },
     {
       name: "Adam",
-      image: "../assets/img/profile.jpeg",
+      image: "assets/img/profile.jpeg",
       country: "Medan",
       content:
         "Awalnya saya sempat ragu, tetapi setelah melihat hasil akhirnya, saya sangat puas! Keramik kamar mandi saya kini terlihat jauh lebih mewah, elegan, dan modern. Proses pemasangan rapi dan hasil akhir benar-benar melebihi ekspektasi. Terima kasih kepada tim profesional yang telah mengerjakan dengan sangat baik!",

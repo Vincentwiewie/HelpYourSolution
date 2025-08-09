@@ -10,7 +10,7 @@ export default function companyProfile() {
             <div className="col-lg-12 col-md-12">
               <div className="portfolio-details-image">
                 <img
-                  src="../assets/img/portfolio/portfolio-details-1.jpg"
+                  src="assets/img/portfolio/portfolio-details-1.jpg"
                   alt="image"
                 />
               </div>

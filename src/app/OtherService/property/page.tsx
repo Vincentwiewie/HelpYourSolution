@@ -87,7 +87,7 @@ export default function Property() {
               }}
             >
               <img
-                src="../assets/img/property3.jpg"
+                src="assets/img/property3.jpg"
                 alt="image"
                 style={{ height: "280px" }}
               />
@@ -113,7 +113,7 @@ export default function Property() {
               }}
             >
               <img
-                src="../assets/img/property2.jpg"
+                src="assets/img/property2.jpg"
                 alt="image"
                 style={{ height: "280px" }}
               />
@@ -139,7 +139,7 @@ export default function Property() {
               }}
             >
               <img
-                src="../assets/img/property5.jpeg"
+                src="assets/img/property5.jpeg"
                 alt="image"
                 style={{ height: "280px" }}
               />

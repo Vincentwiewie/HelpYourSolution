@@ -138,7 +138,7 @@ export default function insurance() {
                     <li className="blocks-gallery-item">
                       <figure>
                         <img
-                          src="../assets/img/insurance2.jpg"
+                          src="assets/img/insurance2.jpg"
                           alt="Ilustrasi pola hidup sehat dengan olahraga dan makanan bergizi"
                           style={{ maxHeight: "70vh", width: "70vh" }}
                         />
@@ -147,7 +147,7 @@ export default function insurance() {
                     <li className="blocks-gallery-item">
                       <figure>
                         <img
-                          src="../assets/img/insurance3.jpg"
+                          src="assets/img/insurance3.jpg"
                           alt="Perawat memberikan perawatan medis di rumah sakit"
                           style={{ maxHeight: "70vh", width: "70vh" }}
                         />
@@ -233,7 +233,7 @@ export default function insurance() {
                 <footer className="comment-meta">
                   <div className="comment-author vcard">
                     <img
-                      src="../assets/img/profile.jpeg"
+                      src="assets/img/profile.jpeg"
                       className="avatar"
                       alt="Pasien berkonsultasi dengan dokter tentang asuransi kesehatan"
                     />
@@ -268,7 +268,7 @@ export default function insurance() {
                     <footer className="comment-meta">
                       <div className="comment-author vcard">
                         <img
-                          src="../assets/img/profile.jpeg"
+                          src="assets/img/profile.jpeg"
                           className="avatar"
                           alt="ambar alat tensimeter digital untuk memantau tekanan darah"
                         />{" "}
@@ -306,7 +306,7 @@ export default function insurance() {
                 <footer className="comment-meta">
                   <div className="comment-author vcard">
                     <img
-                      src="../assets/img/profile.jpeg"
+                      src="assets/img/profile.jpeg"
                       className="avatar"
                       alt="Pasien menggunakan aplikasi kesehatan untuk konsultasi online"
                     />{" "}

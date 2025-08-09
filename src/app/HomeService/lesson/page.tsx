@@ -80,21 +80,21 @@ export default function lesson() {
   const dataTestimonial: testimonialModel[] = [
     {
       name: "Kevin",
-      image: "../assets/img/profile.jpeg",
+      image: "assets/img/profile.jpeg",
       country: "Orang Tua Murid Kelas 5 SD",
       content:
         "Saya sangat puas dengan layanan les privat ini. Anak saya yang sebelumnya kesulitan memahami Matematika sekarang jadi lebih percaya diri dan semangat belajar. Gurunya sabar, ramah, dan mampu menjelaskan materi dengan cara yang mudah dimengerti. Nilai ulangan anak saya juga meningkat signifikan.",
     },
     {
       name: "Maya",
-      image: "../assets/img/profile.jpeg",
+      image: "assets/img/profile.jpeg",
       country: "Siswa SMA",
       content:
         "Les privat ini sangat membantu saya dalam persiapan UTBK. Materi yang diajarkan sangat fokus, banyak latihan soal, dan gurunya paham betul strategi menjawab soal-soal TPS dan TKA. Berkat bimbingan ini, saya berhasil masuk ke jurusan impian saya di universitas negeri.",
     },
     {
       name: "Ardi",
-      image: "../assets/img/profile.jpeg",
+      image: "assets/img/profile.jpeg",
       country: "Mahasiswa Teknik",
       content:
         "Saya mengambil les privat Matematika Dasar untuk perkuliahan semester 1. Awalnya saya merasa minder karena banyak materi SMA yang lupa, tapi pengajarnya sangat sabar dan membantu saya mengejar ketertinggalan. Lesnya fleksibel dan bisa disesuaikan dengan jadwal kuliah saya. Sangat recommended!.",

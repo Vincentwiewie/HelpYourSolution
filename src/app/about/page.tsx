@@ -24,7 +24,7 @@ export default function about() {
           <div className="row">
             <div className="col-lg-4 col-md-6">
               <div className="feature-single-item">
-                <img src="../assets/img/icon/feature-icon-1.svg" alt="icon" />
+                <img src="assets/img/icon/feature-icon-1.svg" alt="icon" />
                 <h3>Fleksibilitas & Responsif</h3>
               </div>
             </div>

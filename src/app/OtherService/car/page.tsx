@@ -98,7 +98,7 @@ export default function car() {
                     <li className="blocks-gallery-item">
                       <figure>
                         <img
-                          src="../assets/img/car1.jpeg"
+                          src="assets/img/car1.jpeg"
                           alt="Mobil rusak setelah kecelakaan dengan perlindungan asuransi mobil terpercaya"
                           style={{ maxHeight: "70vh", width: "70vh" }}
                         />
@@ -107,7 +107,7 @@ export default function car() {
                     <li className="blocks-gallery-item">
                       <figure>
                         <img
-                          src="../assets/img/car2.jpeg"
+                          src="assets/img/car2.jpeg"
                           alt="Kendaraan aman berkendara dengan perlindungan asuransi mobil terbaik"
                           style={{ maxHeight: "70vh", width: "70vh" }}
                         />
@@ -193,7 +193,7 @@ export default function car() {
                 <footer className="comment-meta">
                   <div className="comment-author vcard">
                     <img
-                      src="../assets/img/profile.jpeg"
+                      src="assets/img/profile.jpeg"
                       className="avatar"
                       alt="Asuransi mobil all risk untuk perlindungan kendaraan menyeluruh"
                     />
@@ -221,7 +221,7 @@ export default function car() {
                     <footer className="comment-meta">
                       <div className="comment-author vcard">
                         <img
-                          src="../assets/img/profile.jpeg"
+                          src="assets/img/profile.jpeg"
                           className="avatar"
                           alt="Agen asuransi mobil menjelaskan polis kepada pelanggan"
                         />{" "}
@@ -252,7 +252,7 @@ export default function car() {
                 <footer className="comment-meta">
                   <div className="comment-author vcard">
                     <img
-                      src="../assets/img/profile.jpeg"
+                      src="assets/img/profile.jpeg"
                       className="avatar"
                       alt="Simulasi premi asuransi mobil dengan aplikasi digital"
                     />{" "}

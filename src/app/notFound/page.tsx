@@ -13,7 +13,7 @@ export default function notFound() {
           <div className="d-table-cell">
             <div className="container">
               <div className="error-content">
-                <img src="../assets/img/404.png" alt="error" />
+                <img src="assets/img/404.png" alt="error" />
                 <h3>Page Not Found</h3>
                 <p>
                   The page you are looking for might have been removed had its
