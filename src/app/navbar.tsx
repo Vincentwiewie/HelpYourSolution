@@ -43,7 +43,7 @@ export default function Navbar() {
                 className="margin-auto"
                 style={{ color: "Red", margin: "auto" }}
               >
-                HYS SERVICE
+                HYS Service
               </h6>
             </div>
           </div>

@@ -10,7 +10,7 @@ export default function news() {
                   <div className="blog-single-item">
                     <div className="blog-image">
                       <a href="single-blog.html">
-                        <img src="assets/img/blog/blog-1.jpg" alt="image" />
+                        <img src="../assets/img/blog/blog-1.jpg" alt="image" />
                       </a>
                     </div>
                     <div className="blog-description">
@@ -53,7 +53,7 @@ export default function news() {
                   <div className="blog-single-item">
                     <div className="blog-image">
                       <a href="single-blog.html">
-                        <img src="assets/img/blog/blog-2.jpg" alt="image" />
+                        <img src="../assets/img/blog/blog-2.jpg" alt="image" />
                       </a>
                     </div>
                     <div className="blog-description">
@@ -95,7 +95,7 @@ export default function news() {
                   <div className="blog-single-item">
                     <div className="blog-image">
                       <a href="single-blog.html">
-                        <img src="assets/img/blog/blog-3.jpg" alt="image" />
+                        <img src="../assets/img/blog/blog-3.jpg" alt="image" />
                       </a>
                     </div>
                     <div className="blog-description">
@@ -137,7 +137,7 @@ export default function news() {
                   <div className="blog-single-item">
                     <div className="blog-image">
                       <a href="single-blog.html">
-                        <img src="assets/img/blog/blog-4.jpg" alt="image" />
+                        <img src="../assets/img/blog/blog-4.jpg" alt="image" />
                       </a>
                     </div>
                     <div className="blog-description">
@@ -179,7 +179,7 @@ export default function news() {
                   <div className="blog-single-item">
                     <div className="blog-image">
                       <a href="single-blog.html">
-                        <img src="assets/img/blog/blog-5.jpg" alt="image" />
+                        <img src="../assets/img/blog/blog-5.jpg" alt="image" />
                       </a>
                     </div>
                     <div className="blog-description">
@@ -221,7 +221,7 @@ export default function news() {
                   <div className="blog-single-item">
                     <div className="blog-image">
                       <a href="single-blog.html">
-                        <img src="assets/img/blog/blog-6.jpg" alt="image" />
+                        <img src="../assets/img/blog/blog-6.jpg" alt="image" />
                       </a>
                     </div>
                     <div className="blog-description">
@@ -304,7 +304,7 @@ export default function news() {
                   <h3 className="widget-title">Popular Posts</h3>
                   <article className="item">
                     <a href="#" className="thumb">
-                      <img src="assets/img/blog/blog-1.jpg" alt="image" />
+                      <img src="../assets/img/blog/blog-1.jpg" alt="image" />
                     </a>
                     <div className="info">
                       <span>June 10, 2024</span>
@@ -318,7 +318,7 @@ export default function news() {
                   </article>
                   <article className="item">
                     <a href="#" className="thumb">
-                      <img src="assets/img/blog/blog-2.jpg" alt="image" />
+                      <img src="../assets/img/blog/blog-2.jpg" alt="image" />
                     </a>
                     <div className="info">
                       <span>June 15, 2024</span>
@@ -331,7 +331,7 @@ export default function news() {
                   </article>
                   <article className="item">
                     <a href="#" className="thumb">
-                      <img src="assets/img/blog/blog-3.jpg" alt="image" />
+                      <img src="../assets/img/blog/blog-3.jpg" alt="image" />
                     </a>
                     <div className="info">
                       <span>June 25, 2024</span>

@@ -63,7 +63,7 @@ export default function Property() {
                 </div>
                 {/* <div className="col-lg-6 col-md-12" data-tilt>
                 <div className="banner-image">
-                  <img src="/assets/img/AcOn.jpg" alt="image" />
+                  <img src="/../assets/img/AcOn.jpg" alt="image" />
                 </div>
               </div> */}
               </div>
@@ -87,7 +87,7 @@ export default function Property() {
               }}
             >
               <img
-                src="assets/img/property3.jpg"
+                src="../assets/img/property3.jpg"
                 alt="image"
                 style={{ height: "280px" }}
               />
@@ -113,7 +113,7 @@ export default function Property() {
               }}
             >
               <img
-                src="assets/img/property2.jpg"
+                src="../assets/img/property2.jpg"
                 alt="image"
                 style={{ height: "280px" }}
               />
@@ -139,7 +139,7 @@ export default function Property() {
               }}
             >
               <img
-                src="assets/img/property5.jpeg"
+                src="../assets/img/property5.jpeg"
                 alt="image"
                 style={{ height: "280px" }}
               />

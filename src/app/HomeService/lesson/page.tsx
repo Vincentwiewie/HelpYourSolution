@@ -14,39 +14,39 @@ export default function lesson() {
         label: "",
         subLabel:
           "Guru bahasa Inggris menjelaskan aturan tata bahasa selama pelajaran",
-        image: "/assets/img/lessonn1.jpeg",
+        image: "/../assets/img/lessonn1.jpeg",
         type: "classic",
       },
       {
         label: "",
         subLabel: "Anak Anak TK sedang mengajar",
-        image: "/assets/img/lessonn2.jpeg",
+        image: "/../assets/img/lessonn2.jpeg",
         type: "classic",
       },
       {
         label: "",
         subLabel: "guru bahasa mandarin sedang mengajar",
-        image: "/assets/img/lessonn3.jpeg",
+        image: "/../assets/img/lessonn3.jpeg",
         type: "classic",
       },
       {
         label: "",
         subLabel: "guru matematika sedang mengajar rumus tambah",
-        image: "/assets/img/lesson10.jpeg",
+        image: "/../assets/img/lesson10.jpeg",
         type: "cozy",
       },
       {
         label: "",
         subLabel:
           "Guru sains sedang melakukan percobaan selama pelajaran sekolah menengah.",
-        image: "/assets/img/lesson11.jpeg",
+        image: "/../assets/img/lesson11.jpeg",
         type: "cozy",
       },
       {
         label: "",
         subLabel:
           "Anak-anak kecil belajar alfabet selama pelajaran prasekolah.",
-        image: "/assets/img/lesson12.jpeg",
+        image: "/../assets/img/lesson12.jpeg",
         type: "cozy",
       },
     ],
@@ -80,21 +80,21 @@ export default function lesson() {
   const dataTestimonial: testimonialModel[] = [
     {
       name: "Kevin",
-      image: "assets/img/profile.jpeg",
+      image: "../assets/img/profile.jpeg",
       country: "Orang Tua Murid Kelas 5 SD",
       content:
         "Saya sangat puas dengan layanan les privat ini. Anak saya yang sebelumnya kesulitan memahami Matematika sekarang jadi lebih percaya diri dan semangat belajar. Gurunya sabar, ramah, dan mampu menjelaskan materi dengan cara yang mudah dimengerti. Nilai ulangan anak saya juga meningkat signifikan.",
     },
     {
       name: "Maya",
-      image: "assets/img/profile.jpeg",
+      image: "../assets/img/profile.jpeg",
       country: "Siswa SMA",
       content:
         "Les privat ini sangat membantu saya dalam persiapan UTBK. Materi yang diajarkan sangat fokus, banyak latihan soal, dan gurunya paham betul strategi menjawab soal-soal TPS dan TKA. Berkat bimbingan ini, saya berhasil masuk ke jurusan impian saya di universitas negeri.",
     },
     {
       name: "Ardi",
-      image: "assets/img/profile.jpeg",
+      image: "../assets/img/profile.jpeg",
       country: "Mahasiswa Teknik",
       content:
         "Saya mengambil les privat Matematika Dasar untuk perkuliahan semester 1. Awalnya saya merasa minder karena banyak materi SMA yang lupa, tapi pengajarnya sangat sabar dan membantu saya mengejar ketertinggalan. Lesnya fleksibel dan bisa disesuaikan dengan jadwal kuliah saya. Sangat recommended!.",
@@ -229,7 +229,7 @@ export default function lesson() {
             <div className="col-lg-6 col-md-12 mt-5">
               <div className="about-image">
                 <Image
-                  src="/assets/img/lesson2.jpg"
+                  src="/../assets/img/lesson2.jpg"
                   alt="Guru memberikan pelajaran di kelas dengan siswa mendengarkan dan mencatat."
                   width={500}
                   height={300}

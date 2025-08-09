@@ -12,67 +12,67 @@ export default function gardenAnimal() {
       {
         label: "Hubungi Sekarang",
         subLabel: "perawatan anjing",
-        image: "assets/img/animal1.jpg",
+        image: "../assets/img/animal1.jpg",
         type: "dog",
       },
       {
         label: "Hubungi Sekarang",
         subLabel: "cara merawat anjing yang baik",
-        image: "assets/img/animal2.jpg",
+        image: "../assets/img/animal2.jpg",
         type: "dog",
       },
       {
         label: "Hubungi Sekarang",
         subLabel: "tips perawatan anjing dan kucing",
-        image: "assets/img/animal3.jpg",
+        image: "../assets/img/animal3.jpg",
         type: "dog",
       },
       {
         label: "Hubungi Sekarang",
         subLabel: "grooming anjing dan kucing",
-        image: "assets/img/animal4.jpg",
+        image: "../assets/img/animal4.jpg",
         type: "dog",
       },
       {
         label: "Hubungi Sekarang",
         subLabel: "perawatan kesehatan anjing",
-        image: "assets/img/animal5.jpg",
+        image: "../assets/img/animal5.jpg",
         type: "dog",
       },
       {
         label: "Hubungi Sekarang",
         subLabel: "perawatan bulu anjing",
-        image: "assets/img/animal6.jpg",
+        image: "../assets/img/animal6.jpg",
         type: "dog",
       },
       {
         label: "Hubungi Sekarang",
         subLabel: "perawatan kucing luar",
-        image: "assets/img/cat1.jpeg",
+        image: "../assets/img/cat1.jpeg",
         type: "cat",
       },
       {
         label: "Hubungi Sekarang",
         subLabel: "Cara merawat kucing di rumah",
-        image: "assets/img/cat2.jpeg",
+        image: "../assets/img/cat2.jpeg",
         type: "cat",
       },
       {
         label: "Hubungi Sekarang",
         subLabel: "perawatan kesehatan kucing",
-        image: "assets/img/cat3.jpeg",
+        image: "../assets/img/cat3.jpeg",
         type: "cat",
       },
       {
         label: "Hubungi Sekarang",
         subLabel: "perawatan kucing",
-        image: "assets/img/cat4.jpeg",
+        image: "../assets/img/cat4.jpeg",
         type: "cat",
       },
       {
         label: "Hubungi Sekarang",
         subLabel: "perawatan bulu kucing",
-        image: "assets/img/cat5.jpeg",
+        image: "../assets/img/cat5.jpeg",
         type: "cat",
       },
     ],
@@ -106,21 +106,21 @@ export default function gardenAnimal() {
   const dataTestimonial: testimonialModel[] = [
     {
       name: "Lina Marlina",
-      image: "assets/img/profile.jpeg",
+      image: "../assets/img/profile.jpeg",
       country: "Bandung",
       content:
         "Dokter hewan di Klinik Satwa Sehat benar-benar luar biasa. Ketika anjing saya mengalami muntah-muntah selama dua hari, saya sangat panik. Namun, setelah pemeriksaan, dokter memberikan penjelasan yang jelas, tenang, dan sangat ramah. Obat yang diresepkan segera bekerja, dan kini anjing saya kembali aktif dan sehat. Pelayanan yang profesional dan penuh kepedulian terhadap kesehatan hewan membuat saya sangat merekomendasikan dokter hewan di Klinik Satwa Sehat.",
     },
     {
       name: "Linda",
-      image: "assets/img/profile.jpeg",
+      image: "../assets/img/profile.jpeg",
       country: "Jakarta Selatan",
       content:
         "Saya rutin membawa kucing Persia saya untuk vaksinasi dan grooming di klinik ini. Dokter hewan di sini sangat sabar dan telaten, bahkan saat kucing saya rewel. Klinik yang bersih dan nyaman, serta pelayanan yang cepat membuat saya merasa sangat tenang mempercayakan perawatan kucing saya di sini. Saya sangat merekomendasikan klinik ini untuk perawatan kucing khususnya ras Persia",
     },
     {
       name: "Dewi Andriani",
-      image: "assets/img/profile.jpeg",
+      image: "../assets/img/profile.jpeg",
       country: "Sleman",
       content:
         "Sebagai peternak, saya sering membutuhkan konsultasi cepat mengenai kesehatan kelinci. Dokter hewan di klinik ini sangat responsif dan bahkan menyediakan layanan konsultasi online saat kondisi darurat. Mereka tidak hanya memberikan pengobatan, tetapi juga edukasi penting tentang pencegahan penyakit. Layanan ini sangat membantu saya dalam menjaga kualitas dan kesehatan ternak kelinci",
@@ -243,7 +243,7 @@ export default function gardenAnimal() {
             </div>
             <div className="col-lg-6 col-md-12">
               <div className="about-image">
-                <img src="assets/img/garden2.jpg" alt="About image" />
+                <img src="../assets/img/garden2.jpg" alt="About image" />
                 <div className="years-design">
                   <h2>10</h2>
                   <h5>Tahun Pengalaman</h5>

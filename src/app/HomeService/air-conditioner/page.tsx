@@ -11,7 +11,7 @@ export default function page() {
   const data: priceProps[] = [
     {
       price: "",
-      image: `assets/img/ac9.jpeg`,
+      image: `../assets/img/ac9.jpeg`,
       textButton: "Order Sekarang",
       label: "Clean AC",
       list: [
@@ -26,7 +26,7 @@ export default function page() {
     },
     {
       price: "",
-      image: "assets/img/ac2.jpeg",
+      image: "../assets/img/ac2.jpeg",
       textButton: "Order Now",
       label: "Inject Freon",
       list: [
@@ -42,7 +42,7 @@ export default function page() {
 
     {
       price: "",
-      image: "assets/img/ac8.jpeg",
+      image: "../assets/img/ac8.jpeg",
       textButton: "Order Now",
       label: "Instalasi AC",
       list: [
@@ -60,7 +60,7 @@ export default function page() {
     },
     {
       price: "",
-      image: "assets/img/ac3.jpeg",
+      image: "../assets/img/ac3.jpeg",
       textButton: "Order Now",
       label: "Repair",
       list: [
@@ -81,7 +81,7 @@ export default function page() {
   const dataOverview: overviewModel = {
     title: "Kenapa Memilih Kami?",
     titleHeader: "100% garansi diberikan dan respon cepat",
-    image: "assets/img/acliving.jpg",
+    image: "../assets/img/acliving.jpg",
     content: "",
     list: [
       "Pembersih Ahli",
@@ -96,21 +96,21 @@ export default function page() {
   const dataTestimonial: testimonialModel[] = [
     {
       name: "Andi",
-      image: "assets/img/profile.jpeg",
+      image: "../assets/img/profile.jpeg",
       country: "Medan",
       content:
         "Saya sangat puas dengan AC baru saya! Sejak pemasangan AC dilakukan, udara di rumah langsung terasa lebih sejuk dan segar hanya dalam hitungan menit. Kinerja AC hemat energi ini benar-benar luar biasa—sangat senyap, cepat dingin, dan mampu menjaga suhu ruangan tetap stabil di seluruh rumah. Fitur favorit saya adalah teknologi pintar yang memungkinkan saya mengontrol AC dari smartphone, sangat praktis dan modern! Setelah mengalami beberapa musim panas yang panas dan tidak nyaman, kehadiran AC inverter ini benar-benar mengubah segalanya. Saya sangat merekomendasikan AC ini bagi siapa pun yang mencari AC berkualitas, awet, dan hemat listrik. Cocok untuk rumah, apartemen, atau kantor. Solusi ideal untuk kenyamanan jangka panjang!",
     },
     {
       name: "Putri",
-      image: "assets/img/profile.jpeg",
+      image: "../assets/img/profile.jpeg",
       country: "Binjai",
       content:
         "Baru-baru ini saya melakukan pembersihan AC di HYS, dan hasilnya sangat memuaskan! Tim teknisi HYS datang tepat waktu, sangat profesional, dan menjelaskan proses cuci AC dengan jelas. Setelah dibersihkan, aliran udara dari AC jadi jauh lebih kuat, dan unit bekerja lebih senyap serta efisien. Saya benar-benar terkejut melihat banyaknya debu dan kotoran yang berhasil disingkirkan. Sekarang, AC saya terasa seperti unit baru—dingin maksimal, tanpa suara bising, dan hemat listrik. Saya pasti akan rutin menggunakan jasa cuci AC HYS ke depannya. Layanan ini sangat direkomendasikan bagi siapa pun yang ingin menjaga performa dan kebersihan AC rumah.",
     },
     {
       name: "Adam",
-      image: "assets/img/profile.jpeg",
+      image: "../assets/img/profile.jpeg",
       country: "Jakarta",
       content:
         "Saya mengalami masalah dengan AC yang tidak dingin, dan HYS benar-benar datang sebagai penyelamat. Teknisi AC dari HYS datang tepat waktu, langsung mendiagnosis masalah dengan cepat, dan memperbaikinya hanya dalam waktu satu jam! Layanannya sangat profesional, jujur, dan yang paling penting—harganya terjangkau. Sejak diperbaiki, AC saya bekerja dengan sempurna, tidak ada lagi masalah suhu atau kebisingan. Saya sangat menghargai transparansi dan efisiensi tim HYS, dan saya sangat merekomendasikan mereka untuk siapa pun yang butuh jasa perbaikan AC yang cepat, terpercaya, dan terjangkau.",
@@ -175,7 +175,7 @@ export default function page() {
                 </div>
                 {/* <div className="col-lg-6 col-md-12" data-tilt>
                 <div className="banner-image">
-                  <img src="/assets/img/AcOn.jpg" alt="image" />
+                  <img src="/../assets/img/AcOn.jpg" alt="image" />
                 </div>
               </div> */}
               </div>
@@ -184,7 +184,7 @@ export default function page() {
         </div>
         {/* <div className="creative-shape">
           <Image
-            src="/assets/img/home-bottom-shape.png"
+            src="/../assets/img/home-bottom-shape.png"
             alt="svg shape"
             width={180}
             height={38}

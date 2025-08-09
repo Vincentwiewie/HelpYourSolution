@@ -24,19 +24,19 @@ export default function about() {
           <div className="row">
             <div className="col-lg-4 col-md-6">
               <div className="feature-single-item">
-                <img src="assets/img/icon/feature-icon-1.svg" alt="icon" />
+                <img src="../assets/img/icon/feature-icon-1.svg" alt="icon" />
                 <h3>Fleksibilitas & Responsif</h3>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
               <div className="feature-single-item">
-                <img src="assets/img/icon/feature-icon-2.svg" alt="icon" />
+                <img src="../assets/img/icon/feature-icon-2.svg" alt="icon" />
                 <h3>Tim Yang Berdedikasi</h3>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
               <div className="feature-single-item">
-                <img src="assets/img/icon/feature-icon-3.svg" alt="icon" />
+                <img src="../assets/img/icon/feature-icon-3.svg" alt="icon" />
                 <h3>Fokus pada Bisnis</h3>
               </div>
             </div>
@@ -95,7 +95,7 @@ export default function about() {
             </div>
             <div className="col-lg-6 col-md-12">
               <div className="about-image">
-                <img src="assets/img/blog-details/3.jpg" alt="About image" />
+                <img src="../assets/img/blog-details/3.jpg" alt="About image" />
                 <div className="years-design">
                   <h2>23</h2>
                   <h5>Tahun Dalam Pengalaman</h5>
@@ -169,7 +169,7 @@ export default function about() {
             <div className="col-lg-3 col-md-6">
               <div className="single-team-box">
                 <div className="team-image">
-                  <img src="assets/img/team/team-1.jpg" alt="team" />
+                  <img src="../assets/img/team/team-1.jpg" alt="team" />
                   <div className="team-social-icon">
                     <a href="#">
                       <i className="fab fa-facebook-f"></i>
@@ -191,7 +191,7 @@ export default function about() {
             <div className="col-lg-3 col-md-6">
               <div className="single-team-box">
                 <div className="team-image">
-                  <img src="assets/img/team/team-2.jpg" alt="team" />
+                  <img src="../assets/img/team/team-2.jpg" alt="team" />
                   <div className="team-social-icon">
                     <a href="#">
                       <i className="fab fa-facebook-f"></i>
@@ -213,7 +213,7 @@ export default function about() {
             <div className="col-lg-3 col-md-6">
               <div className="single-team-box">
                 <div className="team-image">
-                  <img src="assets/img/team/team-3.jpg" alt="team" />
+                  <img src="../assets/img/team/team-3.jpg" alt="team" />
                   <div className="team-social-icon">
                     <a href="#">
                       <i className="fab fa-facebook-f"></i>
@@ -235,7 +235,7 @@ export default function about() {
             <div className="col-lg-3 col-md-6">
               <div className="single-team-box">
                 <div className="team-image">
-                  <img src="assets/img/team/team-4.jpg" alt="team" />
+                  <img src="../assets/img/team/team-4.jpg" alt="team" />
                   <div className="team-social-icon">
                     <a href="#">
                       <i className="fab fa-facebook-f"></i>
@@ -271,7 +271,7 @@ export default function about() {
               <div className="workprocess-single-item">
                 <div className="workprocess-icon-box">
                   <img
-                    src="assets/img/icon/workprocess-icon-1.svg"
+                    src="../assets/img/icon/workprocess-icon-1.svg"
                     alt="icon"
                   />
                 </div>
@@ -293,7 +293,7 @@ export default function about() {
               <div className="workprocess-single-item">
                 <div className="workprocess-icon-box">
                   <img
-                    src="assets/img/icon/workprocess-icon-2.svg"
+                    src="../assets/img/icon/workprocess-icon-2.svg"
                     alt="icon"
                   />
                 </div>
@@ -315,7 +315,7 @@ export default function about() {
               <div className="workprocess-single-item">
                 <div className="workprocess-icon-box">
                   <img
-                    src="assets/img/icon/workprocess-icon-3.svg"
+                    src="../assets/img/icon/workprocess-icon-3.svg"
                     alt="icon"
                   />
                 </div>
@@ -337,7 +337,7 @@ export default function about() {
               <div className="workprocess-single-item">
                 <div className="workprocess-icon-box">
                   <img
-                    src="assets/img/icon/workprocess-icon-4.svg"
+                    src="../assets/img/icon/workprocess-icon-4.svg"
                     alt="icon"
                   />
                 </div>
@@ -404,47 +404,47 @@ export default function about() {
           <div className="partner-list">
             <div className="partner-item">
               <a href="#0">
-                <img src="assets/img/partner/client-1.png" alt="image" />
+                <img src="../assets/img/partner/client-1.png" alt="image" />
               </a>
             </div>
             <div className="partner-item">
               <a href="#0">
-                <img src="assets/img/partner/client-2.png" alt="image" />
+                <img src="../assets/img/partner/client-2.png" alt="image" />
               </a>
             </div>
             <div className="partner-item">
               <a href="#0">
-                <img src="assets/img/partner/client-3.png" alt="image" />
+                <img src="../assets/img/partner/client-3.png" alt="image" />
               </a>
             </div>
             <div className="partner-item">
               <a href="#0">
-                <img src="assets/img/partner/client-4.png" alt="image" />
+                <img src="../assets/img/partner/client-4.png" alt="image" />
               </a>
             </div>
             <div className="partner-item">
               <a href="#0">
-                <img src="assets/img/partner/client-5.png" alt="image" />
+                <img src="../assets/img/partner/client-5.png" alt="image" />
               </a>
             </div>
             <div className="partner-item">
               <a href="#0">
-                <img src="assets/img/partner/client-6.png" alt="image" />
+                <img src="../assets/img/partner/client-6.png" alt="image" />
               </a>
             </div>
             <div className="partner-item">
               <a href="#0">
-                <img src="assets/img/partner/client-7.png" alt="image" />
+                <img src="../assets/img/partner/client-7.png" alt="image" />
               </a>
             </div>
             <div className="partner-item">
               <a href="#0">
-                <img src="assets/img/partner/client-8.png" alt="image" />
+                <img src="../assets/img/partner/client-8.png" alt="image" />
               </a>
             </div>
             <div className="partner-item">
               <a href="#0">
-                <img src="assets/img/partner/client-1.png" alt="image" />
+                <img src="../assets/img/partner/client-1.png" alt="image" />
               </a>
             </div>
           </div>

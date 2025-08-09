@@ -8,7 +8,7 @@ export default function pagination() {
               <div className="blog-single-item">
                 <div className="blog-image">
                   <a href="single-blog.html">
-                    <img src="assets/img/blog/blog-1.jpg" alt="image" />
+                    <img src="../assets/img/blog/blog-1.jpg" alt="image" />
                   </a>
                 </div>
                 <div className="blog-description">
@@ -49,7 +49,7 @@ export default function pagination() {
               <div className="blog-single-item">
                 <div className="blog-image">
                   <a href="single-blog.html">
-                    <img src="assets/img/blog/blog-2.jpg" alt="image" />
+                    <img src="../assets/img/blog/blog-2.jpg" alt="image" />
                   </a>
                 </div>
                 <div className="blog-description">
@@ -89,7 +89,7 @@ export default function pagination() {
               <div className="blog-single-item">
                 <div className="blog-image">
                   <a href="single-blog.html">
-                    <img src="assets/img/blog/blog-3.jpg" alt="image" />
+                    <img src="../assets/img/blog/blog-3.jpg" alt="image" />
                   </a>
                 </div>
                 <div className="blog-description">
@@ -130,7 +130,7 @@ export default function pagination() {
               <div className="blog-single-item">
                 <div className="blog-image">
                   <a href="single-blog.html">
-                    <img src="assets/img/blog/blog-4.jpg" alt="image" />
+                    <img src="../assets/img/blog/blog-4.jpg" alt="image" />
                   </a>
                 </div>
                 <div className="blog-description">
@@ -171,7 +171,7 @@ export default function pagination() {
               <div className="blog-single-item">
                 <div className="blog-image">
                   <a href="single-blog.html">
-                    <img src="assets/img/blog/blog-5.jpg" alt="image" />
+                    <img src="../assets/img/blog/blog-5.jpg" alt="image" />
                   </a>
                 </div>
                 <div className="blog-description">
@@ -211,7 +211,7 @@ export default function pagination() {
               <div className="blog-single-item">
                 <div className="blog-image">
                   <a href="single-blog.html">
-                    <img src="assets/img/blog/blog-6.jpg" alt="image" />
+                    <img src="../assets/img/blog/blog-6.jpg" alt="image" />
                   </a>
                 </div>
                 <div className="blog-description">

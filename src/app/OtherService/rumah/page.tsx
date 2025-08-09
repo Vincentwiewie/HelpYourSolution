@@ -100,7 +100,7 @@ export default function rumah() {
                     <li className="blocks-gallery-item">
                       <figure>
                         <img
-                          src="assets/img/home1.jpeg"
+                          src="../assets/img/home1.jpeg"
                           alt="Bangunan rumah dan gedung aman dengan asuransi properti terpercaya"
                           style={{ maxHeight: "70vh", width: "70vh" }}
                         />
@@ -109,7 +109,7 @@ export default function rumah() {
                     <li className="blocks-gallery-item">
                       <figure>
                         <img
-                          src="assets/img/home2.jpeg"
+                          src="../assets/img/home2.jpeg"
                           alt="perlindungan asuransi rumah dan gedung terhadap risiko kebakaran"
                           style={{ maxHeight: "70vh", width: "70vh" }}
                         />
@@ -201,7 +201,7 @@ export default function rumah() {
                 <footer className="comment-meta">
                   <div className="comment-author vcard">
                     <img
-                      src="assets/img/profile.jpeg"
+                      src="../assets/img/profile.jpeg"
                       className="avatar"
                       alt="Gedung perkantoran modern dilindungi oleh asuransi properti"
                     />
@@ -229,7 +229,7 @@ export default function rumah() {
                     <footer className="comment-meta">
                       <div className="comment-author vcard">
                         <img
-                          src="assets/img/profile.jpeg"
+                          src="../assets/img/profile.jpeg"
                           className="avatar"
                           alt="Asuransi gedung komersial untuk perlindungan aset bisnis"
                         />{" "}
@@ -260,7 +260,7 @@ export default function rumah() {
                 <footer className="comment-meta">
                   <div className="comment-author vcard">
                     <img
-                      src="assets/img/profile.jpeg"
+                      src="../assets/img/profile.jpeg"
                       className="avatar"
                       alt="Asuransi rumah dan gedung melindungi dari risiko bencana alam"
                     />{" "}

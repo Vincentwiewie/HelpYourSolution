@@ -16,7 +16,7 @@ export default function serviceDetail({
                   <div className="single-services-three-item">
                     <div className="services-icon">
                       <img
-                        src="assets/img/icon/services-three-icon-1.svg"
+                        src="../assets/img/icon/services-three-icon-1.svg"
                         alt="svg icon"
                       />
                     </div>
