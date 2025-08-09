@@ -63,14 +63,14 @@ export default function page() {
     {
       name: "Putri",
       image: "../assets/img/profile.jpeg",
-      country: "Pengusaha",
+      country: "Binjai",
       content:
         "Saya baru saja membeli sofa sectional dan meja makan dari HYS Furniture, dan saya sangat senang dengan kualitas produk serta desainnya yang stylish! Tim mereka benar-benar meluangkan waktu untuk memahami kebutuhan saya dan membantu saya memilih furnitur yang sesuai dengan estetika rumah. Selain pelayanan yang ramah dan profesional, HYS juga memberikan garansi untuk setiap produk, yang menunjukkan komitmen mereka terhadap kualitas dan kepuasan pelanggan. Jika Anda mencari furnitur custom berkualitas tinggi dengan layanan pelanggan yang luar biasa, HYS adalah pilihan terbaik.",
     },
     {
       name: "Adam",
       image: "../assets/img/profile.jpeg",
-      country: "Jakarta",
+      country: "Cemara",
       content:
         "Pengiriman furnitur dari HYS Furniture dilakukan tepat waktu, dan pemasangannya berjalan lancar tanpa kendala. Tim mereka bahkan memastikan semua furnitur terpasang dengan benar dan saya benar-benar puas sebelum mereka meninggalkan lokasi. Saya sangat menghargai pelayanan profesional seperti ini. Karena pengalaman saya begitu positif, saya sudah merekomendasikan HYS Furniture kepada teman-teman dan keluarga. Tanpa ragu, saya akan kembali lagi untuk kebutuhan furnitur custom berkualitas di masa mendatang!",
     },

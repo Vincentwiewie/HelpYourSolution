@@ -7,7 +7,7 @@ export default function helper() {
     title: "Layanan Jasa Lainnya",
     subTitle: "Layanan Jasa Asisten Rumah Tangga",
     name: "William",
-    date: "22 Jan 2025",
+    date: "22 Jun 2025",
     articleTitle: "Butuh Bantuan? Kami Siap Membantu Anda!",
     articleContent:
       "Jadwal Padat? Layanan Bantuan Profesional Siap Membantu Anda dengan Cepat dan Terpercaya! Apakah Anda memiliki jadwal yang sangat padat sehingga kesulitan mengurus pekerjaan rumah? Jangan khawatir! Layanan bantuan profesional kami siap memberikan solusi praktis dan terpercaya untuk kebutuhan rumah tangga Anda. Mulai dari membersihkan rumah secara menyeluruh, menata ruangan dengan rapi, hingga membantu berbagai pekerjaan rumah lainnya, tim kami selalu siap mendukung Anda. Kami mengutamakan pelayanan cepat, efisien, dan hasil kerja berkualitas dengan harga yang terjangkau. Anda bisa menghubungi kami langsung melalui telepon kapan saja untuk mendapatkan bantuan yang Anda butuhkan tanpa ribet. Dengan layanan kami, rumah Anda akan selalu bersih, tertata, dan nyaman meskipun Anda memiliki jadwal super sibuk.",
@@ -30,21 +30,21 @@ export default function helper() {
       comments: [
         {
           title: "Wilson",
-          date: "June 15 - 2024 12:30 PM",
+          date: "June 15 - 2025 12:30 PM",
           comments:
             "Testimoni Jasa Pembantu & Perbaikan Rumah: Teliti, Dapat Diandalkan, dan Profesional, Saya menyewa jasa pembantu profesional ini untuk beberapa tugas perbaikan rumah, dan saya benar-benar terkesan dengan hasilnya. Tim mereka sopan, dapat diandalkan, dan menyelesaikan setiap pekerjaan dengan perhatian tinggi terhadap detail. Dukungan mereka memberikan perbedaan besar dalam kenyamanan rumah saya. Layanan seperti ini sulit ditemukan—saya pasti akan menghubungi mereka lagi untuk kebutuhan selanjutnya!",
           image: "../assets/img/profile.jpeg",
         },
         {
           title: "Ella",
-          date: "June 15 - 2024 12:30 PM",
+          date: "March 15 - 2025 12:30 PM",
           comments:
             "Testimoni Layanan Bantuan Rumah Tangga: Solusi Tepat untuk Jadwal Padat, Layanan bantuan rumah tangga ini benar-benar menjadi penyelamat bagi saya! Dengan jadwal yang super padat, saya sangat membutuhkan bantuan ekstra di rumah, dan mereka selalu memberikan layanan terbaik. Timnya profesional, terpercaya, dan hasil kerjanya luar biasa — rumah saya selalu tampak bersih, rapi, dan nyaman. Bagi siapa pun yang membutuhkan jasa bantuan rumah tangga berkualitas, layanan ini sangat saya rekomendasikan!",
           image: "../assets/img/profile.jpeg",
         },
         {
           title: "Bryant",
-          date: "June 15 - 2024 12:30 PM",
+          date: "Feb 15 - 2025 12:30 PM",
           comments:
             "Testimoni Layanan Bantuan Profesional: Tepat Waktu, Efisien, dan Dapat Diandalkan, Saya telah menggunakan layanan bantuan profesional ini beberapa kali, dan hasilnya selalu memuaskan. Mereka tidak pernah mengecewakan — selalu tepat waktu, efisien, dan teliti dalam setiap pekerjaan. Baik untuk jasa bersih-bersih, pengaturan ruangan, atau pengurusan tugas rumah tangga, saya selalu bisa mengandalkan mereka. Pelayanan yang konsisten, profesional, dan dapat dipercaya. Sangat direkomendasikan!.",
           image: "../assets/img/profile.jpeg",

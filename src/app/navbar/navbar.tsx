@@ -29,7 +29,7 @@ export default function Navbar() {
             <div className="techvio-responsive-menu d-flex flex-row">
               <div className="logo">
                 <img
-                  src="/assets/img/hyslogo.png"
+                  src="./assets/img/hyslogo.png"
                   className="white-logo"
                   alt="logo"
                   style={{

@@ -30,21 +30,21 @@ export default function contractor() {
       comments: [
         {
           title: "kris",
-          date: "June 15 - 2024 12:30 PM",
+          date: "June 15 - 2025 12:30 PM",
           comments:
             "Saya menyewa kontraktor renovasi rumah ini untuk proyek renovasi besar-besaran, dan saya sangat puas dengan hasilnya. Tim mereka sangat profesional, efisien, dan menunjukkan perhatian luar biasa terhadap detail. Proyek diselesaikan tepat waktu, dan kualitas pengerjaan benar-benar melebihi ekspektasi saya. Jika Anda mencari kontraktor bangunan terpercaya yang berkomitmen terhadap kualitas, saya sangat merekomendasikan layanan mereka.",
           image: "../assets/img/profile.jpeg",
         },
         {
           title: "yusni",
-          date: "June 15 - 2024 12:30 PM",
+          date: "July 15 - 2025 12:30 PM",
           comments:
             "Tim ini melakukan pekerjaan luar biasa dalam proyek rekonstruksi dapur saya! Mereka benar-benar meluangkan waktu untuk memahami visi dan preferensi saya, lalu mewujudkannya dengan sangat presisi. Seluruh proses berjalan lancar dari awal hingga akhir, dan mereka selalu responsif terhadap setiap pertanyaan. Saya sangat puas dengan hasil renovasi dapur ini dan tidak ragu akan menggunakan jasa mereka lagi di masa depan.",
           image: "../assets/img/profile.jpeg",
         },
         {
           title: "angel",
-          date: "June 15 - 2024 12:30 PM",
+          date: "March 15 - 2025 12:30 PM",
           comments:
             "Kami menyewa kontraktor pembangunan rumah ini untuk proyek pembangunan rumah baru kami, dan pengalaman bekerja dengan mereka sangat luar biasa. Mulai dari konsultasi awal hingga penyelesaian proyek, tim ini sangat dapat diandalkan, komunikatif, dan profesional. Mereka memastikan semua pekerjaan sesuai dengan standar dan kode bangunan yang berlaku, serta hasil akhirnya sesuai dengan harapan kami. Kami sangat merekomendasikan layanan mereka kepada siapa pun yang mencari kontraktor rumah terpercaya.",
           image: "../assets/img/profile.jpeg",

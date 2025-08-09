@@ -36,21 +36,21 @@ export default function outsourcing() {
       comments: [
         {
           title: "Sudirman",
-          date: "June 15 - 2024 12:30 PM",
+          date: "May 15 - 2025 12:30 PM",
           comments:
             "Bermitra dengan HYS benar-benar menjadi titik balik bagi bisnis kami. Tim mereka dengan cepat memahami kebutuhan operasional kami dan berintegrasi secara mulus ke dalam sistem kerja yang sudah ada. Hal yang paling mengesankan adalah tingkat profesionalisme, kecepatan respon, dan komitmen terhadap kualitas kerja mereka. Sejak menggunakan layanan outsourcing HYS, kami mencatat peningkatan signifikan dalam efisiensi operasional serta penghematan biaya. Mereka bukan hanya sekadar penyedia tenaga kerja, tapi mitra strategis yang membantu kami tumbuh secara cerdas dan berkelanjutan. Saya sangat merekomendasikan HYS kepada perusahaan mana pun yang ingin melakukan outsourcing tenaga kerja secara efektif dan terpercaya.",
           image: "../assets/img/profile.jpeg",
         },
         {
           title: "Sudarso",
-          date: "June 15 - 2024 12:30 PM",
+          date: "June 15 - 2025 12:30 PM",
           comments:
             "Kami bermitra dengan HYS untuk memperkuat tim pengembangan internal kami, dan hasilnya benar-benar melampaui ekspektasi. Tim mereka tidak hanya menghasilkan kode berkualitas tinggi, tetapi juga secara konsisten memenuhi tenggat waktu dan menjaga komunikasi yang proaktif dan transparan. Dengan mengalihdayakan pengembangan kepada HYS, kami mendapatkan tingkat fleksibilitas dan kecepatan yang sulit kami temukan di tempat lain. Mereka bukan hanya vendor, tetapi mitra teknologi strategis yang membantu kami bergerak lebih cepat dan lebih efisien.",
           image: "../assets/img/profile.jpeg",
         },
         {
           title: "Habib",
-          date: "June 15 - 2024 12:30 PM",
+          date: "Jul 25 - 2025 12:30 PM",
           comments:
             "Bekerja sama dengan HYS untuk kebutuhan desain kami telah membawa sentuhan kreatif yang segar dan berdampak besar bagi citra merek kami. Tim desain mereka berbakat, responsif, dan selalu menyelesaikan pekerjaan tepat waktu. Kolaborasi ini terasa seperti memiliki tim desain internal—namun tanpa beban biaya tambahan atau kompleksitas manajemen. HYS benar-benar memahami visi kami dan mampu menerjemahkannya menjadi hasil visual yang profesional dan efektif.",
           image: "../assets/img/profile.jpeg",

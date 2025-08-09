@@ -51,14 +51,14 @@ export default function keramik() {
     {
       name: "Andi",
       image: "../assets/img/profile.jpeg",
-      country: "Jakarta",
+      country: "Cemara",
       content:
         "Testimoni Pemasangan Keramik: Rapi, Profesional, dan Memuaskan, Hasil pemasangan keramik kamar mandi sangat rapi dan sesuai dengan keinginan saya.Tukang keramik datang tepat waktu, bekerja dengan sangat profesional, dan menunjukkan keahlian yang luar biasa.Saya benar- benar puas dengan pelayanan pemasangan keramik ini.Sangat direkomendasikan untuk Anda yang mencari kualitas dan ketepatan waktu!",
     },
     {
       name: "Putri",
       image: "../assets/img/profile.jpeg",
-      country: "Bandung",
+      country: "Binjai",
       content:
         "Kami menggunakan jasa renovasi kantor profesional ini untuk proyek kami, dan hasilnya sangat memuaskan. Tim renovasi cepat tanggap, pengerjaannya rapi dan bersih, serta biaya renovasi kantor cukup terjangkau. Sangat recommended untuk renovasi ruang kantor yang ingin tampil lebih modern dan fungsional!",
     },

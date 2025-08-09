@@ -37,21 +37,21 @@ export default function consultant() {
       comments: [
         {
           title: "Trasu",
-          date: "June 15 - 2024 12:30 PM",
+          date: "June 15 - 2025 12:30 PM",
           comments:
             "Saya menghubungi layanan konsultan hukum ketenagakerjaan ini saat menghadapi keputusan bisnis yang kritis terkait manajemen tenaga kerja. Bimbingan hukum yang saya terima sangat komprehensif dan aplikatif. Tim konsultan meluangkan waktu untuk memahami konteks permasalahan secara mendalam dan memberikan solusi yang disesuaikan dengan kebutuhan perusahaan. Saya merekomendasikan HYS kepada siapa pun yang memerlukan nasihat hukum tenaga kerja profesional.",
           image: "../assets/img/profile.jpeg",
         },
         {
           title: "Kurnia",
-          date: "June 15 - 2024 12:30 PM",
+          date: "May 15 - 2025 12:30 PM",
           comments:
             "Saya pernah bekerja dengan beberapa konsultan ketenagakerjaan sebelumnya, tetapi tidak ada yang seteliti dan seprofesional tim ini. Mereka membantu saya mengatasi permasalahan yang kompleks di bidang hubungan industrial dengan pendekatan yang sistematis dan efektif. Rekomendasi yang diberikan sangat jelas, praktis, dan langsung bisa ditindaklanjuti. Pengalaman bersama tim HYS benar-benar melebihi harapan saya. Saya sangat merekomendasikan mereka bagi siapa pun yang memerlukan solusi hukum tenaga kerja yang andal dan profesional.",
           image: "../assets/img/profile.jpeg",
         },
         {
           title: "Harto",
-          date: "June 15 - 2024 12:30 PM",
+          date: "Febuary 15 - 2025 12:30 PM",
           comments:
             "Layanan konsultasi hukum ketenagakerjaan ini benar-benar mengubah arah bisnis kecil saya. Dengan saran ahli yang diberikan, kami berhasil menyederhanakan operasional, meningkatkan efisiensi, dan menghemat waktu serta biaya. Tim mereka sangat responsif, memiliki pemahaman hukum yang mendalam, dan mendampingi kami di setiap tahap. Saya sangat puas dengan hasilnya dan tidak ragu merekomendasikan mereka kepada pelaku usaha yang membutuhkan dukungan hukum tenaga kerja yang terpercaya.",
           image: "../assets/img/profile.jpeg",

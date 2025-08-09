@@ -37,21 +37,21 @@ export default function contractor() {
       comments: [
         {
           title: "Howard",
-          date: "June 15 - 2024 12:30 PM",
+          date: "June 15 - 2025 12:30 PM",
           comments:
             "Cepat banget prosesnya! Saya nggak sampai satu hari, dokumen sudah jadi. Murah, mudah, dan tanpa ribet. Terima kasih Biro Jasa Laxmi—semoga makin sukses dan banyak pelanggan!",
           image: "../assets/img/profile.jpeg",
         },
         {
           title: "Mulia",
-          date: "June 15 - 2024 12:30 PM",
+          date: "March 23 - 2025 12:30 PM",
           comments:
             "Proses pengurusan SIM di Biro Jasa Laxmi sangat cepat dan mudah. Setelah pembayaran, saya langsung dipandu ke Polres untuk foto, dan dalam waktu kurang dari 20 menit, SIM sudah jadi. Pelayanan tanpa ribet dan sangat profesional. Saya rekomendasikan jasa pengurusan SIM ini untuk siapa saja yang butuh layanan cepat, terpercaya, dan efisien.",
           image: "../assets/img/profile.jpeg",
         },
         {
           title: "Goldim",
-          date: "June 15 - 2024 12:30 PM",
+          date: "Febuary 29 - 2025 12:30 PM",
           comments:
             "Biro jasa HYS sangat oke dan bisa dipercaya. Saya melakukan transfer ke rekening bank atas nama Laxmi Selviana jam 1 siang, dan SIM saya langsung jadi hanya dalam 1 hari. Ini bukan omong kosong, saya benar-benar merekomendasikan jasa pengurusan SIM yang cepat dan profesional ini. Coba buktikan sendiri!",
           image: "../assets/img/profile.jpeg",

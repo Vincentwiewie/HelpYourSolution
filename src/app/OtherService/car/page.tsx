@@ -202,7 +202,7 @@ export default function car() {
                   </div>
                   <div className="comment-metadata">
                     <a>
-                      <span>Juni 15 - 2024 12:30 PM</span>
+                      <span>March 11 - 2025 12:30 PM</span>
                     </a>
                   </div>
                 </footer>
@@ -230,7 +230,7 @@ export default function car() {
                       </div>
                       <div className="comment-metadata">
                         <a href="#">
-                          <span>Juni 15 - 2024 10:30 PM</span>
+                          <span>July 17 - 2025 10:30 PM</span>
                         </a>
                       </div>
                     </footer>
@@ -261,7 +261,7 @@ export default function car() {
                   </div>
                   <div className="comment-metadata">
                     <a>
-                      <span>June 15 - 2024 15:30 PM</span>
+                      <span>June 15 - 2025 15:30 PM</span>
                     </a>
                   </div>
                 </footer>

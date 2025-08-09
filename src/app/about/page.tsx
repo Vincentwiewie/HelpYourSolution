@@ -50,15 +50,18 @@ export default function about() {
             <div className="col-lg-6 col-md-12">
               <div className="about-content">
                 <h6 className="sub-title">Tentang Perusahaan Kami</h6>
-                <h2>
-                  Memberikan Bisnis Anda Layanan Berkualitas adalah Semangat
-                  Kami
-                </h2>
-                <p>
-                  Memberikan layanan terbaik bagi bisnis Anda bukan sekadar
-                  pekerjaan kami; itu adalah hasrat kami. Kami memahami bahwa
-                  setiap bisnis itu unik, dan kami berusaha untuk menawarkan
-                  solusi khusus yang mendorong kesuksesan.
+                <h4>
+                  HYS Service adalah sebuah Platform Media Digital berbasis
+                  Website yang khusus menyediakan pelayanan Jasa secara praktis
+                  dan efisien.
+                </h4>
+                <p className="mt-3">
+                  HYS Servise  juga menjalin kerja sama dengan Mitra Perusahaan
+                  kerja untuk memastikan setiap layanan yang di tawarkan
+                  dikerjakan oleh tenaga profesional,terpercaya Dan tepat waktu.
+                  Melalui platform ini HYS Service juga berkomitmen untuk
+                  membantu menciptakan lapangan Pekerjaan untuk masyarakat yang
+                  membutuhkan.
                 </p>
                 <div className="skills">
                   <div className="skill-item">

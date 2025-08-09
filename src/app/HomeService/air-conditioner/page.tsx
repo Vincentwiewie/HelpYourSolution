@@ -111,7 +111,7 @@ export default function page() {
     {
       name: "Adam",
       image: "../assets/img/profile.jpeg",
-      country: "Jakarta",
+      country: "Cemara",
       content:
         "Saya mengalami masalah dengan AC yang tidak dingin, dan HYS benar-benar datang sebagai penyelamat. Teknisi AC dari HYS datang tepat waktu, langsung mendiagnosis masalah dengan cepat, dan memperbaikinya hanya dalam waktu satu jam! Layanannya sangat profesional, jujur, dan yang paling penting—harganya terjangkau. Sejak diperbaiki, AC saya bekerja dengan sempurna, tidak ada lagi masalah suhu atau kebisingan. Saya sangat menghargai transparansi dan efisiensi tim HYS, dan saya sangat merekomendasikan mereka untuk siapa pun yang butuh jasa perbaikan AC yang cepat, terpercaya, dan terjangkau.",
     },

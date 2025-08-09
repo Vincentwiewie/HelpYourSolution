@@ -41,10 +41,10 @@ export default function MainPage() {
                         <p>
                           Kami Menyediakan Berbagai Macam Solusi Jasa Layanan
                           untuk Anda, Kami Ahli memberikan Solusi Jasa Layanan
-                          dalam segala Hal mulai dari Jasa Cuci/Pasang AC, Jasa
-                          Pasang/Cuci ataupun Perbaikan Saluran pipa Dan
-                          pemasangan peralatan, plafon, karamik sampai dengan
-                          Jasa Layanan skala Industrial
+                          dalam segala Hal mulai dari Jberbagai macam kebutuhan
+                          Jasa seperti Jasa Perawatan AC,Jasa Perabotan,Jasa
+                          Terali Besi,Jasa Perabotan,Jasa Asisten Rumah Tangga,
+                          Jasa Bimbingan Belajar,Jasa Perawatan Hewan
                         </p>
                         <div className="banner-btn home-slider-btn">
                           <a
@@ -97,11 +97,11 @@ export default function MainPage() {
                           layanan rumah yang komprehensif, tetapi juga
                           memperluas penawarannya ke berbagai layanan penting,
                           memastikan bahwa kebutuhan Anda terpenuhi sepenuhnya.
-                          Selain perbaikan, pemeliharaan, dan peningkatan rumah,
-                          Dan Jasa Layanan industri kami juga menyediakan
-                          layanan bus yang nyaman untuk transportasi yang mudah
-                          untuk memastikan kebutuhan kesehatan Anda terpenuhi,
-                          dan opsi asuransi yang andal untuk ketenangan pikiran.
+                          Kami Juga Menyediakan Jasa layanan Lainnya Seperti
+                          Jasa Sewa bus, Jasa asuransi Kesehatan, Mobil Ataupun
+                          Property,Jasa Pertukangan,Jasa Kontraktor,Jasa
+                          Property,Jasa Arsitek,Jasa OutSourcing,Jasa Konsultan
+                          Hukum,Jasa Pengurusan Surat Dan Dokumen.
                         </p>
                         <div className="banner-btn home-slider-btn">
                           <a
