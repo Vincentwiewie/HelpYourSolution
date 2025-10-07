@@ -2,7 +2,10 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
-  basePath: process.env.NODE_ENV === "production" ? "./HelpYourSolution" : "",
+};
+
+module.exports = {
+  basePath: "/HelpYourSolution",
 };
 
 export default nextConfig;
