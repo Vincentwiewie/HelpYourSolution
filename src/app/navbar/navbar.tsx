@@ -1,6 +1,7 @@
 "use client";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
+import nextConfig from "../../../next.config";
 
 export default function Navbar() {
   const router = useRouter();
@@ -29,7 +30,7 @@ export default function Navbar() {
             <div className="techvio-responsive-menu d-flex flex-row">
               <div className="logo">
                 <img
-                  src="/assets/img/hyslogo.png"
+                  src={`${nextConfig.basePath}/assets/img/hyslogo.png`}
                   className="white-logo"
                   alt="logo"
                   style={{
@@ -55,7 +56,7 @@ export default function Navbar() {
             <nav className="navbar navbar-expand-md navbar-light">
               <a className="navbar-brand">
                 <img
-                  src="/assets/img/hyslogo.png"
+                  src={`${nextConfig.basePath}/assets/img/hyslogo.png`}
                   className="white-logo"
                   alt="logo"
                   style={{
