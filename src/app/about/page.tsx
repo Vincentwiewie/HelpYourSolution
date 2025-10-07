@@ -90,8 +90,8 @@ export default function about() {
                   </div>
                 </div>
                 <div className="about-btn-box">
-                  <a className="default-btn" href="about.html">
-                    Pelajari lebih lanjut <span></span>
+                  <a className="default-btn">
+                    100% Untuk Customer <span></span>
                   </a>
                 </div>
               </div>

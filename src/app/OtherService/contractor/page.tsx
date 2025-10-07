@@ -7,7 +7,7 @@ export default function contractor() {
     title: "Layanan Jasa Lainnya",
     subTitle: "Layanan Jasa Kontraktor",
     name: "Alex",
-    date: "20 Jan 2025",
+    date: "10 Okt 2025",
     articleTitle: "Apa itu Layanan Kontraktor?",
     articleContent:
       "Layanan kontraktor mencakup berbagai tugas khusus yang terkait dengan konstruksi, renovasi, dan perbaikan rumah. Kontraktor biasanya mengawasi proyek dari awal hingga akhir, berkoordinasi dengan subkontraktor, mengelola anggaran, mendapatkan izin, dan memastikan pekerjaan mematuhi kode dan peraturan bangunan setempat. Beberapa kontraktor mengkhususkan diri dalam bidang tertentu, seperti perpipaan, pekerjaan listrik, atau atap, sementara yang lain menawarkan layanan komprehensif yang mencakup semuanya mulai dari desain hingga sentuhan akhir.",
@@ -30,21 +30,21 @@ export default function contractor() {
       comments: [
         {
           title: "kris",
-          date: "June 15 - 2025 12:30 PM",
+          date: "10 Okt - 2025 11:10 WIB",
           comments:
             "Saya menyewa kontraktor renovasi rumah ini untuk proyek renovasi besar-besaran, dan saya sangat puas dengan hasilnya. Tim mereka sangat profesional, efisien, dan menunjukkan perhatian luar biasa terhadap detail. Proyek diselesaikan tepat waktu, dan kualitas pengerjaan benar-benar melebihi ekspektasi saya. Jika Anda mencari kontraktor bangunan terpercaya yang berkomitmen terhadap kualitas, saya sangat merekomendasikan layanan mereka.",
           image: "../assets/img/profile.jpeg",
         },
         {
           title: "yusni",
-          date: "July 15 - 2025 12:30 PM",
+          date: "11 Okt - 2025 08:25 WIB",
           comments:
             "Tim ini melakukan pekerjaan luar biasa dalam proyek rekonstruksi dapur saya! Mereka benar-benar meluangkan waktu untuk memahami visi dan preferensi saya, lalu mewujudkannya dengan sangat presisi. Seluruh proses berjalan lancar dari awal hingga akhir, dan mereka selalu responsif terhadap setiap pertanyaan. Saya sangat puas dengan hasil renovasi dapur ini dan tidak ragu akan menggunakan jasa mereka lagi di masa depan.",
           image: "../assets/img/profile.jpeg",
         },
         {
           title: "angel",
-          date: "March 15 - 2025 12:30 PM",
+          date: "12 Okt - 2025 13:20 WIB",
           comments:
             "Kami menyewa kontraktor pembangunan rumah ini untuk proyek pembangunan rumah baru kami, dan pengalaman bekerja dengan mereka sangat luar biasa. Mulai dari konsultasi awal hingga penyelesaian proyek, tim ini sangat dapat diandalkan, komunikatif, dan profesional. Mereka memastikan semua pekerjaan sesuai dengan standar dan kode bangunan yang berlaku, serta hasil akhirnya sesuai dengan harapan kami. Kami sangat merekomendasikan layanan mereka kepada siapa pun yang mencari kontraktor rumah terpercaya.",
           image: "../assets/img/profile.jpeg",
@@ -53,42 +53,42 @@ export default function contractor() {
     },
     serviceTitle: "Layanan Jasa Lainnya",
     article: [
-      {
-        title: "Layanan Jasa Bus",
-        date: "17 Jan 2025",
-        link: "/OtherService/bus",
-        image: "../assets/img/buss2.jpg",
-      },
+      // {
+      //   title: "Layanan Jasa Bus",
+      //   date: "10 Okt 2025",
+      //   link: "/OtherService/bus",
+      //   image: "../assets/img/buss2.jpg",
+      // },
       {
         title: "Layanan Jasa Konsultan",
-        date: "19 Jan 2025",
+        date: "10 Okt 2025",
         link: "/OtherService/consultant",
         image: "../assets/img/consultant2.jpg",
       },
-      {
-        title: "Layanan Jasa Pembantu",
-        date: "22 Jan 2025",
-        link: "/OtherService/helper",
-        image: "../assets/img/helper2.jpg",
-      },
+      // {
+      //   title: "Layanan Jasa Pembantu",
+      //   date: "10 Okt 2025",
+      //   link: "/HomeService/helper",
+      //   image: "../assets/img/helper2.jpg",
+      // },
       {
         title: "Layanan Jasa Outsourcing",
-        date: "28 Jan 2025",
+        date: "10 Okt 2025",
         link: "/OtherService/outsourcing",
         image: "../assets/img/outsourcing1.jpeg",
       },
-      {
-        title: "Layanan Jasa Arsitek",
-        date: "30 Jan 2025",
-        link: "/OtherService/arsitek",
-        image: "../assets/img/arsitek1.jpeg",
-      },
-      {
-        title: "Layanan Jasa Surat",
-        date: "15 Jan 2025",
-        link: "/OtherService/surat",
-        image: "../assets/img/trust4.jpg",
-      },
+      // {
+      //   title: "Layanan Jasa Arsitek",
+      //   date: "10 Okt 2025",
+      //   link: "/OtherService/arsitek",
+      //   image: "../assets/img/arsitek1.jpeg",
+      // },
+      // {
+      //   title: "Layanan Jasa Surat",
+      //   date: "10 Okt 2025",
+      //   link: "/OtherService/surat",
+      //   image: "../assets/img/trust4.jpg",
+      // },
     ],
     rating: [
       {

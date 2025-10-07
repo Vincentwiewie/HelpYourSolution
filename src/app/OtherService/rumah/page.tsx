@@ -210,7 +210,7 @@ export default function rumah() {
                   </div>
                   <div className="comment-metadata">
                     <a>
-                      <span>Juni 15 - 2025 12:30 PM</span>
+                      <span>15 Okt - 2025 12:30 WIB</span>
                     </a>
                   </div>
                 </footer>
@@ -238,7 +238,7 @@ export default function rumah() {
                       </div>
                       <div className="comment-metadata">
                         <a href="#">
-                          <span>Juni 25 - 2025 10:30 PM</span>
+                          <span>12 Okt - 2025 10:30 WIB</span>
                         </a>
                       </div>
                     </footer>
@@ -269,7 +269,7 @@ export default function rumah() {
                   </div>
                   <div className="comment-metadata">
                     <a>
-                      <span>June 5 - 2025 15:30 PM</span>
+                      <span>14 Okt - 2025 15:30 WIB</span>
                     </a>
                   </div>
                 </footer>

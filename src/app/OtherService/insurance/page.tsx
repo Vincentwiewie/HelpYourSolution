@@ -242,7 +242,7 @@ export default function insurance() {
                   </div>
                   <div className="comment-metadata">
                     <a>
-                      <span>Juni 25 - 2025 12:30 PM</span>
+                      <span>10 Okt - 2025 12:30 WIB</span>
                     </a>
                   </div>
                 </footer>
@@ -277,7 +277,7 @@ export default function insurance() {
                       </div>
                       <div className="comment-metadata">
                         <a href="#">
-                          <span>Juni 5 - 2025 10:30 PM</span>
+                          <span>15 Okt - 2025 10:30 WIB</span>
                         </a>
                       </div>
                     </footer>
@@ -315,7 +315,7 @@ export default function insurance() {
                   </div>
                   <div className="comment-metadata">
                     <a>
-                      <span>June 10 - 2025 15:30 PM</span>
+                      <span>Oktober 10 - 2025 15:30 WIB</span>
                     </a>
                   </div>
                 </footer>

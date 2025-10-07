@@ -29,13 +29,17 @@ export default function Navbar() {
             <div className="techvio-responsive-menu d-flex flex-row">
               <div className="logo">
                 <img
-                  src="./assets/img/hyslogo.png"
+                  src={`${
+                    process.env.NEXT_PUBLIC_BASE_PATH || ""
+                  }/assets/img/hyslogo.png`}
                   className="white-logo"
                   alt="logo"
                   style={{
-                    width: "55px",
-                    height: "25px",
+                    position: "absolute",
+                    width: "70px",
+                    height: "55px",
                     background: "none",
+                    top: "-15px",
                   }}
                 />
               </div>
@@ -53,7 +57,9 @@ export default function Navbar() {
             <nav className="navbar navbar-expand-md navbar-light">
               <a className="navbar-brand">
                 <img
-                  src="./assets/img/hyslogo.png"
+                  src={`${
+                    process.env.NEXT_PUBLIC_BASE_PATH || ""
+                  }/assets/img/hyslogo.png`}
                   className="white-logo"
                   alt="logo"
                   style={{
@@ -84,14 +90,14 @@ export default function Navbar() {
                       <i className="fas fa-chevron-down"></i>
                     </a>
                     <ul className="dropdown-menu">
-                      <li className="nav-item">
+                      {/* <li className="nav-item">
                         <a
                           className="nav-link"
                           id="/HomeService/air-conditioner"
                         >
                           Jasa Cuci/Pasang AC
                         </a>
-                      </li>
+                      </li> */}
                       <li className="nav-item">
                         <a className="nav-link" id="/HomeService/pipe">
                           Jasa pemasangan/perbaikan Pipa Air
@@ -112,12 +118,12 @@ export default function Navbar() {
                           Jasa Pembuatan Perabotan/Furniture
                         </a>
                       </li>
-                      <li className="nav-item">
+                      {/* <li className="nav-item">
                         <a className="nav-link" id="/HomeService/keramik">
                           Jasa Pemasangan Keramik
                         </a>
-                      </li>
-                      <li className="nav-item">
+                      </li> */}
+                      {/* <li className="nav-item">
                         <a className="nav-link" id="/HomeService/helper">
                           Jasa Asisten Rumah Tangga
                         </a>
@@ -126,7 +132,7 @@ export default function Navbar() {
                         <a className="nav-link" id="/HomeService/lesson">
                           Jasa Bimbingan Belajar
                         </a>
-                      </li>
+                      </li> */}
                     </ul>
                   </li>
                   <li className="nav-item">
@@ -135,11 +141,11 @@ export default function Navbar() {
                       <i className="fas fa-chevron-down"></i>
                     </a>
                     <ul className="dropdown-menu">
-                      <li className="nav-item">
+                      {/* <li className="nav-item">
                         <a className="nav-link" id="/OtherService/bus">
                           Jasa Bus
                         </a>
-                      </li>
+                      </li> */}
                       <li className="nav-item">
                         <a className="nav-link" id="/OtherService/consultant">
                           Jasa Konsultan Hukum Hubungan Industrial
@@ -155,7 +161,7 @@ export default function Navbar() {
                           Jasa Outsourcing Tenaga Kerja
                         </a>
                       </li>
-                      <li className="nav-item">
+                      {/* <li className="nav-item">
                         <a
                           className="nav-link"
                           id="/OtherService/garden-animal"
@@ -193,7 +199,7 @@ export default function Navbar() {
                           Jasa pengurusan surat surat
                         </a>
                       </li>
-                      {/* <li className="nav-item">
+                      <li className="nav-item">
                         <a className="nav-link" id="/OtherService/dealer">
                           Dealer
                         </a>

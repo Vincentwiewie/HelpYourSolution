@@ -41,16 +41,14 @@ export default function MainPage() {
                         <p>
                           Kami Menyediakan Berbagai Macam Solusi Jasa Layanan
                           untuk Anda, Kami Ahli memberikan Solusi Jasa Layanan
-                          dalam segala Hal mulai dari Jberbagai macam kebutuhan
+                          dalam segala Hal mulai dari berbagai macam kebutuhan
                           Jasa seperti Jasa Perawatan AC,Jasa Perabotan,Jasa
                           Terali Besi,Jasa Perabotan,Jasa Asisten Rumah Tangga,
                           Jasa Bimbingan Belajar,Jasa Perawatan Hewan
                         </p>
                         <div className="banner-btn home-slider-btn">
                           <a
-                            onClick={() =>
-                              router.push("/HomeService/air-conditioner")
-                            }
+                            onClick={() => router.push("/HomeService/pipe")}
                             className="default-btn-one"
                           >
                             Ke Halaman Layanan Rumah<span></span>
@@ -90,7 +88,7 @@ export default function MainPage() {
                         </ul>
                         <h1>
                           Kami juga menyediakan berbagai layanan seperti layanan
-                          bus, dan asuransi.
+                          Kontraktor Dan OutSourcing.
                         </h1>
                         <p>
                           HYS tidak hanya mengkhususkan diri dalam solusi
@@ -98,15 +96,15 @@ export default function MainPage() {
                           memperluas penawarannya ke berbagai layanan penting,
                           memastikan bahwa kebutuhan Anda terpenuhi sepenuhnya.
                           Kami Juga Menyediakan Jasa layanan Lainnya Seperti
-                          Jasa Sewa bus, Jasa asuransi Kesehatan, Mobil Ataupun
-                          Property,Jasa Pertukangan,Jasa Kontraktor,Jasa
-                          Property,Jasa Arsitek,Jasa OutSourcing,Jasa Konsultan
-                          Hukum,Jasa Pengurusan Surat Dan Dokumen.
+                          Jasa Sewa bus, Mobil Ataupun Property,Jasa
+                          Pertukangan,Jasa Kontraktor,Jasa Property,Jasa
+                          Arsitek,Jasa OutSourcing,Jasa Konsultan Hukum,Jasa
+                          Pengurusan Surat Dan Dokumen.
                         </p>
                         <div className="banner-btn home-slider-btn">
                           <a
                             onClick={() =>
-                              router.push("/HomeService/air-conditioner")
+                              router.push("/OtherService/contractor")
                             }
                             className="default-btn-one"
                           >
@@ -132,7 +130,6 @@ export default function MainPage() {
           <div className="swiper-pagination"></div>
         </div>
       </header>
-      <About></About>
     </>
   );
 }

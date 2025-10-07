@@ -89,15 +89,6 @@ export default function Footer() {
                   </div>
                   <ul className="footer-quick-links">
                     <li>
-                      <a
-                        onClick={() =>
-                          router.push("/HomeService/air-conditioner")
-                        }
-                      >
-                        Air Conditioner
-                      </a>
-                    </li>
-                    <li>
                       <a onClick={() => router.push("/HomeService/pipe")}>
                         Pipa Bocor
                       </a>
@@ -105,6 +96,11 @@ export default function Footer() {
                     <li>
                       <a onClick={() => router.push("/HomeService/furniture")}>
                         Furniture
+                      </a>
+                    </li>
+                    <li>
+                      <a onClick={() => router.push("/HomeService/welder")}>
+                        Welder
                       </a>
                     </li>
                   </ul>

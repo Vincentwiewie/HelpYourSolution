@@ -7,7 +7,7 @@ export default function bus() {
     title: "Layanan Jasa Lainnya",
     subTitle: "Layanan Jasa Bus",
     name: "Teddy",
-    date: "17 Jan 2025",
+    date: "10 Okt 2025",
     articleTitle: "Layanan Bus Untuk Liburan Dan Sekolah",
     articleContent:
       "Di Hys Bus Service, kami berkomitmen untuk memberikan pengalaman perjalanan terbaik melalui prinsip kami: SafeJourney, setiap kali Anda bepergian bersama kami. Keselamatan dan kenyamanan penumpang adalah prioritas utama kami. Dengan sistem keamanan yang ketat, perawatan armada berkala, serta pengemudi berpengalaman, Anda dapat merasa tenang dan percaya diri sepanjang perjalanan. Melalui layanan ReliableRide, kami memastikan Anda tiba di tempat tujuan tepat waktu, tanpa hambatan dan tanpa stres. Jadwal kami yang terorganisir dan tim operasional yang responsif menjadikan kami pilihan yang dapat diandalkan untuk perjalanan harian, perjalanan antarkota, hingga perjalanan wisata bersama keluarga atau rombongan kerja. Kami bangga mempersembahkan SteadyTravel dan DependableDrive—layanan yang menjamin kenyamanan, konsistensi, dan stabilitas dalam setiap perjalanan. Baik itu rute rutin maupun perjalanan khusus, kami hadir dengan solusi transportasi profesional yang mendukung mobilitas Anda secara efisien. Dengan pendekatan SecureRoute dan janji layanan TrueTransit, kami selalu menempatkan keamanan penumpang di atas segalanya. Kami memantau kondisi jalan, cuaca, serta rute perjalanan agar Anda selalu berada di jalur yang aman dan efisien. Melalui SureWay dan EverSafe, Hys Bus Service memberikan jaminan kualitas: perjalanan Anda akan selalu nyaman, aman, dan bebas dari keraguan. Kepercayaan Anda adalah fondasi pelayanan kami, dan kami siap menjadi mitra perjalanan terpercaya Anda.",
@@ -31,21 +31,21 @@ export default function bus() {
       comments: [
         {
           title: "Budi",
-          date: "June 15 - 2025 12:30 PM",
+          date: "10 Okt - 2025 12:30 WIB",
           comments:
             "Di HysTrip, keselamatan adalah prioritas utama kami. Kami menghadirkan pengalaman SecureRide dalam setiap perjalanan, memastikan setiap penumpang merasa aman dan nyaman dari awal hingga akhir. Kami percaya bahwa perjalanan tidak hanya harus cepat, tapi juga nyaman dan terlindungi. Oleh karena itu, kami menyediakan fitur unggulan seperti ComfortShield dan CushionGuard, yang dirancang khusus untuk menciptakan lingkungan transportasi yang aman dan nyaman—baik di dalam bus, mobil travel, maupun pesawat. Dengan ComfySecure, Anda bisa menikmati suasana tenang dan santai selama perjalanan. Sementara GuardedComfort memberikan ketenangan pikiran melalui sistem keamanan berlapis dan armada yang selalu dalam kondisi prima. Tim kami yang profesional siap memberikan layanan perjalanan terbaik, tanpa ribet dan tanpa khawatir. Apakah Anda bepergian untuk urusan bisnis, wisata keluarga, atau perjalanan pribadi, HysTrip adalah pilihan jasa transportasi modern yang dapat diandalkan—menggabungkan keselamatan, kenyamanan, dan ketepatan waktu.",
           image: "../assets/img/profile.jpeg",
         },
         {
           title: "Hella",
-          date: "July 15 - 2025 12:30 PM",
+          date: "11 Okt - 2025 19:10 WIB",
           comments:
             "Saya benar-benar terkesan dengan kebersihan dan ketepatan waktu bus-bus dari layanan ini. Armada mereka selalu terawat dengan baik, kabin bersih, dan tiba sesuai jadwal—sangat penting untuk perjalanan harian maupun perjalanan jarak jauh Layanannya sangat profesional dan ramah, dan yang paling saya hargai adalah rasa aman selama perjalanan. Setiap pengalaman naik bus terasa nyaman, tertib, dan bebas dari kekhawatiran. Saya sangat merekomendasikan layanan transportasi ini kepada siapa pun yang mencari moda transportasi darat yang dapat diandalkan, nyaman, dan aman. Cocok untuk keperluan pribadi, bisnis, atau wisata keluarga.",
           image: "../assets/img/profile.jpeg",
         },
         {
           title: "Putri",
-          date: "August 15 - 2025 12:30 PM",
+          date: "12 Okt - 2025 15:50 WIB",
           comments:
             "Sebagai seseorang yang sering bepergian, saya sudah mencoba banyak layanan bus, namun layanan bus ini benar-benar menonjol. Armada bus selalu bersih dan nyaman, serta pengemudi yang ramah dan profesional membuat perjalanan semakin menyenangkan. Layanan ini sangat dapat diandalkan dengan jadwal keberangkatan yang tepat waktu dan harga yang terjangkau. Saya sangat merekomendasikan jasa transportasi ini bagi siapa saja yang membutuhkan moda transportasi yang nyaman, aman, dan hemat biaya.",
           image: "../assets/img/profile.jpeg",
@@ -56,37 +56,37 @@ export default function bus() {
     article: [
       {
         title: "Layanan Jasa Konsultan",
-        date: "19 Jan 2025",
+        date: "10 Okt 2025",
         link: "/OtherService/consultant",
         image: "../assets/img/consultant2.jpg",
       },
       {
         title: "Layanan Jasa Kontraktor",
-        date: "20 Jan 2025",
+        date: "10 Okt 2025",
         link: "/OtherService/contractor",
         image: "../assets/img/contractor2.jpg",
       },
       {
         title: "Layanan Jasa Pembantu ",
-        date: "22 Jan 2025",
+        date: "10 Okt 2025",
         link: "/OtherService/helper",
         image: "../assets/img/helper2.jpg",
       },
       {
         title: "Layanan Jasa Outsourcing",
-        date: "28 Jan 2025",
+        date: "10 Okt 2025",
         link: "/OtherService/outsourcing",
         image: "../assets/img/outsourcing1.jpeg",
       },
       {
         title: "Layanan Jasa Arsitek",
-        date: "30 Jan 2025",
+        date: "10 Okt 2025",
         link: "/OtherService/arsitek",
         image: "../assets/img/arsitek1.jpeg",
       },
       {
         title: "Layanan Jasa Surat",
-        date: "15 Jan 2025",
+        date: "10 Okt 2025",
         link: "/OtherService/surat",
         image: "../assets/img/trust4.jpg",
       },

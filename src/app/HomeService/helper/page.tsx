@@ -30,21 +30,21 @@ export default function helper() {
       comments: [
         {
           title: "Wilson",
-          date: "June 15 - 2025 12:30 PM",
+          date: "10 Okt - 2025 11:00 WIB",
           comments:
             "Testimoni Jasa Pembantu & Perbaikan Rumah: Teliti, Dapat Diandalkan, dan Profesional, Saya menyewa jasa pembantu profesional ini untuk beberapa tugas perbaikan rumah, dan saya benar-benar terkesan dengan hasilnya. Tim mereka sopan, dapat diandalkan, dan menyelesaikan setiap pekerjaan dengan perhatian tinggi terhadap detail. Dukungan mereka memberikan perbedaan besar dalam kenyamanan rumah saya. Layanan seperti ini sulit ditemukan—saya pasti akan menghubungi mereka lagi untuk kebutuhan selanjutnya!",
           image: "../assets/img/profile.jpeg",
         },
         {
           title: "Ella",
-          date: "March 15 - 2025 12:30 PM",
+          date: "11 Okt - 2025 12:30 WIB",
           comments:
             "Testimoni Layanan Bantuan Rumah Tangga: Solusi Tepat untuk Jadwal Padat, Layanan bantuan rumah tangga ini benar-benar menjadi penyelamat bagi saya! Dengan jadwal yang super padat, saya sangat membutuhkan bantuan ekstra di rumah, dan mereka selalu memberikan layanan terbaik. Timnya profesional, terpercaya, dan hasil kerjanya luar biasa — rumah saya selalu tampak bersih, rapi, dan nyaman. Bagi siapa pun yang membutuhkan jasa bantuan rumah tangga berkualitas, layanan ini sangat saya rekomendasikan!",
           image: "../assets/img/profile.jpeg",
         },
         {
           title: "Bryant",
-          date: "Feb 15 - 2025 12:30 PM",
+          date: "15 Okt - 2025 12:30 WIB",
           comments:
             "Testimoni Layanan Bantuan Profesional: Tepat Waktu, Efisien, dan Dapat Diandalkan, Saya telah menggunakan layanan bantuan profesional ini beberapa kali, dan hasilnya selalu memuaskan. Mereka tidak pernah mengecewakan — selalu tepat waktu, efisien, dan teliti dalam setiap pekerjaan. Baik untuk jasa bersih-bersih, pengaturan ruangan, atau pengurusan tugas rumah tangga, saya selalu bisa mengandalkan mereka. Pelayanan yang konsisten, profesional, dan dapat dipercaya. Sangat direkomendasikan!.",
           image: "../assets/img/profile.jpeg",
@@ -55,37 +55,37 @@ export default function helper() {
     article: [
       {
         title: "Layanan Jasa Bus",
-        date: "17 Jan 2025",
+        date: "10 Okt 2025",
         link: "/OtherService/bus",
         image: "../assets/img/buss2.jpg",
       },
       {
         title: "Layanan Jasa Konsultan",
-        date: "19 Jan 2025",
+        date: "10 Okt 2025",
         link: "/OtherService/consultant",
         image: "../assets/img/consultant2.jpg",
       },
       {
         title: "Layanan Jasa Kontraktor",
-        date: "20 Jan 2025",
+        date: "10 Okt 2025",
         link: "/OtherService/contractor",
         image: "../assets/img/contractor2.jpg",
       },
       {
         title: "Layanan Jasa Outsourcing",
-        date: "28 Jan 2025",
+        date: "10 Okt 2025",
         link: "/OtherService/outsourcing",
         image: "../assets/img/outsourcing1.jpeg",
       },
       {
         title: "Layanan Jasa Arsitek",
-        date: "30 Jan 2025",
+        date: "10 Okt 2025",
         link: "/OtherService/arsitek",
         image: "../assets/img/arsitek1.jpeg",
       },
       {
         title: "Layanan Jasa Surat",
-        date: "15 Jan 2025",
+        date: "10 Okt 2025",
         link: "/OtherService/surat",
         image: "../assets/img/trust4.jpg",
       },

@@ -7,7 +7,7 @@ export default function contractor() {
     title: "Layanan Jasa Lainnya",
     subTitle: "Layanan Jasa Surat",
     name: "Andi",
-    date: "15 Jan 2025",
+    date: "10 Okt 2025",
     articleTitle: "HYS Jasa pengurusan surat surat",
     articleContent:
       "HYS adalah biro jasa profesional dan terpercaya yang melayani pengurusan berbagai jenis dokumen penting dan surat-surat legalitas, baik untuk kebutuhan pribadi maupun perusahaan. Kami hadir sebagai solusi cerdas untuk Anda yang ingin menyelesaikan urusan administratif secara cepat, aman, dan efisien—tanpa harus membuang waktu dan tenaga. HYS siap membantu Anda menyelesaikan proses legalitas secara tepat waktu dan bebas stres.",
@@ -37,21 +37,21 @@ export default function contractor() {
       comments: [
         {
           title: "Howard",
-          date: "June 15 - 2025 12:30 PM",
+          date: "11 Okt - 2025 12:30 WIB",
           comments:
             "Cepat banget prosesnya! Saya nggak sampai satu hari, dokumen sudah jadi. Murah, mudah, dan tanpa ribet. Terima kasih Biro Jasa Laxmi—semoga makin sukses dan banyak pelanggan!",
           image: "../assets/img/profile.jpeg",
         },
         {
           title: "Mulia",
-          date: "March 23 - 2025 12:30 PM",
+          date: "17 Okt - 2025 11:00 WIB",
           comments:
             "Proses pengurusan SIM di Biro Jasa Laxmi sangat cepat dan mudah. Setelah pembayaran, saya langsung dipandu ke Polres untuk foto, dan dalam waktu kurang dari 20 menit, SIM sudah jadi. Pelayanan tanpa ribet dan sangat profesional. Saya rekomendasikan jasa pengurusan SIM ini untuk siapa saja yang butuh layanan cepat, terpercaya, dan efisien.",
           image: "../assets/img/profile.jpeg",
         },
         {
           title: "Goldim",
-          date: "Febuary 29 - 2025 12:30 PM",
+          date: "14 Okt - 2025 13:30 WIB",
           comments:
             "Biro jasa HYS sangat oke dan bisa dipercaya. Saya melakukan transfer ke rekening bank atas nama Laxmi Selviana jam 1 siang, dan SIM saya langsung jadi hanya dalam 1 hari. Ini bukan omong kosong, saya benar-benar merekomendasikan jasa pengurusan SIM yang cepat dan profesional ini. Coba buktikan sendiri!",
           image: "../assets/img/profile.jpeg",
@@ -62,37 +62,37 @@ export default function contractor() {
     article: [
       {
         title: "Layanan Jasa Bus",
-        date: "17 Jan 2025",
+        date: "10 Okt 2025",
         link: "/OtherService/bus",
         image: "../assets/img/buss2.jpg",
       },
       {
         title: "Layanan Jasa Konsultan",
-        date: "19 Jan 2025",
+        date: "10 Okt 2025",
         link: "/OtherService/consultant",
         image: "../assets/img/consultant2.jpg",
       },
       {
         title: "Layanan Jasa Kontraktor",
-        date: "20 Jan 2025",
+        date: "10 Okt 2025",
         link: "/OtherService/contractor",
         image: "../assets/img/contractor2.jpg",
       },
       {
         title: "Layanan Jasa Pembantu",
-        date: "22 Jan 2025",
+        date: "10 Okt 2025",
         link: "/OtherService/helper",
         image: "../assets/img/helper2.jpg",
       },
       {
         title: "Layanan Jasa Outsourcing",
-        date: "28 Jan 2025",
+        date: "10 Okt 2025",
         link: "/OtherService/outsourcing",
         image: "../assets/img/outsourcing1.jpeg",
       },
       {
         title: "Layanan Jasa Arsitek",
-        date: "30 Jan 2025",
+        date: "10 Okt 2025",
         link: "/OtherService/arsitek",
         image: "../assets/img/arsitek1.jpeg",
       },

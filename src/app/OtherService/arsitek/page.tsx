@@ -7,7 +7,7 @@ export default function contractor() {
     title: "Layanan Jasa Lainnya",
     subTitle: "Layanan Jasa Arsitek",
     name: "Alex",
-    date: "30 Jan 2025",
+    date: "10 Okt 2025",
     articleTitle:
       "Arsitektur: Lebih dari Sekadar Bangunan, Ini Tentang Kehidupan",
     articleContent:
@@ -31,21 +31,21 @@ export default function contractor() {
       comments: [
         {
           title: "Henwan",
-          date: "June 15 - 2025 12:30 PM",
+          date: "10 Okt - 2025 12:30 WIB",
           comments:
             "Bekerja sama dengan HYS adalah sebuah pengalaman yang luar biasa. Tim arsitek mereka benar-benar mendengarkan kebutuhan kami dan mampu menerjemahkan ide rumah impian kami ke dalam desain yang indah, fungsional, dan nyaman. Setiap aspek desain diperhatikan dengan cermat—mulai dari pencahayaan alami, sirkulasi udara, hingga efisiensi penggunaan ruang. HYS tidak hanya fokus pada tampilan estetika, tetapi juga memastikan bahwa rumah kami berfungsi optimal sesuai gaya hidup. Kami sangat puas dengan hasil akhirnya dan dengan senang hati merekomendasikan HYS sebagai jasa arsitek rumah terpercaya untuk siapa pun yang ingin membangun atau merenovasi rumah dengan hasil maksimal.",
           image: "../assets/img/profile.jpeg",
         },
         {
           title: "Wilson",
-          date: "March 15 - 2025 12:30 PM",
+          date: "12 Okt - 2025 13:30 WIB",
           comments:
             "HYS dan tim arsitek profesional mereka berhasil mewujudkan visi kami untuk ruang kantor yang modern, kolaboratif, dan fungsional. Mereka mampu menyeimbangkan estetika dan kepraktisan, menciptakan lingkungan kerja yang mendukung kreativitas dan produktivitas. Desain interior yang dirancang memperhatikan pencahayaan, tata letak ruang terbuka, serta kebutuhan tim dalam berkolaborasi. Hasilnya adalah kantor yang inspiratif, nyaman, dan efisien secara fungsional. Dengan tingkat profesionalisme yang tinggi, HYS mengelola seluruh proses desain dengan lancar, dari konsep awal hingga implementasi. Pengalaman ini benar-benar bebas stres dan memuaskan, dan kami sangat merekomendasikan mereka untuk jasa desain kantor profesional.",
           image: "../assets/img/profile.jpeg",
         },
         {
           title: "Mellisa",
-          date: "Febuary 15 - 2025 12:30 PM",
+          date: "14 Okt - 2025 19:30 WIB",
           comments:
             "Rumah lama kami membutuhkan renovasi besar, dan HYS berhasil menghidupkannya kembali dengan cara yang luar biasa. Mereka mampu mempertahankan karakter asli rumah sambil menghadirkan sentuhan desain modern dan solusi arsitektur berkelanjutan. Dengan pendekatan yang penuh perhatian dan profesional, tim HYS menggabungkan elemen klasik dan kontemporer secara seimbang, menghasilkan ruang tinggal yang estetis, fungsional, dan ramah lingkungan. Hasil akhirnya jauh melampaui ekspektasi kami—sebuah rumah yang terasa baru tanpa kehilangan identitas aslinya. Kami sangat merekomendasikan HYS sebagai mitra renovasi rumah terpercaya bagi siapa pun yang ingin melakukan transformasi hunian dengan hasil maksimal.",
           image: "../assets/img/profile.jpeg",
@@ -56,37 +56,37 @@ export default function contractor() {
     article: [
       {
         title: "Layanan Jasa Bus",
-        date: "17 Jan 2025",
+        date: "10 Okt 2025",
         link: "/OtherService/bus",
         image: "../assets/img/buss2.jpg",
       },
       {
         title: "Layanan Jasa Konsultan",
-        date: "19 Jan 2025",
+        date: "10 Okt 2025",
         link: "/OtherService/consultant",
         image: "../assets/img/consultant2.jpg",
       },
       {
         title: "Layanan Jasa Kontraktor",
-        date: "20 Jan 2025",
+        date: "20 Okt 2025",
         link: "/OtherService/contractor",
         image: "../assets/img/contractor2.jpg",
       },
       {
         title: "Layanan Jasa Pembantu",
-        date: "22 Jan 2025",
+        date: "20 Okt 2025",
         link: "/OtherService/helper",
         image: "../assets/img/helper2.jpg",
       },
       {
         title: "Layanan Jasa Outsourcing",
-        date: "28 Jan 2025",
+        date: "20 Okt 2025",
         link: "/OtherService/outsourcing",
         image: "../assets/img/outsourcing1.jpeg",
       },
       {
         title: "Layanan Jasa Surat",
-        date: "15 Jan 2025",
+        date: "10 Okt 2025",
         link: "/OtherService/surat",
         image: "../assets/img/trust4.jpg",
       },
