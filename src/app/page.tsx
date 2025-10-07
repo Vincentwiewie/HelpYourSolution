@@ -3,6 +3,8 @@ import { useRouter } from "next/navigation";
 import About from "../app/about/page";
 export default function MainPage() {
   const router = useRouter();
+
+  console.log(process.env.NEXT_PUBLIC_BASE_PATH);
   return (
     <>
       <header className="slider slider-prlx">
